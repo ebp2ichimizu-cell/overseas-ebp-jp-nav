@@ -1,0 +1,6 @@
+body{margin:0;font-family:"BIZ UDPGothic","Yu Gothic",sans-serif;color:#171717;background:#f7f8fa}
+header{padding:14px 20px;background:#fff;border-bottom:1px solid #d9dde3}
+header a{color:#17365d;font-weight:700;text-decoration:none}
+main{max-width:1040px;margin:auto;padding:48px 20px 96px}
+.fixed-nav{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;gap:10px;padding:10px;background:#fff;border-top:1px solid #d9dde3}
+.fixed-nav a,.fixed-nav button{padding:10px 14px;border:1px solid #d9dde3;border-radius:8px;background:#fff;color:#17365d;text-decoration:none}
