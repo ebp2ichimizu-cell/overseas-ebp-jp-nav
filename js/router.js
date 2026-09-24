@@ -1,4 +1,3 @@
-\
 export function parseRoute(){
   const raw=(location.hash || "#/").replace(/^#\/?/,"");
   const [path,queryString=""]=raw.split("?");
