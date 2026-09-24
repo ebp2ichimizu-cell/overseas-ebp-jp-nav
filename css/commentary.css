@@ -1,0 +1,19 @@
+.commentary-body{
+  background:#fff;border:1px solid #d9dde3;border-radius:12px;
+  padding:clamp(18px,3vw,30px)
+}
+.commentary-body h1{font-size:1.7rem}
+.commentary-body h2{margin-top:2rem;border-left:4px solid #17365d;padding-left:10px}
+.commentary-body h3{margin-top:1.5rem}
+.commentary-body blockquote{
+  margin:18px 0;padding:12px 16px;background:#f7f8fa;
+  border-left:4px solid #7a263a
+}
+.commentary-body table{border-collapse:collapse;width:100%}
+.commentary-body th,.commentary-body td{border:1px solid #d9dde3;padding:8px;text-align:left}
+.commentary-table-wrap{overflow-x:auto}
+.commentary-stats{
+  margin:24px 0;border:1px solid #cfd6df;border-radius:10px;background:#fafbfc
+}
+.commentary-stats summary{cursor:pointer;padding:14px 16px;font-weight:700;color:#17365d}
+.commentary-stats-content{padding:0 16px 16px}

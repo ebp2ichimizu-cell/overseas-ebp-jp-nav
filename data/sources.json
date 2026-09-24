@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "id": "crime-reduction-toolkit",
+    "name": "Crime Reduction Toolkit",
+    "role_ja": "対策のEffect、エビデンスの質、実装、限界などを確認する情報源。"
+  }
+]

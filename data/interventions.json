@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "hot-spots-policing",
+    "name_ja": "ホットスポット・パトロール",
+    "name_en": "Hot spots policing",
+    "summary_ja": "犯罪や通報が集中する小さな場所に警察活動を重点配分する考え方です。",
+    "problem_ids": [],
+    "case_ids": [],
+    "evidence_page_ids": [
+      "toolkit-hot-spots"
+    ]
+  }
+]

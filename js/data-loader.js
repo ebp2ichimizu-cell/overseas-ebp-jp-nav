@@ -1,0 +1,19 @@
+const FILES={
+  problems:"./data/problems.json",
+  interventions:"./data/interventions.json",
+  cases:"./data/cases.json",
+  sources:"./data/sources.json",
+  evidencePages:"./data/evidence-pages.json",
+  translations:"./data/translations.json"
+};
+
+export async function loadAllData(){
+  const entries=await Promise.all(
+    Object.entries(FILES).map(async ([key,url])=>{
+      const res=await fetch(url,{cache:"no-store"});
+      if(!res.ok) throw new Error(`${url} を読み込めませんでした (${res.status})`);
+      return [key,await res.json()];
+    })
+  );
+  return Object.fromEntries(entries);
+}

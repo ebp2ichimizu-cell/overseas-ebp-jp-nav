@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "bicycle-theft",
+    "name_ja": "自転車盗",
+    "name_en": "Bicycle theft",
+    "summary_ja": "自転車盗に関する海外の実例・対策を探します。",
+    "case_ids": [],
+    "intervention_ids": []
+  }
+]

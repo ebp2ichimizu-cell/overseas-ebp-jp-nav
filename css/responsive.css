@@ -1,0 +1,7 @@
+@media (max-width:720px){
+  .mode-grid,.card-grid{grid-template-columns:1fr}
+  .hero{padding-top:34px}
+  .header-inner{padding:10px 16px}
+  .brand-main{font-size:.95rem}
+  .fixed-nav a,.fixed-nav button{min-width:0;flex:1}
+}
