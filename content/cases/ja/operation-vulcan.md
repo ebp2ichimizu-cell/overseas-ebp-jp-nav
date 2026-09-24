@@ -3,81 +3,99 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Operation Vulcan
+# Operation Vulcan｜複雑な地域犯罪問題を多機関連携で解く
 
 ### 最初に結論
 
 Operation Vulcanは「偽造品店を取り締まる」だけの事例ではありません。
 偽造品市場を中心に、組織犯罪、薬物、暴力、搾取、建物管理、土地所有、地域環境、脆弱な人への支援が重なっている問題として分解し、65機関の情報・権限を組み合わせました。
 
-Outcomeも一つにまとめません。
+アウトカムも一つにまとめません。
 暴力や車両犯罪は減る一方、重点活動で薬物所持や商標法違反の認知は増えました。
 「認知件数増加＝地域悪化」とは限らないことを示す例です。
 
-1．Problem
+## 1．Problem
+
 Manchester Cheetham Hill / Strangeways
-counterfeit goods premises 206
+偽造品 premises 206
 MoRiLE score 2,842
-drug supply、violence、immigration status悪用、vulnerable people搾取等。
+薬物供給、violence、在留資格悪用、脆弱な立場の人搾取等。
 
-2．Analysis｜情報分散
-GMPデータだけでは全体が描けず、partnerごとの情報をinformation sharing agreementsで統合しproblem profileを作成。店舗・人物ごとのPOP planへ。
+## 2．分析｜情報分散
 
-3．65機関
-警察、City Council、Trading Standards、Immigration Enforcement、HMRC、Fire and Rescue、charities、national bodies等。Oversight committee。
+GMPデータだけでは全体が描けず、関係機関ごとの情報を情報共有協定で統合し問題プロファイルを作成。店舗・人物ごとのPOP planへ。
 
-4．Clear, Hold, Build
+## 3．65機関
+
+警察のほか、市行政、Trading Standards、Immigration Enforcement、HMRC、消防・救助機関、慈善団体、国レベルの機関などが参加。監督委員会も設置。
+
+## 4．Clear, Hold, Build
+
 Clear：捜索、押収、逮捕、訴追等で犯罪活動を除去。
 Hold：店舗閉鎖・確保、landlord・建物状態への対応で再開しにくくする。
 Build：住民、行政、投資主体等と長期土地利用・再開発・地域環境へ。
 
-5．店舗ごとのResponse
-各partner情報を共有し、店舗ごとに使える権限・戦術を選択。犯罪側の方法が変わればResponseも変更。
+## 5．店舗ごとの対策
 
-6．建物・landlord
-Fire and Rescueによるclosure、物件secure、landlord、freehold等へ働きかけ。犯人だけでなく場所の条件へResponseを広げる。
+各関係機関情報を共有し、店舗ごとに使える権限・戦術を選択。犯罪側の方法が変われば対策も変更。
 
-7．脆弱な人
-Mustard Tree、Booth Centre、Immigration等によるguardianship・支援。
+## 6．建物・landlord
+
+消防・救助機関による施設閉鎖、物件の確保、家主や不動産権利関係への働きかけを実施。犯人だけでなく、犯罪を継続できる場所の条件へ対策を広げました。
+
+## 7．脆弱な人
+
+Mustard Tree、Booth Centre、Immigration等が、見守り・監視機能（guardianship）と支援を提供。
 同じ人を被疑者／被害者の一つに固定せず状況で支援と取締りを組み合わせる。
 
-8．報告された変化
-MoRiLE：2842→494
-counterfeit premises：206→0
-violent crime：52％減
-vehicle crime：68％減
-Crime Harm Index：48％減
+## 8．報告された変化
 
-9．増えた犯罪
-drug possession：約600％増
-trademark offences：約800％増
-Practice Bankは重点multi-agency activityで発見・介入機会が増えたことによると説明。
+MoRiLE：2842→494
+偽造品販売拠点：206→0
+暴力犯罪：52％減
+vehicle crime：68％減
+犯罪被害の重大性指標（Crime Harm） Index：48％減
+
+## 9．増えた犯罪
+
+薬物所持：約600％増
+商標法違反：約800％増
+実践事例データベース（Practice Bank）は重点多機関連携活動で発見・介入機会が増えたことによると説明。
 
 EBPとして：
-認知総数だけを見ず、住民被害、Crime Harm、積極的発見違反、店舗閉鎖、地域再構築を別Outcomeとして読む。
+認知総数だけを見ず、住民被害、犯罪被害の重大性指標（Crime Harm）、積極的発見違反、店舗閉鎖、地域再構築を別アウトカムとして読む。
 
-10．「増加」が望ましい中間Outcomeになりうる
-hidden offendingへのtargeted enforcement強化直後は、薬物所持・商標違反・行政違反等が増えることがある。
+## 10．「増加」が望ましい中間アウトカムになりうる
+
+把握されにくい犯罪・違反への重点的な取締り強化直後は、薬物所持・商標違反・行政違反等が増えることがある。
 悪化だけでなく、把握・介入能力が上がった可能性も確認する。
 「数字の方向」より「何を測った数字か」を見る。
 
-11．実装・学び
-CHBは警察単独ではなくpartnerごとの法令、権限、情報、Outcomeを組み合わせる。評価もpartner指標を含める。
+## 11．実装・学び
 
-12．評価状況
-Practice Bank表示：Independently evaluated。
+CHBは警察単独ではなく関係機関ごとの法令、権限、情報、アウトカムを組み合わせる。評価も関係機関指標を含める。
+
+## 12．評価状況
+
+実践段階：独立評価済み（Independently evaluated）。
 本文にはHome OfficeによるCHB評価の記載もある。
 Stage表示はそのまま示し、減少率をこのページだけで厳密因果効果と断定しない。独立評価報告書が確認できたら第3層へ追加。
 
 ### 実務で持ち帰ること
 
-1．市場型問題を犯人・場所・建物・市場・脆弱性へ分解。
-2．警察外データ統合でResponseを増やす。
-3．ClearだけでなくHold / Build。
-4．場所管理者にも働きかける。
-5．認知増加を必ずしも悪化と決めない。
-6．Crime Harm、発見・検挙、閉鎖、地域再構築を別Outcome。
-7．Partnerごとの実装とOutcomeも評価。
+## 1．市場型問題を犯人・場所・建物・市場・脆弱性へ分解。
+
+## 2．警察外データ統合で対策を増やす。
+
+## 3．ClearだけでなくHold / Build。
+
+## 4．場所管理者にも働きかける。
+
+## 5．認知増加を必ずしも悪化と決めない。
+
+## 6．犯罪被害の重大性指標（Crime Harm）、発見・検挙、閉鎖、地域再構築を別アウトカム。
+
+## 7．Partnerごとの実装とアウトカムも評価。
 
 <!-- STATS_DETAIL_START -->
 
@@ -87,53 +105,53 @@ Stage表示はそのまま示し、減少率をこのページだけで厳密因
 
 ### 評価の種類
 
-Practice Bankでは
+実践事例データベース（Practice Bank）では
 独立評価済み（Independently evaluated）
 と表示されています。
 
 ただし、現在のコンテンツマスターで確認できているのは、
-主としてPractice Bankに掲載された主要Outcomeです。
+主として実践事例データベース（Practice Bank）に掲載された主要アウトカムです。
 
 ### 主な報告値
 
 MoRiLE score：
 2,842 → 494
 
-counterfeit premises：
+偽造品販売拠点：
 206 → 0
 
-violent crime：
+暴力犯罪：
 52％減
 
 vehicle crime：
 68％減
 
-overall Crime Harm Index：
+overall 犯罪被害の重大性指標（Crime Harm） Index：
 48％減
 
-drug possession：
+薬物所持：
 約600％増
 
-trademark offences：
+商標法違反：
 約800％増
 
 ### 主要な読み分け
 
-violent crime / vehicle crime / Crime Harm：
-地域被害のOutcome
+暴力犯罪 / vehicle crime / 犯罪被害の重大性指標（Crime Harm）：
+地域被害のアウトカム
 
-drug possession / trademark offences：
-重点活動による発見・取締りOutcomeの影響を受ける指標
+薬物所持 / 商標法違反：
+重点活動による発見・取締りアウトカムの影響を受ける指標
 
-counterfeit premises：
-場所・市場へのResponseのOutcome
+偽造品販売拠点：
+場所・市場への対策のアウトカム
 
 ### 比較群・効果量・95％CI・p値
 
-Practice Bank本文からは、
+実践事例データベース（Practice Bank）本文からは、
 これら主要値について統一した比較群、CI、p値は確認できない。
 
-## 原著・資料を確認する
+独立評価報告書が第3階層に追加できた時点で補完する。
 
 ### この数字をどう読むか
 
@@ -150,11 +168,11 @@ Practice Bank本文からは、
 - 場所の閉鎖
 - 市場の変化
 
-を別Outcomeとして読む必要があります。
+を別アウトカムとして読む必要があります。
 
 ### 原著でさらに確認する
 
-[原著・資料を開く](https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm)
+[原著・資料を確認する →](https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm)
 
 <!-- STATS_DETAIL_END -->
 
@@ -164,5 +182,5 @@ Practice Bank本文からは、
 開始：November 2022
 更新：2 July 2026
 Stage：Independently evaluated
-関連：POP / Clear Hold Build / serious organised crime / place management / partnership / Crime Harm
+関連：POP / Clear Hold Build / 重大・組織犯罪 / 場所の管理 / 関係機関hip / 犯罪被害の重大性指標（Crime Harm）
 全文翻訳：保留。独立評価報告書確認時に追加。

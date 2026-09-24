@@ -7,14 +7,14 @@ source: supplied-content-master
 
 ### 最初に結論
 
-Groveらのsystematic reviewは、
-repeat victimisation preventionを複数研究でまとめた資料です。
+Groveらのシステマティックレビューは、
+再被害（repeat victimisation） preventionを複数研究でまとめた資料です。
 
-review全体では、
+レビュー全体では、
 住宅侵入窃盗以外のcrime typeも含みますが、
 中心的な研究領域はresidential burglaryです。
 
-このreviewから得られる重要なメッセージは、
+このレビューから得られる重要なメッセージは、
 
 「被害歴は、次のcrime riskを予測する情報になる」
 
@@ -26,11 +26,11 @@ recent victimへResourceを集中することで、
 
 ## 1．何をレビューしたか
 
-review全体：
+レビュー全体：
 31 studies
 
 主な対象：
-repeat victimisation prevention
+再被害（repeat victimisation） prevention
 
 多くの研究：
 residential burglary
@@ -47,7 +47,7 @@ sexual victimisation等
 - Australia 5
 - USA 3
 
-## 2．なぜrepeat victimisationを見るのか
+## 2．なぜ再被害（repeat victimisation）を見るのか
 
 crimeは均等に分布していません。
 
@@ -66,18 +66,18 @@ crimeが繰り返される場合があります。
 
 へ重点化する考え方が生まれます。
 
-## 3．どんなResponseが使われたか
+## 3．どんな対策が使われたか
 
-研究に含まれる代表的Response：
+研究に含まれる代表的対策：
 
-- target hardening
-- Neighbourhood Watch
-- crime prevention advice
-- property marking
-- cocooning
+- 物理的防犯強化（target hardening）
+- 近隣見守り活動（Neighbourhood Watch）
+- 防犯助言（crime prevention advice）
+- 所有物マーキング（property marking）
+- 周辺住宅への重点防犯（cocooning）
 
 これらは単独で使われる場合もありますが、
-複数Responseを組み合わせるprojectもあります。
+複数対策を組み合わせるprojectもあります。
 
 ## 4．UKと他国で結果が違った
 
@@ -86,7 +86,7 @@ UKのrepeat domestic burglary programmesは
 比較的良好な結果を示しました。
 
 一方、
-Australia・USAのprogrammeでは、
+Australia・USAの取組では、
 同様の成功が確認されなかったと整理されています。
 
 ### どう読むか
@@ -98,17 +98,17 @@ Australia・USAのprogrammeでは、
 という固定的な地域差にはしません。
 
 著者は、
-contextへ適応したprogramme designと
-implementation problemの回避が重要だとしています。
+地域条件へ適応した取組設計と
+実装 problemの回避が重要だとしています。
 
-## 5．implementationが結果を分ける
+## 5．実装が結果を分ける
 
-一部primary studiesでは、
+一部個別研究では、
 
-- 対象世帯のごく一部しかResponseを受けていない
+- 対象世帯のごく一部しか対策を受けていない
 - partner coordinationが弱い
 - staff capacityが不足
-- residentがResponseを受け入れない
+- residentが対策を受け入れない
 
 等がありました。
 
@@ -118,16 +118,16 @@ implementation problemの回避が重要だとしています。
 
 crime outcomeが変わらなかった
 ↓
-Responseそのものが適切でなかったのか
+対策そのものが適切でなかったのか
 それとも
-Responseが十分届かなかったのか
+対策が十分届かなかったのか
 
 を分けて考えられます。
 
-## 6．reviewの強みと限界
+## 6．レビューの強みと限界
 
 Toolkitは、
-このreviewについて、
+このレビューについて、
 
 - systematic search
 - effect size calculation
@@ -139,17 +139,17 @@ Effect evidenceをVery strongとしています。
 一方、
 
 - publication biasの検討が十分ではない
-- inter-rater reliabilityの記載が十分でない
-- statistical outlierの影響検討が十分でない
+- 評価者間信頼性の記載が十分でない
+- 統計的外れ値の影響検討が十分でない
 
 等も指摘しています。
 
-さらにprimary studiesでは、
-treatment / controlのcomparability等に制約があります。
+さらに個別研究では、
+介入群と比較群の比較可能性などに制約があります。
 
 ### EBPとしての読み方
 
-限界を見てreviewを使わないのではなく、
+限界を見てレビューを使わないのではなく、
 
 「どこまで信頼できるか」
 と
@@ -161,11 +161,11 @@ treatment / controlのcomparability等に制約があります。
 
 ## 統計を詳しく見る
 
-### review全体
+### レビュー全体
 
 31 studies
 
-repeat victimisation preventionを評価。
+再被害（repeat victimisation） preventionを評価。
 
 住宅侵入窃盗が多数を占める。
 
@@ -184,27 +184,27 @@ USA：
 
 ### Allocation
 
-住宅侵入窃盗のprimary studiesでは、
+住宅侵入窃盗の個別研究では、
 randomised allocationは用いられていないとToolkitは整理。
 
 多くはmatched treatment / control等。
 
 ### 主要な分析
 
-systematic review
+システマティックレビュー
 ＋
 meta-analysis
 
 ### 主要結果
 
-repeat victimisation prevention initiativesは、
-全体としてcrime reduction方向。
+再被害防止の取組は、
+全体として犯罪減少方向。
 
 targeted situational prevention measuresが
 比較的良好な結果。
 
-implementation levelが高いほど、
-crime reduction effectが大きい傾向。
+実装 levelが高いほど、
+犯罪減少 effectが大きい傾向。
 
 ### 統合効果量・CI・p値
 
@@ -222,7 +222,7 @@ study countだけでEvidenceの強さは決まりません。
 
 - 研究デザイン
 - comparison
-- implementation
+- 実装
 - heterogeneity
 
 を合わせて読む必要があります。
@@ -232,21 +232,24 @@ study countだけでEvidenceの強さは決まりません。
 Grove et al. (2012)
 Preventing Repeat Victimization: A Systematic Review
 
+
+[原著・資料を確認する →](https://bra.se/english/publications/archive/2012-06-11-preventing-repeat-victimization)
+
 <!-- STATS_DETAIL_END -->
 
 ## 7．実務で持ち帰ること
 
-1．被害歴をrisk informationとして使う。
+## 1．被害歴をrisk informationとして使う。
 
-2．recent victimsへResourceを重点化する。
+## 2．recent victimsへResourceを重点化する。
 
-3．Response内容だけでなくdeliveryを測る。
+## 3．対策内容だけでなくdeliveryを測る。
 
-4．他地域のprogrammeはそのままコピーしない。
+## 4．他地域の取組はそのままコピーしない。
 
-5．implementation failureとintervention failureを分ける。
+## 5．実装上の問題と介入自体の問題を分ける。
 
-6．自地域でrepeat / near-repeat patternを測る。
+## 6．自地域で再被害・近接再被害（repeat / near-repeat） patternを測る。
 
 ## 原著・資料を確認する
 

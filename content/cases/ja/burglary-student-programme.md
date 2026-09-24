@@ -10,30 +10,30 @@ source: supplied-content-master
 Greater Manchester Policeは、
 Manchester Southの住宅侵入窃盗を分析し、
 
-「student shared accommodation」
+「学生向け共同住宅」
 「10 high-burglary streets」
 
 へ問題を絞りました。
 
 そのうえで、
 
-- street-specific leaflet
-- student ambassador
+- 街路ごとに内容を変えた防犯チラシ
+- 学生アンバサダー
 - face-to-face advice
-- cocooning
-- targeted patrol
+- 周辺住宅への重点防犯（cocooning）
+- 重点パトロール
 
 を組み合わせています。
 
-この事例はUntestedです。
+この事例は未検証（Untested）です。
 
 したがって、
-報告されたcrime reductionを
+報告された犯罪減少を
 causal effectとは扱いません。
 
 一方、
-victim groupとplaceを具体化し、
-Responseをtailorしたproblem-solving事例として価値があります。
+被害者集団とplaceを具体化し、
+対策をtailorした問題解決（problem-solving）事例として価値があります。
 
 ## 1．問題の大きさ
 
@@ -53,9 +53,9 @@ force area内で最多。
 single local policing areaに集中。
 
 Victim analysisでは、
-university students living in shared accommodationが多いことを確認。
+共同住宅に住む大学生が多いことを確認。
 
-## 2．なぜstudent accommodationが狙われるか
+## 2．なぜ学生向け住宅が狙われるか
 
 GMPは、
 
@@ -73,7 +73,7 @@ financial gainの機会として意図的に狙われているとしています
 
 crime analysis
 ＋
-hot spot mapping
+ホットスポット・マッピング（hot spot mapping）
 
 により、
 
@@ -94,8 +94,8 @@ resourceを集中しています。
 generic leafletではなく、
 streetごとに、
 
-- local landmarks
-- street-specific details
+- 地域の目印
+- 街路固有の情報
 
 を入れたcrime prevention leafletを作成。
 
@@ -106,16 +106,16 @@ streetごとに、
 
 として読まれるよう設計しています。
 
-## 5．peer-to-peer engagement
+## 5．学生同士による働きかけ
 
 Manchester Student Homes
-student ambassadors
+学生アンバサダー
 university partners
 local communities
 
 と連携。
 
-student ambassadors等によるface-to-face engagementを行いました。
+学生アンバサダー等による対面での働きかけを行いました。
 
 Practice Bankは、
 peer-to-peer communicationが
@@ -127,21 +127,21 @@ studentに受け入れられやすかったとしています。
 独立した比較試験で
 peer-to-peerが最も有効だったと証明した結果ではありません。
 
-## 6．burglary発生後はcocooning
+## 6．burglary発生後は周辺住宅への重点防犯（cocooning）
 
 burglaryが起きた場合、
-affected address周辺へ、
+被害住所周辺へ、
 
-- incident information
-- crime prevention advice
+- 事件情報
+- 防犯助言（crime prevention advice）
 
 を提供。
 
-immediate security improvementを促します。
+直ちに行える防犯改善を促します。
 
 同時に、
 analysisで特定したlocation / timeへ
-targeted patrolを配置。
+重点パトロールを配置。
 
 ## 7．報告された変化
 
@@ -154,12 +154,12 @@ Manchester South：
 residential burglary offences
 
 Practice Bankは、
-対象LPAがdistrict-wide reductionの50％超に寄与したと報告。
+対象LPAが管区全体の減少の50％超に寄与したと報告。
 
 ### 重要
 
 このPractice Bank entryのStageは
-Untested。
+未検証（Untested）。
 
 比較群、
 CI、
@@ -168,11 +168,11 @@ causal evaluationは示されていません。
 
 したがってサイトでは、
 
-「programmeによって411件減少」
+「取組によって411件減少」
 
 とは書きません。
 
-「programme実施後、Manchester Southのburglaryが1,125件から714件へ減少したと報告」
+「取組実施後、Manchester Southのburglaryが1,125件から714件へ減少したと報告」
 
 とします。
 
@@ -182,7 +182,7 @@ causal evaluationは示されていません。
 
 burglary減少。
 
-hot spot、student victim、repeat victimisationへtargeted responseを実施。
+ホットスポット、学生被害者、再被害に対象を絞った対策を実施。
 
 ### サイトによる独自解説
 
@@ -192,35 +192,35 @@ hot spot、student victim、repeat victimisationへtargeted responseを実施。
 次に何を評価すればよいかが明確です。
 
 - 10 streets vs other streets
-- student accommodation vs other housing
-- cocooning実施／非実施
+- 学生向け住宅 vs other housing
+- 周辺住宅への重点防犯（cocooning）実施／非実施
 - leaflet reach
 - student engagement
-- targeted patrol dosage
-- repeat victimisation
+- 重点パトロール dosage
+- 再被害（repeat victimisation）
 
 を記録すれば、
-複合Responseの中を分解できます。
+複合対策の中を分解できます。
 
 ## 9．次の評価設計
 
 最低限：
 
-Implementation Outcome
+実装 アウトカム
 - 配布戸数
 - face-to-face接触数
-- cocooning件数
+- 周辺住宅への重点防犯（cocooning）件数
 - patrol time
 
-Intermediate Outcome
+Intermediate アウトカム
 - security improvement
 - awareness
 - student engagement
 
-Crime Outcome
+Crime アウトカム
 - burglary
-- repeat burglary
-- near-repeat burglary
+- 反復する住宅侵入窃盗（repeat burglary）
+- 近接再被害（near-repeat） burglary
 
 Comparison
 - 対象streetと類似street
@@ -229,17 +229,17 @@ Comparison
 
 ## 10．実務で持ち帰ること
 
-1．victim groupを具体化する。
+## 1．被害者集団を具体化する。
 
-2．high-risk streetへ絞る。
+## 2．high-risk streetへ絞る。
 
-3．generic messageをlocal messageへ変える。
+## 3．generic messageをlocal messageへ変える。
 
-4．trusted messengerを使う。
+## 4．trusted messengerを使う。
 
-5．cocooningとpatrolを組み合わせる。
+## 5．周辺住宅への重点防犯（cocooning）とpatrolを組み合わせる。
 
-6．Untested事例は次のevaluation questionを明確にする。
+## 6．未検証（Untested）事例は次のevaluation questionを明確にする。
 
 ## 原著・資料を確認する
 
@@ -258,7 +258,7 @@ First published：
 19 August 2026
 
 Stage：
-Untested
+未検証（Untested）
 
 全文翻訳：
 当面保留。

@@ -58,8 +58,8 @@
     "id": "residential-burglary",
     "name_ja": "住宅対象侵入窃盗",
     "name_en": "Residential Burglary / Domestic Burglary",
-    "summary_ja": "被害発生後の再被害・近接再被害リスクを把握し、どの住宅・地域へResponseを届けるかを考え、実装と再被害・地域全体の変化を評価します。",
-    "key_point_ja": "「鍵を強くする」など一つの対策を先に選ぶのではなく、住宅・時間・場所・被害パターンへの集中を分析し、物理防犯、cocooning、patrol、offender disruption、CPTED等を問題に合わせて組み合わせます。",
+    "summary_ja": "住宅対象侵入窃盗では、「どの家が危ないか」を静的に考えるだけでなく、どの住宅が被害に遭ったか、その後いつ再被害リスクが高まるか、周辺住宅にもリスクが広がるか、どの対策をどの住宅・地域へどのタイミングで届けるかまで分けて見ます。",
+    "key_point_ja": "一つの対策を先に選ぶのではなく、自地域で住宅・時間・場所・被害パターンへの集中を分析し、そのうえで物理防犯、防犯助言、周辺住宅への重点防犯（cocooning）、重点パトロール、犯人活動の妨害・抑止、CPTEDなどを組み合わせます。",
     "search_terms": [
       "住宅侵入窃盗",
       "住宅対象侵入窃盗",
@@ -82,7 +82,11 @@
       "nudge leaflet",
       "offender disruption",
       "property marking",
-      "CPTED"
+      "CPTED",
+      "周辺住宅への重点防犯",
+      "物理的防犯強化",
+      "近隣見守り活動",
+      "犯人活動の妨害・抑止"
     ],
     "case_ids": [
       "burglary-durham-nudge",

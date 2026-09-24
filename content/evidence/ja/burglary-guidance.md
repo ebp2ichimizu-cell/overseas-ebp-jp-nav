@@ -11,16 +11,16 @@ source: supplied-content-master
 犯人を検挙する捜査と、
 次の被害を防ぐ防犯を分けて考える必要はありません。
 
-College of PolicingのGuidanceでは、
+College of Policingのガイダンスでは、
 
 - 初動
 - 現場確認
 - 証拠収集
 - 被害者対応
 - 類似事件分析
-- repeat victimisation対策
-- cocooning
-- offender disruption
+- 再被害（repeat victimisation）対策
+- 周辺住宅への重点防犯（cocooning）
+- 犯人活動の妨害・抑止（offender disruption）
 
 を一つの実務フローとして扱っています。
 
@@ -51,12 +51,12 @@ College of PolicingのGuidanceでは、
 
 ## 2．被害住宅だけで終わらない
 
-CollegeのGuidanceは、
+Collegeのガイダンスは、
 被害住宅の近隣へも防犯助言を届ける
-cocooningを紹介しています。
+周辺住宅への重点防犯（cocooning）を紹介しています。
 
 背景には、
-repeat / near-repeat victimisationがあります。
+再被害・近接再被害（repeat / near-repeat） victimisationがあります。
 
 つまり、
 すでに被害が起きた場所は、
@@ -75,12 +75,12 @@ Neighbourhood Crime guidanceでは、
 かつ
 その後約6週間
 
-にnear-repeat riskが高まる可能性を紹介しています。
+に近接再被害（near-repeat） riskが高まる可能性を紹介しています。
 
 ### サイトによる独自解説
 
 この数字は、
-全国共通のcocooning範囲を指定する規則ではありません。
+全国共通の周辺住宅への重点防犯（cocooning）範囲を指定する規則ではありません。
 
 住宅形態、
 道路、
@@ -107,8 +107,8 @@ offender movement、
 被害者が自宅を安全な場所と感じられなくなることがあります。
 
 Collegeは、
-risk / vulnerability assessmentと
-tailored advice / supportを重視しています。
+リスク・脆弱性評価と
+対象に応じた助言・支援を重視しています。
 
 ここでは、
 
@@ -124,16 +124,16 @@ crime prevention
 - 窓
 - 照明
 - alarm
-- property marking
-- 周辺へのcocooning
+- 所有物マーキング（property marking）
+- 周辺住宅への重点防犯（cocooning）
 
 等を確認できます。
 
-## 5．分析からoffender disruptionへ
+## 5．分析から犯人活動の妨害・抑止（offender disruption）へ
 
-Guidanceでは、
+ガイダンスでは、
 類似事件やMOを分析し、
-prolific / organised offenderの可能性も確認します。
+常習的・組織的な犯人の可能性も確認します。
 
 例えば、
 
@@ -142,7 +142,7 @@ prolific / organised offenderの可能性も確認します。
 - 移動経路
 - 関連事件
 - 画像
-- forensic evidence
+- 科学捜査上の証拠
 
 を統合することで、
 同じ犯人・グループの活動を探ります。
@@ -150,7 +150,7 @@ prolific / organised offenderの可能性も確認します。
 ### 実務の観点
 
 住宅侵入窃盗対策は、
-victim-side securityだけで完結しません。
+被害対象側の防犯だけで完結しません。
 
 target
 ＋
@@ -159,13 +159,13 @@ place
 offender
 
 を同時に見ることで、
-Responseの選択肢が増えます。
+対策の選択肢が増えます。
 
-## 6．problem-solvingへつなぐ
+## 6．問題解決（problem-solving）へつなぐ
 
 単発事件を処理して終わるのではなく、
 同じ場所・住宅タイプ・被害パターンが続く場合は、
-SARA等を使ってproblem-solvingへ移します。
+SARA等を使って問題解決（problem-solving）へ移します。
 
 Scanning：
 どの住宅・地域・時間に集中しているか
@@ -173,17 +173,17 @@ Scanning：
 Analysis：
 なぜその住宅群が狙われるか
 
-Response：
-target hardening、cocooning、patrol、offender disruption等
+対策：
+物理的防犯強化（target hardening）、周辺住宅への重点防犯（cocooning）、パトロール、犯人活動の妨害・抑止（offender disruption）等
 
 Assessment：
-repeat burglary、near-repeat、implementationを確認
+反復する住宅侵入窃盗（repeat burglary）、近接再被害（near-repeat）、実装を確認
 
-## 7．このGuidanceをどう使うか
+## 7．このガイダンスをどう使うか
 
 ### 原著で確認されたこと
 
-Guidanceは、
+ガイダンスは、
 住宅侵入窃盗対応の実務上の確認事項を整理しています。
 
 ### サイトによる独自解説
@@ -192,7 +192,7 @@ Guidanceは、
 捜査・被害者支援・crime preventionを別々の箱にしないことです。
 
 被害発生を、
-次のrisk analysisとResponse設計につなげることで、
+次のリスク分析と対策設計につなげることで、
 
 「事件処理」
 から
@@ -201,17 +201,17 @@ Guidanceは、
 
 ## 8．実務で持ち帰ること
 
-1．被害発生時点からrepeat riskを確認する。
+## 1．被害発生時点から再被害リスクを確認する。
 
-2．被害住宅だけでなく近隣住宅も次のTargetとして見る。
+## 2．被害住宅だけでなく近隣住宅も次のTargetとして見る。
 
-3．MO・時間・場所・住宅特性を統合する。
+## 3．MO・時間・場所・住宅特性を統合する。
 
-4．被害者支援と防犯を接続する。
+## 4．被害者支援と防犯を接続する。
 
-5．offender、target、placeを同時に分析する。
+## 5．offender、target、placeを同時に分析する。
 
-6．反復が見える場合はproblem-solvingへ移る。
+## 6．反復が見える場合は問題解決（problem-solving）へ移る。
 
 ## 原著・資料を確認する
 

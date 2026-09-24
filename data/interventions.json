@@ -56,8 +56,8 @@
     "name_ja": "問題志向型警察活動（POP）",
     "name_en": "Problem-Oriented Policing",
     "category_ja": "問題解決アプローチ",
-    "summary_ja": "繰り返し発生する犯罪や秩序問題を、一件一件の事件として処理するだけでなく、なぜ問題が繰り返されるのかを具体的に調べ、その問題に合ったResponseを作り、結果を確かめながら改善していく警察活動の考え方です。",
-    "key_point_ja": "POPは決まった一つの対策ではありません。問題の把握（Scanning）→分析（Analysis）→対策（Response）→評価（Assessment）を行い、評価結果から必要に応じて前の段階へ戻ります。",
+    "summary_ja": "問題志向型警察活動（POP）は、繰り返し発生する犯罪や秩序問題を、一件一件の事件として処理するだけでなく、「なぜ、この問題が繰り返されているのか」を具体的に調べ、その問題に合った対策を作り、結果を確かめながら改善していく警察活動の考え方です。",
+    "key_point_ja": "POPそのものは、パトロール、取締り、CCTV、照明、CPTEDなどのどれか一つを指すものではありません。分析した結果によって、選ばれる対策は変わります。",
     "search_terms": [
       "POP",
       "problem-oriented policing",
@@ -78,7 +78,13 @@
       "PAT",
       "situational crime prevention",
       "implementation",
-      "Crime Harm"
+      "Crime Harm",
+      "問題の把握",
+      "分析",
+      "対策",
+      "実装",
+      "アウトカム",
+      "犯罪被害の重大性指標"
     ],
     "problem_ids": [
       "bicycle-theft",

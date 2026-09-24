@@ -8,15 +8,15 @@ source: supplied-content-master
 ### 最初に結論
 
 Durham Constabularyは、
-repeat burglary postcodeを毎週特定し、
-対象postcodeへ住宅防犯nudge leafletを届けました。
+反復する住宅侵入窃盗（repeat burglary） 郵便番号区域を毎週特定し、
+対象郵便番号区域へ住宅防犯ナッジ型防犯チラシ（nudge leaflet）を届けました。
 
 重要なのは、
 単なる「防犯チラシ配布」ではないことです。
 
-- repeat burglary dataで対象を絞る
+- 反復する住宅侵入窃盗（repeat burglary） dataで対象を絞る
 - treatment / controlへrandom allocation
-- deliveryをCertificate of Serviceで記録
+- 配布実績をCertificate of Serviceで記録
 - 6か月後のburglaryを比較
 
 まで一つの評価設計として行いました。
@@ -29,10 +29,10 @@ County Durhamでは
 
 分析では、
 
-individual propertiesのrepeat victimisation：
+individual propertiesの再被害（repeat victimisation）：
 6.7％
 
-same postcode内でburglaryを経験したproperties：
+同一郵便番号区域内で住宅侵入窃盗を経験した住宅：
 19.2％
 
 と報告。
@@ -50,21 +50,21 @@ victim behaviourに関係する状況が確認されました。
 
 ではなく、
 
-repeat postcode
+repeat 郵便番号区域
 ＋
 insecure property
 
 という具体的な介入点へ進んでいます。
 
-## 2．Response
+## 2．対策
 
-nudge leafletは、
-MINDSPACE / EAST等のbehavioural scienceを参考に設計。
+ナッジ型防犯チラシ（nudge leaflet）は、
+MINDSPACE／EAST等の行動科学を参考に設計。
 
 内容には、
 
 - street image
-- そのpostcodeで使われたoffender tactics
+- その郵便番号区域で使われたoffender tactics
 - 具体的な防犯行動
 
 等を含めました。
@@ -84,24 +84,24 @@ RCT期間：
 36週間。
 
 毎週、
-residential burglaryとrepeat postcodeを確認。
+residential burglaryとrepeat 郵便番号区域を確認。
 
 Cambridge Randomiserを使い、
 
 Treatment：
-157 postcodes
+157 郵便番号区域
 
 Control：
-154 postcodes
+154 郵便番号区域
 
 へ割付。
 
-Treatment postcode内の全住宅へ、
-nudge leafletを配布。
+Treatment 郵便番号区域内の全住宅へ、
+ナッジ型防犯チラシ（nudge leaflet）を配布。
 
 Controlには配布しませんでした。
 
-## 4．Implementationを記録
+## 4．実装を記録
 
 leaflet delivery時には
 Certificate of Serviceを作成。
@@ -127,7 +127,7 @@ Certificate of Serviceを作成。
 
 を残しています。
 
-Crime Outcomeとimplementationを分けて見られます。
+Crime アウトカムと実装を分けて見られます。
 
 ## 5．両群ともburglaryは減った
 
@@ -140,10 +140,10 @@ residential burglaryが減少しました。
 ### 重要
 
 Treatmentでcrimeが減ったことだけを見れば、
-leaflet effectとpandemic effectを分けられません。
+チラシによる変化とパンデミックによる変化を分けられません。
 
 Controlを置いたことで、
-両群共通の大きなcrime reductionと、
+両群共通の大きな犯罪減少と、
 Treatment側でさらに大きかったreductionを分けて検討できます。
 
 ## 6．主要結果
@@ -151,7 +151,7 @@ Treatment側でさらに大きかったreductionを分けて検討できます�
 Control：
 
 pre
-mean 1.53 crimes/postcode
+mean 1.53 crimes/郵便番号区域
 ↓
 post
 0.62
@@ -172,7 +172,7 @@ Controlよりさらに8.5％大きいreductionが報告されました。
 ### サイトでの表現
 
 論文著者はこのadditional reductionを
-nudge leafletによるものと解釈しています。
+ナッジ型防犯チラシ（nudge leaflet）によるものと解釈しています。
 
 ただし、
 サイトでは、
@@ -181,7 +181,7 @@ nudge leafletによるものと解釈しています。
 
 とまず記載し、
 study periodがCOVID-19期であること、
-両群ともcrime reductionがあったことを併記します。
+両群とも犯罪減少があったことを併記します。
 
 <!-- STATS_DETAIL_START -->
 
@@ -190,10 +190,10 @@ study periodがCOVID-19期であること、
 ### 対象
 
 Treatment：
-157 postcodes
+157 郵便番号区域
 
 Control：
-154 postcodes
+154 郵便番号区域
 
 ### 期間
 
@@ -201,14 +201,14 @@ RCT：
 36週間
 
 follow-up：
-各postcodeのrandomisation後6か月
+各郵便番号区域のrandomisation後6か月
 
 ### Residential burglary
 
 Control：
 
 pre mean：
-1.53 crimes/postcode
+1.53 crimes/郵便番号区域
 
 post mean：
 0.62
@@ -296,7 +296,7 @@ paperはcost-benefitを独自の前提で算出しているため、
 ### 原著の表・図
 
 Figure 1：
-nudge leaflet
+ナッジ型防犯チラシ（nudge leaflet）
 
 Figure 2：
 pre-trial burglary trend
@@ -315,6 +315,9 @@ vehicle crime cost analysis
 Crowe et al. (2024)
 Nudging down residential burglaries: A randomized control trial
 
+
+[原著・資料を確認する →](https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023)
+
 <!-- STATS_DETAIL_END -->
 
 ## 7．この研究から何を学ぶか
@@ -328,7 +331,7 @@ Treatmentでより大きなreductionが観察された。
 ### 原著者の解釈
 
 randomisation等を踏まえ、
-additional reductionをnudge interventionによるものと解釈。
+追加的な減少をナッジ介入によるものと解釈。
 
 ### サイトによる独自解説
 
@@ -338,7 +341,7 @@ data targeting
 ＋
 randomisation
 ＋
-implementation tracking
+実装 tracking
 
 を、
 日常のneighbourhood policingへ組み込んだことです。
@@ -349,17 +352,17 @@ control groupを置くことで評価を継続できました。
 
 ## 8．実務で持ち帰ること
 
-1．generic leafletではなくlocal risk情報を使う。
+## 1．generic leafletではなくlocal risk情報を使う。
 
-2．repeat postcodeでTargetを絞る。
+## 2．repeat 郵便番号区域でTargetを絞る。
 
-3．Treatment / Controlを置くと外部変化を分けやすい。
+## 3．Treatment / Controlを置くと外部変化を分けやすい。
 
-4．deliveryそのものを記録する。
+## 4．deliveryそのものを記録する。
 
-5．crime outcomeとimplementationを分ける。
+## 5．crime outcomeと実装を分ける。
 
-6．cost estimateの前提を確認する。
+## 6．cost estimateの前提を確認する。
 
 ## 原著・資料を確認する
 

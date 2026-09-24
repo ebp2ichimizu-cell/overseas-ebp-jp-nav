@@ -3,7 +3,7 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Force district hubs for problem solving and prevention
+# Greater Manchester Police｜Force district hubs for problem solving and prevention
 
 ### 最初に結論
 
@@ -11,51 +11,65 @@ GMPは「SARAを作るよう職員へ指示する」だけではなく、問題�
 
 重要なのは、評価を最後の採点だけに使わず、「途中でどこを直せば問題解決を前へ進められるか」を確認する仕組みにしたことです。
 
-1．出発点
+## 1．出発点
+
 導入前レビューでSARAを使った問題解決が組織内で均一ではないことを確認。
 個人の能力不足の指摘だけで終わらせず、分析支援、専門職員、研修、ガバナンス、進捗管理をどこへ足すかの材料にした。
 
-2．12地区の予防ハブ
-Inspector、Sergeant、problem-solving officers、licensing officers、school engagement officers、missing-person prevention等を地区需要に応じ配置。
+## 2．12地区の予防ハブ
+
+Inspector、Sergeantに加え、問題解決担当官、許認可担当官、学校連携担当官、行方不明者対策担当等を地区の需要に応じて配置。
 海外制度上の階級は日本の役職へ単純置換しない。
 
-3．中央Force Prevention Branch
-performance / intelligence analysts、performance manager、problem-solving inspector、crime reduction coordinators等を配置し、分析、戦術助言、研修、質的レビューを提供。
+## 3．中央Force Prevention Branch
 
-4．途中評価
-標準様式によるinterim assessmentで、Responseが動いているか、問題に変化があるか、何を修正するかを見る。
-問題が減っていなければ最後まで同じResponseを続けず途中変更できる。
+業績・情報分析官、業績管理担当者、問題解決担当Inspector、犯罪減少調整担当者等を配置し、分析、戦術助言、研修、質的レビューを提供。
 
-5．POP dashboard
-record management systemから需要・反復通報等を可視化し問題を絞る。
+## 4．途中評価
 
-6．パートナー
-Scanningから関係機関と接続し、問題に最も影響できる機関がResponseを担うことも推奨。
+標準様式による途中評価で、対策が動いているか、問題に変化があるか、何を修正するかを見る。
+問題が減っていなければ最後まで同じ対策を続けず途中変更できる。
 
-7．最終評価
-警察需要、partner需要、犯罪転位、持続可能性、費用便益、関係者feedbackを確認。
+## 5．POPダッシュボード
+
+記録管理システムから需要・反復通報等を可視化し問題を絞る。
+
+## 6．パートナー
+
+Scanningから関係機関と接続し、問題に最も影響できる機関が対策を担うことも推奨。
+
+## 7．最終評価
+
+警察需要、関係機関需要、犯罪転位、持続可能性、費用便益、関係者フィードバックを確認。
 強い事例は内部what worksへ共有。
 
-8．報告された変化
-missing from home events：5,854件減
-care homesからの報告：19.6％減、1年間持続。
+## 8．報告された変化
+
+家出・所在不明事案：5,854件減
+ケアホームからの報告：19.6％減、1年間持続。
 
 読み方：
 組織全体で報告された変化であり、ページだけから「ハブが5,854件を減らした」と単純因果化しない。
 価値は、支援構造＋中間評価＋組織データ＋最終評価を一体化した点。
 
-9．人材異動
+## 9．人材異動
+
 高度な問題解決能力を得た職員が他部署へ求められ、ハブ維持が難しくなる一方、能力が組織内へ広がる側面もある。
-「人材流出＝失敗」ではなく、ハブ継続性と能力拡散を別Outcomeとして見る。
+「人材流出＝失敗」ではなく、ハブ継続性と能力拡散を別アウトカムとして見る。
 
 ### 実務で持ち帰ること
 
-1．SARAの質を個人任せにしない。
-2．分析・研修・助言の支援機能を作る。
-3．最後だけでなく途中でAssessment。
-4．問題解決の実施状況をデータで追う。
-5．最終評価を組織学習へ戻す。
-6．人・場所・反復需要を横断支援する。
+## 1．SARAの質を個人任せにしない。
+
+## 2．分析・研修・助言の支援機能を作る。
+
+## 3．最後だけでなく途中でAssessment。
+
+## 4．問題解決の実施状況をデータで追う。
+
+## 5．最終評価を組織学習へ戻す。
+
+## 6．人・場所・反復需要を横断支援する。
 
 <!-- STATS_DETAIL_START -->
 
@@ -65,17 +79,17 @@ care homesからの報告：19.6％減、1年間持続。
 
 ### 評価の種類
 
-組織レベルの実装・Outcome評価。
+組織レベルの実装・アウトカム評価。
 
-Practice Bank掲載情報では、
+実践事例データベース（Practice Bank）掲載情報では、
 RCTやmatched controlによる効果推定ではありません。
 
 ### 主要な報告値
 
-missing from home events：
+家出・所在不明事案：
 5,854件減
 
-care homesからの報告：
+ケアホームからの報告：
 19.6％減
 
 持続期間：
@@ -83,12 +97,12 @@ care homesからの報告：
 
 ### 比較群
 
-Practice Bank掲載ページでは、
+実践事例データベース（Practice Bank）掲載ページでは、
 独立した比較群による効果推定は示されていません。
 
 ### 効果量・95％CI・p値
 
-Practice Bank掲載ページでは報告なし。
+実践事例データベース（Practice Bank）掲載ページでは報告なし。
 
 ### この数字をどう読むか
 
@@ -110,7 +124,7 @@ Practice Bank掲載ページでは報告なし。
 
 ### 原著でさらに確認する
 
-[原著・資料を開く](https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention)
+[原著・資料を確認する →](https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention)
 
 <!-- STATS_DETAIL_END -->
 

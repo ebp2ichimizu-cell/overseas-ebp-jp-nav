@@ -28,16 +28,16 @@ Guide自身が強調しているのは、
 - 誰が管理できるか
 
 を分析し、
-Responseを選びます。
+対策を選びます。
 
 ## 1．このGuideの対象
 
 主にsingle-family houses。
 
-owner-occupied / detached homesを中心に扱います。
+持ち家・戸建住宅を中心に扱います。
 
-apartments等と共通する点もありますが、
-access pointやproperty managementが違うため、
+集合住宅等と共通する点もありますが、
+侵入口・アクセス地点やproperty managementが違うため、
 crime prevention techniqueも変わります。
 
 ### 日本で読むとき
@@ -71,7 +71,7 @@ burglaryが多いcrimeであるため、
 - street
 - housing type
 - time
-- entry point
+- 侵入口
 
 に分けてtrendを探します。
 
@@ -80,14 +80,14 @@ burglaryが多いcrimeであるため、
 分析項目例：
 
 - 住宅タイプ
-- corner lotか
+- 角地か
 - 道路からのvisibility
-- vegetation / fence
+- 植栽・フェンス
 - 入口の数
 - door / window security
 - alarm
-- occupancy pattern
-- wealth cues
+- 在宅・不在パターン
+- 資産を示す手がかり
 - 車両の有無
 
 ### 実務の観点
@@ -101,17 +101,17 @@ burglaryが多いcrimeであるため、
 
 Guideでは、
 
-- accessibility
+- 接近しやすさ
 - visibility
-- seclusion
-- street design
-- proximity to offenders
-- neighbourhood homogeneity
+- 人目につきにくさ
+- 街路設計
+- 犯人の活動圏への近さ
+- 近隣の均質性
 
 等を扱います。
 
 例えば、
-dense shrubberyやprivacy fenceは、
+密な植栽や目隠しフェンスは、
 住民にはprivacyを提供する一方、
 offenderにもconcealmentを提供する場合があります。
 
@@ -123,9 +123,9 @@ CPTEDでは、
 
 という単純化ではなく、
 
-resident privacy
+居住者のプライバシー
 と
-offender concealment
+犯人が身を隠せる条件
 
 の両方を見る必要があります。
 
@@ -134,17 +134,17 @@ offender concealment
 一度侵入した住宅について、
 offenderは、
 
-- entry point
+- 侵入口
 - layout
 - security
 - occupancy
 
 を知ることがあります。
 
-その知識がrepeat burglaryへつながる可能性があります。
+その知識が反復する住宅侵入窃盗（repeat burglary）へつながる可能性があります。
 
 これは、
-repeat victimisation / cocooningと接続します。
+再被害（repeat victimisation） / 周辺住宅への重点防犯（cocooning）と接続します。
 
 ## 6．Local analysis questions
 
@@ -152,7 +152,7 @@ repeat victimisation / cocooningと接続します。
 
 - どの住宅が狙われているか
 - repeat victimはいるか
-- near-repeatはあるか
+- 近接再被害（near-repeat）はあるか
 - どこから侵入しているか
 - 侵入方法は何か
 - 犯行時間はいつか
@@ -162,35 +162,35 @@ repeat victimisation / cocooningと接続します。
 - stolen goodsはどこへ流れるか
 - 住宅管理者は誰か
 
-## 7．Responseを一つに固定しない
+## 7．対策を一つに固定しない
 
 POP Centerは、
-Responseをlocal circumstancesへ合わせることを強調しています。
+対策をlocal circumstancesへ合わせることを強調しています。
 
-Response例：
+対策例：
 
-- burglar alarms
-- locks / doors / windows
-- target hardening
-- Neighbourhood Watch
-- property marking
+- 侵入警報装置
+- 錠・扉・窓
+- 物理的防犯強化（target hardening）
+- 近隣見守り活動（Neighbourhood Watch）
+- 所有物マーキング（property marking）
 - CPTED
 - offender targeting
-- stolen goods market interventions
+- 盗品市場 interventions
 
 Summary tableでは、
 それぞれについて、
 
-How it works
-Works best if
-Considerations
+どのように作用するか
+効果が期待しやすい条件
+実施上の留意点
 
 を整理しています。
 
 ## 8．Law enforcementだけで終わらない
 
 POP Center summaryは、
-law enforcement responsesだけでは、
+法執行 responsesだけでは、
 problem reductionに十分でない場合が多いと説明しています。
 
 これは、
@@ -200,7 +200,7 @@ offender targeting
 ＋
 place management
 ＋
-target hardening
+物理的防犯強化（target hardening）
 
 等を組み合わせます。
 
@@ -213,9 +213,9 @@ Guide No.18は2002年に作成された古い資料です。
 
 一方、
 
-「local problemを分解してResponseを選ぶ」
+「local problemを分解して対策を選ぶ」
 
-というproblem-solving structureは現在も利用できます。
+という問題解決（problem-solving） structureは現在も利用できます。
 
 ### サイトによる独自解説
 
@@ -226,17 +226,17 @@ analysis frameworkとしてGuideを使うのが適切です。
 
 ## 10．実務で持ち帰ること
 
-1．「住宅侵入窃盗」という一分類のままResponseを決めない。
+## 1．「住宅侵入窃盗」という一分類のまま対策を決めない。
 
-2．Target・Place・Offenderへ分解する。
+## 2．Target・Place・Offenderへ分解する。
 
-3．自地域のhousing typeを見る。
+## 3．自地域のhousing typeを見る。
 
-4．repeat / near-repeatを分析する。
+## 4．再被害・近接再被害（repeat / near-repeat）を分析する。
 
-5．law enforcementとsituational preventionを組み合わせる。
+## 5．法執行とsituational preventionを組み合わせる。
 
-6．古いGuideの技術情報は現在資料で補完する。
+## 6．古いGuideの技術情報は現在資料で補完する。
 
 ## 原著・資料を確認する
 
