@@ -1,0 +1,35 @@
+/* Top page refinement */
+@media (max-width:860px){
+  .entry-grid{grid-template-columns:1fr}
+  .source-grid{grid-template-columns:1fr}
+  .steps-grid{grid-template-columns:1fr}
+  .entry-card{min-height:0}
+  .entry-card p{margin-bottom:34px}
+}
+
+@media (max-width:720px){
+  .hero-inner{
+    grid-template-columns:76px minmax(0,1fr);
+    gap:14px;
+    padding-top:34px;
+    padding-bottom:30px;
+  }
+
+  .hero-logo{
+    width:72px;
+    height:72px;
+  }
+
+  .hero-copy .lead{
+    font-size:.95rem;
+  }
+
+  .section{
+    padding-top:24px;
+    padding-bottom:42px;
+  }
+
+  .section-intro h2{
+    font-size:1.45rem;
+  }
+}
