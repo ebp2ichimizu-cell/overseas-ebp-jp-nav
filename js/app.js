@@ -4,6 +4,7 @@ import {renderHome} from "./render-home.js";
 import {renderProblemList,renderInterventionList} from "./render-lists.js";
 import {renderProblem,renderIntervention} from "./render-detail.js";
 import {renderCase,renderEvidence,renderTranslation,activateContent} from "./render-content.js";
+import {renderResources} from "./render-resources.js";
 import {escapeHtml} from "./utils.js";
 
 const app=document.querySelector("#app");
@@ -16,6 +17,9 @@ function page(){
   switch(route.page){
     case "home":
       app.innerHTML=renderHome();
+      break;
+    case "resources":
+      app.innerHTML=renderResources();
       break;
     case "problems":
       app.innerHTML=renderProblemList(data);
