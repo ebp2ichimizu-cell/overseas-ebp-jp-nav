@@ -332,7 +332,7 @@ outreachが実施された日のOutcomeがどう違ったかまで確認して�
 
 ## 原著で確認する
 
-→ 第3階層のPractice Bankおよび評価資料へ
+[→ 第3階層のPractice Bankおよび評価資料へ](https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service)
 
 <!-- STATS_DETAIL_END -->
 

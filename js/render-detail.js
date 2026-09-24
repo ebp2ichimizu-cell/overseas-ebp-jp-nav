@@ -65,10 +65,10 @@ export function renderIntervention(data,id){
       return {...c,source_name:c.provider_ja || src?.name || ""};
     });
 
-  return `<section class="section"><div class="container">
+  return `<section class="section detail-page"><div class="container">
     ${item.category_ja ? `<div class="detail-category">${escapeHtml(item.category_ja)}</div>` : ""}
     <h1>${escapeHtml(item.name_ja)}</h1>
-    <p class="lead">${escapeHtml(item.summary_ja || "")}</p>
+    <p class="lead detail-lead">${escapeHtml(item.summary_ja || "")}</p>
     ${item.key_point_ja ? `<div class="key-point"><strong>最重要ポイント</strong><p>${escapeHtml(item.key_point_ja)}</p></div>` : ""}
 
     <h2 class="section-heading">対策・エビデンス</h2>

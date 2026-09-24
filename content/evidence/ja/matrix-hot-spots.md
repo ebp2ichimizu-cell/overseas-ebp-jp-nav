@@ -969,7 +969,7 @@ ResponseとOutcomeを具体的に見ることで、
 
 ## 原著で確認する
 
-→ 第3階層の各Matrix個別研究ページへ
+[→ 第3階層の各Matrix個別研究ページへ](https://cebcp.org/evidence-based-policing/the-matrix/)
 
 <!-- STATS_DETAIL_END -->
 

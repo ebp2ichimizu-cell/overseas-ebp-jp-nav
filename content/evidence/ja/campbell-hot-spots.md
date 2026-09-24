@@ -629,7 +629,7 @@ N=10
 
 ## 原著で確認する
 
-→ 第3階層のCampbell Reviewへ
+[→ 第3階層のCampbell Reviewへ](https://doi.org/10.1002/cl2.1046)
 
 <!-- STATS_DETAIL_END -->
 

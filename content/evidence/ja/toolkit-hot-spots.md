@@ -436,7 +436,7 @@ Figure 10：
 
 ## 原著で確認する
 
-→ 第3階層のBraga et al. (2019)へ
+[→ 第3階層のBraga et al. (2019)へ](https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing)
 
 <!-- STATS_DETAIL_END -->
 

@@ -309,7 +309,7 @@ Practice Bank／論文の整理では、
 
 ## 原著で確認する
 
-→ 第3階層のOlphin et al. (2025)へ
+[→ 第3階層のOlphin et al. (2025)へ](https://www.college.police.uk/support-forces/practices/operation-rasure-thames-valley-police)
 
 <!-- STATS_DETAIL_END -->
 

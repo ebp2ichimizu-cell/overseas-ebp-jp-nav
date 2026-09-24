@@ -32,3 +32,9 @@
   color:var(--muted);
   background:#fff;
 }
+
+/* 対策詳細ページでは説明文を本文幅いっぱいに使う */
+.detail-page .detail-lead{
+  max-width:none;
+  width:100%;
+}
