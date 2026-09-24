@@ -1,17 +1,27 @@
 [
   {
+    "id": "college-of-policing",
+    "name": "College of Policing",
+    "role_ja": "警察実務のガイダンスを提供する情報源。"
+  },
+  {
     "id": "crime-reduction-toolkit",
     "name": "Crime Reduction Toolkit",
-    "role_ja": "対策の効果、エビデンスの質、作用の仕組み、条件、実装、コスト等を整理して確認する情報源。"
+    "role_ja": "EMMIEにより効果・作用機序・条件・実装・経済コストを整理する情報源。"
   },
   {
     "id": "campbell-collaboration",
     "name": "Campbell Collaboration",
-    "role_ja": "システマティックレビューやメタ分析から、複数研究を統合した全体傾向を確認する情報源。"
+    "role_ja": "システマティックレビューから複数研究を統合して確認する情報源。"
   },
   {
     "id": "ebp-matrix",
     "name": "Evidence-Based Policing Matrix",
-    "role_ja": "個別の警察介入研究を、対象の種類・範囲、先回り性、問題への絞り方等から位置づけて確認する情報源。"
+    "role_ja": "警察介入研究を対象・予防性・問題への焦点の3軸で整理する研究地図。"
+  },
+  {
+    "id": "college-practice-bank",
+    "name": "Police Practice Bank",
+    "role_ja": "警察実務で行われた取組・実践事例を確認する情報源。"
   }
 ]

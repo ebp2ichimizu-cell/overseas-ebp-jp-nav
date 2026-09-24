@@ -5,9 +5,11 @@ function cards(items,route,cls,titleKey,emptyText){
   return `<div class="card-grid">${items.map(x=>`
     <article class="card ${cls}">
       ${x.source_name ? `<div class="meta">${escapeHtml(x.source_name)}</div>` : ""}
+      ${x.stage_ja ? `<div class="stage-label">${escapeHtml(x.stage_ja)}</div>` : ""}
       <h3><a href="#/${route}/${escapeHtml(x.id)}">${escapeHtml(x[titleKey] || x.id)}</a></h3>
+      ${x.question_ja ? `<p class="card-question">${escapeHtml(x.question_ja)}</p>` : ""}
       <p>${escapeHtml(x.summary_ja || x.result_ja || "")}</p>
-      <a class="action-link" href="#/${route}/${escapeHtml(x.id)}">見る →</a>
+      <a class="action-link" href="#/${route}/${escapeHtml(x.id)}">日本語解説を読む →</a>
     </article>`).join("")}</div>`;
 }
 
@@ -21,7 +23,11 @@ export function renderProblem(data,id){
 
   const cases=(problem.case_ids||[])
     .map(cid=>(data.cases||[]).find(x=>x.id===cid))
-    .filter(Boolean);
+    .filter(Boolean)
+    .map(c=>{
+      const src=(data.sources||[]).find(s=>s.id===c.source_id);
+      return {...c,source_name:c.provider_ja || src?.name || ""};
+    });
 
   const interventions=(problem.intervention_ids||[])
     .map(iid=>(data.interventions||[]).find(x=>x.id===iid))
@@ -53,16 +59,22 @@ export function renderIntervention(data,id){
 
   const cases=(item.case_ids||[])
     .map(cid=>(data.cases||[]).find(x=>x.id===cid))
-    .filter(Boolean);
+    .filter(Boolean)
+    .map(c=>{
+      const src=(data.sources||[]).find(s=>s.id===c.source_id);
+      return {...c,source_name:c.provider_ja || src?.name || ""};
+    });
 
   return `<section class="section"><div class="container">
+    ${item.category_ja ? `<div class="detail-category">${escapeHtml(item.category_ja)}</div>` : ""}
     <h1>${escapeHtml(item.name_ja)}</h1>
     <p class="lead">${escapeHtml(item.summary_ja || "")}</p>
+    ${item.key_point_ja ? `<div class="key-point"><strong>最重要ポイント</strong><p>${escapeHtml(item.key_point_ja)}</p></div>` : ""}
 
     <h2 class="section-heading">対策・エビデンス</h2>
     ${cards(evidence,"evidence","card-blue","title_ja","海外情報源ごとの解説は準備中です。")}
 
-    <h2 class="section-heading">この対策を使った実例</h2>
+    <h2 class="section-heading">代表的な実践事例</h2>
     ${cards(cases,"case","card-red","title_ja","この対策を使った実例は準備中です。")}
   </div></section>`;
 }

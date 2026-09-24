@@ -1,10 +1,22 @@
 [
   {
+    "id": "hotspots-guidance",
+    "source_id": "college-of-policing",
+    "intervention_id": "hot-spots-policing",
+    "title_ja": "Hot spots policing guidance",
+    "question_ja": "現場でどう実施するか",
+    "summary_ja": "ホットスポットの設定、活動内容、滞在時間、技術、教育、タスキング、実施追跡、効果検証までを現場運用へ落とすための実装ガイドです。",
+    "commentary_slug": "hotspots-guidance",
+    "original_url": "https://www.college.police.uk/guidance/hot-spots-policing",
+    "translation_id": null
+  },
+  {
     "id": "toolkit-hot-spots",
     "source_id": "crime-reduction-toolkit",
     "intervention_id": "hot-spots-policing",
-    "title_ja": "Crime Reduction Toolkit｜ホットスポット・パトロール",
-    "summary_ja": "Effect、エビデンスの質、作用の仕組み、効果が変わる条件、実装、コストなどを確認します。",
+    "title_ja": "Crime Reduction Toolkit",
+    "question_ja": "この対策は効くのか",
+    "summary_ja": "ホットスポット・ポリシングには、犯罪・秩序違反を減少させる効果を支持する強い研究基盤があります。効果だけでなく、なぜ効くのか、どこで効きやすいか、実装上の問題、費用までをEMMIEで整理した資料です。",
     "commentary_slug": "toolkit-hot-spots",
     "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
     "translation_id": null
@@ -13,10 +25,22 @@
     "id": "campbell-hot-spots",
     "source_id": "campbell-collaboration",
     "intervention_id": "hot-spots-policing",
-    "title_ja": "Campbell Collaboration｜ホットスポット・ポリシングのシステマティックレビュー",
-    "summary_ja": "複数の実証研究を統合したレビューから、犯罪への全体的な影響と犯罪転移・便益の拡散を確認します。",
+    "title_ja": "Campbell Systematic Review",
+    "question_ja": "多数の研究をまとめると何が分かるか",
+    "summary_ja": "65研究・78介入を統合した主要レビュー。ホットスポットへの警察活動の重点化は、平均すると犯罪を減らす方向に働きます。ただし平均的な効果は小さく、犯罪類型・介入内容・研究方法によって結果に差があります。",
     "commentary_slug": "campbell-hot-spots",
-    "original_url": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
+    "original_url": "https://doi.org/10.1002/cl2.1046",
+    "translation_id": null
+  },
+  {
+    "id": "matrix-hot-spots",
+    "source_id": "ebp-matrix",
+    "intervention_id": "hot-spots-policing",
+    "title_ja": "Evidence-Based Policing Matrix",
+    "question_ja": "自分たちがやろうとしている警察活動に近い研究はどこにあるか",
+    "summary_ja": "警察介入研究を「対象」「予防性」「問題への焦点」の3軸で整理する研究地図。同じ微小地点（Micro places）を対象にしていても、実際の介入内容によって結果が異なることを、個別研究から確認できます。",
+    "commentary_slug": "matrix-hot-spots",
+    "original_url": "https://cebcp.org/evidence-based-policing/the-matrix/",
     "translation_id": null
   }
 ]

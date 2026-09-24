@@ -1,17 +1,56 @@
 [
   {
-    "id": "philadelphia-foot-patrol-2011",
-    "title_ja": "フィラデルフィア・フットパトロール実験",
-    "title_en": "The Philadelphia Foot Patrol Experiment",
-    "source_id": "ebp-matrix",
+    "id": "crime-hotspots-mobile-app",
+    "title_ja": "Crime hot spots mobile phone app",
+    "title_en": "Crime hot spots mobile phone app",
+    "source_id": "college-practice-bank",
     "problem_ids": [],
     "intervention_ids": [
       "hot-spots-policing"
     ],
     "theory_labels": [],
-    "summary_ja": "米国フィラデルフィアの暴力犯罪ホットスポットで、徒歩パトロールを用いたランダム化比較試験。",
-    "result_ja": "介入期間中、対象ホットスポットでは比較地点より暴力犯罪が少なくなったと報告されています。",
-    "commentary_slug": "philadelphia-foot-patrol-2011",
-    "original_url": "https://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-ratcliffe-et-al-2011/"
+    "provider_ja": "Thames Valley Police",
+    "stage_ja": "独立評価済み（Independently evaluated）",
+    "question_ja": "",
+    "summary_ja": "暴力ホットスポットへ警察官を誘導し、滞在時間や活動内容まで記録するアプリ。対象設定（Targeting）・指示・割当（Tasking）・実施状況の追跡（Tracking）を日常業務へ組み込み、その実装効果と犯罪効果をRCTで分けて検証した事例です。",
+    "result_ja": "",
+    "commentary_slug": "crime-hotspots-mobile-app",
+    "original_url": "https://www.college.police.uk/support-forces/practices/crime-hot-spots-mobile-phone-app"
+  },
+  {
+    "id": "turning-point-street-outreach",
+    "title_ja": "Turning Point – the street outreach service",
+    "title_en": "Turning Point – the street outreach service",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "hot-spots-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Leicestershire Police × Turning Point",
+    "stage_ja": "独立評価済み（Independently evaluated）",
+    "question_ja": "",
+    "summary_ja": "暴力ホットスポットに警察官ではなく街頭アウトリーチのユースワーカー（街頭アウトリーチ（street outreach） youth workers）を配置。場所への重点化を、若者への接触・支援・紹介へ応用し、準実験で犯罪・harmを評価した事例です。",
+    "result_ja": "",
+    "commentary_slug": "turning-point-street-outreach",
+    "original_url": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service"
+  },
+  {
+    "id": "operation-safer-streets",
+    "title_ja": "Operation Safer Streets",
+    "title_en": "Operation Safer Streets",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "hot-spots-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Greater Manchester Police",
+    "stage_ja": "未検証（Untested）",
+    "question_ja": "",
+    "summary_ja": "Manchesterの夜間繁華街で、hot spot分析、POP、警察活動、保護・安全確保（safeguarding）、環境分析、官民連携を組み合わせた最新事例。犯罪減少は報告されていますが、因果効果はまだ独立検証されていません。",
+    "result_ja": "",
+    "commentary_slug": "operation-safer-streets",
+    "original_url": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte"
   }
 ]
