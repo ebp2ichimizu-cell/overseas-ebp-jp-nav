@@ -3,7 +3,7 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Bicycle Theft – POP Center
+# 自転車盗｜POP Center
 
 ### 最初に結論
 
@@ -25,7 +25,7 @@ source: supplied-content-master
 
 POP Centerのガイドが最も強調しているのは、
 
-「地域の問題を分析してから対策（Response）を選ぶ」
+「地域の問題を分析してから対策（対策）を選ぶ」
 
 という順序です。
 
@@ -34,15 +34,15 @@ POP Centerのガイドが最も強調しているのは、
 だからこそ、このガイドは
 「この対策なら何％減る」という固定的な答えを探すより、
 問題を場所・手口・犯人・盗品市場・施錠・駐輪環境へ分解し、
-地域に合う対策（Response）と評価項目を組み立てる資料として使います。
+地域に合う対策（対策）と評価項目を組み立てる資料として使います。
 
 ## 1．最初に「何を盗まれたか」を分ける
 
 ガイドは自転車盗を、
 
-① 自転車そのものの盗難（theft of bicycles）
+① 自転車そのものの盗難（自転車そのものの盗難）
 
-② 自転車からの部品盗（theft from bicycles）
+② 自転車からの部品盗（自転車からの部品盗）
 
 に分けています。
 
@@ -50,7 +50,7 @@ POP Centerのガイドが最も強調しているのは、
 ライト、サドル、車輪などが含まれます。
 
 この区別が必要なのは、
-有効な対策（Response）が変わるからです。
+有効な対策（対策）が変わるからです。
 
 例えば、
 
@@ -119,7 +119,7 @@ POP Centerのガイドが最も強調しているのは、
 
 では、犯行機会が違います。
 
-## 4．反復被害（repeat victimisation）を見る
+## 4．反復被害（反復被害）を見る
 
 ガイドは、
 自転車盗でも一部の被害者が複数回被害に遭う可能性を指摘しています。
@@ -145,7 +145,7 @@ POP Centerのガイドが最も強調しているのは、
 
 ガイドは犯行動機を大きく、
 
-- 移動・娯楽目的（joyride）
+- 移動・娯楽目的（乗り回し目的の盗み）
 - 現金や薬物等を得るための換金目的
 - 特定車種を狙う注文型
 
@@ -155,9 +155,9 @@ POP Centerのガイドが最も強調しているのは、
 
 盗難後すぐ近くで放置される地域と、
 高額車がオンラインで転売される地域では、
-対策（Response）を変える必要があります。
+対策（対策）を変える必要があります。
 
-確認したい項目：
+**確認したい項目：**
 
 - 回収率
 - 回収場所
@@ -173,22 +173,22 @@ POP Centerのガイドが最も強調しているのは、
 CRAVEDは、
 盗まれやすい対象の特徴を整理する枠組みです。
 
-Concealable
+隠しやすい（Concealable）
 隠しやすい
 
-Removable
+持ち去りやすい（Removable）
 持ち去りやすい
 
-Available
+入手しやすい（Available）
 入手機会が多い
 
-Valuable
+価値がある（Valuable）
 価値がある
 
-Enjoyable
+楽しめる（Enjoyable）
 利用価値・魅力がある
 
-Disposable
+換金しやすい（Disposable）
 換金・処分しやすい
 
 自転車は、
@@ -202,20 +202,20 @@ Disposable
 どの要素が強いかを考えます。
 
 例えば高額スポーツ自転車なら、
-ValuableとDisposableが重要かもしれません。
+価値がある（Valuable）と換金しやすい（Disposable）が重要かもしれません。
 
 駅前の無施錠自転車なら、
-AvailableとRemovableが重要かもしれません。
+入手しやすい（Available）と持ち去りやすい（Removable）が重要かもしれません。
 
 ## 7．「駐輪」を5つに分けて観察する
 
 POP Centerは駐輪状況を、
 
-- 鍵の種類（lock type）
-- 施錠方法（施錠方法（locking practice））
-- 非正規・無秩序な駐輪（flyparking）
-- 駐輪設備（parking furniture）
-- 駐輪環境（parking environment）
+- 鍵の種類（鍵の種類）
+- 施錠方法（施錠方法（施錠方法））
+- 非正規・無秩序な駐輪（非正規・無秩序な駐輪）
+- 駐輪設備（駐輪設備）
+- 駐輪環境（駐輪環境）
 
 に分けています。
 
@@ -236,12 +236,12 @@ POP Centerは駐輪状況を、
 
 などでは盗難機会が残ります。
 
-### 非正規・無秩序な駐輪（flyparking）
+### 非正規・無秩序な駐輪（非正規・無秩序な駐輪）
 
 柵、標識、街灯、樹木など、
 本来駐輪用ではない物に固定すること。
 
-flyparkingが多い場合、
+非正規・無秩序な駐輪が多い場合、
 
 「利用者の意識が低い」
 
@@ -290,47 +290,47 @@ flyparkingが多い場合、
 
 も合わせて分析します。
 
-## 9．対策（Response）は4系統
+## 9．対策（対策）は4系統
 
-ガイドの対策（Response）は大きく次の4系統です。
+ガイドの対策（対策）は大きく次の4系統です。
 
-① 鍵と施錠方法（Locks and 施錠方法（locking practice）s）
+① 鍵と施錠方法（Locks and 施錠方法（施錠方法）s）
 
-例：
+**例：**
 - 適切な鍵の普及
 - 安全な施錠方法の提示
 - 駐輪場所での具体的情報提示
 
-② 駐輪施設・駐輪環境（Parking facilities）
+② 駐輪施設・駐輪環境（駐輪施設・駐輪環境）
 
-例：
-- flyparking対策
+**例：**
+- 非正規・無秩序な駐輪対策
 - ラック形状改善
 - 自然監視
 - 人的監視
 - 維持管理
 
-③ 登録と盗難自転車の回収（Registration and recovery）
+③ 登録と盗難自転車の回収（登録と盗難自転車の回収）
 
-例：
+**例：**
 - 車体番号記録
 - 登録
 - マーキング
 - 電子タグ
 - 回収自転車と所有者の照合
 
-④ 犯人の発見・検挙（Offender detection）
+④ 犯人の発見・検挙（犯人の発見・検挙）
 
-例：
-- おとり自転車（bait bike）
+**例：**
+- おとり自転車（おとり自転車）
 - 追跡装置
 - 常習犯情報
 - 盗品市場の把握
 
-## 10．1つの対策（Response）だけで終わらせない
+## 10．1つの対策（対策）だけで終わらせない
 
 POP Centerは、
-多くの場合、複数の対策（Response）を組み合わせる必要があるとしています。
+多くの場合、複数の対策（対策）を組み合わせる必要があるとしています。
 
 また、
 取締りだけでは問題解決になりにくいとも指摘しています。
@@ -359,31 +359,27 @@ POP Centerは、
 
 最低限、次を分けて測ります。
 
-### 犯罪発生そのものの指標（Crime outcome）
-
+### 犯罪発生そのものの指標（犯罪アウトカム）
 - 自転車盗件数
 - 部品盗件数
 - 被害率
 
-### 中間指標（Intermediate outcome）
-
+### 中間指標（中間アウトカム）
 - 良好な施錠率
 - 無施錠率
-- flyparking率
+- 非正規・無秩序な駐輪率
 - 登録率
 - 車体番号記録率
 
-### 実装指標（Implementation outcome）
-
+### 実装指標（実装アウトカム）
 - 登録件数
 - マーキング件数
 - 駐輪設備改善数
 - 広報到達数
 - 照会回数
-- おとり自転車（bait bike）稼働回数
+- おとり自転車（おとり自転車）稼働回数
 
 ### 副作用
-
 - 周辺駐輪場への犯罪転位
 - 部品盗への変化
 - 利用者が別の不便な場所へ移動すること
@@ -392,11 +388,11 @@ POP Centerは、
 
 1．「自転車盗」を一つの問題として扱わない。
 
-2．場所・手口・犯人目的・盗品市場まで分析してから対策（Response）を選ぶ。
+2．場所・手口・犯人目的・盗品市場まで分析してから対策（対策）を選ぶ。
 
 3．鍵だけでなく、駐輪設備・登録・回収・犯人対策も選択肢に入れる。
 
-4．flyparkingは「マナー」の問題ではなく、駐輪設備不足のシグナルかもしれない。
+4．非正規・無秩序な駐輪は「マナー」の問題ではなく、駐輪設備不足のシグナルかもしれない。
 
 5．犯罪件数、中間指標、実装指標を分けて評価する。
 
@@ -404,41 +400,41 @@ POP Centerは、
 
 ## 原著・資料を確認する
 
-原題：
-Bicycle Theft
+**原題：**
+自転車盗
 
-著者：
+**著者：**
 Shane D. Johnson
 Aiden Sidebottom
 Adam Thorpe
 
-年：
+**年：**
 2008
 
-提供：
+**提供：**
 Center for Problem-Oriented Policing
 Arizona State University
 
-公式ページ：
+**公式ページ：**
 [https://popcenter.asu.edu/content/bicycle-theft-0](https://popcenter.asu.edu/content/bicycle-theft-0)
 
-Summary of 対策（Response）s：
+**Summary of 対策（対策）s：**
 [https://popcenter.asu.edu/content/bicycle-theft-summary](https://popcenter.asu.edu/content/bicycle-theft-summary)
 
-PDF：
+**PDF：**
 [https://popcenter.asu.edu/sites/g/files/litvpz3631/files/sites/default/files/problems/pdfs/bicycle_theft.pdf](https://popcenter.asu.edu/sites/g/files/litvpz3631/files/sites/default/files/problems/pdfs/bicycle_theft.pdf)
 
-全文翻訳：
+**全文翻訳：**
 当面保留
 
-権利：
+**権利：**
 翻訳・改変の条件は別途確認。
 β版では独自日本語解説＋原文リンクとする。
 
-関連：
+**関連：**
 POP / SARA
 Routine Activity Theory
-Situational Crime Prevention
+状況的犯罪予防
 Risky Facilities
 Repeat Victimisation
 Stolen Goods Markets

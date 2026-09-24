@@ -18,9 +18,9 @@ College of Policingのガイダンスでは、
 - 証拠収集
 - 被害者対応
 - 類似事件分析
-- 再被害（repeat victimisation）対策
-- 周辺住宅への重点防犯（cocooning）
-- 犯人活動の妨害・抑止（offender disruption）
+- 再被害対策
+- 周辺住宅への重点防犯（周辺住宅への重点防犯）
+- 犯人活動の妨害・抑止（犯人活動の妨害・抑止）
 
 を一つの実務フローとして扱っています。
 
@@ -53,10 +53,10 @@ College of Policingのガイダンスでは、
 
 Collegeのガイダンスは、
 被害住宅の近隣へも防犯助言を届ける
-周辺住宅への重点防犯（cocooning）を紹介しています。
+周辺住宅への重点防犯（周辺住宅への重点防犯）を紹介しています。
 
 背景には、
-再被害・近接再被害（repeat / near-repeat） victimisationがあります。
+再被害・近接再被害（再被害・近接再被害があります。
 
 つまり、
 すでに被害が起きた場所は、
@@ -64,31 +64,31 @@ Collegeのガイダンスは、
 であるだけではありません。
 
 次の被害が起きる可能性を分析するための
-risk informationでもあります。
+リスク informationでもあります。
 
 ## 3．400m・6週間をどう使うか
 
-Neighbourhood Crime guidanceでは、
+近隣犯罪ガイダンスでは、
 研究知見として、
 
 被害住宅から400m以内
 かつ
 その後約6週間
 
-に近接再被害（near-repeat） riskが高まる可能性を紹介しています。
+に近接再被害 リスクが高まる可能性を紹介しています。
 
 ### サイトによる独自解説
 
 この数字は、
-全国共通の周辺住宅への重点防犯（cocooning）範囲を指定する規則ではありません。
+全国共通の周辺住宅への重点防犯（周辺住宅への重点防犯）範囲を指定する規則ではありません。
 
 住宅形態、
 道路、
 人口密度、
-offender movement、
+犯人の移動、
 地域の均質性
 
-によってrisk patternは変わります。
+によってリスク patternは変わります。
 
 したがって実務では、
 
@@ -124,12 +124,12 @@ crime prevention
 - 窓
 - 照明
 - alarm
-- 所有物マーキング（property marking）
-- 周辺住宅への重点防犯（cocooning）
+- 所有物マーキング（所有物マーキング）
+- 周辺への周辺住宅への重点防犯（周辺住宅への重点防犯）
 
 等を確認できます。
 
-## 5．分析から犯人活動の妨害・抑止（offender disruption）へ
+## 5．分析から犯人活動の妨害・抑止（犯人活動の妨害・抑止）へ
 
 ガイダンスでは、
 類似事件やMOを分析し、
@@ -167,17 +167,17 @@ offender
 同じ場所・住宅タイプ・被害パターンが続く場合は、
 SARA等を使って問題解決（problem-solving）へ移します。
 
-Scanning：
+**Scanning：**
 どの住宅・地域・時間に集中しているか
 
-Analysis：
+**分析：**
 なぜその住宅群が狙われるか
 
-対策：
-物理的防犯強化（target hardening）、周辺住宅への重点防犯（cocooning）、パトロール、犯人活動の妨害・抑止（offender disruption）等
+**対策：**
+物理的防犯強化（物理的防犯強化）、周辺住宅への重点防犯（周辺住宅への重点防犯）、パトロール、犯人活動の妨害・抑止（犯人活動の妨害・抑止）等
 
-Assessment：
-反復する住宅侵入窃盗（repeat burglary）、近接再被害（near-repeat）、実装を確認
+**Assessment：**
+反復する住宅対象侵入窃盗、近接再被害、実装を確認
 
 ## 7．このガイダンスをどう使うか
 
@@ -201,17 +201,17 @@ Assessment：
 
 ## 8．実務で持ち帰ること
 
-## 1．被害発生時点から再被害リスクを確認する。
+1．被害発生時点から再被害リスクを確認する。
 
-## 2．被害住宅だけでなく近隣住宅も次のTargetとして見る。
+2．被害住宅だけでなく近隣住宅も次のTargetとして見る。
 
-## 3．MO・時間・場所・住宅特性を統合する。
+3．MO・時間・場所・住宅特性を統合する。
 
-## 4．被害者支援と防犯を接続する。
+4．被害者支援と防犯を接続する。
 
-## 5．offender、target、placeを同時に分析する。
+5．犯人、target、placeを同時に分析する。
 
-## 6．反復が見える場合は問題解決（problem-solving）へ移る。
+6．反復が見える場合は問題解決（problem-solving）へ移る。
 
 ## 原著・資料を確認する
 
@@ -222,13 +222,13 @@ Residential burglary
 Further investigation
 [https://www.college.police.uk/guidance/residential-burglary/further-investigation](https://www.college.police.uk/guidance/residential-burglary/further-investigation)
 
-Crime reduction initiatives
+犯罪減少の取組（Crime reduction initiatives）
 [https://www.college.police.uk/guidance/residential-burglary/crime-reduction-initiatives](https://www.college.police.uk/guidance/residential-burglary/crime-reduction-initiatives)
 
 Neighbourhood crime
 Interventions for situational crime prevention
 [https://www.college.police.uk/guidance/neighbourhood-crime/interventions-situational-crime-prevention](https://www.college.police.uk/guidance/neighbourhood-crime/interventions-situational-crime-prevention)
 
-翻訳：
+**翻訳：**
 当面保留。
 β版は独自解説＋原文リンク。

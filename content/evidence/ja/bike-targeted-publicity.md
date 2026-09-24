@@ -46,11 +46,11 @@ source: supplied-content-master
 
 と考えました。
 
-## 2．London Study
+## 2．ロンドン研究
 
 Central Londonの5つの駐輪場所で実施。
 
-介入前：
+**介入前：**
 各地点の施錠方法を観察。
 
 施錠方法を、
@@ -77,8 +77,8 @@ Central Londonの5つの駐輪場所で実施。
 
 介入地点では、
 
-- 不適切な施錠（bad locking） practicesが減少
-- 適切な施錠（good locking） practicesが増加
+- 不適切な施錠方法が減少
+- 適切な施錠方法が増加
 
 しました。
 
@@ -104,8 +104,8 @@ Central Londonの5つの駐輪場所で実施。
 
 ## 4．Brightonで再検証
 
-Study 2はBrightonで実施され、
-London Studyの再検証（replication）として位置づけられています。
+研究2はBrightonで実施され、
+ロンドン研究の再検証（再現研究）として位置づけられています。
 
 結果は、
 Londonと同様の方向の施錠行動改善を示しました。
@@ -155,20 +155,20 @@ Londonと同様の方向の施錠行動改善を示しました。
 ## 7．関連研究｜Sas et al.
 
 ベルギーの大学周辺で、
-2種類のnudgeを用いた研究。
+2種類のナッジを用いた研究。
 
-観察：
+**観察：**
 n=3,963
 
-質問紙：
+**質問紙：**
 n=197
 
 第1介入では、
 安全な施錠を図示するステッカー等により、
-介入地点で適切な施錠（good locking）が増加しました。
+介入地点で適切な施錠（適切な施錠）が増加しました。
 
 研究本文では、
-第1介入後に介入地点で適切な施錠（good locking）が10.2ポイント増加し、
+第1介入後に介入地点で適切な施錠（適切な施錠）が10.2ポイント増加し、
 統計的に有意な変化が報告されています。
 
 第2介入では、
@@ -181,12 +181,12 @@ n=197
 とは限りません。
 
 また、
-この研究も盗難件数ではなく施錠行動が主要評価指標・結果（Outcome）です。
+この研究も盗難件数ではなく施錠行動が主要評価指標・結果（アウトカム）です。
 
 ## 8．被害者側だけに責任を寄せない
 
 Sasらは、
-nudgeが低コストで使いやすい一方、
+ナッジが低コストで使いやすい一方、
 
 「被害防止の責任を利用者側へ過度に負わせる」
 
@@ -211,8 +211,8 @@ nudgeが低コストで使いやすい一方、
 
 介入前後で、
 
-- 適切な施錠（good locking）率
-- poor locking率
+- 適切な施錠（適切な施錠）率
+- 不適切な施錠率
 - 無施錠率
 - 利用台数
 - 対象地点の盗難件数
@@ -235,7 +235,7 @@ nudgeが低コストで使いやすい一方、
 
 5．比較地点を置くと評価が大きく改善する。
 
-6．利用者だけに責任を寄せず、環境・犯人・市場への対策（Response）も検討する。
+6．利用者だけに責任を寄せず、環境・犯人・市場への対策（対策）も検討する。
 
 <!-- STATS_DETAIL_START -->
 
@@ -245,38 +245,38 @@ nudgeが低コストで使いやすい一方、
 
 ### 研究構成
 
-Study 1：
+**研究1：**
 Central London
 
-対象地点：
+**対象地点：**
 5つの駐輪場所
 
-介入地点：
+**介入地点：**
 4地点
 
-比較地点：
+**比較地点：**
 1地点
 
-Study 2：
-Brightonで再検証（replication）
+**研究2：**
+Brightonで再検証（再現研究）
 
 ### 主要アウトカム
 
 盗難件数ではなく、
-施錠行動（locking practice）
+施錠行動（施錠方法）
 
-分類：
+**分類：**
 bad / OK / good
 
 ### 主要結果
 
-Study 1：
-介入地点でbad lockingが統計的に有意に減少し、
+**研究1：**
+介入地点で不適切な施錠が統計的に有意に減少し、
 good / OK lockingが増加。
 
 比較地点では同様の変化なし。
 
-Study 2：
+**研究2：**
 同様の方向の結果を再確認。
 
 ### 分析対象数・推定値・p値
@@ -284,37 +284,36 @@ Study 2：
 公開要約からは、
 各観察波の自転車台数、個別効果量、正確なp値を確認できない。
 
-## 原著・資料を確認する
-
+これらは第3階層の原著本文で確認し、
 サイト実装時に原著の表と対応させて補完する。
 
 推測で数値を追加しない。
 
 ### 関連研究｜Sas et al.
 
-観察：
+**観察：**
 n = 3,963
 
-質問紙：
+**質問紙：**
 n = 197
 
-baseline：
-control / interventionとも概ね
+**介入前：**
+比較群／介入群とも概ね
 poor 30％
 acceptable 30％
 good 40％
 
-第1介入後の介入地点：
-poor locking 6.4ポイント減
-acceptable locking 3.8ポイント減
-good locking 10.2ポイント増
+**第1介入後の介入地点：**
+不適切な施錠 6.4ポイント減
+許容できる施錠 3.8ポイント減
+適切な施錠 10.2ポイント増
 
 ### この数字をどう読むか
 
 ここで直接確認しているのは、
 「施錠行動が変わったか」です。
 
-犯罪件数への効果は別Outcomeです。
+犯罪件数への効果は別アウトカムです。
 
 したがって、
 行動変化を確認した後、
@@ -322,39 +321,39 @@ good locking 10.2ポイント増
 
 ### 原著でさらに確認する
 
-[原著・資料を開く](https://journals.sagepub.com/doi/10.1177/1477370809102168)
+→ 第3階層のSidebottom et al. (2009)およびSas et al.へ
 
 <!-- STATS_DETAIL_END -->
 
 ## 原著・資料を確認する
 
-原題：
+**原題：**
 Using Targeted Publicity to Reduce Opportunities for Bicycle Theft:
 A Demonstration and Replication
 
-著者：
+**著者：**
 Aiden Sidebottom
 Adam Thorpe
 Shane D. Johnson
 
-年：
+**年：**
 2009
 
-掲載誌：
+**掲載誌：**
 European Journal of Criminology
 6(3), 267–286
 
-DOI：
+**DOI：**
 10.1177/1477370809102168
 
-公式ページ：
+**公式ページ：**
 [https://journals.sagepub.com/doi/10.1177/1477370809102168](https://journals.sagepub.com/doi/10.1177/1477370809102168)
 
-関連資料：
-POP Center Bicycle Theft – 対策（Response） 1
+**関連資料：**
+POP Center 自転車盗 – 対策（対策） 1
 [https://popcenter.asu.edu/content/bicycle-theft-page-3](https://popcenter.asu.edu/content/bicycle-theft-page-3)
 
-関連研究：
+**関連研究：**
 Sas M, Ponnet K, Reniers G, Hardyns W.
 Nudging as a crime prevention strategy
 DOI:
@@ -363,9 +362,9 @@ DOI:
 Open full text:
 [https://pmc.ncbi.nlm.nih.gov/articles/PMC7905972/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7905972/)
 
-全文翻訳：
+**全文翻訳：**
 当面保留
 
-権利：
+**権利：**
 Sidebottom et al.：要許諾扱い
 Sas et al.：全文翻訳は当面保留

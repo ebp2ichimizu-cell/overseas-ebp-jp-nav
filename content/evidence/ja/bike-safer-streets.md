@@ -3,7 +3,7 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Safer Streets Fund – Crime prevention toolkit
+# Safer Streets Fund｜犯罪予防ツールキット
 
 ### 最初に結論
 
@@ -14,7 +14,7 @@ source: supplied-content-master
 という点です。
 
 また、
-Toolkitの評価ラベルがStrongでも、
+Toolkitの評価ラベルが「強い（Strong）」でも、
 その根拠の中心が住宅侵入窃盗研究である場合があります。
 
 したがって、
@@ -29,9 +29,9 @@ Toolkitの評価ラベルがStrongでも、
 
 ## 1．このToolkitの位置づけ
 
-Safer Streets Fund – Crime prevention toolkitは、
-England and Walesの地域で、
-取得犯罪等に対する状況的犯罪予防（Situational Crime Prevention）の施策選択を支援するための資料です。
+Safer Streets Fund – Crime Prevention Toolkitは、
+イングランド・ウェールズの地域で、
+取得犯罪等に対する状況的犯罪予防（状況的犯罪予防）の施策選択を支援するための資料です。
 
 SARA等による問題解決を前提に、
 
@@ -44,19 +44,18 @@ SARA等による問題解決を前提に、
 
 を整理しています。
 
-自転車盗も対象となるacquisitive crimeの一つです。
+自転車盗も対象となる財産獲得目的の犯罪の一つです。
 
 ## 2．自転車駐輪対策
+Moped, scooter, motorcycle and 自転車駐輪対策（自転車駐輪対策）
 
-## Moped, scooter, motorcycle and 自転車駐輪対策（cycle parking）
+### エビデンスの質（エビデンスの質）
 
-### エビデンスの質（Evidence quality）
+限定的（限定的）
 
-限定的（Limited）
-
-根拠：
+**根拠：**
 厳密な比較研究ではなく、主として事例研究に基づく
-（case studies only）
+（事例研究のみ）
 
 ### どんな介入か
 
@@ -65,7 +64,7 @@ SARA等による問題解決を前提に、
 
 ① 駐輪施設自体の安全性を高める
 
-例：
+**例：**
 - 自然監視を高める
 - 人通りを増やす
 - 施設や事業者配置を工夫する
@@ -73,23 +72,23 @@ SARA等による問題解決を前提に、
 
 ② 利用者の施錠方法を改善する
 
-例：
+**例：**
 - 推奨される鍵を知らせる
 - フレームと車輪を固定物へ施錠する方法を知らせる
 
 ### どう働くか
 
-犯人にとって発見・検挙リスクを高める（Increasing the risk）
+犯人にとって発見・検挙リスクを高める
 犯人から見た発見・検挙リスクを高める。
 
-犯行に必要な労力を増やす（Increasing the effort）
+犯行に必要な労力を増やす
 盗むために必要な労力を増やす。
 
 ### 重要
 
 Toolkit自身が、
 成功事例はあるものの、
-自転車駐輪対策については体系的評価（systematic evaluation）がまだ少ないとしています。
+自転車駐輪対策については体系的評価（体系的評価）がまだ少ないとしています。
 
 実務では、これを「使えない」と読むのではなく、
 有望な対策を導入する際に、
@@ -104,11 +103,11 @@ Toolkit自身が、
 つまり、既存の事例を出発点に、地域での評価を加えることで、
 「どの駐輪環境が、どの問題に有効か」を具体化していけます。
 
-## 3．防犯助言（Crime prevention advice）
+## 3．防犯助言（防犯助言）
 
 Toolkit全体では、
-防犯助言（crime prevention advice）は
-犯罪減少に対する肯定的効果を示す中程度のエビデンス（Moderate evidence of a positive crime reduction impact）
+防犯助言（防犯助言）は
+犯罪減少に対する肯定的効果を示す中程度のエビデンス（犯罪減少に対する肯定的効果を示す中程度のエビデンス）
 と整理されています。
 
 自転車盗については、
@@ -124,7 +123,7 @@ Toolkit全体では、
 前年同期比19％の自転車盗減少が報告されました。
 
 ただし、
-これは複数施策を含むinitiativeの一部であり、
+これは複数施策を含む取組の一部であり、
 カードだけの因果効果とは言えません。
 
 ### Central London
@@ -135,8 +134,8 @@ Sidebottomらの研究では、
 結果は、
 盗難件数ではなく、
 
-- 不適切な施錠（bad locking）の減少
-- 適切な施錠（good locking）の増加
+- 不適切な施錠（不適切な施錠）の減少
+- 適切な施錠（適切な施錠）の増加
 
 という施錠行動の改善です。
 
@@ -152,20 +151,20 @@ Sidebottomらの研究では、
 を具体的に伝える方が、
 行動変容という中間アウトカムを測りやすくなります。
 
-## 4．財産マーキング（Property marking）
+## 4．財産マーキング（財産マーキング）
 
 Toolkitでは、
-財産マーキング（property marking）自体は
-強いエビデンス（Strong evidence）
+財産マーキング（財産マーキング）自体は
+強いエビデンス（強いエビデンス）
 とされています。
 
 対象犯罪の欄には、
-burglaryとcycle theftが含まれています。
+住宅侵入窃盗と自転車盗が含まれています。
 
 ここは、評価を一段分けて読むと実務に使いやすくなります。
 
-Toolkitで「強い（Strong）」評価を支える研究として詳しく紹介されているのは、
-主として住宅侵入窃盗に対する財産マーキング（property marking）です。
+Toolkitで「強い（Strong）」という評価を支える研究として詳しく紹介されているのは、
+主として住宅侵入窃盗に対する財産マーキング（財産マーキング）です。
 
 そのため自転車では、同じラベルをそのまま減少効果へ置き換えるのではなく、
 マーキングがどの経路で役立つかを分けて測ります。
@@ -185,26 +184,26 @@ Toolkitで「強い（Strong）」評価を支える研究として詳しく紹�
 マーキング・登録では、
 少なくとも次の3つを分けます。
 
-① 予防（Prevention）
+① 予防（予防）
 盗難そのものが減ったか。
 
-② 発見・情報活用（Detection / intelligence）
+② 発見・情報活用（発見・情報活用）
 盗難車・犯人・関連犯罪を発見しやすくなったか。
 
-③ 回収・返還（Recovery）
+③ 回収・返還（回収・返還）
 回収車を所有者へ返還できる割合が上がったか。
 
 登録件数が増えただけなら、
-実装指標（Implementation outcome）です。
+実装指標（実装アウトカム）です。
 
-返還率が上がれば、回収・返還の指標（Recovery outcome）です。
+返還率が上がれば、回収・返還の指標（回収・返還のアウトカム）です。
 
 盗難件数が減って初めて、
-犯罪発生そのものの指標（Crime outcome）です。
+犯罪発生そのものの指標（犯罪アウトカム）です。
 
 ## 6．対策選択前の質問
 
-Toolkitの自転車駐輪対策（cycle parking）項目では、
+Toolkitの自転車駐輪対策項目では、
 実装前に少なくとも、
 
 - 自転車盗の規模はどの程度か
@@ -221,54 +220,54 @@ Toolkitの自転車駐輪対策（cycle parking）項目では、
 ## 7．Toolkitを地域の判断につなげる
 
 このToolkitは、
-二重ロック、駐輪ラック、登録、おとり自転車（bait bike）について、
+二重ロック、駐輪ラック、登録、おとり自転車（おとり自転車）について、
 一律の減少率を与える資料ではありません。
 
-その代わり、対策ごとに「どのメカニズムを狙うか」「どのOutcomeを測るか」を整理できます。
+その代わり、対策ごとに「どのメカニズムを狙うか」「どのアウトカムを測るか」を整理できます。
 
 地域では、犯罪件数だけでなく、施錠行動、登録、回収、照会、実装量を分けて測ることで、
-どこまで変化したかを次のResponse選択へつなげます。
+どこまで変化したかを次の対策選択へつなげます。
 
 ## 8．実務で持ち帰ること
 
 1．自転車盗対策は、介入ごとに根拠の強さが違う。
 
-2．安全な駐輪施設・施錠改善は有望だが、cycle-specificな評価研究はLimited。
+2．安全な駐輪施設・施錠改善は有望だが、自転車盗に特化したな評価研究は限定的。
 
-3．防犯助言（crime prevention advice）は施錠行動を変える研究がある。
+3．防犯助言（防犯助言）は施錠行動を変える研究がある。
 
-4．財産マーキング（property marking）のStrong評価を、そのまま「自転車盗への強いエビデンス（Strong evidence）」と読み替えない。
+4．財産マーキング（財産マーキング）のStrong評価を、そのまま「自転車盗への強いエビデンス（強いエビデンス）」と読み替えない。
 
 5．登録・マーキングでは、盗難減少、検挙・情報、返還を別々に測る。
 
-6．対策（Response）を選ぶ前に、手口・場所・犯人MOを分析する。
+6．対策（対策）を選ぶ前に、手口・場所・犯人MOを分析する。
 
 ## 原著・資料を確認する
 
-原題：
-Safer Streets Fund – Crime prevention toolkit 2022
+**原題：**
+Safer Streets Fund – Crime Prevention Toolkit 2022
 
-提供：
-College of Policing / Home Office
+**提供：**
+College of Policing／Home Office
 
-公式ページ：
+**公式ページ：**
 [https://www.college.police.uk/research/safer-streets-fund](https://www.college.police.uk/research/safer-streets-fund)
 
-PDF：
+**PDF：**
 [https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf](https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf)
 
-関連ページ：
+**関連ページ：**
 [https://www.college.police.uk/guidance/neighbourhood-crime/interventions-situational-crime-prevention](https://www.college.police.uk/guidance/neighbourhood-crime/interventions-situational-crime-prevention)
 
-主要参照箇所：
-- Property marking
-- Crime prevention advice
-- Moped, scooter, motorcycle and 自転車駐輪対策（cycle parking）
-- Case study: Reducing Cycle Theft – TfL / MPS
+**主要参照箇所：**
+- 財産マーキング
+- 防犯助言
+- Moped, scooter, motorcycle and 自転車駐輪対策（自転車駐輪対策）
+- 事例: Reducing Cycle Theft – TfL / MPS
 
-全文翻訳：
+**全文翻訳：**
 当面保留
 
-権利：
-Non-commercial College Licence。
+**権利：**
+Collegeの非商用ライセンス。
 日本語全文翻訳は別途許諾対象として管理。

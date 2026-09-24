@@ -3,7 +3,7 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Merseyside Police – Bike intelligence tool
+# Merseyside Police｜自転車情報ツール
 
 ### 最初に結論
 
@@ -31,7 +31,7 @@ Wirralでは、
 
 ただし、
 Practice Bank掲載ページでは
-無作為化比較やmatched controlによる因果評価は示されていません。
+無作為化比較や対応させた比較群による因果評価は示されていません。
 
 したがって、
 
@@ -62,11 +62,11 @@ Merseyside Policeは、
 
 ## 2．Aim
 
-Practice Bankが示す目的：
+**Practice Bankが示す目的：**
 
-- routine bike checksを導入
+- 日常的な自転車照会を導入
 - 盗難自転車を発見
-- 特定自転車と犯罪・犯人を結びつけるintelligenceを得る
+- 特定自転車と犯罪・犯人を結びつける捜査・防犯情報を得る
 - 盗品としての魅力を下げる
 - 回収自転車を所有者へ返す
 
@@ -74,12 +74,12 @@ Practice Bankが示す目的：
 
 ### 警察官の日常業務
 
-- stop check時にBike Registerを照会
-- warrant実施時に照会
+- 職務質問等での確認時にBike Registerを照会
+- 令状執行実施時に照会
 - 警察保管自転車の受入時に照会
 - 処分前にも再照会
 - 自転車関連事件についてCrime Demand Unitが照会
-- 被害者へ登録・stolen status変更を案内
+- 被害者へ登録・盗難登録変更を案内
 
 ### 記録
 
@@ -90,7 +90,7 @@ stop searchフォームへ、
 
 - 定期イベント
 - 高犯罪地域
-- 被害後のreassurance visit
+- 被害後の安心確保のための訪問
 - 小中学校
 - 中学校進学時期
 
@@ -99,9 +99,9 @@ stop searchフォームへ、
 ### 販売店
 
 販売店を訪問・訓練し、
-購入時（購入時点（point of sale））に登録・マーキングできる体制を作る。
+購入時（購入時点（購入時点））に登録・マーキングできる体制を作る。
 
-## 4．指示するだけでなく、実施状況を追跡する（TaskingだけでなくTracking）
+## 4．指示するだけでなく、実施状況を追跡する（指示・割当だけでなく実施状況の追跡）
 
 マーキング実施時に
 Microsoft Formsへ入力。
@@ -121,7 +121,7 @@ crime data
 bike marking event data
 
 を重ね合わせ、
-月次performance meetingで検討。
+月次業績確認会議で検討。
 
 ### 実務上の意味
 
@@ -133,47 +133,47 @@ bike marking event data
 
 ## 5．費用
 
-初期pilot費用：
+**初期試行費用：**
 
 £17,449
 
-用途：
-- marking kits
-- gazebos
-- street stencils
-- signs
+**用途：**
+- マーキング用品
+- 簡易テント
+- 路面表示用型
+- 標識
 - mat等
 
-Serious Violence fundingを利用。
+重大暴力対策資金を利用。
 
 ## 6．報告された結果
 
-Wirral：
+**Wirral：**
 
 実施前12か月
 vs
 実施後12か月
 
-bike theft：
+**自転車盗：**
 45.6％減
 
 また、
-bike-related robberyも持続的に減少したと報告。
+自転車関連強盗も持続的に減少したと報告。
 
 登録住民数も増加し、
-全forceへ展開。
+全警察組織全体へ展開。
 
 ## 7．この45.6％はどう読むか
 
-正しい表現：
+**正しい表現：**
 
 「Wirralでは、導入前12か月と導入後12か月を比較して、自転車盗が45.6％減少したと報告されている。」
 
-避ける表現：
+**避ける表現：**
 
 「Bike Registerにより自転車盗を45.6％減らした。」
 
-理由：
+**理由：**
 
 同時期に、
 
@@ -203,22 +203,22 @@ Practice Bankは、
 
 対応として、
 
-- trial
-- Prevention Hubによる現場支援
-- Command Team support
-- governance
-- online training
+- 試行
+- 予防 Hubによる現場支援
+- 指揮部門の支援
+- 統括・管理体制
+- オンライン研修
 
 を使用。
 
 ## 9．自分の現場へ移すなら
 
-最低限記録：
+**最低限記録：**
 
 - 登録数
 - マーキング数
 - 照会数
-- stop check照会数
+- 職務質問等での確認照会数
 - 盗難車ヒット数
 - 回収数
 - 返還数
@@ -233,9 +233,9 @@ Practice Bankは、
 
 1．登録制度は「登録イベント」ではなく警察業務へ埋め込む。
 
-2．登録・照会・回収・返還・情報を一つのflowとして設計する。
+2．登録・照会・回収・返還・情報を一つの流れとして設計する。
 
-3．販売店や学校を入口にするとcoverageを広げられる。
+3．販売店や学校を入口にすると対象範囲を広げられる。
 
 4．ダッシュボード（dashboard）で実装状況を追う。
 
@@ -245,7 +245,7 @@ Practice Bankは、
 
 ## 統計を詳しく見る
 
-**対象：RED-01 Merseyside Bike intelligence tool**
+**対象：RED-01 Merseyside Bike 捜査・防犯情報 tool**
 
 ### 評価の種類
 
@@ -257,9 +257,9 @@ Practice Bankは、
 vs
 実施後12か月
 
-### 主要Outcome
+### 主要アウトカム
 
-Wirralのbike theft
+Wirralの自転車盗
 
 ### 報告結果
 
@@ -267,7 +267,7 @@ Wirralのbike theft
 
 ### 実装情報
 
-pilot費用：
+**試行費用：**
 £17,449
 
 Bike Registerを、
@@ -276,7 +276,7 @@ Bike Registerを、
 ### 比較群
 
 Practice Bank掲載ページでは、
-独立したmatched control等は示されていない。
+独立した対応させた比較群等は示されていない。
 
 ### 効果量・95％CI・p値
 
@@ -292,45 +292,45 @@ Practice Bank掲載ページでは報告なし。
 次の評価では、
 比較地域や段階導入を加えることで、
 
-「どのResponseがどのOutcomeに関係したか」
+「どの対策がどのアウトカムに関係したか」
 
 をさらに分けて確認できます。
 
 ### 原著でさらに確認する
 
-[原著・資料を開く](https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences)
+→ 第3階層のCollege of Policing Practice Bankへ
 
 <!-- STATS_DETAIL_END -->
 
 ## 原著・資料を確認する
 
-原題：
-Bike intelligence tool for serious acquisitive crime offences
+**原題：**
+Bike 捜査・防犯情報 tool for serious 財産獲得目的の犯罪 offences
 
-組織：
+**組織：**
 Merseyside Police
 
-提供：
+**提供：**
 College of Policing Practice Bank
 
-初回公開：
+**初回公開：**
 17 December 2024
 
-開始：
+**開始：**
 July 2023
 
-実践段階（Stage of practice）：
+**実践段階：**
 地域内で評価済み（Evaluated locally）
 
-公式ページ：
+**公式ページ：**
 [https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences](https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences)
 
-関連：
+**関連：**
 Merseyside Police award page
 [https://www.merseyside.police.uk/news/merseyside/news/2024/july/merseyside-bike-theft-prevention-project-wins-national-award/](https://www.merseyside.police.uk/news/merseyside/news/2024/july/merseyside-bike-theft-prevention-project-wins-national-award/)
 
-全文翻訳：
+**全文翻訳：**
 当面保留
 
-権利：
+**権利：**
 College of Policing。翻訳は許諾対象として管理。

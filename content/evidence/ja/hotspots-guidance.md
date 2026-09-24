@@ -3,11 +3,11 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Hot spots policing guidance
+# ホットスポット・ポリシング・ガイダンス
 
 ### このガイダンスの役割
 
-ToolkitやCampbellが主に
+ツールキットやCampbellが主に
 「効果があるか」
 を扱うのに対し、
 
@@ -17,34 +17,34 @@ ToolkitやCampbellが主に
 
 を扱います。
 
-## ホットスポットとは
+ホットスポットとは
 
 犯罪が予測可能な程度に繰り返し発生する、
 小さな地理的範囲です。
 
-例：
+**例：**
 
 - 建物
 - 1住所
 - 複数住所
-- 街路区間（street segment）
-- 複数の街路区間（street segments）
+- 街路区間（街路区間）
+- 複数の街路区間（街路区間s）
 - バス停
 
 非常に広い地区全体を
-「犯罪が多いからhot spot」
+「犯罪が多いから広い地区全体を一括りに扱う」のではなく、ホットスポットとして
 とするのではなく、
 
 警察活動を具体的に重点化できる
-微小な地理単位（micro-unit）として捉えます。
+微小な地理単位（微小な地理単位）として捉えます。
 
-## なぜ効くと考えられるか
+なぜ効くと考えられるか
 
 主な説明は、
 
 - 抑止
 - 犯罪機会の減少
-- 有効な監視・保護（capable guardianship）
+- 有効な監視・保護（有効な監視・保護）
 
 です。
 
@@ -56,7 +56,7 @@ ToolkitやCampbellが主に
 と認識すれば、
 犯罪のリスクが高く感じられるという考え方です。
 
-## 戦略1｜高可視性活動（High visibility）
+戦略1｜高可視性活動（高可視性活動）
 
 警察官の存在を見せることで、
 犯罪者が認知するリスクを高める方法です。
@@ -75,7 +75,7 @@ Koper (1995)では、
 
 それを超えると、
 追加の滞在時間に対する抑止効果が小さくなる
-限界効果の逓減（diminishing returns）
+限界効果の逓減（限界効果の逓減）
 が示唆されています。
 
 ### 注意
@@ -91,7 +91,7 @@ Koper (1995)では、
 
 などによって変わります。
 
-## 戦略2｜問題志向型警察活動（Problem-Oriented Policing）
+戦略2｜問題志向型警察活動（問題志向型警察活動）
 
 POPは、
 
@@ -102,7 +102,7 @@ POPは、
 「なぜこの場所で犯罪が繰り返されるのか」
 
 を分析し、
-その条件に応じた対策（Response）を設計します。
+その条件に応じた対策を設計します。
 
 研究では、
 POP型のホットスポット介入は、
@@ -114,15 +114,15 @@ POPには分析・調整・実施の時間が必要です。
 
 そのため、
 
-短期：
-高可視性パトロール（high-visibility patrol）
+**短期：**
+高可視性パトロール（高可視性パトロール）
 
-中長期：
-問題解決（problem-solving）
+**中長期：**
+問題解決（問題解決）
 
 を組み合わせる考え方も示されています。
 
-## 最重要：何をすべきかは完全には確定していない
+最重要：何をすべきかは完全には確定していない
 
 場所への重点化のエビデンスは比較的強い一方で、
 
@@ -132,7 +132,7 @@ POPには分析・調整・実施の時間が必要です。
 
 したがって、
 
-ホットスポット（hot spot）を設定
+ホットスポット（ホットスポット）を設定
 ↓
 15分巡回
 ↓
@@ -140,99 +140,99 @@ POPには分析・調整・実施の時間が必要です。
 
 ではありません。
 
-## 実装7段階
+実装7段階
 
-Serious violence hot spots policing guideでは、
+重大暴力に対するホットスポット・ポリシングのガイドでは、
 次の7段階で実装を整理しています。
 
-### Step 1｜事前検討（Thinking）
+### 第1段階｜事前検討
 
 地域・組織の条件に合わせて計画する。
 
-確認事項：
+**確認事項：**
 
 - 利用可能な要員
-- 対象hot spot数
+- 対象ホットスポット数
 - 現場で何をさせるか
 - 訓練時間・費用
 - IT変更
 - 現場の抵抗
 - 対象区域遵守
 
-「どこでも成功する単一のblueprintはない」
+「どこでも成功する単一の標準設計はない」
 ことが前提です。
 
-関係者（Stakeholder）を特定し、
-コミュニケーション計画（communication plan）を作り、
-事前失敗分析（pre-mortem）で失敗要因を事前に考えます。
+関係者（関係者）を特定し、
+コミュニケーション計画（コミュニケーション計画）を作り、
+事前失敗分析（事前失敗分析）で失敗要因を事前に考えます。
 
-### Step 2｜技術基盤（Technologies）
+### 第2段階｜技術基盤
 
-hot spotの特定、
-tasking、
-tracking、
-evaluationを可能にする技術を準備します。
+ホットスポットの特定、
+指示・割当、
+実施状況の追跡、
+評価を可能にする技術を準備します。
 
-例：
+**例：**
 
 - 犯罪マッピング
-- ジオフェンシング（geo-fencing）
+- ジオフェンシング（ジオフェンシング）
 - モバイルアプリ
 - GPS
-- 無線位置追跡（radio tracking）
-- ダッシュボード（dashboard）
+- 無線位置追跡（無線位置追跡）
+- ダッシュボード（ダッシュボード）
 
 技術を後から追加すると、
 導入失敗や現場の不信につながる場合があります。
 
 ガイドでは、
-force-issued mobile device上のアプリを使った追跡が、
+組織配備の携帯端末上のアプリを使った追跡が、
 実務上比較的支持されています。
 
-### Step 3｜対象設定（Targeting）
+### Step 3｜対象設定（対象設定）
 
 単に「犯罪が多そうな地区」を選びません。
 
 同じ大きさの地理単位を比較し、
-犯罪・serious violence等を順位付け（rank ordering）して、
+犯罪・重大暴力等を順位付け（順位付け）して、
 最も集中する場所を優先します。
 
-全hot spotへ同じ資源を配るのではなく、
+全ホットスポットへ同じ資源を配るのではなく、
 犯罪集中度に応じて資源を配分します。
 
 また、
-hot spotを大きく設定しすぎると
+ホットスポットを大きく設定しすぎると
 警察官の存在を地点全体で見せられなくなるため、
-micro-placeとしての大きさが重要です。
+微小地点（micro-place）としての大きさが重要です。
 
-### Step 4｜訓練（Training）
+### 第4段階｜訓練
 
 派遣前に、
-担当者がhot spots policingの考え方を理解する必要があります。
+担当者がホットスポット・ポリシングの考え方を理解する必要があります。
 
-訓練内容（Training）：
+**訓練内容（Training）：**
 
-- hot spots policingとは何か
-- hot spotとは何か
+- ホットスポット・ポリシングとは何か
+- ホットスポットとは何か
 - なぜ効くと考えられるか
 - 効果研究
 - 犯罪転位に関する研究
 - 現場での役割
 - パトロール時間の考え方
 
-特にsergeant等の現場監督者の理解が重要です。
+特にSergeant（現場監督者）等の現場監督者の理解が重要です。
 
 単発研修だけではなく、
-日常の簡易説明（briefing）やフィードバック（feedback）で繰り返す必要があります。
+日常の簡易説明（簡易説明）やフィードバック（feedback）で繰り返す必要があります。
 
-### Step 5｜指示・割当（Tasking）
+### 第5段階｜指示・割当
 
-誰がhot spotを担当するのかを決めます。
+誰がホットスポットを担当するのかを決めます。
 
 ガイドでは、
 
-- overtime model
-- dedicated resource model
+- 時間外勤務を活用する方式（overtime model）
+- 専従要員を配置する方式（dedicated resource model）
 
 等を比較しています。
 
@@ -246,28 +246,28 @@ micro-placeとしての大きさが重要です。
 ここで、
 
 POPをするのか
-high visibility patrolをするのか
+高可視性パトロール（high visibility patrol）をするのか
 
 も決めます。
 
-### Step 6｜実施状況の追跡（Tracking）
+### Step 6｜実施状況の追跡（実施状況の追跡）
 
 「指示した」だけでは実装確認になりません。
 
-測る対象：
+**測る対象：**
 
-Input：
+**投入：**
 どれだけ警察資源を投入したか
 
-Output：
+**実施量：**
 現場で何をしたか
 
-結果（Outcome）：
-犯罪、通報、傷害、harmがどう変化したか
+**結果（Outcome）：**
+犯罪、通報、傷害、被害の深刻度がどう変化したか
 
 GPSやアプリ等を使い、
 
-- hot spotへ行ったか
+- ホットスポットへ行ったか
 - 何分いたか
 - 区域内にいたか
 
@@ -277,20 +277,20 @@ GPSやアプリ等を使い、
 現場へのフィードバック（feedback）を行い、
 実装を改善します。
 
-### Step 7｜効果検証（Testing）
+### 第7段階｜効果検証
 
 最後に、
 
-「犯罪・harmが実際に減ったか」
+「犯罪・被害の深刻度が実際に減ったか」
 
 を評価します。
 
 可能ならRCTが最も強い評価方法です。
 
-例：
+**例：**
 
-- parallel track
-- repeat crossover
+- 並行比較方式（parallel track）
+- 反復クロスオーバー方式（repeat crossover）
 
 等の設計があります。
 
@@ -303,63 +303,63 @@ GPSやアプリ等を使い、
 
 も確認します。
 
-## 代表的な実装障壁
+代表的な実装障壁
 
-ガイドで繰り返し扱われる問題：
+**ガイドで繰り返し扱われる問題：**
 
 - 要員不足
-- hot spotが大きすぎる
+- ホットスポットが大きすぎる
 - 警察官が指定地点に十分滞在しない
 - 現場が何をすべきか分からない
 - GPS等の精度不足
 - 現場の抵抗
 - 組織内で運用が統一されない
-- 繁忙時にhot spot業務が後回しになる
+- 繁忙時にホットスポット業務が後回しになる
 
-## Guidanceから実務で持ち帰ること
+ガイダンスから実務で持ち帰ること
 
-1．最初に「何をするか」より「どこを対象にするか」を決める
+## 1．最初に「何をするか」より「どこを対象にするか」を決める
 
 同じ大きさの地理単位を比較し、
-犯罪件数／犯罪被害の深刻度（crime / harm）の集中が最も高い場所から優先します。
-hot spotを大きく取りすぎないことも重要です。
+犯罪件数／犯罪被害の深刻度（crime / 被害の深刻度）の集中が最も高い場所から優先します。
+ホットスポットを大きく取りすぎないことも重要です。
 
-2．対策（Response）を先に固定しない
+## 2．対策を先に固定しない
 
-高可視性パトロール（High visibility patrol）をするのか、
+高可視性パトロールをするのか、
 POPをするのか、
 両方を組み合わせるのか。
 
 対象犯罪と場所の問題構造に合わせて決めます。
 
-3．15分は万能ルールではない
+## 3．15分は万能ルールではない
 
 伝統的な高可視性パトロールでは14～16分程度の断続的訪問が一つの研究知見ですが、
-対策（Response）が違えば必要な介入量（dose）も変わります。
+対策が違えば必要な介入量（介入量）も変わります。
 
-4．指示・割当（Tasking）だけでなく実施状況の追跡（Tracking）を用意する
+## 4．指示・割当（Tasking）だけでなく実施状況の追跡（実施状況の追跡）を用意する
 
 「指示した」ことではなく、
-実際にhot spotへ行ったか、
+実際にホットスポットへ行ったか、
 何分いたか、
 区域内にいたかを測ります。
 
-5．結果評価を実施前に設計する
+## 5．結果評価を実施前に設計する
 
 犯罪件数だけでなく、
-harm、周辺への転位、実装量、副作用も確認します。
+被害の深刻度、周辺への転位、実装量、副作用も確認します。
 
 可能なら比較群を置き、
 より厳密な評価を検討します。
 
-6．Hot spots policingは7段階を一体で考える
+## 6．ホットスポット・ポリシングは7段階を一体で考える
 
 事前検討（Thinking）
 技術基盤（Technology）
-対象設定（Targeting）
+対象設定（対象設定）
 訓練（Training）
 指示・割当（Tasking）
-実施状況の追跡（Tracking）
+実施状況の追跡（実施状況の追跡）
 効果検証（Testing）
 
 のどこか一つが欠けると、
@@ -369,41 +369,41 @@ harm、周辺への転位、実装量、副作用も確認します。
 
 ## 原著・資料を確認する
 
-Hot spots policing：
+**ホットスポット・ポリシング：**
 [https://www.college.police.uk/guidance/hot-spots-policing](https://www.college.police.uk/guidance/hot-spots-policing)
 
-7-step guide：
+**7-step guide：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide)
 
-About：
+**About：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/about-guide](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/about-guide)
 
-Thinking：
+**Thinking：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/thinking-step-one](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/thinking-step-one)
 
-Technologies：
+**Technologies：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/technologies-step-two](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/technologies-step-two)
 
-対象設定（Targeting）：
+**対象設定（対象設定）：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/targeting-step-three](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/targeting-step-three)
 
-Training：
+**Training：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/training-step-four](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/training-step-four)
 
-指示・割当（Tasking）：
+**指示・割当（Tasking）：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tasking-step-five](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tasking-step-five)
 
-実施状況の追跡（Tracking）：
+**実施状況の追跡（実施状況の追跡）：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tracking-step-six](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tracking-step-six)
 
-効果検証（Testing）：
+**効果検証（Testing）：**
 [https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/testing-step-seven](https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/testing-step-seven)
 
-権利区分：
+**権利区分：**
 要許諾
 
-β版：
+**β版：**
 日本語独自解説＋原文リンク
 
-全文翻訳：
+**全文翻訳：**
 許諾取得まで掲載しない

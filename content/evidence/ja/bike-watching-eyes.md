@@ -3,7 +3,7 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Cycle Thieves, We Are Watching You
+# 「見られている」と感じさせる表示｜Cycle Thieves, We Are Watching You
 
 ### 最初に結論
 
@@ -41,21 +41,21 @@ Newcastle Universityで、
 
 ## 2．評価方法
 
-サイン設置：
+**サイン設置：**
 May 2011
 
-比較：
+**比較：**
 設置前12か月
 vs
 設置後12か月
 
-評価指標・結果（Outcome）：
+**評価指標・結果（アウトカム）：**
 警察等へ通知された自転車盗件数
 
-介入地点：
+**介入地点：**
 3地点
 
-比較地点：
+**比較地点：**
 キャンパス内のその他の多数の駐輪場所
 
 ### 注意
@@ -69,30 +69,30 @@ RCTではありません。
 
 ### 介入3地点
 
-設置前：
+**設置前：**
 39件
 
-設置後：
+**設置後：**
 15件
 
 62％減
 
 ### その他のキャンパス地点
 
-設置前：
+**設置前：**
 31件
 
-設置後：
+**設置後：**
 51件
 
 65％増
 
 ### キャンパス全体
 
-設置前：
+**設置前：**
 70件
 
-設置後：
+**設置後：**
 68件
 
 ほぼ変化なし。
@@ -105,7 +105,7 @@ RCTではありません。
 フィッシャーの正確確率検定（Fisher’s Exact Test）：
 p = 0.0001
 
-論文はオッズ比（Odds Ratio: OR）：
+**論文はオッズ比（Odds Ratio: OR）：**
 4.28
 95％信頼区間（95% CI）：2.04–8.98
 
@@ -225,18 +225,18 @@ ORが大きく見える問題があります。
 
 ### 対象
 
-介入地点：
+**介入地点：**
 3駐輪地点
 
-比較：
+**比較：**
 キャンパス内のその他の駐輪地点
 
 ### 期間
 
-介入前：
+**介入前：**
 12か月
 
-介入後：
+**介入後：**
 12か月
 
 ### 主要アウトカム
@@ -281,7 +281,7 @@ p = 0.0001
 
 OR = 4.28
 
-95％CI：
+**95％CI：**
 2.04–8.98
 
 ### この数字をどう読むか
@@ -304,42 +304,42 @@ OR 4.28は、
 
 ### 原著でさらに確認する
 
-[原著・資料を開く](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738)
+→ 第3階層のPLOS ONE原著へ
 
 <!-- STATS_DETAIL_END -->
 
 ## 原著・資料を確認する
 
-原題：
+**原題：**
 ‘Cycle Thieves, We Are Watching You’:
 Impact of a Simple Signage Intervention against Bicycle Theft
 
-著者：
+**著者：**
 Daniel Nettle
 Kenneth Nott
 Melissa Bateson
 
-年：
+**年：**
 2012
 
-掲載誌：
+**掲載誌：**
 PLOS ONE
 7(12): e51738
 
-DOI：
+**DOI：**
 10.1371/journal.pone.0051738
 
-公式全文：
+**公式全文：**
 [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738)
 
-ライセンス：
+**ライセンス：**
 Creative Commons Attribution（CC BY）
 
-全文翻訳：
+**全文翻訳：**
 権利上は可能。
 ただしβ版では全文翻訳作業を保留。
 
-関連：
-Crime 犯罪転位（displacement）
-Situational Crime Prevention
+**関連：**
+犯罪転位（displacement）
+状況的犯罪予防
 Behavioural cues / watching eyes

@@ -3,7 +3,7 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Boston Police Department｜District D-14 Breaking & Entering Solution Plan
+# Boston Police Department｜District D-14 住宅侵入窃盗問題解決計画
 
 ### 最初に結論
 
@@ -12,7 +12,7 @@ Boston Police Department District D-14は、
 「patrolを増やす問題」
 としてだけ扱いませんでした。
 
-analysisによって、
+分析によって、
 
 - 反復被害地点
 - 人通り・人口密度の高い地域
@@ -27,7 +27,7 @@ police resources
 ＋
 地域住民への防犯啓発
 ＋
-hot spot programmes
+ホットスポット介入
 
 の3本柱にしました。
 
@@ -36,7 +36,7 @@ hot spot programmes
 2006年、
 District D-14は、
 
-Boston citywide residential B&Eの
+Boston 市全体 residential B&Eの
 20％
 
 を占めていました。
@@ -44,9 +44,9 @@ Boston citywide residential B&Eの
 地域は、
 大学生や若年就業者が多い地区。
 
-## 2．4-step analysis
+## 2．4段階の分析
 
-in-depth district analysisで確認：
+**詳細な管区分析で確認：**
 
 - 少数の反復被害地点への集中
 - 人通り・人口密度の高い地域
@@ -66,7 +66,7 @@ building managementとaccessまで
 
 ## 3．対策
 
-3-pronged model：
+**3本柱のモデル：**
 
 ## 1．ボストン警察の資源の重点活用
 
@@ -76,27 +76,27 @@ building managementとaccessまで
 
 ### サイトによる独自解説
 
-enforcement / patrolだけでなく、
+取締り／パトロールだけでなく、
 residentsと建物の防犯性能へ働きかける点で
 POPとして読むことができます。
 
 ## 4．報告されたアウトカム
 
-residential burglary：
+**住宅対象侵入窃盗：**
 40％減
 
-個別hot spot 取組：
+**個別hot spot 取組：**
 最大75％減
 
-2008年5月22日時点：
+**2008年5月22日時点：**
 
 District D-14は
-citywide residential burglary rankingで5位。
+市全体 住宅対象侵入窃盗 rankingで5位。
 
-citywide share：
+**市全体 share：**
 7.6％
 
-開始時：
+**開始時：**
 20％
 
 から低下。
@@ -117,7 +117,7 @@ RCTや対応させた準実験として
 
 と断定せず、
 
-「project期間にresidential burglaryが40％減少したと報告」
+「project期間に住宅対象侵入窃盗が40％減少したと報告」
 
 とします。
 
@@ -126,17 +126,17 @@ RCTや対応させた準実験として
 重要なのは、
 
 - city share
-- district crime
-- hot spot crime
+- 管区内の犯罪
+- ホットスポット内の犯罪
 
 を複数レベルで見ている点です。
 
 単に管区全体だけでなく、
-problem concentrationがどう変わったかを見ています。
+問題の集中がどう変わったかを見ています。
 
 ## 7．次に評価するなら
 
-- specific hotspot interventions
+- 個別のホットスポット介入
 - security improvements
 - calls-for-service handling
 - maintenance access changes
@@ -144,22 +144,22 @@ problem concentrationがどう変わったかを見ています。
 
 を個別に記録。
 
-comparison districtを置けば、
-citywide trendとの違いをさらに分けられます。
+comparison 管区を置けば、
+市全体 trendとの違いをさらに分けられます。
 
 ## 8．実務で持ち帰ること
 
-## 1．管区全体から反復被害地点へ絞る。
+1．管区全体から反復被害地点へ絞る。
 
-## 2．建物の防犯性能とaccessを分析する。
+2．建物の防犯性能とaccessを分析する。
 
-## 3．police responseだけに限定しない。
+3．警察による対策だけに限定しない。
 
-## 4．district shareとhot spot levelを分けて見る。
+4．管区全体に占める割合とホットスポット単位を分けて見る。
 
-## 5．Goldstein事例の減少率をRCT effectとして扱わない。
+5．Goldstein事例の減少率をRCT effectとして扱わない。
 
-## 6．次のevaluation questionへつなげる。
+6．次のevaluation questionへつなげる。
 
 ## 原著・資料を確認する
 
@@ -173,12 +173,12 @@ District D-14: Breaking & Entering Solution Plan
 2008 conference page:
 [https://popcenter.org/content/2008-pop-conference-presentations](https://popcenter.org/content/2008-pop-conference-presentations)
 
-Organisation：
+**Organisation：**
 Boston Police Department
 Massachusetts, USA
 
-Stage：
+**Stage：**
 Goldstein Award Finalist
 
-全文翻訳：
+**全文翻訳：**
 当面保留。

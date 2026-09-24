@@ -3,12 +3,12 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Crime Reduction Toolkit｜Measures to reduce repeat victimisation – burglary
+# Crime Reduction Toolkit｜再被害を減らす住宅侵入窃盗対策
 
 ### 最初に結論
 
 Crime Reduction Toolkitでは、
-再被害（repeat victimisation）を利用して住宅侵入窃盗対策を重点化する取組は、
+再被害を利用して住宅侵入窃盗対策を重点化する取組は、
 全体として犯罪減少を支持するエビデンスがあると整理されています。
 
 重要なのは、
@@ -24,10 +24,10 @@ Crime Reduction Toolkitでは、
 
 Toolkitが扱う対策には、
 
-- 近隣見守り活動（Neighbourhood Watch）
+- 近隣見守り活動（近隣見守り活動）
 - 防犯助言（crime prevention advice）
-- 所有物マーキング（property marking）
-- 物理的防犯強化（target hardening）
+- 所有物マーキング（所有物マーキング）
+- 物理的防犯強化（物理的防犯強化）
 - cocoon watch
 
 等があります。
@@ -38,38 +38,38 @@ Toolkitが扱う対策には、
 
 のではなく、
 
-recent victim
+最近被害に遭った住宅・被害者
 ＋
-nearby properties
+周辺住宅
 
 へ重点化することです。
 
 ## 2．E｜効果（Effect）
 
-評価：
-全体として減少（Overall reduction）
+**評価：**
+全体として減少（Overall 減少）
 
-効果エビデンス：
+**効果エビデンス：**
 非常に強い（Very strong）
 
 レビューでは、
-repeat residential burglaryと
-overall crime levelの両方で
+反復する住宅対象侵入窃盗と
+犯罪全体の水準の両方で
 犯罪減少方向の結果が確認されています。
 
 特に、
-物理的防犯強化（target hardening）や近隣見守り活動（Neighbourhood Watch）等、
+物理的防犯強化（物理的防犯強化）や近隣見守り活動（近隣見守り活動）等、
 対象を絞った状況的犯罪予防（situational crime prevention）が
 有効な対策として整理されています。
 
 ## 3．M｜作用機序（Mechanism）
 
-エビデンスの質：
+**エビデンスの質：**
 低い（Low）
 
 想定される仕組みは、
 
-## 1．一度被害に遭った住宅や周辺住宅を高risk targetとして特定する
+## 1．一度被害に遭った住宅や周辺住宅を高リスク 対象として特定する
 
 ## 2．securityを高める
 
@@ -87,7 +87,7 @@ overall crime levelの両方で
 
 等があります。
 
-一度侵入したoffenderは、
+一度侵入した犯人は、
 住宅のlayoutやsecurityを知るため、
 同じ住宅が再び狙われる可能性があります。
 
@@ -115,7 +115,7 @@ mechanismを考える意味がないわけではありません。
 
 ## 4．M｜適用条件（Moderator）
 
-Toolkit：
+**Toolkit：**
 情報なし。
 
 基礎レビューでは、
@@ -128,7 +128,7 @@ Toolkit：
 「どこで使えるか分からない」
 と読む必要はありません。
 
-再被害・近接再被害（repeat / near-repeat） patternは地域ごとに測定できるため、
+再被害・近接再被害（repeat / 近接再被害） patternは地域ごとに測定できるため、
 
 - 住宅形態
 - 距離
@@ -137,9 +137,9 @@ Toolkit：
 
 を自地域で確認して対策対象を調整できます。
 
-## 5．I｜実装
+## 5．I｜実装（実装）
 
-エビデンスの質：
+**エビデンスの質：**
 強い（Strong）
 
 このテーマでは、
@@ -151,10 +151,10 @@ Toolkit：
 対策を実装する必要がある可能性を示しています。
 
 また、
-実装 levelが高いほど、
+実装水準が高いほど、
 犯罪減少 effectが大きくなる傾向が報告されています。
 
-よく挙げられた課題：
+**よく挙げられた課題：**
 
 - 職員確保
 - training
@@ -169,7 +169,7 @@ Toolkit：
 100世帯をtargetに設定しても、
 実際に防犯措置が届いたのが5世帯なら、
 
-「再被害（repeat victimisation） approachが効かなかった」
+「再被害 approachが効かなかった」
 
 とだけ評価するのは難しくなります。
 
@@ -181,14 +181,14 @@ contact数
 ↓
 対策実施数
 ↓
-再被害（repeat victimisation）
+再被害
 
 まで記録すると、
 どの段階で止まったかが見えます。
 
 ## 6．E｜経済コスト
 
-Toolkit：
+**Toolkit：**
 情報なし。
 
 基礎レビューでは正式な経済評価がありません。
@@ -201,7 +201,7 @@ Toolkit：
 - 物理的防犯強化の費用
 - チラシ配布・訪問の費用
 - 被害回避件数
-- 再被害（repeat victimisation）
+- 再被害
 - call demand
 
 を記録すれば、
@@ -209,19 +209,19 @@ Toolkit：
 
 ## 7．EMMIEで分解する
 
-Effect：
+**Effect：**
 repeat / 住宅侵入窃盗全体は変わったか
 
-Mechanism：
-なぜrecent victimへの重点化が効くと考えるか
+**Mechanism：**
+なぜ最近被害に遭った住宅・被害者への重点化が効くと考えるか
 
-Moderator：
-どんな住宅・地域でriskが高いか
+**Moderator：**
+どんな住宅・地域でリスクが高いか
 
-実装：
+**実装：**
 対策はどれだけ届いたか
 
-Economic cost：
+**Economic cost：**
 投入資源に見合うか
 
 ### サイトによる独自解説
@@ -243,21 +243,21 @@ Effectと実装を一緒に見ることが特に重要です。
 
 ### 分析対象
 
-Toolkitの基礎：
+**Toolkitの基礎：**
 Groveらによるシステマティックレビュー。
 
-住宅侵入窃盗に関する研究：
+**住宅侵入窃盗に関する研究：**
 19研究
 
-地域：
+**地域：**
 英国 11
 オーストラリア 5
 米国 3
 
 ### 主要アウトカム
 
-- repeat residential burglary
-- overall crime
+- 反復する住宅対象侵入窃盗
+- 犯罪全体
 
 ### 研究デザイン
 
@@ -272,8 +272,8 @@ Toolkitは、
 比較地域より犯罪減少方向の結果。
 
 特に、
-物理的防犯強化（target hardening）や近隣見守り活動（Neighbourhood Watch）等の
-targeted situational preventionの効果が大きい傾向。
+物理的防犯強化（物理的防犯強化）や近隣見守り活動（近隣見守り活動）等の
+対象を絞った状況的犯罪予防の効果が大きい傾向。
 
 ### 実装
 
@@ -282,7 +282,7 @@ targeted situational preventionの効果が大きい傾向。
 少なくとも約20％のtargetへ対策が実装されることが、
 測定可能な犯罪減少を得る一つの目安として示されています。
 
-実装 levelが高いほど、
+実装水準が高いほど、
 犯罪減少 effectが大きい傾向。
 
 ### この数字をどう読むか
@@ -291,7 +291,7 @@ targeted situational preventionの効果が大きい傾向。
 という閾値ではありません。
 
 重要なのは、
-targetを設定した数と、
+対象に設定した数と、
 実際に対策が届いた数を分けて記録することです。
 
 ### 95％CI・p値・個別効果量
@@ -305,24 +305,21 @@ Toolkit本文では、
 
 → BLUE-03のシステマティックレビューへ
 
-
-[原著・資料を確認する →](https://www.college.police.uk/research/crime-reduction-toolkit/measures-reduce-repeat-victimisation-burglary)
-
 <!-- STATS_DETAIL_END -->
 
 ## 8．実務で持ち帰ること
 
-## 1．再被害（repeat victimisation）情報を資源配分へ使う。
+1．再被害情報を資源配分へ使う。
 
-## 2．recent victimと近隣住宅を優先する。
+2．最近被害に遭った住宅・被害者と近隣住宅を優先する。
 
-## 3．対策は物理的防犯強化（target hardening）だけに限定しない。
+3．対策は物理的防犯強化（物理的防犯強化）だけに限定しない。
 
-## 4．実装率を必ず測る。
+4．実装率を必ず測る。
 
-## 5．target数と実際の対策実施数を分ける。
+5．target数と実際の対策実施数を分ける。
 
-## 6．反復する住宅侵入窃盗（repeat burglary）と住宅侵入窃盗全体の両方をアウトカムにする。
+6．反復する住宅対象侵入窃盗と住宅侵入窃盗全体の両方をアウトカムにする。
 
 ## 原著・資料を確認する
 
@@ -340,9 +337,9 @@ Brå:
 White Rose:
 [https://eprints.whiterose.ac.uk/id/eprint/116406/](https://eprints.whiterose.ac.uk/id/eprint/116406/)
 
-翻訳：
+**翻訳：**
 当面保留。
 
-権利：
+**権利：**
 Brå publicationの権利条件を確認するまで、
 独自解説＋原文リンク。

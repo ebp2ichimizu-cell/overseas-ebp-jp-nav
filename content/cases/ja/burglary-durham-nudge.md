@@ -3,19 +3,19 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Durham Constabulary｜Nudging down burglary
+# Durham Constabulary｜住宅侵入窃盗へのナッジ介入
 
 ### 最初に結論
 
 Durham Constabularyは、
-反復する住宅侵入窃盗（repeat burglary） 郵便番号区域を毎週特定し、
-対象郵便番号区域へ住宅防犯ナッジ型防犯チラシ（nudge leaflet）を届けました。
+反復する住宅対象侵入窃盗 郵便番号区域を毎週特定し、
+対象郵便番号区域へ住宅防犯ナッジ型防犯チラシ（ナッジ型防犯チラシ）を届けました。
 
 重要なのは、
 単なる「防犯チラシ配布」ではないことです。
 
-- 反復する住宅侵入窃盗（repeat burglary） dataで対象を絞る
-- treatment / controlへrandom allocation
+- 反復する住宅対象侵入窃盗 dataで対象を絞る
+- 介入群／比較群へ無作為割付
 - 配布実績をCertificate of Serviceで記録
 - 6か月後のburglaryを比較
 
@@ -25,22 +25,22 @@ Durham Constabularyは、
 
 2019年、
 County Durhamでは
-2,829 residential burglariesが記録されました。
+2,829 住宅対象侵入窃盗が記録されました。
 
 分析では、
 
-individual propertiesの再被害（repeat victimisation）：
+**individual propertiesの再被害：**
 6.7％
 
-同一郵便番号区域内で住宅侵入窃盗を経験した住宅：
+**同一郵便番号区域内で住宅侵入窃盗を経験した住宅：**
 19.2％
 
 と報告。
 
 さらに、
 約3分の1のburglaryで、
-door / windowがunsecured等、
-victim behaviourに関係する状況が確認されました。
+扉・窓が無施錠・未施錠等、
+被害者の行動に関係する状況が確認されました。
 
 ### 実務の観点
 
@@ -50,7 +50,7 @@ victim behaviourに関係する状況が確認されました。
 
 ではなく、
 
-repeat 郵便番号区域
+反復被害が生じた郵便番号区域
 ＋
 insecure property
 
@@ -58,60 +58,60 @@ insecure property
 
 ## 2．対策
 
-ナッジ型防犯チラシ（nudge leaflet）は、
+ナッジ型防犯チラシ（ナッジ型防犯チラシ）は、
 MINDSPACE／EAST等の行動科学を参考に設計。
 
 内容には、
 
-- street image
-- その郵便番号区域で使われたoffender tactics
+- street 画像
+- その郵便番号区域で使われたoffender 手口
 - 具体的な防犯行動
 
 等を含めました。
 
 目的は、
-genericな防犯情報ではなく、
+一般的なな防犯情報ではなく、
 
-「自分のstreetで起きているrisk」
+「自分のstreetで起きているリスク」
 
 として認識してもらうことです。
 
 ## 3．Randomisation
 
-RCT期間：
+**RCT期間：**
 2020年6月15日～2021年2月22日
 
 36週間。
 
 毎週、
-residential burglaryとrepeat 郵便番号区域を確認。
+住宅対象侵入窃盗と反復被害が生じた郵便番号区域を確認。
 
 Cambridge Randomiserを使い、
 
-Treatment：
+**介入群：**
 157 郵便番号区域
 
-Control：
+**比較群：**
 154 郵便番号区域
 
 へ割付。
 
-Treatment 郵便番号区域内の全住宅へ、
-ナッジ型防犯チラシ（nudge leaflet）を配布。
+介入群 郵便番号区域内の全住宅へ、
+ナッジ型防犯チラシ（ナッジ型防犯チラシ）を配布。
 
-Controlには配布しませんでした。
+比較群には配布しませんでした。
 
 ## 4．実装を記録
 
-leaflet delivery時には
+leaflet 配布実績時には
 Certificate of Serviceを作成。
 
-記録：
+**記録：**
 
-- delivery date
-- houses nudged
-- delivery personnel
-- time taken
+- 配布日
+- 配布対象住宅数
+- 配布担当者
+- 所要時間
 
 ### EBPとしての意味
 
@@ -127,36 +127,36 @@ Certificate of Serviceを作成。
 
 を残しています。
 
-Crime アウトカムと実装を分けて見られます。
+犯罪アウトカムと実装を分けて見られます。
 
 ## 5．両群ともburglaryは減った
 
-trialはCOVID-19 pandemic期に行われました。
+試行はCOVID-19流行期に行われました。
 
 そのため、
-ControlもTreatmentも
-residential burglaryが減少しました。
+比較群も介入群も
+住宅対象侵入窃盗が減少しました。
 
 ### 重要
 
-Treatmentでcrimeが減ったことだけを見れば、
+介入群でcrimeが減ったことだけを見れば、
 チラシによる変化とパンデミックによる変化を分けられません。
 
-Controlを置いたことで、
+比較群を置いたことで、
 両群共通の大きな犯罪減少と、
-Treatment側でさらに大きかったreductionを分けて検討できます。
+介入群側でさらに大きかった減少を分けて検討できます。
 
 ## 6．主要結果
 
-Control：
+**比較群：**
 
 pre
-mean 1.53 crimes/郵便番号区域
+平均 1.53 crimes/郵便番号区域
 ↓
 post
 0.62
 
-Treatment：
+**介入群：**
 
 pre
 1.66
@@ -166,21 +166,21 @@ post
 
 両群とも統計的に明確な減少。
 
-Treatmentでは
-Controlよりさらに8.5％大きいreductionが報告されました。
+介入群では
+比較群よりさらに8.5％大きい減少が報告されました。
 
 ### サイトでの表現
 
-論文著者はこのadditional reductionを
-ナッジ型防犯チラシ（nudge leaflet）によるものと解釈しています。
+論文著者はこの追加的な減少を
+ナッジ型防犯チラシ（ナッジ型防犯チラシ）によるものと解釈しています。
 
 ただし、
 サイトでは、
 
-「Treatment側で8.5％大きいreductionが観察された」
+「介入群側で8.5％大きい減少が観察された」
 
 とまず記載し、
-study periodがCOVID-19期であること、
+研究期間がCOVID-19期であること、
 両群とも犯罪減少があったことを併記します。
 
 <!-- STATS_DETAIL_START -->
@@ -189,75 +189,75 @@ study periodがCOVID-19期であること、
 
 ### 対象
 
-Treatment：
+**介入群：**
 157 郵便番号区域
 
-Control：
+**比較群：**
 154 郵便番号区域
 
 ### 期間
 
-RCT：
+**RCT：**
 36週間
 
-follow-up：
+**追跡期間：**
 各郵便番号区域のrandomisation後6か月
 
 ### Residential burglary
 
-Control：
+**比較群：**
 
-pre mean：
+**pre 平均：**
 1.53 crimes/郵便番号区域
 
-post mean：
+**post 平均：**
 0.62
 
-SD：
+**SD：**
 pre 0.81
 post 1.24
 
-paired t-test：
+**対応のあるt検定：**
 t(132)=8.0
 
-p：
+**p：**
 p < .05
 
-Cohen's d：
+**Cohen's d：**
 0.87
 
-Treatment：
+**介入群：**
 
-pre mean：
+**pre 平均：**
 1.66
 
-post mean：
+**post 平均：**
 0.53
 
-SD：
+**SD：**
 pre 0.92
 post 1.04
 
-paired t-test：
+**対応のあるt検定：**
 t(130)=10.1
 
-Cohen's d：
+**Cohen's d：**
 1.15
 
-### TreatmentとControlの差
+### 介入群と比較群の差
 
-Treatment側：
-8.5％大きいreductionと報告。
+**介入群側：**
+8.5％大きい減少と報告。
 
 ### Vehicle crime
 
-Control：
+**比較群：**
 0.65 → 0.55
 t(48)=0.86
 p=.39
 Cohen's d=.18
 
-Treatment：
+**介入群：**
 0.70 → 0.55
 t(39)=0.73
 p=.47
@@ -268,7 +268,7 @@ vehicle crimeでは、
 
 ### Cost
 
-leaflet trial total cost：
+**チラシ試行の総費用：**
 £3,125.94
 
 7,994 A4 leaflets
@@ -283,11 +283,11 @@ vehicle crimeの推計を加え、
 ### この数字をどう読むか
 
 最も重要なのは、
-Treatmentだけのpre-post reductionを
+介入群だけのpre-post 減少を
 leaflet effectとしないことです。
 
-COVID-19期でControlも大きく減っているため、
-Treatment / Controlの差を見る必要があります。
+COVID-19期で比較群も大きく減っているため、
+介入群 / 比較群の差を見る必要があります。
 
 また、
 paperはcost-benefitを独自の前提で算出しているため、
@@ -295,19 +295,19 @@ paperはcost-benefitを独自の前提で算出しているため、
 
 ### 原著の表・図
 
-Figure 1：
-ナッジ型防犯チラシ（nudge leaflet）
+**Figure 1：**
+ナッジ型防犯チラシ（ナッジ型防犯チラシ）
 
-Figure 2：
+**Figure 2：**
 pre-trial burglary trend
 
-Table 2：
+**Table 2：**
 trial costs
 
-Table 3：
+**Table 3：**
 burglary cost analysis
 
-Table 4：
+**Table 4：**
 vehicle crime cost analysis
 
 ### 原著でさらに確認する
@@ -315,18 +315,15 @@ vehicle crime cost analysis
 Crowe et al. (2024)
 Nudging down residential burglaries: A randomized control trial
 
-
-[原著・資料を確認する →](https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023)
-
 <!-- STATS_DETAIL_END -->
 
 ## 7．この研究から何を学ぶか
 
 ### 原著で確認されたこと
 
-TreatmentとControlの両方でburglaryは減少。
+介入群と比較群の両方でburglaryは減少。
 
-Treatmentでより大きなreductionが観察された。
+介入群でより大きな減少が観察された。
 
 ### 原著者の解釈
 
@@ -344,25 +341,25 @@ randomisation
 実装 tracking
 
 を、
-日常のneighbourhood policingへ組み込んだことです。
+日常の地域警察活動へ組み込んだことです。
 
 また、
 pandemicという大きな外部変化があっても、
-control groupを置くことで評価を継続できました。
+比較群を置くことで評価を継続できました。
 
 ## 8．実務で持ち帰ること
 
-## 1．generic leafletではなくlocal risk情報を使う。
+1．一般的な leafletではなくlocal リスク情報を使う。
 
-## 2．repeat 郵便番号区域でTargetを絞る。
+2．反復被害が生じた郵便番号区域でTargetを絞る。
 
-## 3．Treatment / Controlを置くと外部変化を分けやすい。
+3．介入群 / 比較群を置くと外部変化を分けやすい。
 
-## 4．deliveryそのものを記録する。
+4．配布実績そのものを記録する。
 
-## 5．crime outcomeと実装を分ける。
+5．犯罪アウトカムと実装を分ける。
 
-## 6．cost estimateの前提を確認する。
+6．cost estimateの前提を確認する。
 
 ## 原著・資料を確認する
 
@@ -370,7 +367,7 @@ College of Policing Practice Bank
 Nudging down burglary
 [https://www.college.police.uk/support-forces/practices/nudging-down-burglary](https://www.college.police.uk/support-forces/practices/nudging-down-burglary)
 
-原著：
+**原著：**
 Crowe A, Cooper J, Roach J. (2024)
 Nudging down residential burglaries: A randomized control trial.
 Policing: A Journal of Policy and Practice, 18, paae068.
@@ -380,9 +377,9 @@ DOI:
 
 [https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023](https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023)
 
-License：
+**License：**
 CC BY 4.0
 
-全文翻訳：
+**全文翻訳：**
 権利上は可能。
 β版では保留。

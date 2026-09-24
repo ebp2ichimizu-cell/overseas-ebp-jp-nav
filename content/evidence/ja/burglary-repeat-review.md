@@ -3,39 +3,39 @@ content_type: site-commentary
 source: supplied-content-master
 ---
 
-# Systematic Review｜Preventing Repeat Victimization
+# システマティックレビュー｜Preventing 再被害
 
 ### 最初に結論
 
 Groveらのシステマティックレビューは、
-再被害（repeat victimisation） preventionを複数研究でまとめた資料です。
+再被害 preventionを複数研究でまとめた資料です。
 
 レビュー全体では、
 住宅侵入窃盗以外のcrime typeも含みますが、
-中心的な研究領域はresidential burglaryです。
+中心的な研究領域は住宅対象侵入窃盗です。
 
 このレビューから得られる重要なメッセージは、
 
-「被害歴は、次のcrime riskを予測する情報になる」
+「被害歴は、次のcrime リスクを予測する情報になる」
 
 ということです。
 
 そして、
-recent victimへResourceを集中することで、
+最近被害に遭った住宅・被害者へResourceを集中することで、
 効率的なcrime preventionが可能になるという考え方です。
 
 ## 1．何をレビューしたか
 
-レビュー全体：
+**レビュー全体：**
 31 studies
 
-主な対象：
-再被害（repeat victimisation） prevention
+**主な対象：**
+再被害 prevention
 
-多くの研究：
-residential burglary
+**多くの研究：**
+住宅対象侵入窃盗
 
-その他：
+**その他：**
 commercial burglary
 domestic violence
 sexual victimisation等
@@ -47,7 +47,7 @@ sexual victimisation等
 - Australia 5
 - USA 3
 
-## 2．なぜ再被害（repeat victimisation）を見るのか
+## 2．なぜ再被害を見るのか
 
 crimeは均等に分布していません。
 
@@ -62,19 +62,19 @@ crimeが繰り返される場合があります。
 
 ではなく、
 
-「すでに被害を受け、次のriskが高い住宅」
+「すでに被害を受け、次のリスクが高い住宅」
 
 へ重点化する考え方が生まれます。
 
 ## 3．どんな対策が使われたか
 
-研究に含まれる代表的対策：
+**研究に含まれる代表的対策：**
 
-- 物理的防犯強化（target hardening）
-- 近隣見守り活動（Neighbourhood Watch）
+- 物理的防犯強化（物理的防犯強化）
+- 近隣見守り活動（近隣見守り活動）
 - 防犯助言（crime prevention advice）
-- 所有物マーキング（property marking）
-- 周辺住宅への重点防犯（cocooning）
+- 所有物マーキング（所有物マーキング）
+- 周辺住宅への重点防犯（周辺住宅への重点防犯）
 
 これらは単独で使われる場合もありますが、
 複数対策を組み合わせるprojectもあります。
@@ -82,7 +82,7 @@ crimeが繰り返される場合があります。
 ## 4．UKと他国で結果が違った
 
 関連する2011年のmeta-evaluationでは、
-UKのrepeat domestic burglary programmesは
+UKのrepeat domestic burglary 取組sは
 比較的良好な結果を示しました。
 
 一方、
@@ -99,7 +99,7 @@ Australia・USAの取組では、
 
 著者は、
 地域条件へ適応した取組設計と
-実装 problemの回避が重要だとしています。
+実装上の問題の回避が重要だとしています。
 
 ## 5．実装が結果を分ける
 
@@ -116,7 +116,7 @@ Australia・USAの取組では、
 
 この情報があると、
 
-crime outcomeが変わらなかった
+犯罪アウトカムが変わらなかった
 ↓
 対策そのものが適切でなかったのか
 それとも
@@ -131,10 +131,10 @@ Toolkitは、
 
 - systematic search
 - effect size calculation
-- heterogeneity analysis
+- 研究間の異質性の分析
 
 等を評価し、
-Effect evidenceをVery strongとしています。
+効果に関するエビデンスを「非常に強い（Very strong）」としています。
 
 一方、
 
@@ -165,21 +165,21 @@ Effect evidenceをVery strongとしています。
 
 31 studies
 
-再被害（repeat victimisation） preventionを評価。
+再被害 preventionを評価。
 
 住宅侵入窃盗が多数を占める。
 
-### Toolkitで住宅侵入窃盗に使用されたsubset
+### Toolkitで住宅侵入窃盗に使用された研究群
 
 19 studies
 
-UK：
+**UK：**
 11
 
-Australia：
+**Australia：**
 5
 
-USA：
+**USA：**
 3
 
 ### Allocation
@@ -187,7 +187,7 @@ USA：
 住宅侵入窃盗の個別研究では、
 randomised allocationは用いられていないとToolkitは整理。
 
-多くはmatched treatment / control等。
+多くは対応させた介入群／比較群等。
 
 ### 主要な分析
 
@@ -200,10 +200,10 @@ meta-analysis
 再被害防止の取組は、
 全体として犯罪減少方向。
 
-targeted situational prevention measuresが
+対象を絞った状況的犯罪予防 measuresが
 比較的良好な結果。
 
-実装 levelが高いほど、
+実装水準が高いほど、
 犯罪減少 effectが大きい傾向。
 
 ### 統合効果量・CI・p値
@@ -218,7 +218,7 @@ Toolkit HTMLで確認できる数値のみ保持している。
 
 ### この数字をどう読むか
 
-study countだけでEvidenceの強さは決まりません。
+研究数だけでエビデンスの強さは決まりません。
 
 - 研究デザイン
 - comparison
@@ -232,24 +232,21 @@ study countだけでEvidenceの強さは決まりません。
 Grove et al. (2012)
 Preventing Repeat Victimization: A Systematic Review
 
-
-[原著・資料を確認する →](https://bra.se/english/publications/archive/2012-06-11-preventing-repeat-victimization)
-
 <!-- STATS_DETAIL_END -->
 
 ## 7．実務で持ち帰ること
 
-## 1．被害歴をrisk informationとして使う。
+1．被害歴をリスク informationとして使う。
 
-## 2．recent victimsへResourceを重点化する。
+2．最近被害に遭った住宅・被害者sへResourceを重点化する。
 
-## 3．対策内容だけでなくdeliveryを測る。
+3．対策内容だけでなく配布実績を測る。
 
-## 4．他地域の取組はそのままコピーしない。
+4．他地域の取組はそのままコピーしない。
 
-## 5．実装上の問題と介入自体の問題を分ける。
+5．実装上の問題と介入自体の問題を分ける。
 
-## 6．自地域で再被害・近接再被害（repeat / near-repeat） patternを測る。
+6．自地域で再被害・近接再被害（repeat / 近接再被害） patternを測る。
 
 ## 原著・資料を確認する
 
@@ -265,7 +262,7 @@ Brå:
 White Rose Research Online:
 [https://eprints.whiterose.ac.uk/id/eprint/116406/](https://eprints.whiterose.ac.uk/id/eprint/116406/)
 
-関連：
+**関連：**
 Grove L. (2011)
 Preventing Repeat Domestic Burglary: A Meta-Evaluation of Studies from Australia, the UK, and the United States.
 Victims & Offenders, 6(4), 370–385.
@@ -274,5 +271,5 @@ DOI:
 
 [https://www.tandfonline.com/doi/abs/10.1080/15564886.2011.607400](https://www.tandfonline.com/doi/abs/10.1080/15564886.2011.607400)
 
-翻訳：
+**翻訳：**
 当面保留。
