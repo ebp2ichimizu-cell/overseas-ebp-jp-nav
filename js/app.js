@@ -1,7 +1,7 @@
 import {loadAllData} from "./data-loader.js";
 import {parseRoute,startRouter} from "./router.js";
 import {renderHome} from "./render-home.js";
-import {renderProblemList,renderInterventionList} from "./render-lists.js";
+import {renderProblemList,renderInterventionList,activateListSearch} from "./render-lists.js";
 import {renderProblem,renderIntervention} from "./render-detail.js";
 import {renderCase,renderEvidence,renderTranslation,activateContent} from "./render-content.js";
 import {renderResources} from "./render-resources.js";
@@ -23,12 +23,14 @@ function page(){
       break;
     case "problems":
       app.innerHTML=renderProblemList(data);
+      activateListSearch(data,"problems");
       break;
     case "problem":
       app.innerHTML=renderProblem(data,route.id);
       break;
     case "interventions":
       app.innerHTML=renderInterventionList(data);
+      activateListSearch(data,"interventions");
       break;
     case "intervention":
       app.innerHTML=renderIntervention(data,route.id);
