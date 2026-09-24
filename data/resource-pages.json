@@ -1,0 +1,42 @@
+[
+  {
+    "id": "crime-reduction-toolkit",
+    "title_ja": "Crime Reduction Toolkit｜日本語ナビ",
+    "source_name": "Crime Reduction Toolkit",
+    "category_id": "interventions-evidence",
+    "category_ja": "対策とエビデンス",
+    "summary_ja": "犯罪削減介入を、効果・作用の仕組み・条件・実装・経済的コストの5観点から読むための日本語ナビです。",
+    "content_slug": "crime-reduction-toolkit",
+    "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit"
+  },
+  {
+    "id": "police-practice-bank",
+    "title_ja": "Police Practice Bank｜日本語ナビ",
+    "source_name": "Police Practice Bank",
+    "category_id": "practice-examples",
+    "category_ja": "海外の実践事例",
+    "summary_ja": "海外の警察・関係機関で実際に行われた取組を、評価段階と結果を分けて読むための日本語ナビです。",
+    "content_slug": "police-practice-bank",
+    "original_url": ""
+  },
+  {
+    "id": "pop-center",
+    "title_ja": "Center for Problem-Oriented Policing（POP Center）｜日本語ナビ",
+    "source_name": "POP Center",
+    "category_id": "problem-solving-analysis",
+    "category_ja": "問題解決・分析ガイド",
+    "summary_ja": "特定の犯罪・秩序問題を問題起点で分析し、Responseと評価方法を検討するための日本語ナビです。",
+    "content_slug": "pop-center",
+    "original_url": "https://popcenter.asu.edu/"
+  },
+  {
+    "id": "ebp-matrix",
+    "title_ja": "Evidence-Based Policing Matrix｜日本語ナビ",
+    "source_name": "Evidence-Based Policing Matrix",
+    "category_id": "interventions-evidence",
+    "category_ja": "対策とエビデンス",
+    "summary_ja": "警察介入研究を、対象・先回り性・問題への絞り方の軸で位置づけて読むための日本語ナビです。",
+    "content_slug": "ebp-matrix",
+    "original_url": "https://cebcp.org/evidence-based-policing/the-matrix/"
+  }
+]

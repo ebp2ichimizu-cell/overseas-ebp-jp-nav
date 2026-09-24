@@ -4,8 +4,8 @@
     "name_ja": "ホットスポット・ポリシング",
     "name_en": "Hot spots policing",
     "category_ja": "場所に着目した犯罪予防／警察活動",
-    "summary_ja": "ホットスポット・ポリシングは、犯罪が集中する小さな場所を特定し、警察活動を重点化する方法です。  徒歩・車両パトロール、高可視性活動、問題志向型警察活動（POP）など、そこで行う活動には複数の方法があります。ホットスポットを特定することと、そこで何をするかは別の問題であり、対象となる犯罪や場所に応じて介入方法を選ぶ必要があります。  多数の研究では、ホットスポットへの警察活動の重点化による犯罪・秩序違反の減少が支持されています。一方、すべての地域・介入方法で効果が確認されているわけではありません。",
-    "key_point_ja": "「ホットスポットを特定すること」と 「そこで何をするか」は別の問題です。  ホットスポット・ポリシングは、 単に「犯罪が多い場所へ警察官を増やす」ことを意味しません。  ① 犯罪が集中する小さな場所を特定する ② その場所で何が起きているかを分析する ③ パトロール、POP、アウトリーチ、連携施策等を選ぶ ④ 計画どおり実施されたか確認する ⑤ 犯罪・秩序違反が変化したか評価する  という流れで考えます。",
+    "summary_ja": "ホットスポット・ポリシングは、犯罪が集中する小さな場所を特定し、警察活動を重点化する方法です。 徒歩・車両パトロール、高可視性活動、問題志向型警察活動（POP）など、そこで行う活動には複数の方法があります。ホットスポットを特定することと、そこで何をするかは別の問題であり、対象となる犯罪や場所に応じて介入方法を選ぶ必要があります。 多数の研究では、ホットスポットへの警察活動の重点化による犯罪・秩序違反の減少が支持されています。一方、すべての地域・介入方法で効果が確認されているわけではありません。",
+    "key_point_ja": "「ホットスポットを特定すること」と「そこで何をするか」は別の問題です。ホットスポット・ポリシングは、単に「犯罪が多い場所へ警察官を増やす」ことを意味しません。",
     "search_terms": [
       "ホットスポット",
       "hot spot",
@@ -15,7 +15,6 @@
       "hot spots policing",
       "重点パトロール",
       "重点警戒",
-      "警察活動の重点化",
       "micro places",
       "micro-place",
       "微小地点",
@@ -34,15 +33,12 @@
       "testing",
       "crime mapping",
       "犯罪マッピング",
-      "暴力犯罪",
-      "薬物犯罪",
-      "秩序違反",
-      "財産犯罪",
       "犯罪転位",
       "displacement",
       "便益の拡散",
       "diffusion of benefits"
     ],
+    "detail_slug": null,
     "problem_ids": [],
     "case_ids": [
       "crime-hotspots-mobile-app",
@@ -55,5 +51,36 @@
       "campbell-hot-spots",
       "matrix-hot-spots"
     ]
+  },
+  {
+    "id": "problem-oriented-policing",
+    "name_ja": "問題志向型警察活動（POP）",
+    "name_en": "Problem-Oriented Policing",
+    "category_ja": "問題解決アプローチ",
+    "summary_ja": "特定の犯罪・秩序問題を分析し、その原因や条件に合わせた対応を設計し、結果を評価する警察活動のアプローチです。単一の対策・戦術ではありません。",
+    "key_point_ja": "POPは介入そのものではなく、問題を特定し、分析し、対応を設計し、評価するためのアプローチです。",
+    "search_terms": [
+      "POP",
+      "problem-oriented policing",
+      "problem oriented policing",
+      "問題志向型警察活動",
+      "問題解決",
+      "problem solving",
+      "SARA",
+      "scanning",
+      "analysis",
+      "response",
+      "assessment",
+      "問題分析",
+      "対策設計",
+      "評価",
+      "problem analysis triangle",
+      "PAT",
+      "situational crime prevention"
+    ],
+    "detail_slug": "problem-oriented-policing",
+    "problem_ids": [],
+    "case_ids": [],
+    "evidence_page_ids": []
   }
 ]

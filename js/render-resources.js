@@ -1,66 +1,74 @@
-export function renderResources(){
-  return `
-    <section class="section">
-      <div class="container">
-        <p class="section-kicker">OVERSEAS RESOURCES</p>
-        <h1>海外の実務ガイドを読む</h1>
-        <p class="lead">
-          各情報源は役割が異なります。まず「何が分かる資料なのか」を確認し、
-          必要な資料へ進みます。
-        </p>
+import {escapeHtml} from "./utils.js";
 
-        <div class="resource-list">
-          <article class="resource-card">
-            <div class="source-name">Crime Reduction Toolkit</div>
-            <h2>対策の効果・仕組み・条件・実装・コストを見る</h2>
-            <p>
-              犯罪予防施策について、Effect、Mechanism、Moderators、
-              Implementation、Economic costなどを整理して確認するための情報源です。
-            </p>
-          </article>
+const CATEGORY_ORDER=[
+  ["practice-guides","海外の実務ガイド","警察実務の進め方を体系的に読む"],
+  ["interventions-evidence","対策とエビデンス","対策の効果や研究の位置づけを確認する"],
+  ["practice-examples","海外の実践事例","海外の警察・関係機関で実際に行われた取組を見る"],
+  ["problem-solving-analysis","問題解決・分析ガイド","問題から分析し、Responseを考える"],
+  ["japanese-research","国内の関連研究","国内研究HUBで日本の研究・実装を確認する"]
+];
 
-          <article class="resource-card">
-            <div class="source-name">Police Practice Bank</div>
-            <h2>実際に行われた警察の取組を見る</h2>
-            <p>
-              実務でどのような問題に対して、どのような対応が行われたのかを確認するための情報源です。
-            </p>
-          </article>
+function pageCard(item){
+  return `<a class="library-card" href="#/resource/${escapeHtml(item.id)}">
+    <div class="library-card-source">${escapeHtml(item.source_name || "")}</div>
+    <h3>${escapeHtml(item.title_ja)}</h3>
+    <p>${escapeHtml(item.summary_ja || "")}</p>
+    <span>日本語ナビを読む →</span>
+  </a>`;
+}
 
-          <article class="resource-card">
-            <div class="source-name">Center for Problem-Oriented Policing（POP Center）</div>
-            <h2>問題分析と対応設計を深める</h2>
-            <p>
-              Problem-Oriented Policingの考え方、問題別ガイド、実践事例などを確認するための情報源です。
-            </p>
-          </article>
+function guideCard(item){
+  return `<a class="library-card guide-card" href="#/guide/${escapeHtml(item.id)}">
+    <div class="library-card-source">${escapeHtml(item.title_en || "")}</div>
+    <h3>${escapeHtml(item.title_ja)}</h3>
+    <p>${escapeHtml(item.summary_ja || "")}</p>
+    <span>日本語で読む →</span>
+  </a>`;
+}
 
-          <article class="resource-card">
-            <div class="source-name">Evidence-Based Policing Matrix</div>
-            <h2>警察介入研究を全体の中で位置づける</h2>
-            <p>
-              介入研究を、対象の種類・範囲、先回り型か事後対応型か、
-              特定の問題にどれだけ絞るかという観点から整理して見るための情報源です。
-            </p>
-          </article>
+export function renderResources(data){
+  const resources=data.resourcePages || [];
+  const guides=data.guides || [];
 
-          <article class="resource-card">
-            <div class="source-name">Campbell Collaboration</div>
-            <h2>システマティックレビュー・メタ分析を確認する</h2>
-            <p>
-              複数研究を統合したレビューから、介入全体の傾向や研究上の限界を確認するための情報源です。
-            </p>
-          </article>
+  const sections=CATEGORY_ORDER.map(([id,title,lead])=>{
+    if(id==="practice-guides"){
+      return `<section class="library-category">
+        <h2>${escapeHtml(title)}</h2>
+        <p class="library-category-lead">${escapeHtml(lead)}</p>
+        <div class="library-grid">${guides.length ? guides.map(guideCard).join("") : '<div class="empty">準備中です。</div>'}</div>
+      </section>`;
+    }
 
-          <article class="resource-card">
-            <div class="source-name">College of Policing</div>
-            <h2>警察実務の公式ガイダンスを確認する</h2>
-            <p>
-              警察業務の進め方、判断基準、手順、留意事項などを体系的に確認するための情報源です。
-            </p>
-          </article>
+    if(id==="japanese-research"){
+      return `<section class="library-category">
+        <h2>${escapeHtml(title)}</h2>
+        <p class="library-category-lead">${escapeHtml(lead)}</p>
+        <div class="library-grid">
+          <a class="library-card" href="https://ichimizu-research-hub.grassy-wasp-8750.chatgpt.site/#/" target="_blank" rel="noopener noreferrer">
+            <div class="library-card-source">いちみず会</div>
+            <h3>国内警察EBP・犯罪予防研究HUB</h3>
+            <p>日本国内の警察・犯罪予防研究、介入、効果検証を確認します。</p>
+            <span>研究HUBを開く ↗</span>
+          </a>
         </div>
-      </div>
-    </section>
-  `;
+      </section>`;
+    }
+
+    const items=resources.filter(x=>x.category_id===id);
+    return `<section class="library-category">
+      <h2>${escapeHtml(title)}</h2>
+      <p class="library-category-lead">${escapeHtml(lead)}</p>
+      <div class="library-grid">${items.length ? items.map(pageCard).join("") : '<div class="empty">準備中です。</div>'}</div>
+    </section>`;
+  }).join("");
+
+  return `<section class="section"><div class="container">
+    <p class="section-kicker">OVERSEAS RESOURCES</p>
+    <h1>海外の実務ガイド・情報源</h1>
+    <p class="lead">
+      情報源ごとに役割が異なります。「効果を知る」「実例を見る」「問題を分析する」など、
+      目的に合わせて入口を選びます。
+    </p>
+    ${sections}
+  </div></section>`;
 }

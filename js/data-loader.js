@@ -4,7 +4,9 @@ const FILES={
   cases:"./data/cases.json",
   sources:"./data/sources.json",
   evidencePages:"./data/evidence-pages.json",
-  translations:"./data/translations.json"
+  translations:"./data/translations.json",
+  resourcePages:"./data/resource-pages.json",
+  guides:"./data/guides.json"
 };
 
 export async function loadAllData(){

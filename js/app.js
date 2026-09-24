@@ -3,7 +3,10 @@ import {parseRoute,startRouter} from "./router.js";
 import {renderHome} from "./render-home.js";
 import {renderProblemList,renderInterventionList,activateListSearch} from "./render-lists.js";
 import {renderProblem,renderIntervention} from "./render-detail.js";
-import {renderCase,renderEvidence,renderTranslation,activateContent} from "./render-content.js";
+import {
+  renderCase,renderEvidence,renderTranslation,renderResourcePage,
+  renderGuide,renderInterventionGuide,activateContent
+} from "./render-content.js";
 import {renderResources} from "./render-resources.js";
 import {escapeHtml} from "./utils.js";
 
@@ -19,7 +22,19 @@ function page(){
       app.innerHTML=renderHome();
       break;
     case "resources":
-      app.innerHTML=renderResources();
+      app.innerHTML=renderResources(data);
+      break;
+    case "resource":
+      app.innerHTML=renderResourcePage(data,route.id);
+      activateContent();
+      break;
+    case "guide":
+      app.innerHTML=renderGuide(data,route.id);
+      activateContent();
+      break;
+    case "intervention-guide":
+      app.innerHTML=renderInterventionGuide(data,route.id);
+      activateContent();
       break;
     case "problems":
       app.innerHTML=renderProblemList(data);
