@@ -1,4 +1,3 @@
-\
 import {escapeHtml,safeExternalUrl} from "./utils.js";
 
 function inlineMarkdown(value=""){
