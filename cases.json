@@ -1,0 +1,218 @@
+[
+  {
+    "id": "crime-hotspots-mobile-app",
+    "title_ja": "Thames Valley Police｜犯罪ホットスポット・アプリ",
+    "title_en": "Crime hot spots mobile phone app",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "hot-spots-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Thames Valley Police",
+    "stage_ja": "独立評価済み（独立評価済み）",
+    "question_ja": "ホットスポットへの活動を日常業務へ組み込み、実装と犯罪効果をどう分けて検証するか",
+    "summary_ja": "暴力ホットスポットへ警察官を誘導し、滞在時間や活動内容まで記録するアプリを使った事例。対象設定、指示・割当、実施追跡と犯罪効果を分けて検証します.",
+    "result_ja": "",
+    "commentary_slug": "crime-hotspots-mobile-app",
+    "original_url": "https://www.college.police.uk/support-forces/practices/operation-rasure-thames-valley-police"
+  },
+  {
+    "id": "turning-point-street-outreach",
+    "title_ja": "Turning Point｜街頭アウトリーチ・サービス",
+    "title_en": "Turning Point – the street outreach service",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "hot-spots-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Leicestershire Police × Turning Point",
+    "stage_ja": "独立評価済み（独立評価済み）",
+    "question_ja": "暴力ホットスポットに警察官ではなく街頭アウトリーチを置くと何が変わるか",
+    "summary_ja": "暴力ホットスポットへユースワーカーを配置し、若者への接触・支援・紹介へ場所重点化を応用した事例です。",
+    "result_ja": "",
+    "commentary_slug": "turning-point-street-outreach",
+    "original_url": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service"
+  },
+  {
+    "id": "operation-safer-streets",
+    "title_ja": "Operation Safer Streets",
+    "title_en": "Operation Safer Streets",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "hot-spots-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Greater Manchester Police",
+    "stage_ja": "未検証",
+    "question_ja": "夜間繁華街の複雑な問題へ、ホットスポット分析と複数対策をどう組み合わせるか",
+    "summary_ja": "夜間繁華街でホットスポット分析、POP、警察活動、保護・安全確保、環境分析、官民連携を組み合わせた事例。",
+    "result_ja": "",
+    "commentary_slug": "operation-safer-streets",
+    "original_url": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte"
+  },
+  {
+    "id": "bike-intelligence-tool",
+    "title_ja": "Merseyside Police｜自転車情報ツール",
+    "title_en": "Merseyside Police – Bike intelligence tool",
+    "source_id": "college-practice-bank",
+    "problem_ids": [
+      "bicycle-theft"
+    ],
+    "intervention_ids": [],
+    "theory_labels": [],
+    "provider_ja": "Merseyside Police",
+    "stage_ja": "地域内で評価済み（地域内で評価済み）",
+    "question_ja": "登録・マーキングを、イベントで終わらせず警察業務へどう埋め込むか",
+    "summary_ja": "登録・マーキング、照会、回収・返還、情報活用を警察業務のflowとして設計し、実装状況も追跡する事例です。",
+    "result_ja": "",
+    "commentary_slug": "bike-intelligence-tool",
+    "original_url": "https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences"
+  },
+  {
+    "id": "reducing-cycle-theft-tfl-mps",
+    "title_ja": "TfL × Metropolitan Police Service｜自転車盗削減",
+    "title_en": "Reducing Cycle Theft – TfL × Metropolitan Police Service",
+    "source_id": "goldstein-award",
+    "problem_ids": [
+      "bicycle-theft"
+    ],
+    "intervention_ids": [],
+    "theory_labels": [],
+    "provider_ja": "Transport for London × Metropolitan Police Service",
+    "stage_ja": "Herman Goldstein Award Winner",
+    "question_ja": "都市全体の自転車盗を、SARA型の問題分析と複数対策でどう扱うか",
+    "summary_ja": "場所・対象・犯人・盗品市場を分析し、専従チーム、登録・マーキング、施錠、ホットスポット対策等を組み合わせた問題解決事例です。",
+    "result_ja": "",
+    "commentary_slug": "reducing-cycle-theft-tfl-mps",
+    "original_url": "https://popcenter.asu.edu/content/2011-goldstein-awards-winner-finalists"
+  },
+  {
+    "id": "bend-bike-theft-reduction",
+    "title_ja": "Bend Police Department｜自転車盗削減",
+    "title_en": "Bend Police Department – Bike Theft Reduction",
+    "source_id": "oregon-knowledge-bank",
+    "problem_ids": [
+      "bicycle-theft"
+    ],
+    "intervention_ids": [],
+    "theory_labels": [],
+    "provider_ja": "Bend Police Department",
+    "stage_ja": "実践事例",
+    "question_ja": "犯罪分析から、おとり自転車・常習犯対策・登録・販売店連携をどう組み合わせるか",
+    "summary_ja": "犯罪分析を起点に、おとり自転車、常習犯対策、登録、販売店連携等を組み合わせた事例です。",
+    "result_ja": "",
+    "commentary_slug": "bend-bike-theft-reduction",
+    "original_url": "https://okb.oregon.gov/Pages/bike-theft-reduction.aspx"
+  },
+  {
+    "id": "pop-gmp-district-hubs",
+    "title_ja": "Greater Manchester Police｜問題解決・予防地区ハブ",
+    "title_en": "Force district hubs for problem solving and prevention",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "problem-oriented-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Greater Manchester Police",
+    "stage_ja": "地域内で評価済み（地域内で評価済み）",
+    "question_ja": "個々の職員がSARAを行うだけでなく、組織として問題解決を支える仕組みをどう作るか。",
+    "summary_ja": "12地区に予防・問題解決の支援拠点を置き、分析、SARAの途中評価、パートナー連携、最終評価、学びの共有までを組織として支えるGreater Manchester Policeの取組。",
+    "result_ja": "",
+    "commentary_slug": "pop-gmp-district-hubs",
+    "original_url": "https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention"
+  },
+  {
+    "id": "pop-leicester-mcdonalds",
+    "title_ja": "Leicestershire Police｜夜間経済の重大暴力を問題解決で減らす",
+    "title_en": "Problem-solving to prevent night-time economy related serious violence at McDonald’s restaurants",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "problem-oriented-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Leicestershire Police",
+    "stage_ja": "地域内で評価済み（地域内で評価済み）",
+    "question_ja": "「夜間に暴力が多い」という結果を、具体的な問題に分解すると、どんな対策が見えてくるのか。",
+    "summary_ja": "Leicester中心部の2店舗周辺に集中する重大暴力を、犯罪データ、CCTV、店舗職員等の情報から分析。店舗運営、警備、環境、警察・パートナー活動を組み合わせ、比較地点も使って評価しました。",
+    "result_ja": "",
+    "commentary_slug": "pop-leicester-mcdonalds",
+    "original_url": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants"
+  },
+  {
+    "id": "operation-vulcan",
+    "title_ja": "Operation Vulcan",
+    "title_en": "Operation Vulcan",
+    "source_id": "college-practice-bank",
+    "problem_ids": [],
+    "intervention_ids": [
+      "problem-oriented-policing"
+    ],
+    "theory_labels": [],
+    "provider_ja": "Greater Manchester Police",
+    "stage_ja": "独立評価済み（独立評価済み）",
+    "question_ja": "偽造品市場、組織犯罪、暴力、搾取、地域環境が絡む問題を、どのように分解して複数機関の対策へつなげるか。",
+    "summary_ja": "Cheetham Hill・Strangeways地区に定着していた偽造品市場と関連犯罪を、警察だけの取締りで終わらせず、行政、消防、移民、取引基準、支援団体、土地・建物の関係者などと分担して対応した取組。",
+    "result_ja": "",
+    "commentary_slug": "operation-vulcan",
+    "original_url": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm"
+  },
+  {
+    "id": "burglary-durham-nudge",
+    "title_ja": "Durham Constabulary｜住宅侵入窃盗へのナッジ介入",
+    "title_en": "Durham Constabulary｜Nudging down burglary",
+    "source_id": "college-practice-bank",
+    "problem_ids": [
+      "residential-burglary"
+    ],
+    "intervention_ids": [],
+    "theory_labels": [],
+    "provider_ja": "Durham Constabulary",
+    "stage_ja": "地域内で評価済み（地域内で評価済み）",
+    "question_ja": "反復する住宅侵入窃盗（反復する住宅侵入窃盗）が起きている郵便番号区域へ、対象を絞ったナッジ型防犯チラシ（targeted ナッジ型防犯チラシ）を届けると何が変わるか。",
+    "summary_ja": "反復する住宅侵入窃盗（反復する住宅侵入窃盗）郵便番号区域を対象に、地域警察チームがナッジ型防犯チラシを配布。157介入群の郵便番号区域と154比較群の郵便番号区域を用いたRCTとして評価。",
+    "result_ja": "",
+    "commentary_slug": "burglary-durham-nudge",
+    "original_url": "https://www.college.police.uk/support-forces/practices/nudging-down-burglary"
+  },
+  {
+    "id": "burglary-student-programme",
+    "title_ja": "Greater Manchester Police｜学生住宅の侵入窃盗削減プログラム",
+    "title_en": "Student residential burglary reduction programme",
+    "source_id": "college-practice-bank",
+    "problem_ids": [
+      "residential-burglary"
+    ],
+    "intervention_ids": [],
+    "theory_labels": [],
+    "provider_ja": "Greater Manchester Police",
+    "stage_ja": "未検証",
+    "question_ja": "学生の共同住宅へ侵入窃盗が集中する場合、被害者集団・場所・再被害リスクに合わせて対策をどう変えるか。",
+    "summary_ja": "Manchester Southで、ホットスポット・マッピング、街路ごとに内容を変えた防犯チラシ、学生アンバサダー、周辺住宅への重点防犯（周辺住宅への重点防犯）、重点パトロールを組み合わせた事例。",
+    "result_ja": "",
+    "commentary_slug": "burglary-student-programme",
+    "original_url": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme"
+  },
+  {
+    "id": "burglary-boston-d14",
+    "title_ja": "Boston Police Department｜District D-14 住宅侵入窃盗問題解決計画",
+    "title_en": "District 14 Breaking and Entering Solution Plan",
+    "source_id": "goldstein-award",
+    "problem_ids": [
+      "residential-burglary"
+    ],
+    "intervention_ids": [],
+    "theory_labels": [],
+    "provider_ja": "Boston Police Department",
+    "stage_ja": "Goldstein Award finalist",
+    "question_ja": "一地区に住宅侵入窃盗が集中しているとき、単なるパトロール増強ではなく、どこに働きかけるか。",
+    "summary_ja": "反復被害地点、人口密度の高い地域、建物の防犯性能、アクセス等を分析し、地域住民への防犯啓発、ホットスポットへの重点化、警察資源の重点配置を組み合わせた問題解決事例。",
+    "result_ja": "",
+    "commentary_slug": "burglary-boston-d14",
+    "original_url": "https://popcenter.asu.edu/content/2008-goldstein-awards-winner-finalists"
+  }
+]

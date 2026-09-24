@@ -1,0 +1,107 @@
+[
+  {
+    "id": "bicycle-theft",
+    "name_ja": "自転車盗",
+    "name_en": "Bicycle theft",
+    "summary_ja": "自転車盗を、場所・手口・犯人目的・盗品市場・施錠・駐輪環境などに分け、問題に合う対策と評価項目を考えます。",
+    "key_point_ja": "犯罪件数、施錠行動、登録、回収・返還、実装量、周辺への犯罪転位を分けて見ます。中間・実装アウトカムの改善だけを「自転車盗が減った」とは扱いません。",
+    "search_terms": [
+      "自転車盗",
+      "bicycle theft",
+      "cycle theft",
+      "無施錠",
+      "弱い施錠",
+      "部品盗",
+      "高額自転車",
+      "盗品市場",
+      "反復被害",
+      "犯罪転位",
+      "駅",
+      "駐輪場",
+      "大学",
+      "学校",
+      "住宅",
+      "商業施設",
+      "交通結節点",
+      "施錠",
+      "二重ロック",
+      "駐輪設備",
+      "駐輪環境",
+      "マーキング",
+      "登録",
+      "bike register",
+      "bait bike",
+      "おとり自転車",
+      "targeted publicity",
+      "nudge",
+      "自然監視",
+      "POP",
+      "hot spots policing"
+    ],
+    "case_ids": [
+      "bike-intelligence-tool",
+      "reducing-cycle-theft-tfl-mps",
+      "bend-bike-theft-reduction"
+    ],
+    "evidence_page_ids": [
+      "bike-pop-center",
+      "bike-safer-streets",
+      "bike-targeted-publicity",
+      "bike-watching-eyes"
+    ],
+    "intervention_ids": [
+      "problem-oriented-policing",
+      "hot-spots-policing"
+    ]
+  },
+  {
+    "id": "residential-burglary",
+    "name_ja": "住宅対象侵入窃盗",
+    "name_en": "Residential Burglary / Domestic Burglary",
+    "summary_ja": "住宅対象侵入窃盗では、「どの家が危ないか」を静的に考えるだけでなく、どの住宅が被害に遭ったか、その後いつ再被害リスクが高まるか、周辺住宅にもリスクが広がるか、どの対策をどの住宅・地域へどのタイミングで届けるかまで分けて見ます。",
+    "key_point_ja": "一つの対策を先に選ぶのではなく、自地域で住宅・時間・場所・被害パターンへの集中を分析し、そのうえで物理防犯、防犯助言、周辺住宅への重点防犯（周辺住宅への重点防犯）、重点パトロール、犯人活動の妨害・抑止、CPTEDなどを組み合わせます。",
+    "search_terms": [
+      "住宅侵入窃盗",
+      "住宅対象侵入窃盗",
+      "residential burglary",
+      "domestic burglary",
+      "burglary",
+      "repeat victimisation",
+      "repeat burglary",
+      "near repeat",
+      "near-repeat",
+      "再被害",
+      "近接再被害",
+      "cocooning",
+      "target hardening",
+      "Neighbourhood Watch",
+      "住宅防犯",
+      "侵入窃盗",
+      "戸建住宅",
+      "student burglary",
+      "nudge leaflet",
+      "offender disruption",
+      "property marking",
+      "CPTED",
+      "周辺住宅への重点防犯",
+      "物理的防犯強化",
+      "近隣見守り活動",
+      "犯人活動の妨害・抑止"
+    ],
+    "case_ids": [
+      "burglary-durham-nudge",
+      "burglary-student-programme",
+      "burglary-boston-d14"
+    ],
+    "evidence_page_ids": [
+      "burglary-guidance",
+      "burglary-repeat-toolkit",
+      "burglary-repeat-review",
+      "burglary-pop-center"
+    ],
+    "intervention_ids": [
+      "problem-oriented-policing",
+      "hot-spots-policing"
+    ]
+  }
+]
