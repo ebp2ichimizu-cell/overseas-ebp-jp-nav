@@ -1,6 +1,6 @@
 export function renderHome(){
   return `
-    <section class="hero">
+    <section class="hero hero-entry">
       <div class="hero-inner container">
         <img
           class="hero-logo"
@@ -16,47 +16,47 @@ export function renderHome(){
           <p class="lead">
             Evidence-Based Policing、犯罪予防、Problem-Oriented Policingの
             実務ガイド・研究・実践事例を、日本語で探し、比較し、原文確認までつなぎます。
-            翻訳サイトではなく、読む資料と読む範囲を選ぶための実務支援サイトです。
           </p>
-        </div>
-      </div>
-    </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-intro">
-          <p class="section-kicker">START HERE</p>
-          <h2>まず何をしたいですか？</h2>
-          <p>目的に近い入口から進んでください。</p>
-        </div>
+          <div class="entry-prompt">
+            <span class="entry-prompt-kicker">SEARCH</span>
+            <h2>何から探しますか？</h2>
+          </div>
 
-        <div class="entry-grid">
-          <a class="entry-card entry-neutral" href="#/resources">
-            <div class="entry-number">01</div>
-            <h3>海外の実務ガイドを読む</h3>
-            <p>
-              海外の主要なEBP・犯罪予防リソースが、それぞれ何を提供しているかを確認します。
-            </p>
-            <span class="entry-link">情報源を見る →</span>
-          </a>
+          <div class="primary-entry-grid">
+            <a class="primary-entry-card primary-entry-blue" href="#/interventions">
+              <div class="primary-entry-top">
+                <span class="primary-entry-label">INTERVENTION</span>
+                <span class="primary-entry-arrow">→</span>
+              </div>
+              <h3>対策から探す</h3>
+              <p>
+                ホットスポット・パトロール、CCTV、POPなど、
+                対策名から効果・エビデンス・実装上の知見を確認します。
+              </p>
+              <span class="primary-entry-cta">対策を探す</span>
+            </a>
 
-          <a class="entry-card entry-blue" href="#/interventions">
-            <div class="entry-number">02</div>
-            <h3>対策から探す</h3>
-            <p>
-              「この対策は何か」「効くのか」「どの程度確かなのか」から知見を探します。
-            </p>
-            <span class="entry-link">対策を探す →</span>
-          </a>
+            <a class="primary-entry-card primary-entry-red" href="#/problems">
+              <div class="primary-entry-top">
+                <span class="primary-entry-label">PROBLEM</span>
+                <span class="primary-entry-arrow">→</span>
+              </div>
+              <h3>課題・問題から探す</h3>
+              <p>
+                自転車盗、住宅侵入窃盗など、
+                現場の課題から海外で実際に行われた実例を確認します。
+              </p>
+              <span class="primary-entry-cta">実例を探す</span>
+            </a>
+          </div>
 
-          <a class="entry-card entry-red" href="#/problems">
-            <div class="entry-number">03</div>
-            <h3>課題・問題から探す</h3>
-            <p>
-              「この課題について海外で実際に何をしたか」を、実例から探します。
-            </p>
-            <span class="entry-link">実例を探す →</span>
-          </a>
+          <div class="secondary-entry">
+            <a href="#/resources">
+              海外の実務ガイド・情報源から探す
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
