@@ -4,9 +4,19 @@
     "source_id": "crime-reduction-toolkit",
     "intervention_id": "hot-spots-policing",
     "title_ja": "Crime Reduction Toolkit｜ホットスポット・パトロール",
-    "summary_ja": "この情報源で何が分かるかを確認し、日本語解説へ進みます。",
+    "summary_ja": "Effect、エビデンスの質、作用の仕組み、効果が変わる条件、実装、コストなどを確認します。",
     "commentary_slug": "toolkit-hot-spots",
-    "original_url": "",
+    "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+    "translation_id": null
+  },
+  {
+    "id": "campbell-hot-spots",
+    "source_id": "campbell-collaboration",
+    "intervention_id": "hot-spots-policing",
+    "title_ja": "Campbell Collaboration｜ホットスポット・ポリシングのシステマティックレビュー",
+    "summary_ja": "複数の実証研究を統合したレビューから、犯罪への全体的な影響と犯罪転移・便益の拡散を確認します。",
+    "commentary_slug": "campbell-hot-spots",
+    "original_url": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
     "translation_id": null
   }
 ]

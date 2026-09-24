@@ -3,11 +3,14 @@
     "id": "hot-spots-policing",
     "name_ja": "ホットスポット・パトロール",
     "name_en": "Hot spots policing",
-    "summary_ja": "犯罪や通報が集中する小さな場所に警察活動を重点配分する考え方です。",
+    "summary_ja": "犯罪や通報が集中する小さな場所に、警察や関係機関の資源・活動を重点的に配分する場所ベースの警察活動です。",
     "problem_ids": [],
-    "case_ids": [],
+    "case_ids": [
+      "philadelphia-foot-patrol-2011"
+    ],
     "evidence_page_ids": [
-      "toolkit-hot-spots"
+      "toolkit-hot-spots",
+      "campbell-hot-spots"
     ]
   }
 ]

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "philadelphia-foot-patrol-2011",
+    "title_ja": "フィラデルフィア・フットパトロール実験",
+    "title_en": "The Philadelphia Foot Patrol Experiment",
+    "source_id": "ebp-matrix",
+    "problem_ids": [],
+    "intervention_ids": [
+      "hot-spots-policing"
+    ],
+    "theory_labels": [],
+    "summary_ja": "米国フィラデルフィアの暴力犯罪ホットスポットで、徒歩パトロールを用いたランダム化比較試験。",
+    "result_ja": "介入期間中、対象ホットスポットでは比較地点より暴力犯罪が少なくなったと報告されています。",
+    "commentary_slug": "philadelphia-foot-patrol-2011",
+    "original_url": "https://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-ratcliffe-et-al-2011/"
+  }
+]
