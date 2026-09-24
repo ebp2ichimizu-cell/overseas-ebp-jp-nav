@@ -3,7 +3,8 @@
     "id": "bicycle-theft",
     "name_ja": "自転車盗",
     "name_en": "Bicycle theft",
-    "summary_ja": "自転車盗に関する海外の実例・対策を探します。",
+    "summary_ja": "自転車盗を、場所・手口・犯人目的・盗品市場・施錠・駐輪環境などに分け、問題に合うResponseと評価項目を考えます。",
+    "key_point_ja": "犯罪件数、施錠行動、登録、回収・返還、実装量、周辺への犯罪転位を分けて見ます。中間・実装アウトカムの改善だけを「自転車盗が減った」とは扱いません。",
     "search_terms": [
       "自転車盗",
       "bicycle theft",
@@ -29,17 +30,74 @@
       "マーキング",
       "登録",
       "bike register",
-      "bikeindex",
-      "おとり自転車",
       "bait bike",
-      "防犯広報",
+      "おとり自転車",
       "targeted publicity",
       "nudge",
       "自然監視",
       "POP",
       "hot spots policing"
     ],
-    "case_ids": [],
-    "intervention_ids": []
+    "case_ids": [
+      "bike-intelligence-tool",
+      "reducing-cycle-theft-tfl-mps",
+      "bend-bike-theft-reduction"
+    ],
+    "evidence_page_ids": [
+      "bike-pop-center",
+      "bike-safer-streets",
+      "bike-targeted-publicity",
+      "bike-watching-eyes"
+    ],
+    "intervention_ids": [
+      "problem-oriented-policing",
+      "hot-spots-policing"
+    ]
+  },
+  {
+    "id": "residential-burglary",
+    "name_ja": "住宅対象侵入窃盗",
+    "name_en": "Residential Burglary / Domestic Burglary",
+    "summary_ja": "被害発生後の再被害・近接再被害リスクを把握し、どの住宅・地域へResponseを届けるかを考え、実装と再被害・地域全体の変化を評価します。",
+    "key_point_ja": "「鍵を強くする」など一つの対策を先に選ぶのではなく、住宅・時間・場所・被害パターンへの集中を分析し、物理防犯、cocooning、patrol、offender disruption、CPTED等を問題に合わせて組み合わせます。",
+    "search_terms": [
+      "住宅侵入窃盗",
+      "住宅対象侵入窃盗",
+      "residential burglary",
+      "domestic burglary",
+      "burglary",
+      "repeat victimisation",
+      "repeat burglary",
+      "near repeat",
+      "near-repeat",
+      "再被害",
+      "近接再被害",
+      "cocooning",
+      "target hardening",
+      "Neighbourhood Watch",
+      "住宅防犯",
+      "侵入窃盗",
+      "戸建住宅",
+      "student burglary",
+      "nudge leaflet",
+      "offender disruption",
+      "property marking",
+      "CPTED"
+    ],
+    "case_ids": [
+      "burglary-durham-nudge",
+      "burglary-student-programme",
+      "burglary-boston-d14"
+    ],
+    "evidence_page_ids": [
+      "burglary-guidance",
+      "burglary-repeat-toolkit",
+      "burglary-repeat-review",
+      "burglary-pop-center"
+    ],
+    "intervention_ids": [
+      "problem-oriented-policing",
+      "hot-spots-policing"
+    ]
   }
 ]

@@ -4,24 +4,21 @@
     "name_ja": "ホットスポット・ポリシング",
     "name_en": "Hot spots policing",
     "category_ja": "場所に着目した犯罪予防／警察活動",
-    "summary_ja": "ホットスポット・ポリシングは、犯罪が集中する小さな場所を特定し、警察活動を重点化する方法です。 徒歩・車両パトロール、高可視性活動、問題志向型警察活動（POP）など、そこで行う活動には複数の方法があります。ホットスポットを特定することと、そこで何をするかは別の問題であり、対象となる犯罪や場所に応じて介入方法を選ぶ必要があります。 多数の研究では、ホットスポットへの警察活動の重点化による犯罪・秩序違反の減少が支持されています。一方、すべての地域・介入方法で効果が確認されているわけではありません。",
-    "key_point_ja": "「ホットスポットを特定すること」と「そこで何をするか」は別の問題です。ホットスポット・ポリシングは、単に「犯罪が多い場所へ警察官を増やす」ことを意味しません。",
+    "summary_ja": "ホットスポット・ポリシングは、犯罪が集中する小さな場所を特定し、警察活動を重点化する方法です。徒歩・車両パトロール、高可視性活動、問題志向型警察活動（POP）など、そこで行う活動には複数の方法があります。ホットスポットを特定することと、そこで何をするかは別の問題です。",
+    "key_point_ja": "「ホットスポットを特定すること」と「そこで何をするか」は別の問題です。場所を特定した後、問題を分析し、Responseを選び、実装を追跡し、結果を評価します。",
     "search_terms": [
       "ホットスポット",
       "hot spot",
       "hot spots",
       "hotspot",
-      "hotspots",
       "hot spots policing",
       "重点パトロール",
       "重点警戒",
       "micro places",
-      "micro-place",
       "微小地点",
       "街路区間",
       "street segment",
       "高可視性パトロール",
-      "high visibility patrol",
       "directed patrol",
       "問題志向型警察活動",
       "problem-oriented policing",
@@ -38,8 +35,10 @@
       "便益の拡散",
       "diffusion of benefits"
     ],
-    "detail_slug": null,
-    "problem_ids": [],
+    "problem_ids": [
+      "bicycle-theft",
+      "residential-burglary"
+    ],
     "case_ids": [
       "crime-hotspots-mobile-app",
       "turning-point-street-outreach",
@@ -57,12 +56,12 @@
     "name_ja": "問題志向型警察活動（POP）",
     "name_en": "Problem-Oriented Policing",
     "category_ja": "問題解決アプローチ",
-    "summary_ja": "特定の犯罪・秩序問題を分析し、その原因や条件に合わせた対応を設計し、結果を評価する警察活動のアプローチです。単一の対策・戦術ではありません。",
-    "key_point_ja": "POPは介入そのものではなく、問題を特定し、分析し、対応を設計し、評価するためのアプローチです。",
+    "summary_ja": "繰り返し発生する犯罪や秩序問題を、一件一件の事件として処理するだけでなく、なぜ問題が繰り返されるのかを具体的に調べ、その問題に合ったResponseを作り、結果を確かめながら改善していく警察活動の考え方です。",
+    "key_point_ja": "POPは決まった一つの対策ではありません。問題の把握（Scanning）→分析（Analysis）→対策（Response）→評価（Assessment）を行い、評価結果から必要に応じて前の段階へ戻ります。",
     "search_terms": [
       "POP",
       "problem-oriented policing",
-      "problem oriented policing",
+      "problem solving policing",
       "問題志向型警察活動",
       "問題解決",
       "problem solving",
@@ -71,16 +70,30 @@
       "analysis",
       "response",
       "assessment",
+      "CHEERS",
       "問題分析",
       "対策設計",
       "評価",
       "problem analysis triangle",
       "PAT",
-      "situational crime prevention"
+      "situational crime prevention",
+      "implementation",
+      "Crime Harm"
     ],
-    "detail_slug": "problem-oriented-policing",
-    "problem_ids": [],
-    "case_ids": [],
-    "evidence_page_ids": []
+    "problem_ids": [
+      "bicycle-theft",
+      "residential-burglary"
+    ],
+    "case_ids": [
+      "pop-gmp-district-hubs",
+      "pop-leicester-mcdonalds",
+      "operation-vulcan"
+    ],
+    "evidence_page_ids": [
+      "pop-sara-model",
+      "pop-toolkit",
+      "pop-campbell",
+      "pop-center-tools"
+    ]
   }
 ]

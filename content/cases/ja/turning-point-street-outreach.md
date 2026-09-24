@@ -1,12 +1,11 @@
 ---
-id: turning-point-street-outreach
-source_id: college-practice-bank
-intervention_id: hot-spots-policing
-rights_status: commentary-only
+content_type: site-commentary
+source: supplied-content-master
 ---
 
 # Turning Point – the street outreach service
-## 課題（Problem）｜何が課題だったか
+
+### 課題（Problem）｜何が課題だったか
 
 Leicester city centreで、
 25歳以下の若者が被害者または加害者となる
@@ -16,8 +15,7 @@ serious violenceが集中する場所がありました。
 若者へ直接働きかける別の対策（Response）を
 hot spotへ投入できないかを検討しました。
 
-
-## 対象設定（Targeting）｜どこを対象にしたか
+### 対象設定（Targeting）｜どこを対象にしたか
 
 犯罪データを使い、
 Leicester city centreの
@@ -28,8 +26,7 @@ Leicester city centreの
 
 夜間経済圏（night-time economy）犯罪の影響を分けるための時間設定も行っています。
 
-
-## 介入（Intervention）｜誰が何をしたか
+### 介入（Intervention）｜誰が何をしたか
 
 配置したのは、
 警察官ではなくTurning Pointの街頭アウトリーチのユースワーカー（街頭アウトリーチ（street outreach） youth workers）です。
@@ -50,8 +47,7 @@ Leicester city centreの
 - メンタルヘルス
 - 必要な支援先への支援先への紹介（referral）
 
-
-## 警察と一緒には巡回しない
+### 警察と一緒には巡回しない
 
 警察官とアウトリーチ職員（outreach workers）は、
 同じhot spotsを対象にしますが、
@@ -60,8 +56,7 @@ Leicester city centreの
 住民・若者から見て、
 別の役割を持つサービスであることを保つためです。
 
-
-実装（Implementation）｜どう実装したか
+## 実装（Implementation）｜どう実装したか
 
 活動時間：
 主に14時～20時
@@ -77,8 +72,7 @@ GPS追跡機器（GPS tracker）を用いて、
 
 を確認しました。
 
-
-## 15分→40分へ変更
+### 15分→40分へ変更
 
 当初は警察hot spot patrolの研究を参考に、
 短い滞在時間を想定していました。
@@ -89,8 +83,7 @@ GPS追跡機器（GPS tracker）を用いて、
 
 そのため40分へ延長しました。
 
-
-## 重要な意味
+### 重要な意味
 
 Koper curveのような知見を、
 
@@ -101,8 +94,7 @@ Koper curveのような知見を、
 介入の作用機序が違えば、
 必要な介入量（dose）も変わります。
 
-
-## 実装上の学び
+### 実装上の学び
 
 Practice Bankでは、
 
@@ -114,8 +106,7 @@ Practice Bankでは、
 
 などが報告されています。
 
-
-評価設計（Evaluation design）｜どう評価したか
+## 評価設計（Evaluation design）｜どう評価したか
 
 Cambridge Centre for Evidence-Based Policingが評価。
 
@@ -132,10 +123,9 @@ Level 3
 半無作為化された日程（semi-randomised schedule）で、
 巡回実施日（patrol day）とnon-巡回実施日（patrol day）の犯罪を比較しました。
 
+## 結果（Findings）
 
-結果（Findings）
-
-## 前後比較
+### 前後比較
 
 11か月前
 →介入中11か月
@@ -148,8 +138,7 @@ Level 3
 60,314 → 38,421
 36％減
 
-
-## 巡回実施日（patrol day） vs non-巡回実施日（patrol day）
+### 巡回実施日（patrol day） vs non-巡回実施日（patrol day）
 
 outreach patrolがある日では、
 ない日と比べて、
@@ -159,8 +148,7 @@ outreach patrolがある日では、
 
 が統計的に有意に低かったと報告されています。
 
-
-## 費用
+### 費用
 
 hot spot内1分当たり：
 
@@ -172,8 +160,7 @@ hot spot内1分当たり：
 
 約32.5％低い費用と報告されています。
 
-
-限界（Limitations）｜どこまで言えるか
+## 限界（Limitations）｜どこまで言えるか
 
 これはRCTではありません。
 
@@ -194,8 +181,7 @@ hot spot内1分当たり：
 巡回実施日（patrol day）／non-巡回実施日（patrol day）比較も、
 完全な無作為割付ではありません。
 
-
-他地域への適用（Transferability）｜この事例をどう読むか
+## 他地域への適用（Transferability）｜この事例をどう読むか
 
 この事例の最大の意味は、
 
@@ -218,26 +204,22 @@ hot spotは、
 
 など、問題に応じて変えられます。
 
-
-## 実務で持ち帰ること
+### 実務で持ち帰ること
 
 1．hot spotは「警察官を置く場所」という意味ではない
 
 ホットスポット（hot spot）は対象設定（Targeting）です。
 誰が何をするかは対策（Response）として別に設計できます。
 
-
 2．作用機序が違えば介入量（dose）も変わる
 
 警察官の高可視性巡回で得られた滞在時間の知見を、
 outreachへそのまま移植しません。
 
-
 3．非警察主体でも実装管理は必要
 
 GPS等で、
 どこで何分活動したかを確認しています。
-
 
 4．成果指標を介入に合わせる
 
@@ -246,7 +228,6 @@ GPS等で、
 接触件数、
 支援への支援先への紹介（referral）等も候補になります。
 
-
 5．準実験の結果を因果効果として言い切らない
 
 有望な結果として参考にしつつ、
@@ -254,15 +235,17 @@ GPS等で、
 
 <!-- STATS_DETAIL_START -->
 
-## 統計で確認する
+## 統計を詳しく見る
 
-## 評価期間
+**対象：RED-02 Turning Point street outreach**
+
+### 評価期間
 
 2023年2月10日～2024年1月10日
 
 47週間
 
-## 研究デザイン
+### 研究デザイン
 
 準実験
 Maryland Scientific Methods Scale：
@@ -271,7 +254,7 @@ Level 3
 半無作為化日程で、
 巡回実施日と非巡回日を比較。
 
-## 前後の主要Outcome
+### 前後の主要Outcome
 
 犯罪事案件数：
 416 → 252
@@ -281,7 +264,7 @@ Crime Harm：
 60,314 → 38,421
 36％減
 
-## 日単位比較
+### 日単位比較
 
 street outreach実施日は、
 非実施日と比べて、
@@ -291,7 +274,7 @@ street outreach実施日は、
 
 が統計的に有意に低いと報告。
 
-## 介入量
+### 介入量
 
 7 serious violence hot spots
 
@@ -301,7 +284,7 @@ street outreach実施日は、
 1 hot spot当たり：
 約40分
 
-## 費用
+### 費用
 
 hot spot内1分当たり：
 
@@ -314,12 +297,13 @@ street outreach：
 差：
 約32.5％低い
 
-## 95％CI・正確なp値
+### 95％CI・正確なp値
 
 現在のPractice Bank本文／コンテンツマスターでは数値を保持していない。
-第3階層の評価報告書で確認する。
 
-## この数字をどう読むか
+## 原著・資料を確認する
+
+### この数字をどう読むか
 
 39％減は単純な前後変化です。
 
@@ -330,13 +314,13 @@ street outreach：
 「前後で減った」だけでなく、
 outreachが実施された日のOutcomeがどう違ったかまで確認しています。
 
-## 原著で確認する
+### 原著でさらに確認する
 
-[→ 第3階層のPractice Bankおよび評価資料へ](https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service)
+[原著・資料を開く](https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service)
 
 <!-- STATS_DETAIL_END -->
 
-## 原典・資料を確認する
+## 原著・資料を確認する
 
 Practice Bank：
 [https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service](https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service)

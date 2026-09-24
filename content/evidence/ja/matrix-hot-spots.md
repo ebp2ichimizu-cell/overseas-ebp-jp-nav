@@ -1,14 +1,11 @@
 ---
-id: matrix-hot-spots
-source_id: ebp-matrix
-intervention_id: hot-spots-policing
-rights_status: commentary-only
+content_type: site-commentary
+source: supplied-content-master
 ---
 
-# Evidence-Based Policing Matrix
+# Evidence-Based Policing Matrix｜ホットスポット・ポリシング
 
-> 実務家向けの問い：自分たちがやろうとしている警察活動に近い研究はどこにあるか
-## 最初に結論
+### 最初に結論
 
 Matrixの役割は、
 
@@ -37,8 +34,7 @@ Matrixの役割は、
 
 まで読む必要があります。
 
-
-Matrixは何を見る資料か
+## Matrixは何を見る資料か
 
 Evidence-Based Policing Matrixは、
 警察介入の評価研究を一定の軸で配置する
@@ -47,8 +43,7 @@ research-to-practice translation toolです。
 公開版には2022年までに公表された研究が収録され、
 現在は2025年までの研究を追加する更新作業が進められています。
 
-
-3つの軸
+## 3つの軸
 
 ① 対象（Target）
 誰・どこを対象にするか
@@ -60,7 +55,6 @@ research-to-practice translation toolです。
 微小地点（Micro places）
 近隣地域（Neighborhoods）
 管轄地域（Jurisdictions）
-
 
 ホットスポット研究の中心は、
 微小地点（Micro places）です。
@@ -77,7 +71,6 @@ research-to-practice translation toolです。
 など、
 非常に小さな地理単位が含まれます。
 
-
 ② 予防性・先回り性（Proactivity）
 どの程度、予防的・先回り的な介入か
 
@@ -85,15 +78,13 @@ research-to-practice translation toolです。
 予防的（Proactive）
 高度に予防的（Highly proactive）
 
-
 ③ 問題への焦点（Specificity）
 どの程度、特定の問題や原因へ焦点を当てているか
 
 一般的（General）
 焦点化（Focused）
 
-
-## 実務家向けの読み方
+### 実務家向けの読み方
 
 同じ微小地点（Micro places）でも、
 
@@ -107,8 +98,7 @@ research-to-practice translation toolです。
 という焦点化（Focused）な介入では、
 Matrix上の位置も、研究結果も変わります。
 
-
-有効性（Effectiveness）の表示
+## 有効性（Effectiveness）の表示
 
 Matrixには、
 成功した研究だけが掲載されているわけではありません。
@@ -128,8 +118,7 @@ Matrixには、
 逆効果（Backfire）
 介入によって犯罪等が悪化する統計的に有意な結果が確認された。
 
-
-## 重要
+### 重要
 
 効果あり（Effective）
 ＝どんな場所でも必ず成功する
@@ -143,11 +132,11 @@ Matrixには、
 
 研究デザイン、サンプル数、実装状況等も一緒に読む必要があります。
 
-
 ## 代表例1｜Sherman & Weisburd (1995)
-Minneapolis Hot Spots Patrol Experiment
 
-## Matrix上の位置
+## Minneapolis Hot Spots Patrol Experiment
+
+### Matrix上の位置
 
 対象（Target）：
 微小地点（Micro places）
@@ -164,8 +153,7 @@ Minneapolis Hot Spots Patrol Experiment
 結果（Outcome）：
 効果あり（Effective）
 
-
-## どんな問題を対象にしたか
+### どんな問題を対象にしたか
 
 Minneapolis市内で、
 犯罪・秩序違反の通報が繰り返し集中する
@@ -179,8 +167,7 @@ hot spotは、
 対象となる犯罪通報が特に集中していた時間帯は、
 19時～翌3時でした。
 
-
-## 具体的に何をしたのか
+### 具体的に何をしたのか
 
 110地点を無作為に、
 
@@ -205,23 +192,20 @@ uniformed police patrolの滞在時間を大幅に増やしました。
 
 という比較的シンプルな介入です。
 
-
-## 比較地点は何をしたか
+### 比較地点は何をしたか
 
 対照地点では、
 通常の警察活動を継続しました。
 
 特別な追加パトロールは設定しませんでした。
 
-
-## 実装できたか
+### 実装できたか
 
 警察官のpatrol logsだけでなく、
 独立した観察も用いて、
 本当に対象地点で警察官の滞在時間が増えたかを確認しました。
 
-
-## 結果
+### 結果
 
 介入地点では、
 犯罪関連通報が約6～13％減少しました。
@@ -232,8 +216,7 @@ uniformed police patrolの滞在時間を大幅に増やしました。
 独立観察によるdisorderも、
 介入地点では対照地点の約半分でした。
 
-
-## この研究を実務家はどう読むか
+### この研究を実務家はどう読むか
 
 これは、
 
@@ -251,8 +234,7 @@ uniformed police patrolの滞在時間を大幅に増やしました。
 という施策に近い研究を探す場合、
 参考になります。
 
-
-## ただし
+### ただし
 
 この研究結果を、
 
@@ -265,11 +247,11 @@ hot spotの大きさ、
 犯罪類型、
 警察官の滞在方法等が異なります。
 
-
 ## 代表例2｜Taylor et al. (2011)
-Jacksonville POP
 
-## Matrix上の位置
+## Jacksonville POP
+
+### Matrix上の位置
 
 対象（Target）：
 微小地点（Micro places）
@@ -286,15 +268,13 @@ Highly 予防的（Proactive）
 結果（Outcome）：
 効果あり（Effective）
 
-
-## どんな問題を対象にしたか
+### どんな問題を対象にしたか
 
 Florida州Jacksonvilleで、
 家庭内暴力を除くstreet violenceが集中する
 83のviolent crime hot spotsを特定しました。
 
-
-## 評価条件
+### 評価条件
 
 83 hot spotsを無作為に、
 
@@ -311,8 +291,7 @@ POP：
 
 3条件とも90日間維持しました。
 
-
-## POPでは具体的に何をしたのか
+### POPでは具体的に何をしたのか
 
 22のPOP hot spotsそれぞれに、
 警察官とcrime analystのチームを配置しました。
@@ -326,28 +305,33 @@ POP：
 
 実際に用いられた対策には、
 
-## 環境・状況改善
+### 環境・状況改善
+
 - 壊れたfenceの修理
 - 照明の設置／改善
 - road barrierの設置
 - graffiti removal
 - parkの清掃
 
-## 事業者・住宅関係
+### 事業者・住宅関係
+
 - business ownersとの協働
 - rental property managersとの協働
 - security対策
 - business practicesの改善
 
-## community
+### community
+
 - 地域調査（community survey）
 - 住民へのoutreach
 - community organizing
 
-## social services
+### social services
+
 - 若者のrecreational opportunity改善等
 
-## regulatory / enforcement
+### regulatory / enforcement
+
 - code enforcement
 - nuisance abatement
 - enforcement
@@ -357,8 +341,7 @@ POP：
 22地点全体で、
 283の個別POP measuresが実施されました。
 
-
-## 何が重要か
+### 何が重要か
 
 これは、
 
@@ -370,8 +353,7 @@ POP：
 原因や環境条件に合わせて、
 異なる対策（Response）を組み合わせています。
 
-
-## 結果
+### 結果
 
 POPは、
 介入終了後90日間の
@@ -382,8 +364,7 @@ non-domestic street violenceについて、
 無視できない減少方向の結果がありましたが、
 それらは統計的に有意ではありませんでした。
 
-
-## この研究を実務家はどう読むか
+### この研究を実務家はどう読むか
 
 自分たちが、
 
@@ -398,11 +379,11 @@ non-domestic street violenceについて、
 施策を検討しているなら、
 この研究が近いモデルです。
 
-
 ## 対照例｜Taylor et al. (2011)
-Jacksonville Directed Patrol
 
-## なぜPOPと並べて見るのか
+## Jacksonville Directed Patrol
+
+### なぜPOPと並べて見るのか
 
 POPと同じ研究の中で、
 
@@ -422,8 +403,7 @@ POPと同じ研究の中で、
 
 の違いを理解するのに非常に有用です。
 
-
-## Matrix上の位置
+### Matrix上の位置
 
 対象（Target）：
 微小地点（Micro places）
@@ -440,8 +420,7 @@ POPと同じ研究の中で、
 結果（Outcome）：
 効果を示す証拠なし（No evidence of an effect）
 
-
-## 具体的に何をしたのか
+### 具体的に何をしたのか
 
 21のhot spotsを
 重点パトロール（Directed patrol）条件としました。
@@ -463,8 +442,7 @@ crime analysisに基づいて、
 この追加パトロールによる警察官の投入量は、
 平均約53 officer-hours / weekでした。
 
-
-## POPとの違い
+### POPとの違い
 
 重点パトロール（Directed patrol）では、
 
@@ -484,8 +462,7 @@ POPのように、
 等を場所ごとに組み合わせる
 問題解決（problem-solving）は中心ではありません。
 
-
-## 結果
+### 結果
 
 暴力犯罪の各指標では、
 4～20％程度の減少方向の数値が出ました。
@@ -501,8 +478,7 @@ POPのように、
 介入終了後90日間に
 残存する抑止効果も確認されませんでした。
 
-
-## 実務家向けの読み方
+### 実務家向けの読み方
 
 これは、
 
@@ -514,8 +490,7 @@ POPのように、
 
 という例でもあります。
 
-
-## POPとの比較が示すもの
+### POPとの比較が示すもの
 
 同じviolent hot spotsを対象にしても、
 
@@ -535,11 +510,11 @@ POP：
 
 対策（Response）の設計が重要だと理解できます。
 
-
 ## 代表例3｜Weisburd & Green (1995)
-Jersey City Drug Market Analysis Experiment
 
-## Matrix上の位置
+## Jersey City Drug Market Analysis Experiment
+
+### Matrix上の位置
 
 対象（Target）：
 微小地点（Micro places）
@@ -556,8 +531,7 @@ Highly 予防的（Proactive）
 結果（Outcome）：
 効果あり（Effective）
 
-
-## どんな問題を対象にしたか
+### どんな問題を対象にしたか
 
 Jersey Cityの
 drug activityが集中する56 hot spotsを対象にしました。
@@ -565,8 +539,7 @@ drug activityが集中する56 hot spotsを対象にしました。
 56地点を無作為に、
 介入群と対照群へ割り付けました。
 
-
-## 介入群では何をしたのか
+### 介入群では何をしたのか
 
 介入群では、
 各drug hot spotを特定の警察官へ担当させました。
@@ -587,8 +560,7 @@ drug activityが集中する56 hot spotsを対象にしました。
 
 が含まれました。
 
-
-## 対照群では何をしたのか
+### 対照群では何をしたのか
 
 対照群では、
 通常のnarcotics enforcementを継続しました。
@@ -600,8 +572,7 @@ drug activityが集中する56 hot spotsを対象にしました。
 
 によるdrug enforcementです。
 
-
-## つまり何を比較したのか
+### つまり何を比較したのか
 
 どちらもdrug hot spotsへ警察活動を向けています。
 
@@ -618,8 +589,7 @@ drug activityが集中する56 hot spotsを対象にしました。
 
 という点です。
 
-
-## 結果
+### 結果
 
 暴力犯罪・財産犯罪のcallsには、
 統計的に有意な減少は確認されませんでした。
@@ -631,8 +601,7 @@ disorder-related callsの4カテゴリー中3カテゴリーで、
 narcotics calls自体には、
 一貫した効果は確認されませんでした。
 
-
-## なぜMatrixでは効果あり（Effective）なのか
+### なぜMatrixでは効果あり（Effective）なのか
 
 すべての犯罪類型が減ったからではありません。
 
@@ -640,8 +609,7 @@ narcotics calls自体には、
 特にdisorderの一部指標で
 有意な改善を示したためです。
 
-
-## 実務家向けの重要な読み方
+### 実務家向けの重要な読み方
 
 Matrixの「効果あり（Effective）」は、
 
@@ -653,10 +621,10 @@ Matrixの「効果あり（Effective）」は、
 何には効かなかったのかまで、
 個別研究ページで確認する必要があります。
 
+## 4つの研究を並べると何が見えるか
 
-4つの研究を並べると何が見えるか
+### ① Minneapolis
 
-## ① Minneapolis
 対象（Target）：
 crime hot spots
 
@@ -669,8 +637,8 @@ police presenceを増やす
 結果：
 効果あり（Effective）
 
+### ② Jacksonville Directed Patrol
 
-## ② Jacksonville Directed Patrol
 対象（Target）：
 violent crime hot spots
 
@@ -683,8 +651,8 @@ patrol dosageを増やす
 結果：
 効果を示す証拠なし（No evidence of an effect）
 
+### ③ Jacksonville POP
 
-## ③ Jacksonville POP
 対象（Target）：
 同じviolent crime hot spots
 
@@ -697,8 +665,8 @@ patrol dosageを増やす
 結果：
 効果あり（Effective）
 
+### ④ Jersey City Drug Markets
 
-## ④ Jersey City Drug Markets
 対象（Target）：
 drug hot spots
 
@@ -713,8 +681,7 @@ drug marketという場所の問題を継続管理する
 ただし、主にdisorderで効果。
 暴力・財産犯罪やnarcotics callsでは明確でない。
 
-
-## この比較から分かること
+### この比較から分かること
 
 「微小地点（Micro places）」
 というTargetが同じでも、
@@ -734,14 +701,12 @@ drug marketという場所の問題を継続管理する
 
 を探すために使います。
 
-
-自分たちの施策に近い研究を探す方法
+## 自分たちの施策に近い研究を探す方法
 
 まず、
 自分たちの施策を次の順で言葉にします。
 
-
-## 1．Target
+### 1．Target
 
 何を狙うのか。
 
@@ -752,8 +717,7 @@ drug marketという場所の問題を継続管理する
 - drug market
 - violent crime hot spot
 
-
-## 2．Problem
+### 2．Problem
 
 何を減らしたいのか。
 
@@ -764,8 +728,7 @@ drug marketという場所の問題を継続管理する
 - 自転車盗
 - 侵入窃盗
 
-
-## 3．対策（Response）
+### 3．対策（Response）
 
 現場で実際に何をするのか。
 
@@ -779,20 +742,17 @@ drug marketという場所の問題を継続管理する
 - 住宅管理者への働きかけ
 - social services
 
-
-## 4．Proactivity
+### 4．Proactivity
 
 通報後に対応するのか、
 犯罪発生前に先回りするのか。
 
-
-## 5．Specificity
+### 5．Specificity
 
 誰にでも同じ活動をする一般的（General）な介入か、
 その場所の原因に合わせた焦点化（Focused）な介入か。
 
-
-## 6．近い研究を探す
+### 6．近い研究を探す
 
 Matrixで、
 
@@ -808,14 +768,12 @@ Matrixで、
 必ず個別研究ページで
 対策（Response）の中身まで確認します。
 
-
-Matrixから実務で持ち帰ること
+## Matrixから実務で持ち帰ること
 
 1．「場所が似ている」だけでは研究を選ばない
 
 同じ微小地点（Micro places）でも、
 パトロールとPOPでは中身が違います。
-
 
 2．介入内容まで一致する研究を探す
 
@@ -826,7 +784,6 @@ Matrixから実務で持ち帰ること
 
 のように探す方が、
 自分たちの施策へつなげやすくなります。
-
 
 3．異なる結果の研究を並べて見る
 
@@ -844,7 +801,6 @@ POP：
 効果が明確だった研究と、明確ではなかった研究を並べることで、
 「何が結果を分けたのか」を考え、対策（Response）を選ぶ材料にできます。
 
-
 4．「効果あり（Effective）」の中身を確認する
 
 Jersey Cityでは、
@@ -853,7 +809,6 @@ disorderには効果がありましたが、
 
 「何が改善したのか」
 まで確認します。
-
 
 5．Matrixの最終目的はコピーではない
 
@@ -864,8 +819,7 @@ disorderには効果がありましたが、
 
 を考えるために使います。
 
-
-## 4つの青カードの役割
+### 4つの青カードの役割
 
 Guidance：
 何をどう実施するかを理解する。
@@ -882,15 +836,16 @@ Matrix：
 
 <!-- STATS_DETAIL_START -->
 
-## 統計で確認する
+## 統計を詳しく見る
+
+**対象：BLUE-04 Evidence-Based Policing Matrix**
 
 Matrix全体に一つの「効果率」はありません。
 
 ここでは、
 第2階層で紹介する代表研究の数字を個別に確認します。
 
-
-## Minneapolis Hot Spots Patrol Experiment
+### Minneapolis Hot Spots Patrol Experiment
 
 対象：
 110 hot spots
@@ -910,8 +865,7 @@ crime-related calls 約6～13％減
 Matrix：
 Effective
 
-
-## Jacksonville violent hot spots
+### Jacksonville violent hot spots
 
 対象：
 83 hot spots
@@ -937,8 +891,7 @@ Directed patrol：
 統計的に明確ではない
 Matrix：No evidence of an effect
 
-
-## Jersey City Drug Market Analysis Experiment
+### Jersey City Drug Market Analysis Experiment
 
 対象：
 56 drug hot spots
@@ -957,8 +910,7 @@ narcotics calls：
 Matrix：
 Effective
 
-
-## この数字をどう読むか
+### この数字をどう読むか
 
 Matrixの「Effective」は、
 すべてのOutcomeに効果があったことを意味しません。
@@ -967,13 +919,13 @@ Matrixの「Effective」は、
 ResponseとOutcomeを具体的に見ることで、
 自分たちの介入に近い研究を探します。
 
-## 原著で確認する
+### 原著でさらに確認する
 
-[→ 第3階層の各Matrix個別研究ページへ](https://cebcp.org/evidence-based-policing/the-matrix/)
+[原著・資料を開く](https://cebcp.org/evidence-based-policing/the-matrix/)
 
 <!-- STATS_DETAIL_END -->
 
-## 原典・資料を確認する
+## 原著・資料を確認する
 
 Matrix：
 [https://cebcp.org/evidence-based-policing/the-matrix/](https://cebcp.org/evidence-based-policing/the-matrix/)

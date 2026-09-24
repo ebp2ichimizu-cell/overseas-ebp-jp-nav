@@ -1,40 +1,10 @@
 .detail-category{
-  display:inline-block;
-  margin-bottom:8px;
-  color:var(--muted);
-  font-size:.86rem;
-  font-weight:700;
+  display:inline-block;margin-bottom:8px;color:var(--muted);font-size:.86rem;font-weight:700;
 }
-.key-point{
-  margin:22px 0 30px;
-  padding:16px 18px;
-  border-left:5px solid var(--navy);
-  background:#eef3f8;
-  border-radius:8px;
-}
+.detail-english{margin:-8px 0 18px;color:var(--muted);font-size:.92rem}
+.key-point{margin:22px 0 30px;padding:16px 18px;border-left:5px solid var(--navy);background:#eef3f8;border-radius:8px}
 .key-point strong{color:var(--navy)}
 .key-point p{margin:.4rem 0 0;color:var(--ink)}
-.card-question{
-  margin:10px 0 12px!important;
-  padding:10px 12px;
-  background:#f6f7f9;
-  border-radius:8px;
-  color:var(--ink)!important;
-  font-weight:700;
-}
-.stage-label{
-  display:inline-block;
-  margin:0 0 9px;
-  padding:4px 8px;
-  border:1px solid var(--line);
-  border-radius:999px;
-  font-size:.76rem;
-  color:var(--muted);
-  background:#fff;
-}
-
-/* 対策詳細ページでは説明文を本文幅いっぱいに使う */
-.detail-page .detail-lead{
-  max-width:none;
-  width:100%;
-}
+.card-question{margin:10px 0 12px!important;padding:10px 12px;background:#f6f7f9;border-radius:8px;color:var(--ink)!important;font-weight:700}
+.stage-label{display:inline-block;margin:0 0 9px;padding:4px 8px;border:1px solid var(--line);border-radius:999px;font-size:.76rem;color:var(--muted);background:#fff}
+.detail-page .detail-lead{max-width:none;width:100%}

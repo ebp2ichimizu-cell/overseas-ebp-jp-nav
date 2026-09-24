@@ -1,12 +1,11 @@
 ---
-id: crime-hotspots-mobile-app
-source_id: college-practice-bank
-intervention_id: hot-spots-policing
-rights_status: commentary-only
+content_type: site-commentary
+source: supplied-content-master
 ---
 
 # Crime hot spots mobile phone app
-## 課題（Problem）｜何が課題だったか
+
+### 課題（Problem）｜何が課題だったか
 
 Thames Valley Policeは、
 重大暴力が集中する場所へ警察活動を重点化する方針を持っていました。
@@ -21,8 +20,7 @@ Thames Valley Policeは、
 
 を日常業務の中で管理・記録する必要がありました。
 
-
-## 対象設定（Targeting）｜どこを対象にしたか
+### 対象設定（Targeting）｜どこを対象にしたか
 
 警察データをPower BIのserious violence ダッシュボード（dashboard）へ集約し、
 
@@ -35,8 +33,7 @@ Thames Valley Policeは、
 
 その上で、暴力犯罪が集中する場所をhot spotとして設定しました。
 
-
-## 介入（Intervention）｜何をしたか
+### 介入（Intervention）｜何をしたか
 
 警察支給の携帯端末（force-issued mobile phone）上のアプリを使用。
 
@@ -52,8 +49,7 @@ Thames Valley Policeは、
 
 数クリックで対象地点へ誘導される設計です。
 
-
-## 実施状況の追跡（Tracking）｜何を記録したか
+### 実施状況の追跡（Tracking）｜何を記録したか
 
 位置情報（geolocation）を利用して、
 
@@ -75,8 +71,7 @@ Thames Valley Policeは、
 データはダッシュボード（dashboard）へ戻り、
 実施遵守（compliance）や提供状況（delivery）を確認できます。
 
-
-## 介入量（Dose）の管理
+### 介入量（Dose）の管理
 
 アプリにはタイマー（timer）を設け、
 パトロール時間を揃える仕組みも入っています。
@@ -85,8 +80,7 @@ Operation Rasureでは、
 同じ場所への過剰な集中を防ぐため、
 一定回数に達した地点を表示から外す設計もあります。
 
-
-評価設計（Evaluation design）｜どう評価したか
+## 評価設計（Evaluation design）｜どう評価したか
 
 2025年に査読論文が公表されました。
 
@@ -103,10 +97,9 @@ hot spotを日ごとに
 
 の二つです。
 
+## 結果（Findings）｜何が分かったか
 
-結果（Findings）｜何が分かったか
-
-## 実装
+### 実装
 
 アプリによるtaskingで、
 対象hot spotにおける警察官の活動量は大幅に増えました。
@@ -117,16 +110,14 @@ hot spotを日ごとに
 
 という実装（implementation）は改善しました。
 
-
-## 犯罪
+### 犯罪
 
 暴力犯罪は8.74％減少しました。
 
 しかし、
 統計的に有意ではありませんでした。
 
-
-## したがって
+### したがって
 
 「アプリにより暴力犯罪が8.74％減った」
 とは結論づけません。
@@ -137,8 +128,7 @@ hot spotを日ごとに
 
 です。
 
-
-なぜ重要か
+## なぜ重要か
 
 この事例は、
 
@@ -161,8 +151,7 @@ B：
 この研究では少なくとも、
 「ホットスポット（hot spot）へ警察官を向かわせること」は実現しています。
 
-
-限界（Limitations）
+## 限界（Limitations）
 
 研究者は、
 Thames Valleyのような広域・非大都市圏では、
@@ -180,8 +169,7 @@ Thames Valleyのような広域・非大都市圏では、
 等が関係することがあり、
 警察官の可視性による抑止が他犯罪より働きにくい可能性もあります。
 
-
-他地域への適用（Transferability）｜他地域へ移すとき
+## 他地域への適用（Transferability）｜他地域へ移すとき
 
 アプリそのものをコピーするより、
 
@@ -196,8 +184,7 @@ Thames Valleyのような広域・非大都市圏では、
 
 を地域に合わせて再設計する必要があります。
 
-
-## 実務で持ち帰ること
+### 実務で持ち帰ること
 
 1．アプリ自体が犯罪を減らすわけではない
 
@@ -205,12 +192,10 @@ Thames Valleyのような広域・非大都市圏では、
 正しい場所へ警察官を送り、
 実施状況を測るための実装インフラです。
 
-
 2．「行かせたか」と「犯罪が減ったか」を分ける
 
 この事例では前者は改善しましたが、
 後者は統計的に明確ではありませんでした。
-
 
 3．効果が出なかったら、すぐ施策全体を否定しない
 
@@ -219,7 +204,6 @@ hot spotの大きさ、
 対象犯罪、
 滞在時間、
 対策（Response）等が適切だったかを確認します。
-
 
 4．自組織で最低限記録する
 
@@ -234,8 +218,7 @@ hot spotの大きさ、
 この記録があって初めて、
 実装の到達度と犯罪結果を分けて見ることで、次に調整すべき箇所を特定できます。
 
-
-関連する実践事例
+## 関連する実践事例
 
 Operation Rasure｜Thames Valley Police
 
@@ -247,25 +230,27 @@ RED-01と同様に、ホットスポットへの活動をモバイル端末・�
 
 <!-- STATS_DETAIL_START -->
 
-## 統計で確認する
+## 統計を詳しく見る
 
-## 研究デザイン
+**対象：RED-01 Crime hot spots mobile phone app**
+
+### 研究デザイン
 
 クロスオーバー型無作為化実験
 （crossover randomized experiment）
 
-## 対象
+### 対象
 
 45 violent hot spots
 
 hot spotを日単位で介入／対照に割付。
 
-## 主要アウトカム
+### 主要アウトカム
 
 1．hot spotでの警察活動量
 2．暴力犯罪
 
-## 主要結果
+### 主要結果
 
 アプリtaskingにより、
 hot spot内の警察活動量は大幅に増加。
@@ -279,11 +264,11 @@ Practice Bank／論文の整理では、
 統計的有意性：
 統計的に明確ではない
 
-## 95％CI・正確なp値
+### 95％CI・正確なp値
 
-第3階層のOlphin et al. (2025)原著で確認する。
+## 原著・資料を確認する
 
-## この数字をどう読むか
+### この数字をどう読むか
 
 この研究は、
 
@@ -307,13 +292,13 @@ Practice Bank／論文の整理では、
 
 を分けて確認できます。
 
-## 原著で確認する
+### 原著でさらに確認する
 
-[→ 第3階層のOlphin et al. (2025)へ](https://www.college.police.uk/support-forces/practices/operation-rasure-thames-valley-police)
+[原著・資料を開く](https://www.college.police.uk/support-forces/practices/operation-rasure-thames-valley-police)
 
 <!-- STATS_DETAIL_END -->
 
-## 原典・資料を確認する
+## 原著・資料を確認する
 
 Practice Bank：
 [https://www.college.police.uk/support-forces/practices/crime-hot-spots-mobile-phone-app](https://www.college.police.uk/support-forces/practices/crime-hot-spots-mobile-phone-app)

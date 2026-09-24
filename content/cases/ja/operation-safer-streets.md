@@ -1,12 +1,11 @@
 ---
-id: operation-safer-streets
-source_id: college-practice-bank
-intervention_id: hot-spots-policing
-rights_status: commentary-only
+content_type: site-commentary
+source: supplied-content-master
 ---
 
 # Operation Safer Streets
-## 課題（Problem）｜何が課題だったか
+
+### 課題（Problem）｜何が課題だったか
 
 Manchester city centreの夜間経済圏（night-time economy）で、
 
@@ -21,8 +20,7 @@ Manchester city centreの夜間経済圏（night-time economy）で、
 多数の利用者が集まり、
 犯罪とharmが特定の場所・時間に集中していました。
 
-
-## 対象設定・分析（Targeting / Analysis）｜どう問題を絞ったか
+### 対象設定・分析（Targeting / Analysis）｜どう問題を絞ったか
 
 Greater Manchester Policeは、
 
@@ -44,8 +42,7 @@ Greater Manchester Policeは、
 
 が同じ時間・場所で重なる構造を分析しています。
 
-
-## 介入（Intervention）｜何をしたか
+### 介入（Intervention）｜何をしたか
 
 initial target：
 特定のstreet
@@ -53,8 +50,7 @@ initial target：
 その後：
 追加hot spot分析を行い、より広い範囲へ拡大。
 
-
-## 警察活動
+### 警察活動
 
 金曜・土曜
 20時～翌4時
@@ -64,8 +60,7 @@ initial target：
 
 uniformed＋plain-clothes officersを配置。
 
-
-## 活動内容
+### 活動内容
 
 - 高可視性活動
 - predatory behaviourへの対応
@@ -74,16 +69,14 @@ uniformed＋plain-clothes officersを配置。
 - safe travel支援
 - crime prevention advice
 
-
-## 実用品
+### 実用品
 
 - drink-spiking test kits
 - protective drink covers
 - personal alarms
 - purse chains
 
-
-## Partnership
+### Partnership
 
 - Manchester City Council
 - licensing teams
@@ -97,8 +90,7 @@ venue safety、
 licensing、
 safe-space等を組み合わせています。
 
-
-Findings｜報告されている変化
+## Findings｜報告されている変化
 
 最初の重点street：
 
@@ -111,7 +103,6 @@ Crime：
 Theft from person：
 35％減
 
-
 より広いエリア：
 
 Crime：
@@ -120,20 +111,17 @@ Crime：
 Theft：
 26％減
 
-
 Practice Bankでは、
 2025年10～12月に
 100万ポンド超の推計financial savingsも報告しています。
 
-
-最重要｜実践段階（Stage）は未検証（Untested）
+## 最重要｜実践段階（Stage）は未検証（Untested）
 
 ここが最も重要です。
 
 Practice Bank上の実践段階（Stage of practice）：
 
 未検証（Untested）
-
 
 したがって、
 
@@ -142,14 +130,12 @@ Practice Bank上の実践段階（Stage of practice）：
 
 とは表示しません。
 
-
 ○
 「実施後、対象streetで犯罪が17％減少したと報告されている」
 
 とします。
 
-
-なぜ因果効果と断定できないのか
+## なぜ因果効果と断定できないのか
 
 独立した比較群やRCT等による効果評価が確認されていません。
 
@@ -163,8 +149,7 @@ Practice Bank上の実践段階（Stage of practice）：
 
 等の影響を除外できません。
 
-
-Implementation value｜それでも掲載する意味
+## Implementation value｜それでも掲載する意味
 
 この事例の価値は、
 
@@ -186,8 +171,7 @@ hot spot分析を、
 へ接続した
 複合的な実装例として価値があります。
 
-
-Transferability｜他地域で参考にするなら
+## Transferability｜他地域で参考にするなら
 
 コピーすべきなのは、
 「金曜土曜に8人配置」
@@ -205,8 +189,7 @@ Transferability｜他地域で参考にするなら
 
 という設計です。
 
-
-## 実務で持ち帰ること
+### 実務で持ち帰ること
 
 1．真似るのは「17％減」という結果ではなく設計
 
@@ -216,18 +199,15 @@ Transferability｜他地域で参考にするなら
 licensing、
 民間・救護機関との連携という組合せを参考にします。
 
-
 2．未検証（Untested）なら評価計画を同時に作る
 
 実装後に数字を見るのではなく、
 開始前に比較方法、期間、指標を決めます。
 
-
 3．crime countだけで判断しない
 
 犯罪被害の深刻度（Crime Harm）や脆弱性（vulnerability）を含めることで、
 件数が少なくても重大な問題を優先できます。
-
 
 4．複合施策では「何が効いたか」が分かりにくい
 
@@ -235,24 +215,21 @@ licensing、
 process measureを残して、
 どの活動がどの程度実施されたか記録します。
 
-
 5．Practice Bank掲載＝効果証明ではない
 
 実践段階（Stage of practice）を必ず確認し、
 未検証（Untested）をエビデンス支持あり（Evidence-supported）として紹介しません。
 
-
-
-評価状況を確認する｜RED-03 Operation Safer Streets
+## 評価状況を確認する｜RED-03 Operation Safer Streets
 
 この事例は、
 Practice Bankで未検証（Untested）と表示されています。
 
 そのため、
-「統計で確認する」ボタンは表示せず、
+「統計を詳しく見る」ボタンは表示せず、
 報告された前後変化と今後の評価項目を分けて示します。
 
-## 報告された変化
+### 報告された変化
 
 初期target street：
 crime 17％減
@@ -263,7 +240,7 @@ broader area：
 crime 12％減
 theft 26％減
 
-## 読み方
+### 読み方
 
 これらは実施後に報告された変化であり、
 独立した比較群やRCT等による因果効果ではありません。
@@ -276,7 +253,7 @@ theft 26％減
 
 と表示します。
 
-## 今後、統計で確認できるようにするために
+### 今後、統計で確認できるようにするために
 
 - 介入地点／比較地点
 - 介入前後期間
@@ -288,7 +265,7 @@ theft 26％減
 
 をあらかじめ記録する。
 
-## 原典・資料を確認する
+## 原著・資料を確認する
 
 Practice Bank：
 [https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte](https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte)

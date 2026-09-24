@@ -17,11 +17,41 @@
   {
     "id": "ebp-matrix",
     "name": "Evidence-Based Policing Matrix",
-    "role_ja": "警察介入研究を対象・予防性・問題への焦点の3軸で整理する研究地図。"
+    "role_ja": "警察介入研究を複数軸で整理する研究地図。"
   },
   {
     "id": "college-practice-bank",
     "name": "Police Practice Bank",
     "role_ja": "警察実務で行われた取組・実践事例を確認する情報源。"
+  },
+  {
+    "id": "pop-center",
+    "name": "Center for Problem-Oriented Policing",
+    "role_ja": "問題別ガイドと問題解決ツールを提供する情報源。"
+  },
+  {
+    "id": "safer-streets-fund",
+    "name": "Safer Streets Fund – Crime prevention toolkit",
+    "role_ja": "取得犯罪等の状況的犯罪予防策を整理する実務ツール。"
+  },
+  {
+    "id": "academic-study",
+    "name": "学術研究",
+    "role_ja": "査読研究・評価研究。"
+  },
+  {
+    "id": "goldstein-award",
+    "name": "Herman Goldstein Award / POP Center",
+    "role_ja": "問題志向型警察活動の実践事例。"
+  },
+  {
+    "id": "oregon-knowledge-bank",
+    "name": "Oregon Knowledge Bank",
+    "role_ja": "犯罪予防・実践事例の情報源。"
+  },
+  {
+    "id": "bra-review",
+    "name": "Swedish National Council for Crime Prevention (Brå)",
+    "role_ja": "システマティックレビュー等の研究資料。"
   }
 ]
