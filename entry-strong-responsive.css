@@ -1,0 +1,64 @@
+/* Strong primary entry update */
+@media (max-width:860px){
+  .primary-entry-grid{
+    grid-template-columns:1fr;
+  }
+
+  .primary-entry-card{
+    min-height:0;
+  }
+
+  .primary-entry-card p{
+    margin-bottom:40px;
+  }
+}
+
+@media (max-width:720px){
+  .hero-entry .hero-inner{
+    grid-template-columns:72px minmax(0,1fr);
+    gap:14px;
+    padding-top:30px;
+    padding-bottom:28px;
+  }
+
+  .hero-entry .hero-logo{
+    width:68px;
+    height:68px;
+  }
+
+  .hero-entry .lead{
+    margin-bottom:20px;
+  }
+
+  .entry-prompt{
+    margin-top:22px;
+    padding-top:18px;
+  }
+
+  .entry-prompt h2{
+    font-size:1.28rem;
+  }
+
+  .primary-entry-card{
+    padding:20px 20px 18px;
+    border-radius:14px;
+  }
+
+  .primary-entry-card h3{
+    font-size:1.3rem;
+  }
+
+  .primary-entry-top{
+    margin-bottom:18px;
+  }
+
+  .primary-entry-cta{
+    left:20px;
+    bottom:17px;
+  }
+
+  .secondary-entry{
+    text-align:left;
+    margin-top:10px;
+  }
+}

@@ -1,0 +1,173 @@
+/* =========================================================
+   Strong primary entry update
+   現行GitHub版のフォント指定は変更しない
+   ========================================================= */
+
+.hero-entry{
+  padding:0;
+}
+
+.hero-entry .hero-inner{
+  grid-template-columns:138px minmax(0,1fr);
+  gap:34px;
+  align-items:start;
+  padding-top:52px;
+  padding-bottom:46px;
+}
+
+.hero-entry .hero-logo{
+  margin-top:4px;
+}
+
+.hero-entry .hero-copy{
+  min-width:0;
+}
+
+.hero-entry .lead{
+  margin-bottom:28px;
+}
+
+.entry-prompt{
+  margin:30px 0 14px;
+  padding-top:22px;
+  border-top:1px solid var(--line);
+}
+
+.entry-prompt-kicker{
+  display:block;
+  margin-bottom:3px;
+  color:var(--red);
+  font-size:.75rem;
+  font-weight:700;
+  letter-spacing:.12em;
+}
+
+.entry-prompt h2{
+  margin:0;
+  color:var(--ink);
+  font-size:1.45rem;
+  line-height:1.35;
+}
+
+.primary-entry-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+
+.primary-entry-card{
+  position:relative;
+  display:block;
+  min-height:260px;
+  padding:24px 24px 22px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  text-decoration:none;
+  overflow:hidden;
+  transition:
+    transform .15s ease,
+    box-shadow .15s ease,
+    border-color .15s ease;
+}
+
+.primary-entry-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 28px rgba(23,54,93,.10);
+}
+
+.primary-entry-blue{
+  background:
+    linear-gradient(135deg,rgba(23,54,93,.075),rgba(23,54,93,.02)),
+    var(--white);
+  border-left:7px solid var(--navy);
+}
+
+.primary-entry-red{
+  background:
+    linear-gradient(135deg,rgba(122,38,58,.07),rgba(122,38,58,.018)),
+    var(--white);
+  border-left:7px solid var(--red);
+}
+
+.primary-entry-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:24px;
+}
+
+.primary-entry-label{
+  font-size:.76rem;
+  font-weight:700;
+  letter-spacing:.12em;
+}
+
+.primary-entry-blue .primary-entry-label{
+  color:var(--navy);
+}
+
+.primary-entry-red .primary-entry-label{
+  color:var(--red);
+}
+
+.primary-entry-arrow{
+  display:grid;
+  place-items:center;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  background:var(--white);
+  border:1px solid var(--line);
+  font-size:1.15rem;
+  font-weight:700;
+}
+
+.primary-entry-card h3{
+  margin:0 0 12px;
+  font-size:1.45rem;
+  line-height:1.35;
+  color:var(--ink);
+}
+
+.primary-entry-card p{
+  margin:0 0 44px;
+  color:var(--muted);
+  line-height:1.8;
+}
+
+.primary-entry-cta{
+  position:absolute;
+  left:24px;
+  bottom:20px;
+  font-weight:700;
+}
+
+.primary-entry-blue .primary-entry-cta{
+  color:var(--navy);
+}
+
+.primary-entry-red .primary-entry-cta{
+  color:var(--red);
+}
+
+.secondary-entry{
+  margin-top:14px;
+  text-align:right;
+}
+
+.secondary-entry a{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 2px;
+  color:var(--navy);
+  font-weight:700;
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+}
+
+.secondary-entry a:hover{
+  border-bottom-color:var(--navy);
+}
+
+/* 旧3枚入口は今後使わない。既存CSSは残してよい */
