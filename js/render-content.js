@@ -1,11 +1,21 @@
 import {escapeHtml,safeExternalUrl} from "./utils.js";
 import {loadMarkdown,renderWithStats} from "./markdown.js";
+import {
+  renderAiReadingBlock,
+  activateAiReading
+} from "./ai-reading-helper.js";
 
 function missing(){
   return `<section class="section"><div class="container"><div class="empty">ページが見つかりません。</div></div></section>`;
 }
 
-function shell(title,url,original,notice=""){
+function shell(
+  title,
+  url,
+  original,
+  notice="",
+  extraHtml=""
+){
   const safe=safeExternalUrl(original || "");
   return `<section class="section"><div class="container">
     ${notice ? `<div class="content-notice">${escapeHtml(notice)}</div>` : ""}
@@ -14,6 +24,7 @@ function shell(title,url,original,notice=""){
       <div class="loading">本文を読み込み中...</div>
     </article>
     ${safe ? `<div class="source-actions"><a href="${escapeHtml(safe)}" target="_blank" rel="noopener noreferrer">原文を見る ↗</a></div>` : ""}
+    ${extraHtml || ""}
   </div></section>`;
 }
 
@@ -26,7 +37,13 @@ export function renderCase(data,id){
 export function renderEvidence(data,id){
   const item=(data.evidencePages||[]).find(x=>x.id===id);
   if(!item) return missing();
-  return shell(item.title_ja,item.commentary_slug ? `./content/evidence/ja/${item.commentary_slug}.md` : "",item.original_url);
+  return shell(
+    item.title_ja,
+    item.commentary_slug ? `./content/evidence/ja/${item.commentary_slug}.md` : "",
+    item.original_url,
+    "",
+    renderAiReadingBlock(item.aiReading)
+  );
 }
 
 export function renderTranslation(data,id){
@@ -59,6 +76,14 @@ export function renderInterventionGuide(data,id){
 }
 
 export async function activateContent(){
+
+  /*
+   * Markdown本文とは独立して初期化する。
+   * AI原著読解ブロックはHOT-BLUE-02にだけ存在するため、
+   * 他ページでは何もしない。
+   */
+  activateAiReading();
+
   const target=document.querySelector("#markdownContent");
   if(!target) return;
 
