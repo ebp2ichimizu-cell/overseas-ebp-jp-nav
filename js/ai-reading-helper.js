@@ -30,37 +30,17 @@ const COMMON_READING_RULES = [
 const COPY_SUCCESS =
   "質問文をコピーしました。\n普段お使いの生成AIに貼り付けてください。";
 
-
 function ensureStyles(){
-
-  if(
-    document.querySelector(
-      'link[data-ai-reading-style]'
-    )
-  ){
-    return;
-  }
-
-  const link =
-    document.createElement("link");
-
-  link.rel = "stylesheet";
-  link.href = "./css/ai-reading.css";
-  link.dataset.aiReadingStyle = "true";
-
+  if(document.querySelector('link[data-ai-reading-style]')) return;
+  const link=document.createElement("link");
+  link.rel="stylesheet";
+  link.href="./css/ai-reading.css";
+  link.dataset.aiReadingStyle="true";
   document.head.appendChild(link);
 }
 
-
 function normaliseQuestions(config){
-
-  if(
-    !config ||
-    !Array.isArray(config.questions)
-  ){
-    return [];
-  }
-
+  if(!config || !Array.isArray(config.questions)) return [];
   return config.questions.filter(question =>
     question &&
     typeof question.questionId === "string" &&
@@ -70,23 +50,13 @@ function normaliseQuestions(config){
   );
 }
 
-
 function buildPrompt(question){
+  const keywords=Array.isArray(question.searchKeywords)
+    ? question.searchKeywords.join(" / ")
+    : "";
 
-  const keywords =
-    Array.isArray(question.searchKeywords)
-      ? question.searchKeywords.join(" / ")
-      : "";
-
-  const scopeRules =
-    SOURCE_SCOPE_RULES
-      .map(rule => `・${rule}`)
-      .join("\n");
-
-  const rules =
-    COMMON_READING_RULES
-      .map(rule => `・${rule}`)
-      .join("\n");
+  const scopeRules=SOURCE_SCOPE_RULES.map(rule => `・${rule}`).join("\n");
+  const rules=COMMON_READING_RULES.map(rule => `・${rule}`).join("\n");
 
   return `以下の原著について確認してください。
 
@@ -164,324 +134,150 @@ AI自身の一般知識などから内容を推測して回答しないでくだ
 }
 
 function serialiseConfig(config){
-
-  return JSON.stringify(config)
-    .replace(/</g,"\\u003c");
+  return JSON.stringify(config).replace(/</g,"\\u003c");
 }
 
-
 export function renderAiReadingBlock(config){
-
-  const questions =
-    normaliseQuestions(config);
-
-  if(!questions.length){
-    return "";
-  }
+  const questions=normaliseQuestions(config);
+  if(!questions.length) return "";
 
   ensureStyles();
 
-  const initial =
-    questions[0];
-
-  const initialPrompt =
-    buildPrompt(initial);
+  const initial=questions[0];
+  const initialPrompt=buildPrompt(initial);
 
   return `
-    <section
-      class="ai-reading"
-      data-ai-reading
-      aria-labelledby="aiReadingTitle"
-    >
+    <details class="ai-reading" data-ai-reading>
+      <summary class="ai-reading-summary">
+        <span class="ai-reading-summary-copy">
+          <span class="ai-reading-kicker">原著読解補助</span>
+          <span class="ai-reading-title">AIで原著を読み解く</span>
+          <span class="ai-reading-summary-description">
+            この資料で確認できる重要な論点を選び、原著をAIで読むための質問文を作成できます。
+          </span>
+          <span class="ai-reading-summary-note">AIの回答は原著の代わりではありません。</span>
+        </span>
+        <span class="ai-reading-toggle" aria-hidden="true"></span>
+      </summary>
 
-      <div class="ai-reading-head">
+      <div class="ai-reading-body">
+        <div class="ai-reading-step">
+          <h3>1. 聞きたい内容を選ぶ</h3>
+          <p class="ai-reading-step-note">この原著で確認できる資料固有の質問だけを表示しています。</p>
 
-        <div class="ai-reading-kicker">
-          原著読解補助
-        </div>
-
-        <h2 id="aiReadingTitle">
-          AIで原著を読み解く
-        </h2>
-
-        <p>
-          この資料について、AIで確認したい内容を選んでください。
-        </p>
-
-        <p>
-          原著を確認するための質問文を作成します。
-          作成された質問文をコピーし、
-          普段お使いの生成AIに貼り付けて利用できます。
-        </p>
-
-      </div>
-
-
-      <div class="ai-reading-step">
-
-        <h3>
-          1. 聞きたい内容を選ぶ
-        </h3>
-
-        <div
-          class="ai-reading-options"
-          role="radiogroup"
-          aria-label="聞きたい内容を選ぶ"
-        >
-
-          ${questions.map(
-            (question,index) => `
+          <div class="ai-reading-options" role="radiogroup" aria-label="聞きたい内容を選ぶ">
+            ${questions.map((question,index) => `
               <label class="ai-reading-option">
-
                 <input
                   type="radio"
                   name="aiReadingQuestion"
                   value="${escapeHtml(question.questionId)}"
                   ${index === 0 ? "checked" : ""}
                 >
-
-                <span>
-                  ${escapeHtml(question.displayQuestion)}
-                </span>
-
+                <span>${escapeHtml(question.displayQuestion)}</span>
               </label>
-            `
-          ).join("")}
-
+            `).join("")}
+          </div>
         </div>
 
+        <div class="ai-reading-step">
+          <h3>2. AIに送る質問文</h3>
+          <textarea
+            class="ai-reading-prompt"
+            data-ai-reading-prompt
+            rows="22"
+            readonly
+          >${escapeHtml(initialPrompt)}</textarea>
+        </div>
+
+        <div class="ai-reading-actions">
+          <button class="ai-reading-copy" type="button" data-ai-reading-copy>
+            質問文をコピー
+          </button>
+        </div>
+
+        <p
+          class="ai-reading-status"
+          data-ai-reading-status
+          role="status"
+          aria-live="polite"
+        ></p>
+
+        <p class="ai-reading-note">
+          この機能は正式翻訳やAI回答をサイト内で表示するものではありません。
+          独自解説で概要を確認し、必要に応じて原著の特定論点を
+          利用者自身が確認するための読解補助です。
+        </p>
       </div>
 
-
-      <div class="ai-reading-step">
-
-        <h3>
-          2. AIに送る質問文
-        </h3>
-
-        <textarea
-          class="ai-reading-prompt"
-          data-ai-reading-prompt
-          rows="22"
-          readonly
-        >${escapeHtml(initialPrompt)}</textarea>
-
-      </div>
-
-
-      <div class="ai-reading-actions">
-
-        <button
-          class="ai-reading-copy"
-          type="button"
-          data-ai-reading-copy
-        >
-          質問文をコピー
-        </button>
-
-      </div>
-
-
-      <p
-        class="ai-reading-status"
-        data-ai-reading-status
-        role="status"
-        aria-live="polite"
-      ></p>
-
-
-      <p class="ai-reading-note">
-        この機能は正式翻訳やAI回答をサイト内で表示するものではありません。
-        独自解説で概要を確認し、必要に応じて原著の特定論点を
-        利用者自身が確認するための読解補助です。
-      </p>
-
-
-      <script
-        type="application/json"
-        data-ai-reading-config
-      >${serialiseConfig({questions})}</script>
-
-    </section>
+      <script type="application/json" data-ai-reading-config>${serialiseConfig({questions})}</script>
+    </details>
   `;
 }
 
-
 async function copyText(value){
-
-  if(
-    navigator.clipboard &&
-    window.isSecureContext
-  ){
-
-    await navigator.clipboard.writeText(
-      value
-    );
-
+  if(navigator.clipboard && window.isSecureContext){
+    await navigator.clipboard.writeText(value);
     return;
   }
 
-
-  const textarea =
-    document.createElement("textarea");
-
-  textarea.value = value;
-  textarea.setAttribute(
-    "readonly",
-    ""
-  );
-
-  textarea.style.position = "fixed";
-  textarea.style.opacity = "0";
-
-  document.body.appendChild(
-    textarea
-  );
-
+  const textarea=document.createElement("textarea");
+  textarea.value=value;
+  textarea.setAttribute("readonly","");
+  textarea.style.position="fixed";
+  textarea.style.opacity="0";
+  document.body.appendChild(textarea);
   textarea.select();
 
-  const ok =
-    document.execCommand("copy");
-
+  const ok=document.execCommand("copy");
   textarea.remove();
 
-  if(!ok){
-    throw new Error("copy failed");
-  }
+  if(!ok) throw new Error("copy failed");
 }
 
-
 export function activateAiReading(){
+  const root=document.querySelector("[data-ai-reading]");
+  if(!root) return;
 
-  const root =
-    document.querySelector(
-      "[data-ai-reading]"
-    );
-
-  if(!root){
-    return;
-  }
-
-
-  const configNode =
-    root.querySelector(
-      "[data-ai-reading-config]"
-    );
-
-  const promptBox =
-    root.querySelector(
-      "[data-ai-reading-prompt]"
-    );
-
-  if(
-    !configNode ||
-    !promptBox
-  ){
-    return;
-  }
-
+  const configNode=root.querySelector("[data-ai-reading-config]");
+  const promptBox=root.querySelector("[data-ai-reading-prompt]");
+  if(!configNode || !promptBox) return;
 
   let config;
-
   try{
-
-    config =
-      JSON.parse(
-        configNode.textContent || "{}"
-      );
-
+    config=JSON.parse(configNode.textContent || "{}");
   }catch{
-
     return;
-
   }
 
+  const questions=normaliseQuestions(config);
+  const byId=new Map(questions.map(question => [question.questionId,question]));
 
-  const questions =
-    normaliseQuestions(config);
+  root.querySelectorAll('input[name="aiReadingQuestion"]').forEach(input => {
+    input.addEventListener("change",() => {
+      const question=byId.get(input.value);
+      if(!question) return;
 
-  const byId =
-    new Map(
-      questions.map(question => [
-        question.questionId,
-        question
-      ])
-    );
+      promptBox.value=buildPrompt(question);
 
-
-  root
-    .querySelectorAll(
-      'input[name="aiReadingQuestion"]'
-    )
-    .forEach(input => {
-
-      input.addEventListener(
-        "change",
-        () => {
-
-          const question =
-            byId.get(
-              input.value
-            );
-
-          if(!question){
-            return;
-          }
-
-          promptBox.value =
-            buildPrompt(question);
-
-          const status =
-            root.querySelector(
-              "[data-ai-reading-status]"
-            );
-
-          if(status){
-            status.textContent = "";
-          }
-
-        }
-      );
-
+      const status=root.querySelector("[data-ai-reading-status]");
+      if(status) status.textContent="";
     });
+  });
 
+  root.querySelector("[data-ai-reading-copy]")?.addEventListener("click",async () => {
+    const status=root.querySelector("[data-ai-reading-status]");
 
-  root
-    .querySelector(
-      "[data-ai-reading-copy]"
-    )
-    ?.addEventListener(
-      "click",
-      async () => {
-
-        const status =
-          root.querySelector(
-            "[data-ai-reading-status]"
-          );
-
-        try{
-
-          await copyText(
-            promptBox.value
-          );
-
-          if(status){
-            status.textContent =
-              COPY_SUCCESS;
-          }
-
-        }catch{
-
-          promptBox.focus();
-          promptBox.select();
-
-          if(status){
-            status.textContent =
-              "自動コピーできませんでした。全文を選択したので、端末のコピー操作を使用してください。";
-          }
-
-        }
-
+    try{
+      await copyText(promptBox.value);
+      if(status) status.textContent=COPY_SUCCESS;
+    }catch{
+      promptBox.focus();
+      promptBox.select();
+      if(status){
+        status.textContent=
+          "自動コピーできませんでした。全文を選択したので、端末のコピー操作を使用してください。";
       }
-    );
+    }
+  });
 }

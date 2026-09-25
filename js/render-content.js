@@ -28,6 +28,40 @@ function shell(
   </div></section>`;
 }
 
+/*
+ * AI原著読解を実装した資料専用。
+ * タイトル・短い概要の直後にAIブロックを置き、
+ * 長い独自解説より前で見つけられるようにする。
+ * Markdown側の先頭H1は重複を避けるため描画後に除去する。
+ */
+function evidenceShell(item){
+  const url=item.commentary_slug
+    ? `./content/evidence/ja/${item.commentary_slug}.md`
+    : "";
+  const safe=safeExternalUrl(item.original_url || "");
+  const aiHtml=renderAiReadingBlock(item.aiReading);
+
+  return `<section class="section"><div class="container">
+    <header class="evidence-page-intro">
+      <h1>${escapeHtml(item.title_ja || "")}</h1>
+      ${item.summary_ja ? `<p class="lead evidence-page-summary">${escapeHtml(item.summary_ja)}</p>` : ""}
+    </header>
+
+    ${aiHtml || ""}
+
+    <article
+      id="markdownContent"
+      class="commentary-body"
+      data-markdown="${escapeHtml(url)}"
+      data-remove-first-h1="true"
+    >
+      <div class="loading">本文を読み込み中...</div>
+    </article>
+
+    ${safe ? `<div class="source-actions"><a href="${escapeHtml(safe)}" target="_blank" rel="noopener noreferrer">原文を見る ↗</a></div>` : ""}
+  </div></section>`;
+}
+
 export function renderCase(data,id){
   const item=(data.cases||[]).find(x=>x.id===id);
   if(!item) return missing();
@@ -37,12 +71,17 @@ export function renderCase(data,id){
 export function renderEvidence(data,id){
   const item=(data.evidencePages||[]).find(x=>x.id===id);
   if(!item) return missing();
+
+  // 現在AI機能を持つ1資料で先行試験。
+  // aiReadingがない資料は従来レイアウトのまま。
+  if(item.aiReading){
+    return evidenceShell(item);
+  }
+
   return shell(
     item.title_ja,
     item.commentary_slug ? `./content/evidence/ja/${item.commentary_slug}.md` : "",
-    item.original_url,
-    "",
-    renderAiReadingBlock(item.aiReading)
+    item.original_url
   );
 }
 
@@ -76,12 +115,6 @@ export function renderInterventionGuide(data,id){
 }
 
 export async function activateContent(){
-
-  /*
-   * Markdown本文とは独立して初期化する。
-   * AI原著読解ブロックはHOT-BLUE-02にだけ存在するため、
-   * 他ページでは何もしない。
-   */
   activateAiReading();
 
   const target=document.querySelector("#markdownContent");
@@ -96,6 +129,10 @@ export async function activateContent(){
   try{
     const md=await loadMarkdown(url);
     target.innerHTML=renderWithStats(md);
+
+    if(target.dataset.removeFirstH1 === "true"){
+      target.querySelector("h1")?.remove();
+    }
   }catch(err){
     target.innerHTML=`<div class="empty">本文を読み込めませんでした。 ${escapeHtml(err.message)}</div>`;
   }
