@@ -6,6 +6,7 @@ import {escapeHtml} from "./utils.js";
  * - 特定AIサービスを直接開かない
  * - 資料固有質問だけを表示する
  * - 完成済み generatedPrompt は使用せず、質問データから動的生成する
+ * - sourceTitle は資料単位で保持し、質問ごとに重複させない
  */
 
 const SOURCE_SCOPE_RULES = [
@@ -34,20 +35,33 @@ function ensureStyles(){
   if(document.querySelector('link[data-ai-reading-style]')) return;
   const link=document.createElement("link");
   link.rel="stylesheet";
-  link.href="./css/ai-reading.css?v=20260925-2";
+  link.href="./css/ai-reading.css?v=20260925-3";
   link.dataset.aiReadingStyle="true";
   document.head.appendChild(link);
 }
 
 function normaliseQuestions(config){
   if(!config || !Array.isArray(config.questions)) return [];
-  return config.questions.filter(question =>
-    question &&
-    typeof question.questionId === "string" &&
-    typeof question.displayQuestion === "string" &&
-    typeof question.sourceTitle === "string" &&
-    typeof question.sourceUrl === "string"
-  );
+
+  const defaultSourceTitle=
+    typeof config.sourceTitle === "string" ? config.sourceTitle : "";
+
+  return config.questions
+    .map(question => ({
+      ...question,
+      sourceTitle:
+        typeof question?.sourceTitle === "string" && question.sourceTitle
+          ? question.sourceTitle
+          : defaultSourceTitle
+    }))
+    .filter(question =>
+      question &&
+      typeof question.questionId === "string" &&
+      typeof question.displayQuestion === "string" &&
+      typeof question.sourceTitle === "string" &&
+      question.sourceTitle.length > 0 &&
+      typeof question.sourceUrl === "string"
+    );
 }
 
 function buildPrompt(question){
@@ -145,6 +159,7 @@ export function renderAiReadingBlock(config){
 
   const initial=questions[0];
   const initialPrompt=buildPrompt(initial);
+  const groupName=`aiReadingQuestion-${config?.sourceId || "source"}`;
 
   return `
     <details class="ai-reading" data-ai-reading>
@@ -170,7 +185,8 @@ export function renderAiReadingBlock(config){
               <label class="ai-reading-option">
                 <input
                   type="radio"
-                  name="aiReadingQuestion"
+                  name="${escapeHtml(groupName)}"
+                  data-ai-reading-question
                   value="${escapeHtml(question.questionId)}"
                   ${index === 0 ? "checked" : ""}
                 >
@@ -235,10 +251,7 @@ async function copyText(value){
   if(!ok) throw new Error("copy failed");
 }
 
-export function activateAiReading(){
-  const root=document.querySelector("[data-ai-reading]");
-  if(!root) return;
-
+function activateOneAiReading(root){
   const configNode=root.querySelector("[data-ai-reading-config]");
   const promptBox=root.querySelector("[data-ai-reading-prompt]");
   if(!configNode || !promptBox) return;
@@ -253,7 +266,7 @@ export function activateAiReading(){
   const questions=normaliseQuestions(config);
   const byId=new Map(questions.map(question => [question.questionId,question]));
 
-  root.querySelectorAll('input[name="aiReadingQuestion"]').forEach(input => {
+  root.querySelectorAll("[data-ai-reading-question]").forEach(input => {
     input.addEventListener("change",() => {
       const question=byId.get(input.value);
       if(!question) return;
@@ -280,4 +293,8 @@ export function activateAiReading(){
       }
     }
   });
+}
+
+export function activateAiReading(){
+  document.querySelectorAll("[data-ai-reading]").forEach(activateOneAiReading);
 }

@@ -39,21 +39,19 @@ function shell(
 }
 
 /*
- * AI原著読解を実装した資料専用。
+ * AI原著読解を実装した資料用の共通シェル。
+ * 青カード（evidence）と赤カード（case）の両方で使う。
  * タイトル・短い概要の直後にAIブロックを置き、
  * 長い独自解説より前で見つけられるようにする。
  * Markdown側の先頭H1は重複を避けるため描画後に除去する。
  */
-function evidenceShell(item){
-  const url=item.commentary_slug
-    ? `./content/evidence/ja/${item.commentary_slug}.md`
-    : "";
+function aiReadingShell(item,url){
   const safe=safeExternalUrl(item.original_url || "");
   const aiHtml=renderAiReadingBlock(item.aiReading);
 
   return `<section class="section"><div class="container">
     <header class="evidence-page-intro">
-      <h1>${escapeHtml(item.title_ja || "")}</h1>
+      <h1>${escapeHtml(item.title_ja || item.title_en || "")}</h1>
       ${item.summary_ja ? `<p class="lead evidence-page-summary">${escapeHtml(item.summary_ja)}</p>` : ""}
     </header>
 
@@ -64,7 +62,7 @@ function evidenceShell(item){
     <article
       id="markdownContent"
       class="commentary-body"
-      data-markdown="${escapeHtml(url)}"
+      data-markdown="${escapeHtml(url || "")}"
       data-remove-first-h1="true"
     >
       <div class="loading">本文を読み込み中...</div>
@@ -77,24 +75,31 @@ function evidenceShell(item){
 export function renderCase(data,id){
   const item=(data.cases||[]).find(x=>x.id===id);
   if(!item) return missing();
-  return shell(item.title_ja,item.commentary_slug ? `./content/cases/ja/${item.commentary_slug}.md` : "",item.original_url);
+
+  const url=item.commentary_slug
+    ? `./content/cases/ja/${item.commentary_slug}.md`
+    : "";
+
+  if(item.aiReading){
+    return aiReadingShell(item,url);
+  }
+
+  return shell(item.title_ja,url,item.original_url);
 }
 
 export function renderEvidence(data,id){
   const item=(data.evidencePages||[]).find(x=>x.id===id);
   if(!item) return missing();
 
-  // 現在AI機能を持つ1資料で先行試験。
-  // aiReadingがない資料は従来レイアウトのまま。
+  const url=item.commentary_slug
+    ? `./content/evidence/ja/${item.commentary_slug}.md`
+    : "";
+
   if(item.aiReading){
-    return evidenceShell(item);
+    return aiReadingShell(item,url);
   }
 
-  return shell(
-    item.title_ja,
-    item.commentary_slug ? `./content/evidence/ja/${item.commentary_slug}.md` : "",
-    item.original_url
-  );
+  return shell(item.title_ja,url,item.original_url);
 }
 
 export function renderTranslation(data,id){
