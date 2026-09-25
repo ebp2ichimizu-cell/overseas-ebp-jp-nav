@@ -59,6 +59,7 @@ function normaliseQuestions(config){
     question &&
     typeof question.questionId === "string" &&
     typeof question.displayQuestion === "string" &&
+    typeof question.sourceTitle === "string" &&
     typeof question.sourceUrl === "string"
   );
 }
@@ -76,15 +77,26 @@ function buildPrompt(question){
       .map(rule => `・${rule}`)
       .join("\n");
 
-  return `以下の原著を確認してください。
+  return `以下の原著について確認してください。
+
+【原著名】
+${question.sourceTitle || ""}
 
 【原著URL】
 ${question.sourceUrl || ""}
 
+まず、上記URLから原著を直接確認してください。
+
+URLから直接確認できない場合は、
+原著名とURLを手掛かりにWeb検索し、
+同一の原著またはその内容を確認できる公式ページを探してください。
+検索によって確認する場合も、
+可能な限り原著を発行・掲載している公式機関の情報を優先してください。
+
 【確認したい内容】
 ${question.displayQuestion || ""}
 
-【原著内を確認するときの参考語】
+【原著内・検索時の参考語】
 ${keywords}
 
 【確認の目的】
@@ -101,15 +113,26 @@ ${rules}
 【この資料で特に注意すること】
 ${question.studySpecificCaution || ""}
 
-原著へアクセスできない場合や、
-該当箇所を確認できない場合は、
-推測せず、その旨を示してください。
+検索結果や第三者の説明だけから、
+原著に書かれている内容を推測しないでください。
 
-原著へアクセスできない場合は、
-原著を開いて該当する英文をコピーし、
-この質問文と一緒にAIへ貼り付けるよう案内してください。`;
+回答の最後に、今回の説明が次のどれに基づくかを示してください。
+
+・指定URLの原著を直接確認した
+・原著名等で検索し、同一資料または公式情報を確認した
+・原著を確認できなかった
+
+原著を直接または公式情報から確認できない場合は、
+推測で回答しないでください。
+
+その場合は、
+「原著をブラウザで開き、参考語を使って該当箇所を探し、
+該当する英文をこのチャットに貼り付けてください」
+と利用者へ案内してください。
+
+貼り付けられた英文がある場合は、
+その英文を根拠として回答してください。`;
 }
-
 
 function serialiseConfig(config){
 
