@@ -1,0 +1,184 @@
+/* =========================================================
+   海外EBPナビ「AIで原著を読み解く」
+   既存サイトの配色トークンだけを使用する。
+   ========================================================= */
+
+.ai-reading{
+  margin-top:34px;
+  padding:24px;
+  background:var(--white);
+  border:1px solid var(--line);
+  border-top:5px solid var(--navy);
+  border-radius:12px;
+}
+
+.ai-reading-head{
+  margin-bottom:22px;
+}
+
+.ai-reading-kicker{
+  margin-bottom:5px;
+  color:var(--red);
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.08em;
+}
+
+.ai-reading-head h2{
+  margin:0 0 10px;
+  color:var(--navy);
+  font-size:1.45rem;
+}
+
+.ai-reading-head p{
+  margin:5px 0;
+  color:var(--muted);
+}
+
+.ai-reading-step + .ai-reading-step{
+  margin-top:24px;
+  padding-top:22px;
+  border-top:1px solid var(--line);
+}
+
+.ai-reading-step h3{
+  margin:0 0 12px;
+  color:var(--navy);
+  font-size:1.08rem;
+}
+
+.ai-reading-options{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+
+.ai-reading-option{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  min-height:54px;
+  padding:12px 13px;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.ai-reading-option:has(input:checked){
+  border-color:var(--navy);
+  background:#f1f4f8;
+}
+
+.ai-reading-option input{
+  flex:0 0 auto;
+  margin-top:.35em;
+  accent-color:var(--navy);
+}
+
+.ai-reading-option span{
+  color:var(--ink);
+  font-weight:700;
+  line-height:1.55;
+}
+
+.ai-reading-prompt{
+  display:block;
+  width:100%;
+  min-height:430px;
+  padding:14px 15px;
+  resize:vertical;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:#fff;
+  color:var(--ink);
+  font:inherit;
+  font-size:.9rem;
+  line-height:1.7;
+}
+
+.ai-reading-prompt:focus{
+  outline:2px solid rgba(23,54,93,.18);
+  border-color:var(--navy);
+}
+
+.ai-reading-actions{
+  margin-top:16px;
+}
+
+.ai-reading-copy{
+  min-height:44px;
+  padding:11px 18px;
+  border:0;
+  border-radius:8px;
+  background:var(--navy);
+  color:#fff;
+  font:inherit;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.ai-reading-copy:hover{
+  background:#102b4d;
+}
+
+.ai-reading-status{
+  min-height:1.6em;
+  margin:9px 0 0;
+  color:var(--navy);
+  font-weight:700;
+  white-space:pre-line;
+}
+
+.ai-reading-note{
+  margin:18px 0 0;
+  padding-top:15px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:.85rem;
+}
+
+
+@media (max-width:720px){
+
+  .ai-reading{
+    margin-top:26px;
+    padding:16px;
+  }
+
+  .ai-reading-head h2{
+    font-size:1.25rem;
+  }
+
+  .ai-reading-head p{
+    font-size:.9rem;
+  }
+
+  .ai-reading-options{
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+
+  .ai-reading-option{
+    min-height:48px;
+    padding:10px 11px;
+    font-size:.9rem;
+  }
+
+  .ai-reading-prompt{
+    min-height:390px;
+    padding:12px;
+    font-size:.82rem;
+    line-height:1.68;
+  }
+
+  .ai-reading-copy{
+    width:100%;
+    min-height:46px;
+  }
+
+  .ai-reading-status{
+    font-size:.86rem;
+  }
+
+}
