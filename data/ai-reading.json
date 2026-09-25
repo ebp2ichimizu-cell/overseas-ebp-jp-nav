@@ -1,0 +1,1975 @@
+{
+  "schemaVersion": "1.0",
+  "generatedDate": "2026-09-25",
+  "feature": "AIで原著を読み解く",
+  "evidence": {
+    "hotspots-guidance": {
+      "sourceId": "HOT-BLUE-01",
+      "sourceTitle": "Hot spots policing / Serious violence hot spots policing guide",
+      "sourceType": "実務ガイド",
+      "primarySourceUrl": "https://www.college.police.uk/guidance/hot-spots-policing",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/about-guide",
+        "https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tasking-step-five"
+      ],
+      "questions": [
+        {
+          "questionId": "HOT-BLUE-01-Q01",
+          "displayQuestion": "ホットスポットは、どのくらい小さな場所として設定すべき？",
+          "sourceUrl": "https://www.college.police.uk/guidance/hot-spots-policing",
+          "readingPurpose": "広い地区全体ではなく、警察活動を具体的に重点化できる地理単位としてホットスポットを理解する。",
+          "searchKeywords": [
+            "definition of a hot spot",
+            "micro-units of geography",
+            "street segments",
+            "bus stops"
+          ],
+          "studySpecificCaution": "「犯罪の多い地域」一般と、ガイドがいう小規模なホットスポットを混同しない。"
+        },
+        {
+          "questionId": "HOT-BLUE-01-Q02",
+          "displayQuestion": "なぜ、短時間の高可視性パトロールでも抑止が期待される？",
+          "sourceUrl": "https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tasking-step-five",
+          "readingPurpose": "抑止と犯罪機会の減少という想定メカニズム、および滞在時間に関する根拠を理解する。",
+          "searchKeywords": [
+            "deterrence theory",
+            "crime opportunity theory",
+            "Koper 1995",
+            "10 to 16 minutes",
+            "diminishing returns"
+          ],
+          "studySpecificCaution": "10～16分を固定的な最適値として扱わない。研究地・犯罪類型・運用条件が異なる。"
+        },
+        {
+          "questionId": "HOT-BLUE-01-Q03",
+          "displayQuestion": "時間外勤務を活用する方式と専従要員を配置する方式では、何が違う？",
+          "sourceUrl": "https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tasking-step-five",
+          "readingPurpose": "ホットスポット活動を継続するための要員配置方式と、実装上のトレードオフを理解する。",
+          "searchKeywords": [
+            "overtime model",
+            "dedicated resource model",
+            "50% more",
+            "33% fewer patrols",
+            "permanent supervisors"
+          ],
+          "studySpecificCaution": "数値はガイドに報告された警察組織の経験であり、一般的な費用効果として外挿しない。"
+        },
+        {
+          "questionId": "HOT-BLUE-01-Q04",
+          "displayQuestion": "ホットスポットで『何をするか』は、単純なパトロールと問題志向型警察活動でどう違う？",
+          "sourceUrl": "https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/tasking-step-five",
+          "readingPurpose": "場所の特定と、そこで選ぶ対策を分けて理解する。",
+          "searchKeywords": [
+            "problem-oriented policing",
+            "problem-solving",
+            "traditional enforcement approaches",
+            "tailored responses"
+          ],
+          "studySpecificCaution": "ガイドはPOPが常に優越すると断定しているのではなく、問題に応じた対策選択と組み合わせを論じている。"
+        },
+        {
+          "questionId": "HOT-BLUE-01-Q05",
+          "displayQuestion": "実装したホットスポット・ポリシングは、何を追跡し、どう効果検証する？",
+          "sourceUrl": "https://www.college.police.uk/guidance/serious-violence-hot-spots-policing-guide/about-guide",
+          "readingPurpose": "配置しただけで終わらず、実施状況と犯罪結果を分けて測る視点を得る。",
+          "searchKeywords": [
+            "tracking step six",
+            "testing step seven",
+            "patrol activity",
+            "target areas",
+            "amount of serious violence prevented"
+          ],
+          "studySpecificCaution": "実装指標と犯罪アウトカムを同一視しない。"
+        }
+      ]
+    },
+    "toolkit-hot-spots": {
+      "sourceId": "HOT-BLUE-02",
+      "sourceTitle": "Crime Reduction Toolkit – Hot spots policing",
+      "sourceType": "Crime Reduction Toolkit（EMMIE）",
+      "primarySourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "HOT-BLUE-02-Q01",
+          "displayQuestion": "ホットスポット・ポリシングは、全体として犯罪をどの程度減らしている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+          "readingPurpose": "ToolkitのEffect評価と、その根拠となるレビューの規模を理解する。",
+          "searchKeywords": [
+            "Effect",
+            "Overall reduction",
+            "65 studies",
+            "78 tests",
+            "standardized effect size"
+          ],
+          "studySpecificCaution": "「Very strong」は効果量の大きさではなく、Effectに関するエビデンスの質を示す。"
+        },
+        {
+          "questionId": "HOT-BLUE-02-Q02",
+          "displayQuestion": "犯罪の種類によって、効果の大きさはどう違った？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+          "readingPurpose": "平均効果だけでなく、犯罪類型による差を確認する。",
+          "searchKeywords": [
+            "Moderators",
+            "drug offences",
+            "disorder offences",
+            "property crime",
+            "violent crime"
+          ],
+          "studySpecificCaution": "犯罪類型別の平均差を日本の個別地域へそのまま当てはめない。"
+        },
+        {
+          "questionId": "HOT-BLUE-02-Q03",
+          "displayQuestion": "ホットスポットで問題志向型警察活動を使うと、通常の重点警察活動と何が違った？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+          "readingPurpose": "ホットスポットを特定した後の対策内容が結果に関係することを理解する。",
+          "searchKeywords": [
+            "problem-oriented policing",
+            "traditional policing techniques",
+            "diffusion of benefits"
+          ],
+          "studySpecificCaution": "POPは単一の介入ではなく、地域分析に基づく複数の対策を含み得る。"
+        },
+        {
+          "questionId": "HOT-BLUE-02-Q04",
+          "displayQuestion": "現場実装では、どんな問題が介入を崩しやすかった？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+          "readingPurpose": "効果研究の実装上の障害を、現場設計のチェック項目へ変換する。",
+          "searchKeywords": [
+            "Implementation",
+            "staffing issues",
+            "resistance from officers",
+            "technology failures",
+            "adherence to target areas",
+            "partner agencies"
+          ],
+          "studySpecificCaution": "ToolkitのImplementationは主に研究内の実装問題をまとめており、標準手順を提示するものではない。"
+        },
+        {
+          "questionId": "HOT-BLUE-02-Q05",
+          "displayQuestion": "費用について、レビューから実際に何が分かっている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+          "readingPurpose": "費用情報が非常に限られていることと、唯一の費用便益分析の位置づけを確認する。",
+          "searchKeywords": [
+            "Economic considerations",
+            "one of the 65 evaluations",
+            "PCSOs",
+            "£5.60 to £23"
+          ],
+          "studySpecificCaution": "1研究の費用便益結果をホットスポット・ポリシング一般の費用対効果として扱わない。"
+        }
+      ]
+    },
+    "campbell-hot-spots": {
+      "sourceId": "HOT-BLUE-03",
+      "sourceTitle": "Hot spots policing of small geographic areas effects on crime",
+      "sourceType": "システマティックレビュー＋メタ分析",
+      "primarySourceUrl": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
+      "supplementalSourceUrls": [
+        "https://doi.org/10.1002/cl2.1046"
+      ],
+      "questions": [
+        {
+          "questionId": "HOT-BLUE-03-Q01",
+          "displayQuestion": "このレビューは、どのようなホットスポット介入を何件まとめた？",
+          "sourceUrl": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
+          "readingPurpose": "レビューが対象とする介入・比較条件・研究数を把握する。",
+          "searchKeywords": [
+            "What is this review about?",
+            "65 studies",
+            "78 tests",
+            "27 randomized",
+            "38 quasi-experimental"
+          ],
+          "studySpecificCaution": "近隣地区全体を対象にした施策ではなく、小規模な場所を対象とした研究が中心。"
+        },
+        {
+          "questionId": "HOT-BLUE-03-Q02",
+          "displayQuestion": "全体として、犯罪・秩序違反への効果はどの方向だった？",
+          "sourceUrl": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
+          "readingPurpose": "レビューの中心的結論を、効果の大きさを誇張せず理解する。",
+          "searchKeywords": [
+            "main findings",
+            "statistically-significant small reductions",
+            "overall crime and disorder"
+          ],
+          "studySpecificCaution": "「統計的に有意」と「大きな減少」を同一視しない。"
+        },
+        {
+          "questionId": "HOT-BLUE-03-Q03",
+          "displayQuestion": "犯罪転位と利益の拡散について、レビューは何を示した？",
+          "sourceUrl": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
+          "readingPurpose": "重点化によって周辺へ犯罪が移るという懸念を、レビュー結果に基づいて読む。",
+          "searchKeywords": [
+            "crime displacement",
+            "diffusion of crime prevention benefits",
+            "adjacent locations"
+          ],
+          "studySpecificCaution": "すべての個別研究で転位が起きなかったという意味ではない。"
+        },
+        {
+          "questionId": "HOT-BLUE-03-Q04",
+          "displayQuestion": "このエビデンスを読むとき、どんな限界を押さえるべき？",
+          "sourceUrl": "https://www.campbellcollaboration.org/review/effects-of-hot-spots-policing-on-crime/",
+          "readingPurpose": "研究地の偏り、費用分析の少なさ、研究更新時点を理解する。",
+          "searchKeywords": [
+            "51 studies USA",
+            "formal cost-benefit assessment",
+            "searched up to February 2017"
+          ],
+          "studySpecificCaution": "レビューが2017年までの研究を対象としている点を現在の全証拠と混同しない。"
+        }
+      ]
+    },
+    "matrix-hot-spots": {
+      "sourceId": "HOT-BLUE-04",
+      "sourceTitle": "Evidence-Based Policing Matrix",
+      "sourceType": "研究地図・研究翻訳ツール",
+      "primarySourceUrl": "https://cebcp.org/evidence-based-policing/the-matrix/",
+      "supplementalSourceUrls": [
+        "https://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-sherman-and-weisburd-1995/",
+        "https://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-weisburd-and-green-1995/"
+      ],
+      "questions": [
+        {
+          "questionId": "HOT-BLUE-04-Q01",
+          "displayQuestion": "Matrixは、警察介入研究をどの3つの軸で整理している？",
+          "sourceUrl": "https://cebcp.org/evidence-based-policing/the-matrix/",
+          "readingPurpose": "Matrixを効果ランキングではなく、研究を位置づける地図として理解する。",
+          "searchKeywords": [
+            "three common dimensions",
+            "type or scope of target",
+            "general focused",
+            "level of proactivity"
+          ],
+          "studySpecificCaution": "Matrixの位置は施策の価値順位ではなく、研究の特徴を分類する座標。"
+        },
+        {
+          "questionId": "HOT-BLUE-04-Q02",
+          "displayQuestion": "ホットスポット研究でいう『Micro-Places』は、どんな場所を指す？",
+          "sourceUrl": "https://cebcp.org/evidence-based-policing/the-matrix/",
+          "readingPurpose": "ホットスポット研究の分析単位を、近隣地区より小さい地理単位として理解する。",
+          "searchKeywords": [
+            "Micro-Places",
+            "block",
+            "street segment",
+            "alley",
+            "intersection",
+            "cluster of addresses"
+          ],
+          "studySpecificCaution": "日本の警察署管内・交番区などの大きな単位へ自動的に置き換えない。"
+        },
+        {
+          "questionId": "HOT-BLUE-04-Q03",
+          "displayQuestion": "Minneapolisの実験では、追加パトロールで何が変わった？",
+          "sourceUrl": "https://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-sherman-and-weisburd-1995/",
+          "readingPurpose": "Matrix上の代表的ホットスポットRCTを、介入・比較・結果まで具体的に読む。",
+          "searchKeywords": [
+            "Sherman & Weisburd 1995",
+            "110 hot spots",
+            "55 experimental",
+            "6 to 13 percent",
+            "observed disorder"
+          ],
+          "studySpecificCaution": "Matrixの要約を原著論文そのものと混同しない。Matrixがまとめる範囲で読む。"
+        },
+        {
+          "questionId": "HOT-BLUE-04-Q04",
+          "displayQuestion": "Jersey Cityの薬物ホットスポット研究では、単純な取締りと何が違った？",
+          "sourceUrl": "https://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-weisburd-and-green-1995/",
+          "readingPurpose": "場所別の問題解決型介入が、どのように設計・評価されたかを確認する。",
+          "searchKeywords": [
+            "Weisburd & Green 1995",
+            "56 hot spots",
+            "Drug Market Analysis",
+            "maintenance stage",
+            "disorder calls"
+          ],
+          "studySpecificCaution": "暴力・財産犯罪・薬物通報のすべてが減った研究ではない。アウトカム別に読む。"
+        }
+      ]
+    },
+    "bike-pop-center": {
+      "sourceId": "BIKE-BLUE-01",
+      "sourceTitle": "Bicycle Theft – POP Center Guide No. 52",
+      "sourceType": "問題別実務ガイド",
+      "primarySourceUrl": "https://popcenter.asu.edu/content/bicycle-theft-0",
+      "supplementalSourceUrls": [
+        "https://popcenter.asu.edu/content/bicycle-theft-summary"
+      ],
+      "questions": [
+        {
+          "questionId": "BIKE-BLUE-01-Q01",
+          "displayQuestion": "自転車盗を分析するとき、まず何を分けて考えるべき？",
+          "sourceUrl": "https://popcenter.asu.edu/content/bicycle-theft-0",
+          "readingPurpose": "自転車そのものの盗難と部品盗、場所・手口・犯人・盗品市場などを分解する。",
+          "searchKeywords": [
+            "What This Guide Does and Does Not Cover",
+            "theft of bicycles",
+            "theft from bicycles",
+            "analyzing your local problem"
+          ],
+          "studySpecificCaution": "ガイドの分類を日本の統計区分と同一視しない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-01-Q02",
+          "displayQuestion": "警察認知件数だけでは、自転車盗の実態を捉えにくいのはなぜ？",
+          "sourceUrl": "https://popcenter.asu.edu/content/bicycle-theft-0",
+          "readingPurpose": "未届・回収・駐輪状況など、複数データ源の必要性を理解する。",
+          "searchKeywords": [
+            "reporting",
+            "police-recorded",
+            "victimization",
+            "recovered bicycles",
+            "local data"
+          ],
+          "studySpecificCaution": "未届率は地域で異なるため、ガイド中の海外値をそのまま日本に適用しない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-01-Q03",
+          "displayQuestion": "施錠や駐輪環境について、現場では何を観察すべき？",
+          "sourceUrl": "https://popcenter.asu.edu/content/bicycle-theft-0",
+          "readingPurpose": "鍵の種類だけでなく、固定物・フレーム・車輪・駐輪場所を観察対象にする。",
+          "searchKeywords": [
+            "locks",
+            "locking practices",
+            "parking facilities",
+            "flyparking",
+            "fixed object"
+          ],
+          "studySpecificCaution": "特定の鍵製品を推奨する質問ではない。原著が扱う原則の範囲で読む。"
+        },
+        {
+          "questionId": "BIKE-BLUE-01-Q04",
+          "displayQuestion": "ガイドは、なぜ一つの対策だけでなく複数対策の組合せを勧めている？",
+          "sourceUrl": "https://popcenter.asu.edu/content/bicycle-theft-0",
+          "readingPurpose": "問題分析に応じて、施錠、駐輪、登録、検挙などを組み合わせる発想を理解する。",
+          "searchKeywords": [
+            "Summary of Responses",
+            "tailor responses to local circumstances",
+            "several different responses",
+            "law enforcement responses alone"
+          ],
+          "studySpecificCaution": "ガイド刊行時点では体系的評価が限られており、各対策の効果量を断定しない。"
+        }
+      ]
+    },
+    "bike-safer-streets": {
+      "sourceId": "BIKE-BLUE-02",
+      "sourceTitle": "Safer Streets Fund – Crime prevention toolkit: cycle parking",
+      "sourceType": "実務ツールキット",
+      "primarySourceUrl": "https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/research/safer-streets-fund"
+      ],
+      "questions": [
+        {
+          "questionId": "BIKE-BLUE-02-Q01",
+          "displayQuestion": "自転車の駐輪対策は、どの2つの方向に分けて考えられている？",
+          "sourceUrl": "https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf",
+          "readingPurpose": "駐輪施設そのものの安全性と、利用者の施錠行動を分けて理解する。",
+          "searchKeywords": [
+            "Moped, scooter, motorcycle and cycle parking",
+            "security of cycle parking facilities",
+            "how cyclists lock their cycles"
+          ],
+          "studySpecificCaution": "ツールキットは自転車だけでなく二輪車全般にも言及するため、対象を混同しない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-02-Q02",
+          "displayQuestion": "駐輪場所の見通しを改善する対策は、どのように効くと考えられている？",
+          "sourceUrl": "https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf",
+          "readingPurpose": "自然監視と犯人の認知リスクという想定メカニズムを理解する。",
+          "searchKeywords": [
+            "poor visibility",
+            "natural surveillance",
+            "passers-by",
+            "perceived likelihood of being spotted"
+          ],
+          "studySpecificCaution": "作用機序の説明であり、この資料自体が効果を厳密に検証したものではない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-02-Q03",
+          "displayQuestion": "推奨される施錠方法は、どの部分をどう固定するもの？",
+          "sourceUrl": "https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf",
+          "readingPurpose": "利用者向け防犯メッセージを具体化する。",
+          "searchKeywords": [
+            "frame and wheels",
+            "appropriate fixed anchor point",
+            "recommended practices",
+            "types of locks"
+          ],
+          "studySpecificCaution": "具体的な製品性能や最新規格は原資料外の情報を追加しない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-02-Q04",
+          "displayQuestion": "この介入のエビデンスの質は、なぜ慎重に読む必要がある？",
+          "sourceUrl": "https://assets.college.police.uk/s3fs-public/2022-03/Safer_Streets_toolkit.pdf",
+          "readingPurpose": "実務ツールキットの推奨と、効果検証の強さを区別する。",
+          "searchKeywords": [
+            "Evidence quality",
+            "Limited",
+            "Based on case studies only"
+          ],
+          "studySpecificCaution": "「推奨されている」ことを「厳密な効果検証で確立」と読み替えない。"
+        }
+      ]
+    },
+    "bike-targeted-publicity": {
+      "sourceId": "BIKE-BLUE-03",
+      "sourceTitle": "Using Targeted Publicity to Reduce Opportunities for Bicycle Theft",
+      "sourceType": "観察研究＋介入評価（再現研究含む）",
+      "primarySourceUrl": "https://journals.sagepub.com/doi/10.1177/1477370809102168",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BIKE-BLUE-03-Q01",
+          "displayQuestion": "この研究で使った『標的を絞った広報』は、何を変えようとした？",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1177/1477370809102168",
+          "readingPurpose": "犯罪件数ではなく、まず施錠行動を変える介入として理解する。",
+          "searchKeywords": [
+            "targeted publicity",
+            "communication strategy",
+            "secure manner",
+            "bad locking",
+            "good locking",
+            "ok locking"
+          ],
+          "studySpecificCaution": "主要アウトカムは施錠行動であり、自転車盗件数そのものではない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-03-Q02",
+          "displayQuestion": "Londonの最初の研究では、介入地点と比較地点で何が違った？",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1177/1477370809102168",
+          "readingPurpose": "介入地点の変化と比較地点の不変を区別して読む。",
+          "searchKeywords": [
+            "five sites in central London",
+            "control site",
+            "bad locking practices",
+            "good locking practices",
+            "ok locking practices"
+          ],
+          "studySpecificCaution": "介入地点数が少ない観察研究であり、広範な一般化を避ける。"
+        },
+        {
+          "questionId": "BIKE-BLUE-03-Q03",
+          "displayQuestion": "Brightonでの再現研究は、最初の研究と同じ傾向を示した？",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1177/1477370809102168",
+          "readingPurpose": "別地域での再現性を確認する。",
+          "searchKeywords": [
+            "Study 2",
+            "Brighton",
+            "replication",
+            "similar pattern of results"
+          ],
+          "studySpecificCaution": "「似た傾向」が同一効果量や完全な再現を意味するわけではない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-03-Q04",
+          "displayQuestion": "この研究では、施錠行動の変化をどのように観察・評価した？",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1177/1477370809102168",
+          "readingPurpose": "この介入研究の主要アウトカムが盗難件数ではなく、観察された施錠行動であることを具体的に理解する。",
+          "searchKeywords": [
+            "locking behaviour",
+            "good locking",
+            "bad locking",
+            "observations",
+            "control site"
+          ],
+          "studySpecificCaution": "施錠行動の改善を自転車盗の減少と同一視しない。ここで答えるのは、研究が実際に測定した行動アウトカムまで。"
+        }
+      ]
+    },
+    "bike-watching-eyes": {
+      "sourceId": "BIKE-BLUE-04",
+      "sourceTitle": "Cycle Thieves, We Are Watching You: Impact of a Simple Signage Intervention against Bicycle Theft",
+      "sourceType": "介入研究＋準実験的前後比較",
+      "primarySourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BIKE-BLUE-04-Q01",
+          "displayQuestion": "「見られている」と感じさせる看板は、どんな仕組みで自転車盗を抑えると考えられた？",
+          "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738",
+          "readingPurpose": "看板が単なる注意喚起ではなく、監視されているという認知を通じて行動へ働きかけるという研究上の仮説を理解する。",
+          "searchKeywords": [
+            "watching eyes",
+            "we are watching you",
+            "surveillance",
+            "deterrence",
+            "bicycle theft"
+          ],
+          "studySpecificCaution": "作用機序は研究者が想定した説明であり、看板が犯人の心理をどのように変えたかを直接測定した結果ではない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-04-Q02",
+          "displayQuestion": "看板を設置した3地点と、それ以外の大学構内では自転車盗はどう変化した？",
+          "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738",
+          "readingPurpose": "介入地点だけの前後変化ではなく、大学構内の他地点も併せて結果を読む。",
+          "searchKeywords": [
+            "three intervention locations",
+            "39",
+            "15",
+            "31",
+            "51",
+            "12 months",
+            "bicycle theft"
+          ],
+          "studySpecificCaution": "介入地点の減少だけを見て大学全体の盗難が減ったと解釈しない。"
+        },
+        {
+          "questionId": "BIKE-BLUE-04-Q03",
+          "displayQuestion": "オッズ比4.28という結果は、何を比較した数字？",
+          "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738",
+          "readingPurpose": "統計値を単純な『428％の効果』と誤読せず、介入地点と非介入地点の変化の違いとして理解する。",
+          "searchKeywords": [
+            "odds ratio 4.28",
+            "95% CI 2.04 8.98",
+            "Fisher exact",
+            "interaction"
+          ],
+          "studySpecificCaution": "オッズ比4.28を『盗難が428％減った』と読み替えない。前後×地点の相対的な変化を示す指標として読む。"
+        },
+        {
+          "questionId": "BIKE-BLUE-04-Q04",
+          "displayQuestion": "他の場所へ自転車盗が移った可能性について、著者はどう解釈している？",
+          "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051738",
+          "readingPurpose": "介入地点の改善と周辺・他地点の悪化を同時に読み、犯罪転位の可能性を確認する。",
+          "searchKeywords": [
+            "displacement",
+            "other locations",
+            "campus-wide",
+            "31 to 51"
+          ],
+          "studySpecificCaution": "他地点での増加だけから犯罪転位を断定しない。著者も代替説明を含め慎重に議論している。"
+        }
+      ]
+    },
+    "burglary-guidance": {
+      "sourceId": "BURG-BLUE-01",
+      "sourceTitle": "College of Policing – Residential burglary guidance",
+      "sourceType": "実務ガイド",
+      "primarySourceUrl": "https://www.college.police.uk/guidance/residential-burglary",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/guidance/residential-burglary/further-investigation",
+        "https://www.college.police.uk/guidance/residential-burglary/crime-reduction-initiatives",
+        "https://www.college.police.uk/guidance/neighbourhood-crime/interventions-situational-crime-prevention"
+      ],
+      "questions": [
+        {
+          "questionId": "BURG-BLUE-01-Q01",
+          "displayQuestion": "住宅侵入窃盗の捜査と再被害防止は、なぜ別々ではなく一緒に考える？",
+          "sourceUrl": "https://www.college.police.uk/guidance/residential-burglary",
+          "readingPurpose": "被害発生後の初動を、事件解決だけでなく次の被害を防ぐための情報収集・予防機会として理解する。",
+          "searchKeywords": [
+            "investigation",
+            "crime reduction",
+            "repeat victimisation",
+            "initial response"
+          ],
+          "studySpecificCaution": "ガイドが示す警察実務上の接続を説明し、特定施策の効果検証結果と混同しない。"
+        },
+        {
+          "questionId": "BURG-BLUE-01-Q02",
+          "displayQuestion": "周辺住宅への重点防犯（cocooning）は、どの住宅に何をする考え方？",
+          "sourceUrl": "https://www.college.police.uk/guidance/neighbourhood-crime/interventions-situational-crime-prevention",
+          "readingPurpose": "被害住宅だけでなく、直後にリスクが高まる周辺住宅へ予防活動を広げる理由と実施内容を理解する。",
+          "searchKeywords": [
+            "cocooning",
+            "near repeat",
+            "neighbouring properties",
+            "burglary"
+          ],
+          "studySpecificCaution": "距離・期間は地域データや研究条件で異なる。特定の距離・期間を普遍的なルールとして扱わない。"
+        },
+        {
+          "questionId": "BURG-BLUE-01-Q03",
+          "displayQuestion": "似た手口の事件やCCTV・車両情報は、どのように次の捜査・予防へ使う？",
+          "sourceUrl": "https://www.college.police.uk/guidance/residential-burglary/further-investigation",
+          "readingPurpose": "個々の事件から得られる手口・場所・移動情報を、関連事件の把握や犯人特定へつなげる分析視点を得る。",
+          "searchKeywords": [
+            "similar modus operandi",
+            "CCTV",
+            "ANPR",
+            "routes",
+            "burglary"
+          ],
+          "studySpecificCaution": "CCTVやANPRが常に有効という意味ではなく、利用可能な証拠・情報源として読む。"
+        },
+        {
+          "questionId": "BURG-BLUE-01-Q04",
+          "displayQuestion": "被害者支援では、再被害リスクと不安をどのように確認する？",
+          "sourceUrl": "https://www.college.police.uk/guidance/residential-burglary/further-investigation",
+          "readingPurpose": "被害者対応を心理的支援だけでなく、再被害防止のためのリスク・脆弱性評価と結び付けて理解する。",
+          "searchKeywords": [
+            "victim care",
+            "risk vulnerability assessment",
+            "repeat victimisation",
+            "tailored support"
+          ],
+          "studySpecificCaution": "ガイドは個別の被害者の将来被害を予測できるとするものではない。"
+        }
+      ]
+    },
+    "burglary-repeat-toolkit": {
+      "sourceId": "BURG-BLUE-02",
+      "sourceTitle": "Crime Reduction Toolkit – Measures to reduce repeat victimisation – burglary",
+      "sourceType": "Crime Reduction Toolkit＋システマティックレビュー要約",
+      "primarySourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/measures-reduce-repeat-victimisation-burglary",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BURG-BLUE-02-Q01",
+          "displayQuestion": "再被害防止策は、住宅侵入窃盗を全体としてどの程度減らしたと評価されている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/measures-reduce-repeat-victimisation-burglary",
+          "readingPurpose": "ToolkitのEffect評価と、その根拠となる研究群の規模・性格を理解する。",
+          "searchKeywords": [
+            "overall reduction",
+            "19 studies",
+            "effect quality",
+            "burglary"
+          ],
+          "studySpecificCaution": "Toolkitの『Overall reduction』『Very strong』は個々の地域で同じ減少率を保証するものではない。"
+        },
+        {
+          "questionId": "BURG-BLUE-02-Q02",
+          "displayQuestion": "再被害防止では、具体的にどんな対策が使われていた？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/measures-reduce-repeat-victimisation-burglary",
+          "readingPurpose": "『再被害防止』を一つの介入名としてではなく、複数の具体的なResponseの組合せとして理解する。",
+          "searchKeywords": [
+            "Neighbourhood Watch",
+            "crime prevention advice",
+            "property marking",
+            "target hardening",
+            "cocoon"
+          ],
+          "studySpecificCaution": "各対策の単独効果が同じ強さで示されているわけではない。"
+        },
+        {
+          "questionId": "BURG-BLUE-02-Q03",
+          "displayQuestion": "なぜ最近被害に遭った住宅やその周辺を優先するの？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/measures-reduce-repeat-victimisation-burglary",
+          "readingPurpose": "再被害・近接再被害の集中を利用して、限られた予防資源を高リスク対象へ配分するメカニズムを理解する。",
+          "searchKeywords": [
+            "recent victim",
+            "nearby properties",
+            "repeat victimisation",
+            "mechanism"
+          ],
+          "studySpecificCaution": "Mechanismの直接的な実証はToolkitで強くない。リスク集中を利用する論理と、機序が直接測定されたかを分けて読む。"
+        },
+        {
+          "questionId": "BURG-BLUE-02-Q04",
+          "displayQuestion": "実施率や現場での実装は、結果とどのように関係していた？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/measures-reduce-repeat-victimisation-burglary",
+          "readingPurpose": "介入内容だけでなく、対象に実際に対策が届いた割合が結果に関係するというレビューの実装知見を理解する。",
+          "searchKeywords": [
+            "implementation rate",
+            "one fifth",
+            "staff recruitment",
+            "training",
+            "resident resistance"
+          ],
+          "studySpecificCaution": "『約2割実施すれば効く』という普遍的閾値として扱わない。レビュー著者の探索的な観察・実装上の示唆として読む。"
+        }
+      ]
+    },
+    "burglary-repeat-review": {
+      "sourceId": "BURG-BLUE-03",
+      "sourceTitle": "Grove et al. (2012) Preventing Repeat Victimization: A Systematic Review",
+      "sourceType": "システマティックレビュー＋メタ分析",
+      "primarySourceUrl": "https://eprints.whiterose.ac.uk/id/eprint/116406/",
+      "supplementalSourceUrls": [
+        "https://bra.se/english/publications/archive/2012-06-11-preventing-repeat-victimization"
+      ],
+      "questions": [
+        {
+          "questionId": "BURG-BLUE-03-Q01",
+          "displayQuestion": "このレビューは、どんな再被害防止研究を何件まとめた？",
+          "sourceUrl": "https://eprints.whiterose.ac.uk/id/eprint/116406/",
+          "readingPurpose": "レビューの対象範囲と、住宅侵入窃盗が主要な研究領域だったことを把握する。",
+          "searchKeywords": [
+            "31 studies",
+            "repeat victimization",
+            "residential burglary",
+            "systematic review"
+          ],
+          "studySpecificCaution": "レビュー全体31研究と、住宅侵入窃盗に限定したサブセットを混同しない。"
+        },
+        {
+          "questionId": "BURG-BLUE-03-Q02",
+          "displayQuestion": "住宅侵入窃盗の再被害防止では、介入群と比較群にどの程度の差があった？",
+          "sourceUrl": "https://eprints.whiterose.ac.uk/id/eprint/116406/",
+          "readingPurpose": "メタ分析の効果量を、単純な前後減少率ではなく比較群との相対差として理解する。",
+          "searchKeywords": [
+            "1.206",
+            "odds ratio",
+            "residential burglary",
+            "meta-analysis"
+          ],
+          "studySpecificCaution": "オッズ比1.206を20.6％減とそのまま読み替えない。著者の効果指標の向きと意味を確認して説明する。"
+        },
+        {
+          "questionId": "BURG-BLUE-03-Q03",
+          "displayQuestion": "どんな再被害防止策が、レビューでは有望と整理された？",
+          "sourceUrl": "https://eprints.whiterose.ac.uk/id/eprint/116406/",
+          "readingPurpose": "一般的な啓発だけでなく、被害リスクに応じた状況的対策・物理的防犯強化の位置づけを理解する。",
+          "searchKeywords": [
+            "tailored situational measures",
+            "target hardening",
+            "repeat burglary",
+            "advice"
+          ],
+          "studySpecificCaution": "個々の対策の効果をレビュー全体の結論以上に細分化して断定しない。"
+        },
+        {
+          "questionId": "BURG-BLUE-03-Q04",
+          "displayQuestion": "対象への実施率が高いほど結果が良いという関係を、著者はどこまで強く言っている？",
+          "sourceUrl": "https://eprints.whiterose.ac.uk/id/eprint/116406/",
+          "readingPurpose": "Figure 2の探索的な実装分析を、固定的な実施率基準と誤読しない。",
+          "searchKeywords": [
+            "implementation rate",
+            "22.5",
+            "R2 .413",
+            "Figure 2",
+            "literally"
+          ],
+          "studySpecificCaution": "22.5％を『最低必要実施率』として運用基準化しない。著者自身が線形回帰の切片を文字どおり解釈できない旨を述べている。"
+        }
+      ]
+    },
+    "burglary-pop-center": {
+      "sourceId": "BURG-BLUE-04",
+      "sourceTitle": "POP Center – Burglary of Single-Family Houses",
+      "sourceType": "問題別実務ガイド",
+      "primarySourceUrl": "https://popcenter.asu.edu/content/burglary-single-family-houses-0",
+      "supplementalSourceUrls": [
+        "https://popcenter.asu.edu/content/burglary-single-family-houses-summary"
+      ],
+      "questions": [
+        {
+          "questionId": "BURG-BLUE-04-Q01",
+          "displayQuestion": "戸建住宅の侵入窃盗リスクは、どんな場所・住宅・犯人側の条件に分けて考える？",
+          "sourceUrl": "https://popcenter.asu.edu/content/burglary-single-family-houses-0",
+          "readingPurpose": "住宅侵入窃盗を一つの原因で説明せず、対象・場所・犯人の条件へ分解する分析枠組みを得る。",
+          "searchKeywords": [
+            "risk factors",
+            "single-family houses",
+            "location",
+            "offender",
+            "accessibility",
+            "visibility"
+          ],
+          "studySpecificCaution": "ガイドに列挙された要因は、すべての地域で同じ重要度を持つわけではない。"
+        },
+        {
+          "questionId": "BURG-BLUE-04-Q02",
+          "displayQuestion": "自地域の住宅侵入窃盗を分析するとき、何を質問すべき？",
+          "sourceUrl": "https://popcenter.asu.edu/content/burglary-single-family-houses-0",
+          "readingPurpose": "発生件数だけでなく、侵入口、時間、盗品、逃走、反復、犯人、盗品市場などを調べるための問いを得る。",
+          "searchKeywords": [
+            "questions for your community",
+            "entry point",
+            "stolen property",
+            "repeat burglary"
+          ],
+          "studySpecificCaution": "質問項目は地域分析の出発点であり、回答を一般知識から埋めない。"
+        },
+        {
+          "questionId": "BURG-BLUE-04-Q03",
+          "displayQuestion": "ガイドは、住宅侵入窃盗に対してどんな対策の組合せを示している？",
+          "sourceUrl": "https://popcenter.asu.edu/content/burglary-single-family-houses-0",
+          "readingPurpose": "警報・錠・見守り・所有物マーキング・環境設計・犯人・盗品市場など複数のResponseを比較する。",
+          "searchKeywords": [
+            "responses to burglary",
+            "alarms",
+            "locks",
+            "Neighbourhood Watch",
+            "property marking",
+            "stolen goods"
+          ],
+          "studySpecificCaution": "対策一覧を『すべて同時に実施すべき』とは読まない。地域分析に基づき選択する。"
+        },
+        {
+          "questionId": "BURG-BLUE-04-Q04",
+          "displayQuestion": "なぜ取締りだけでなく、住宅・場所の管理も組み合わせる必要がある？",
+          "sourceUrl": "https://popcenter.asu.edu/content/burglary-single-family-houses-0",
+          "readingPurpose": "犯人への法執行と、犯罪機会を生み出す場所・対象条件への対策を補完的に理解する。",
+          "searchKeywords": [
+            "law enforcement",
+            "target hardening",
+            "place management",
+            "burglary"
+          ],
+          "studySpecificCaution": "ガイドは法執行を否定しているのではなく、問題構造に応じた組合せを求めている。"
+        }
+      ]
+    },
+    "pop-sara-model": {
+      "sourceId": "POP-BLUE-01",
+      "sourceTitle": "College of Policing – SARA model / Problem-solving policing",
+      "sourceType": "実務ガイド＋問題解決モデル",
+      "primarySourceUrl": "https://www.college.police.uk/guidance/problem-solving-policing/sara-model",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/guidance/problem-solving-policing"
+      ],
+      "questions": [
+        {
+          "questionId": "POP-BLUE-01-Q01",
+          "displayQuestion": "問題として扱う前に、CHEERSでは何を確認する？",
+          "sourceUrl": "https://www.college.police.uk/guidance/problem-solving-policing/sara-model",
+          "readingPurpose": "単発事案や曖昧な課題をそのままSARAへ入れず、反復する具体的問題として定義する基準を理解する。",
+          "searchKeywords": [
+            "CHEERS",
+            "Community",
+            "Harm",
+            "Expect",
+            "Events",
+            "Recurring",
+            "Similar"
+          ],
+          "studySpecificCaution": "CHEERSはチェック項目を満たせば自動的に優先課題になるという採点表ではなく、問題定義の補助として読む。"
+        },
+        {
+          "questionId": "POP-BLUE-01-Q02",
+          "displayQuestion": "Scanningでは、広い課題をどこまで具体化してから分析へ進む？",
+          "sourceUrl": "https://www.college.police.uk/guidance/problem-solving-policing/sara-model",
+          "readingPurpose": "『犯罪が多い』という大分類から、場所・時間・被害者・犯人・反復等を具体化する過程を理解する。",
+          "searchKeywords": [
+            "Scanning",
+            "define problem",
+            "specific recurring problem",
+            "location victim offender"
+          ],
+          "studySpecificCaution": "早い段階で解決策を決め打ちせず、問題の境界を明確にする段階として読む。"
+        },
+        {
+          "questionId": "POP-BLUE-01-Q03",
+          "displayQuestion": "Analysisでは、『何が起きているか』から『どこに介入すべきか』をどう見つける？",
+          "sourceUrl": "https://www.college.police.uk/guidance/problem-solving-policing/sara-model",
+          "readingPurpose": "分析を情報収集で終わらせず、問題を維持している条件や介入可能な要所を特定するために使う。",
+          "searchKeywords": [
+            "Analysis",
+            "pinch points",
+            "causes",
+            "conditions",
+            "victim offender location"
+          ],
+          "studySpecificCaution": "分析で見つかった関連を、そのまま因果関係と断定しない。Response選択に必要な仮説として扱う。"
+        },
+        {
+          "questionId": "POP-BLUE-01-Q04",
+          "displayQuestion": "Assessmentでは、『問題が減ったか』と『対策が減少を起こしたか』をどう分ける？",
+          "sourceUrl": "https://www.college.police.uk/guidance/problem-solving-policing/sara-model",
+          "readingPurpose": "結果の変化と因果評価を別の問いとして扱い、単純な前後減少を過大解釈しない。",
+          "searchKeywords": [
+            "Assessment",
+            "problem declined",
+            "response caused decline"
+          ],
+          "studySpecificCaution": "前後変化が確認されても、それだけでResponseの因果効果が証明されたとはしない。"
+        },
+        {
+          "questionId": "POP-BLUE-01-Q05",
+          "displayQuestion": "なぜ対策を始める前に、評価指標とデータ収集を決めておく必要がある？",
+          "sourceUrl": "https://www.college.police.uk/guidance/problem-solving-policing/sara-model",
+          "readingPurpose": "Assessmentを後付けにせず、介入前の基準値・実装指標・アウトカムを確保する実務上の重要性を理解する。",
+          "searchKeywords": [
+            "before response",
+            "baseline",
+            "measures",
+            "data collection",
+            "assessment"
+          ],
+          "studySpecificCaution": "測定項目を増やすこと自体が目的ではなく、問題仮説とResponseに対応する指標を選ぶ。"
+        }
+      ]
+    },
+    "pop-toolkit": {
+      "sourceId": "POP-BLUE-02",
+      "sourceTitle": "Crime Reduction Toolkit – Problem-oriented policing",
+      "sourceType": "Crime Reduction Toolkit＋システマティックレビュー要約",
+      "primarySourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/problem-oriented-policing",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "POP-BLUE-02-Q01",
+          "displayQuestion": "POPは、犯罪・秩序問題を全体としてどの程度減らしたと評価されている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/problem-oriented-policing",
+          "readingPurpose": "ToolkitのEffect評価と、その根拠となる研究群の規模を理解する。",
+          "searchKeywords": [
+            "overall reduction",
+            "34 studies",
+            "effect quality",
+            "problem-oriented policing"
+          ],
+          "studySpecificCaution": "Toolkitの総合評価を、どの場所でも同じ割合で犯罪が減るという保証として読まない。"
+        },
+        {
+          "questionId": "POP-BLUE-02-Q02",
+          "displayQuestion": "POPは『一つの介入』ではなく、どんな考え方・進め方として評価されている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/problem-oriented-policing",
+          "readingPurpose": "POPをパトロールやCCTVのような固定施策と混同せず、問題分析に応じてResponseを変えるアプローチとして理解する。",
+          "searchKeywords": [
+            "problem-oriented policing approach",
+            "specific problems",
+            "tailored response",
+            "analysis"
+          ],
+          "studySpecificCaution": "POPの効果は、その中で実施された具体的Responseと分析・実装の質に依存する。"
+        },
+        {
+          "questionId": "POP-BLUE-02-Q03",
+          "displayQuestion": "POPが効く理由について、Toolkitはどんな作用機序を挙げている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/problem-oriented-policing",
+          "readingPurpose": "『POPだから効く』ではなく、分析に基づき問題の原因・機会へ働きかけるというメカニズムを理解する。",
+          "searchKeywords": [
+            "mechanism",
+            "underlying causes",
+            "tailored responses",
+            "problem analysis"
+          ],
+          "studySpecificCaution": "作用機序の評価は中程度であり、全研究で同じメカニズムが直接検証されたわけではない。"
+        },
+        {
+          "questionId": "POP-BLUE-02-Q04",
+          "displayQuestion": "POPを現場で実装するとき、どんな条件や課題が結果に影響すると整理されている？",
+          "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/problem-oriented-policing",
+          "readingPurpose": "研究上の効果だけでなく、分析の質、関係機関、実装忠実度など実務条件を確認する。",
+          "searchKeywords": [
+            "implementation",
+            "problem analysis",
+            "partnership",
+            "resources",
+            "problem-oriented policing"
+          ],
+          "studySpecificCaution": "Implementationの強い評価は『実装すれば必ず成功する』という意味ではなく、実装に関する報告が比較的豊富という文脈も確認する。"
+        }
+      ]
+    },
+    "pop-campbell": {
+      "sourceId": "POP-BLUE-03",
+      "sourceTitle": "Hinkle et al. – Problem-oriented policing for reducing crime and disorder",
+      "sourceType": "システマティックレビュー＋メタ分析",
+      "primarySourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+      "supplementalSourceUrls": [
+        "https://www.campbellcollaboration.org/review/problem-oriented-policing-for-reducing-crime-and-disorder/"
+      ],
+      "questions": [
+        {
+          "questionId": "POP-BLUE-03-Q01",
+          "displayQuestion": "このレビューは、どんなPOP研究を何件まとめた？",
+          "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+          "readingPurpose": "レビューの対象、国、研究デザインを把握し、結果の一般化範囲を理解する。",
+          "searchKeywords": [
+            "34 studies",
+            "28 United States",
+            "5 United Kingdom",
+            "1 Canada",
+            "randomized quasi-experimental"
+          ],
+          "studySpecificCaution": "研究の大半が米国であるため、日本や他制度圏へそのまま一般化しない。"
+        },
+        {
+          "questionId": "POP-BLUE-03-Q02",
+          "displayQuestion": "POPの平均的な犯罪減少はどの程度で、研究間のばらつきはどうだった？",
+          "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+          "readingPurpose": "総合効果と異質性を同時に読み、平均値だけで施策効果を固定化しない。",
+          "searchKeywords": [
+            "34% reduction",
+            "RIRR",
+            "heterogeneity",
+            "problem-oriented policing"
+          ],
+          "studySpecificCaution": "『POPを使えば34％減る』とは表現しない。研究間の違いが大きいことを併記する。"
+        },
+        {
+          "questionId": "POP-BLUE-03-Q03",
+          "displayQuestion": "RCTと準実験では、効果の大きさにどんな違いがあった？",
+          "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+          "readingPurpose": "研究デザインによって推定値が変わることを確認し、観察された大きな効果を慎重に読む。",
+          "searchKeywords": [
+            "RCT",
+            "quasi-experimental",
+            "smaller effects",
+            "research design"
+          ],
+          "studySpecificCaution": "RCTが小さかったことを『RCTでは効かない』とは読まない。設計別の平均差と不確実性として扱う。"
+        },
+        {
+          "questionId": "POP-BLUE-03-Q04",
+          "displayQuestion": "出版バイアスを考慮すると、POPの効果推定はどう変わる？",
+          "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+          "readingPurpose": "肯定的な研究が出版されやすい可能性を踏まえて、調整後の推定を確認する。",
+          "searchKeywords": [
+            "publication bias",
+            "trim and fill",
+            "adjusted",
+            "Hinkle"
+          ],
+          "studySpecificCaution": "出版バイアス調整は真の効果を確定するものではなく、感度分析として読む。"
+        },
+        {
+          "questionId": "POP-BLUE-03-Q05",
+          "displayQuestion": "犯罪転位と利益の拡散について、レビューはどちらを多く報告している？",
+          "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+          "readingPurpose": "重点的な問題解決が周辺へ犯罪を押し出すか、逆に周辺にも利益が及ぶかを確認する。",
+          "searchKeywords": [
+            "displacement",
+            "diffusion of benefits",
+            "problem-oriented policing"
+          ],
+          "studySpecificCaution": "すべての研究が転位を測定したわけではない。測定した研究群の傾向として読む。"
+        },
+        {
+          "questionId": "POP-BLUE-03-Q06",
+          "displayQuestion": "犯罪件数以外の成果や費用について、レビューではどこまで分かっている？",
+          "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/cl2.1089",
+          "readingPurpose": "犯罪アウトカム以外の警察への正統性、不安、集合的効力、費用便益等の証拠量を確認する。",
+          "searchKeywords": [
+            "legitimacy",
+            "fear of crime",
+            "collective efficacy",
+            "cost benefit"
+          ],
+          "studySpecificCaution": "証拠が少ない領域について、効果なしと『研究が少ない』を混同しない。"
+        }
+      ]
+    },
+    "pop-center-tools": {
+      "sourceId": "POP-BLUE-04",
+      "sourceTitle": "POP Center – Problem-Solving Tool Guides / Assessing Responses to Problems",
+      "sourceType": "評価方法・問題解決実務ガイド",
+      "primarySourceUrl": "https://popcenter.asu.edu/content/assessing-responses-problems-did-it-work-2nd-edition",
+      "supplementalSourceUrls": [
+        "https://popcenter.asu.edu/content/tool-guides-about-problem-solving-tools-series"
+      ],
+      "questions": [
+        {
+          "questionId": "POP-BLUE-04-Q01",
+          "displayQuestion": "POP Centerの問題解決ツールは、SARAのどの段階をどう支援する？",
+          "sourceUrl": "https://popcenter.asu.edu/content/tool-guides-about-problem-solving-tools-series",
+          "readingPurpose": "ツール集を単独のチェックリストではなく、問題定義・分析・Response・評価を支える方法群として理解する。",
+          "searchKeywords": [
+            "Problem-Solving Tools series",
+            "SARA",
+            "analysis",
+            "assessment"
+          ],
+          "studySpecificCaution": "すべてのツールを一つの案件で使う必要があるわけではない。問題に必要な方法を選ぶ。"
+        },
+        {
+          "questionId": "POP-BLUE-04-Q02",
+          "displayQuestion": "評価では、『問題が減ったか』と『対策が原因だったか』をなぜ分けて考える？",
+          "sourceUrl": "https://popcenter.asu.edu/content/assessing-responses-problems-did-it-work-2nd-edition",
+          "readingPurpose": "結果記述と因果推論を区別する評価の基本を理解する。",
+          "searchKeywords": [
+            "did the problem decline",
+            "did the response cause the decline"
+          ],
+          "studySpecificCaution": "問題が減っただけでは、Responseが原因とは限らない。季節変動や他施策など代替説明を考える。"
+        },
+        {
+          "questionId": "POP-BLUE-04-Q03",
+          "displayQuestion": "プロセス評価では、何を確認すると『計画どおり実施されたか』が分かる？",
+          "sourceUrl": "https://popcenter.asu.edu/content/assessing-responses-problems-did-it-work-2nd-edition",
+          "readingPurpose": "アウトカムが変わらない場合に、介入自体の問題と実装不足を分けるための情報を理解する。",
+          "searchKeywords": [
+            "process evaluation",
+            "implemented as planned",
+            "fidelity",
+            "activities"
+          ],
+          "studySpecificCaution": "実装が予定どおりでも効果が保証されるわけではない。プロセス評価とアウトカム評価を分ける。"
+        },
+        {
+          "questionId": "POP-BLUE-04-Q04",
+          "displayQuestion": "単純な前後比較だけでは、なぜ対策の効果を判断しにくい？",
+          "sourceUrl": "https://popcenter.asu.edu/content/assessing-responses-problems-did-it-work-2nd-edition",
+          "readingPurpose": "時間変化・回帰・他の出来事等を考慮し、より強い比較設計を選ぶ理由を理解する。",
+          "searchKeywords": [
+            "before and after",
+            "comparison group",
+            "alternative explanations",
+            "regression"
+          ],
+          "studySpecificCaution": "前後比較を無価値とするのではなく、何が分かり、何が分からないかを区別する。"
+        }
+      ]
+    }
+  },
+  "cases": {
+    "crime-hotspots-mobile-app": {
+      "sourceId": "HOT-RED-01",
+      "sourceTitle": "Crime hot spots mobile phone app / Thames Valley Police trial",
+      "sourceType": "実践事例＋無作為化クロスオーバー試験",
+      "primarySourceUrl": "https://link.springer.com/article/10.1007/s41887-024-00096-7",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/support-forces/practices/crime-hot-spots-mobile-phone-app"
+      ],
+      "questions": [
+        {
+          "questionId": "HOT-RED-01-Q01",
+          "displayQuestion": "アプリは、警察官のホットスポットへの実際の巡回量をどの程度変えた？",
+          "sourceUrl": "https://link.springer.com/article/10.1007/s41887-024-00096-7",
+          "readingPurpose": "アプリの効果を、犯罪結果より前に実装・巡回量の変化として確認する。",
+          "searchKeywords": [
+            "45 hotspots",
+            "1.255 patrols",
+            "3,500 additional patrols",
+            "93%",
+            "airwave pings"
+          ],
+          "studySpecificCaution": "巡回量の増加は犯罪減少そのものではない。実装アウトカムとして読む。"
+        },
+        {
+          "questionId": "HOT-RED-01-Q02",
+          "displayQuestion": "暴力犯罪はどの程度変化し、その結果は統計的に明確だった？",
+          "sourceUrl": "https://link.springer.com/article/10.1007/s41887-024-00096-7",
+          "readingPurpose": "犯罪アウトカムと統計的不確実性を正確に読む。",
+          "searchKeywords": [
+            "8.74% decrease",
+            "non-significant",
+            "violent crime",
+            "effect size"
+          ],
+          "studySpecificCaution": "8.74％減を因果的に確立した効果として表現しない。"
+        },
+        {
+          "questionId": "HOT-RED-01-Q03",
+          "displayQuestion": "この研究は、なぜ『アプリが使えた』ことと『犯罪が減った』ことを分けている？",
+          "sourceUrl": "https://link.springer.com/article/10.1007/s41887-024-00096-7",
+          "readingPurpose": "技術導入の実装成功と犯罪効果を別アウトカムとして理解する。",
+          "searchKeywords": [
+            "cost-effective mechanism",
+            "achieving hotspots patrols",
+            "business-as-usual resources",
+            "violent crime"
+          ],
+          "studySpecificCaution": "アプリの実装成功を、ホットスポット形状や介入設計の妥当性まで証明したものとしない。"
+        },
+        {
+          "questionId": "HOT-RED-01-Q04",
+          "displayQuestion": "著者は、Thames Valleyの地理・犯罪密度について何を次の課題として挙げた？",
+          "sourceUrl": "https://link.springer.com/article/10.1007/s41887-024-00096-7",
+          "readingPurpose": "平均的なホットスポット研究を地域へ移植する際の適合性を考える。",
+          "searchKeywords": [
+            "non-metropolitan",
+            "traditionally designed hotspots",
+            "redesigned hotspots",
+            "geography and crime density"
+          ],
+          "studySpecificCaution": "他地域でも同じ再設計が必要と決めつけない。"
+        }
+      ]
+    },
+    "turning-point-street-outreach": {
+      "sourceId": "HOT-RED-02",
+      "sourceTitle": "Turning Point – the street outreach service",
+      "sourceType": "実践事例＋準実験",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/article/street-outreach-service-prevent-violence"
+      ],
+      "questions": [
+        {
+          "questionId": "HOT-RED-02-Q01",
+          "displayQuestion": "なぜ制服警察ではなく、街頭アウトリーチの若者支援員をホットスポットへ配置した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service",
+          "readingPurpose": "介入の狙いを、単なる追加人員ではなく、脆弱な若者との関係形成まで含めて理解する。",
+          "searchKeywords": [
+            "street outreach youth workers",
+            "vulnerable people",
+            "engagement",
+            "violence interrupter",
+            "detached youth work"
+          ],
+          "studySpecificCaution": "アウトリーチと警察パトロールは同一の機能ではない。役割の違いを保つ。"
+        },
+        {
+          "questionId": "HOT-RED-02-Q02",
+          "displayQuestion": "対象とする7つのホットスポットと時間帯は、どう選ばれた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service",
+          "readingPurpose": "場所と時間をデータで絞る手順を理解する。",
+          "searchKeywords": [
+            "seven violent crime hotspots",
+            "aged 25 years or under",
+            "2pm to 8pm",
+            "night-time economy excluded"
+          ],
+          "studySpecificCaution": "設定された時間帯を他地域の標準時間帯としない。"
+        },
+        {
+          "questionId": "HOT-RED-02-Q03",
+          "displayQuestion": "評価では、パトロール日と非パトロール日をどう比較した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service",
+          "readingPurpose": "準実験の比較構造を理解する。",
+          "searchKeywords": [
+            "Maryland Scientific Methods Scale level 3",
+            "treatment days",
+            "control days",
+            "Cambridge Crime Harm Index"
+          ],
+          "studySpecificCaution": "完全な無作為化比較試験ではない。準実験として読む。"
+        },
+        {
+          "questionId": "HOT-RED-02-Q04",
+          "displayQuestion": "犯罪件数とCrime Harmは、それぞれどの程度変化した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service",
+          "readingPurpose": "件数と被害の重さを分けて読む。",
+          "searchKeywords": [
+            "416",
+            "252",
+            "39%",
+            "60,314",
+            "38,421",
+            "36%"
+          ],
+          "studySpecificCaution": "前後11か月比較と日別の準実験比較を混同しない。"
+        },
+        {
+          "questionId": "HOT-RED-02-Q05",
+          "displayQuestion": "街頭アウトリーチの費用は、警察パトロールとどう比較された？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/turning-point-street-outreach-service",
+          "readingPurpose": "実装コストを1分あたりの活動費として理解する。",
+          "searchKeywords": [
+            "cost per minute",
+            "£3.38",
+            "£2.28",
+            "32.5% cheaper"
+          ],
+          "studySpecificCaution": "費用比較はこの事例の活動単価であり、社会的費用便益全体ではない。"
+        }
+      ]
+    },
+    "operation-safer-streets": {
+      "sourceId": "HOT-RED-03",
+      "sourceTitle": "Operation Safer Streets – Manchester NTE",
+      "sourceType": "実践事例（未検証）",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "HOT-RED-03-Q01",
+          "displayQuestion": "Manchesterの夜間経済で、どんな問題をデータから特定した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte",
+          "readingPurpose": "犯罪件数だけでなく、女性の安全感・未申告・脆弱性を含む問題分析を理解する。",
+          "searchKeywords": [
+            "community surveys",
+            "70%",
+            "82%",
+            "harassment or abuse",
+            "20% reported"
+          ],
+          "studySpecificCaution": "調査回答者の割合をManchester全女性の代表値として扱わない。"
+        },
+        {
+          "questionId": "HOT-RED-03-Q02",
+          "displayQuestion": "どのような理論・分析手法を使って、夜間の犯罪機会を整理した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte",
+          "readingPurpose": "対策選択の前に、環境・人・監視条件をどう分析したか理解する。",
+          "searchKeywords": [
+            "environmental visual audits",
+            "hotspot analysis",
+            "routine activity theory",
+            "Cambridge Crime Harm Index",
+            "guardianship"
+          ],
+          "studySpecificCaution": "理論が介入効果を直接証明するわけではない。"
+        },
+        {
+          "questionId": "HOT-RED-03-Q03",
+          "displayQuestion": "Operation Safer Streetsでは、警察以外の関係者と何を実施した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte",
+          "readingPurpose": "パトロールだけでない複合介入とパートナーシップを理解する。",
+          "searchKeywords": [
+            "licensing visits",
+            "venue engagement",
+            "Women's Night-Time Safety Charter",
+            "intelligence sharing",
+            "safe-space"
+          ],
+          "studySpecificCaution": "各構成要素の単独効果は検証されていない。"
+        },
+        {
+          "questionId": "HOT-RED-03-Q04",
+          "displayQuestion": "取組後に報告された犯罪・Crime Harmの変化は何だった？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-safer-streets-reducing-incidents-crime-and-harm-within-night-time-economy-nte",
+          "readingPurpose": "報告値を確認しつつ、未検証事例として因果表現を抑える。",
+          "searchKeywords": [
+            "Overall impact",
+            "17%",
+            "21%",
+            "35%",
+            "12%",
+            "26%",
+            "£1 million"
+          ],
+          "studySpecificCaution": "Stage of practiceがUntestedであり、報告された前後変化を介入の因果効果と断定しない。"
+        }
+      ]
+    },
+    "bike-intelligence-tool": {
+      "sourceId": "BIKE-RED-01",
+      "sourceTitle": "Bike intelligence tool – serious acquisitive crime offences",
+      "sourceType": "警察実務事例＋地域内評価",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BIKE-RED-01-Q01",
+          "displayQuestion": "Bike Registerの情報を、盗難自転車の回収だけでなく捜査・情報分析にどう使った？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences",
+          "readingPurpose": "登録制度を単なる防犯登録ではなく、警察の情報活用・盗品識別・捜査支援の仕組みとして理解する。",
+          "searchKeywords": [
+            "BikeRegister",
+            "bike intelligence tool",
+            "serial number",
+            "stolen",
+            "checks"
+          ],
+          "studySpecificCaution": "登録件数そのものと盗難減少を同一視しない。"
+        },
+        {
+          "questionId": "BIKE-RED-01-Q02",
+          "displayQuestion": "自転車登録・マーキング活動を、どのように犯罪データと結び付けて運用した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences",
+          "readingPurpose": "イベント実施数だけでなく、どこで登録活動を行い、どこで犯罪が起きているかを重ねて管理する実装方法を理解する。",
+          "searchKeywords": [
+            "dashboard",
+            "marking events",
+            "mapping",
+            "crime data",
+            "performance"
+          ],
+          "studySpecificCaution": "ダッシュボードやイベント数は実装指標であり、それ自体は犯罪減少の効果を示さない。"
+        },
+        {
+          "questionId": "BIKE-RED-01-Q03",
+          "displayQuestion": "Wirralでは取組の前後で自転車盗はどの程度変化した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences",
+          "readingPurpose": "Practice Bankが報告する地域内評価の数値を、評価デザインとともに理解する。",
+          "searchKeywords": [
+            "Wirral",
+            "45.6% reduction",
+            "pre post",
+            "bike theft"
+          ],
+          "studySpecificCaution": "45.6％減は前後比較であり、比較地域を用いた因果推定ではない。『取組により45.6％減った』とは表現しない。"
+        },
+        {
+          "questionId": "BIKE-RED-01-Q04",
+          "displayQuestion": "学校・販売店・現場警察官を巻き込んだのは、どの実装課題に対応するため？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/bike-intelligence-tool-serious-acquisitive-crime-offences",
+          "readingPurpose": "自転車登録を利用者だけの行動にせず、複数の接点で定着させる実装設計を理解する。",
+          "searchKeywords": [
+            "schools",
+            "retailers",
+            "point of sale",
+            "training",
+            "bike marking"
+          ],
+          "studySpecificCaution": "関係者を増やしたことの単独効果は評価されていない。実装方法として読む。"
+        }
+      ]
+    },
+    "reducing-cycle-theft-tfl-mps": {
+      "sourceId": "BIKE-RED-02",
+      "sourceTitle": "Reducing Cycle Theft – Transport for London and Metropolitan Police Service",
+      "sourceType": "POP／問題解決事例＋前後評価",
+      "primarySourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/library/awards/goldstein/2011/11-54%28W%29.pdf",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BIKE-RED-02-Q01",
+          "displayQuestion": "ロンドンの自転車盗について、どんな要因を分析して対策を組み立てた？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/library/awards/goldstein/2011/11-54%28W%29.pdf",
+          "readingPurpose": "単に自転車盗件数を見るのではなく、施錠、所有者情報、盗品売買などへ問題を分解した過程を理解する。",
+          "searchKeywords": [
+            "poor locking",
+            "ownership details",
+            "resale market",
+            "analysis"
+          ],
+          "studySpecificCaution": "報告書に記載された問題分析と、一般的な自転車盗要因を混同しない。"
+        },
+        {
+          "questionId": "BIKE-RED-02-Q02",
+          "displayQuestion": "30人のCycle Task Forceは、取締り以外にどんな対策を組み合わせた？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/library/awards/goldstein/2011/11-54%28W%29.pdf",
+          "readingPurpose": "専従部隊の活動を逮捕だけで捉えず、登録、マーキング、広報、駐輪対策などの複合Responseとして理解する。",
+          "searchKeywords": [
+            "Cycle Task Force",
+            "30 officers",
+            "marking",
+            "registration",
+            "enforcement",
+            "education"
+          ],
+          "studySpecificCaution": "複合対策のため、個々の活動の独立した効果は分離できない。"
+        },
+        {
+          "questionId": "BIKE-RED-02-Q03",
+          "displayQuestion": "2010/11年の自転車盗減少は、どの程度で、どう読むべき？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/library/awards/goldstein/2011/11-54%28W%29.pdf",
+          "readingPurpose": "報告書の主要結果を数値で確認しつつ、前後比較の限界を踏まえて読む。",
+          "searchKeywords": [
+            "23317",
+            "22064",
+            "1253",
+            "5.4%",
+            "cycle theft"
+          ],
+          "studySpecificCaution": "23,317件から22,064件への5.4％減は前年度との比較であり、介入の純粋な因果効果を示す比較試験ではない。"
+        },
+        {
+          "questionId": "BIKE-RED-02-Q04",
+          "displayQuestion": "登録・逮捕・訴追・費用について、プロジェクトはどこまで実績を報告している？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/library/awards/goldstein/2011/11-54%28W%29.pdf",
+          "readingPurpose": "犯罪件数だけでなく、実装量・刑事司法上の活動・費用を分けて確認する。",
+          "searchKeywords": [
+            "13000 marked",
+            "149 arrests",
+            "46% prosecuted",
+            "1,252,755"
+          ],
+          "studySpecificCaution": "マーキング数や逮捕数は実装・活動指標であり、犯罪減少と同じアウトカムではない。費用推計の前提も確認する。"
+        }
+      ]
+    },
+    "bend-bike-theft-reduction": {
+      "sourceId": "BIKE-RED-03",
+      "sourceTitle": "Bend Police Department Bike Theft Reduction",
+      "sourceType": "警察実務事例＋前後報告",
+      "primarySourceUrl": "https://okb.oregon.gov/Pages/bike-theft-reduction.aspx",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BIKE-RED-03-Q01",
+          "displayQuestion": "Bendでは、自転車盗をどの程度の問題として把握していた？",
+          "sourceUrl": "https://okb.oregon.gov/Pages/bike-theft-reduction.aspx",
+          "readingPurpose": "取組開始前の問題規模と増加傾向を把握する。",
+          "searchKeywords": [
+            "2015",
+            "360",
+            "400 bikes",
+            "49% increase"
+          ],
+          "studySpecificCaution": "報告件数と実際の被害総数は同一ではない。掲載資料が把握した規模として読む。"
+        },
+        {
+          "questionId": "BIKE-RED-03-Q02",
+          "displayQuestion": "自転車盗対策として、Bend Policeは何を組み合わせた？",
+          "sourceUrl": "https://okb.oregon.gov/Pages/bike-theft-reduction.aspx",
+          "readingPurpose": "一つの対策ではなく、情報共有・登録・おとり自転車・地域連携を組み合わせた実務設計を理解する。",
+          "searchKeywords": [
+            "task force",
+            "hot sheet",
+            "BikeIndex",
+            "bait bike",
+            "community"
+          ],
+          "studySpecificCaution": "複合対策のため、各要素の単独効果は分からない。"
+        },
+        {
+          "questionId": "BIKE-RED-03-Q03",
+          "displayQuestion": "取組後に報告された盗難減少と、おとり自転車による逮捕はどの程度？",
+          "sourceUrl": "https://okb.oregon.gov/Pages/bike-theft-reduction.aspx",
+          "readingPurpose": "犯罪アウトカムと取締り活動の実績を分けて確認する。",
+          "searchKeywords": [
+            "60% decline",
+            "21 arrests",
+            "bait bike"
+          ],
+          "studySpecificCaution": "前年比60％超の減少は比較群を用いた因果評価ではない。21件の逮捕も別の活動指標として読む。"
+        },
+        {
+          "questionId": "BIKE-RED-03-Q04",
+          "displayQuestion": "Bendの実務者は、おとり自転車の運用や地域連携について何を学んだ？",
+          "sourceUrl": "https://okb.oregon.gov/Pages/bike-theft-reduction.aspx",
+          "readingPurpose": "事例から実装上の工夫・改善点を抽出する。",
+          "searchKeywords": [
+            "bait bike",
+            "value",
+            "rotation",
+            "serial thieves",
+            "bike shops"
+          ],
+          "studySpecificCaution": "実務上の学びは当該地域の経験であり、他地域で同じ結果になるとは限らない。"
+        }
+      ]
+    },
+    "burglary-durham-nudge": {
+      "sourceId": "BURG-RED-01",
+      "sourceTitle": "Nudging down residential burglaries: A randomized control trial",
+      "sourceType": "RCT＋介入評価",
+      "primarySourceUrl": "https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023",
+      "supplementalSourceUrls": [
+        "https://www.college.police.uk/support-forces/practices/nudging-down-burglary"
+      ],
+      "questions": [
+        {
+          "questionId": "BURG-RED-01-Q01",
+          "displayQuestion": "このRCTは、どんな住宅・地域を対象にナッジ型防犯チラシを配った？",
+          "sourceUrl": "https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023",
+          "readingPurpose": "再被害・近接リスクを利用した対象設定と、介入単位を理解する。",
+          "searchKeywords": [
+            "County Durham",
+            "repeat postcode",
+            "households",
+            "randomised"
+          ],
+          "studySpecificCaution": "郵便番号区域を対象単位とした英国の設計を、日本の住所区分へそのまま置き換えない。"
+        },
+        {
+          "questionId": "BURG-RED-01-Q02",
+          "displayQuestion": "防犯チラシには、どんな情報と行動を促す工夫が入っていた？",
+          "sourceUrl": "https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023",
+          "readingPurpose": "単なる一般注意喚起ではなく、行動科学を用いたメッセージ設計を理解する。",
+          "searchKeywords": [
+            "MINDSPACE",
+            "EAST",
+            "leaflet",
+            "burglary tactics",
+            "nudge"
+          ],
+          "studySpecificCaution": "行動科学の各要素の単独効果は分離されていない。"
+        },
+        {
+          "questionId": "BURG-RED-01-Q03",
+          "displayQuestion": "介入群と比較群はどのように無作為化され、配布はどう記録された？",
+          "sourceUrl": "https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023",
+          "readingPurpose": "RCTとしての割付と、実装確認の方法を理解する。",
+          "searchKeywords": [
+            "Cambridge Randomiser",
+            "Certificate of Service",
+            "157",
+            "154",
+            "delivery"
+          ],
+          "studySpecificCaution": "無作為化の単位と分析単位を混同しない。配布記録は実装確認であり、住民が実際に読んだことを直接示すものではない。"
+        },
+        {
+          "questionId": "BURG-RED-01-Q04",
+          "displayQuestion": "住宅侵入窃盗は介入群・比較群でどう変化し、著者は何を介入効果として解釈した？",
+          "sourceUrl": "https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023",
+          "readingPurpose": "両群とも減少したCOVID期のデータを、介入群だけの前後差ではなく群間差を意識して読む。",
+          "searchKeywords": [
+            "1.66 0.53",
+            "1.53 0.62",
+            "8.5%",
+            "COVID-19",
+            "burglary"
+          ],
+          "studySpecificCaution": "両群で住宅侵入窃盗が減少しているため、介入群の前後減少をすべてチラシの効果としない。著者の8.5％追加減少の解釈と、パンデミック期という条件を併記する。"
+        },
+        {
+          "questionId": "BURG-RED-01-Q05",
+          "displayQuestion": "この取組の費用と便益は、どのように推計された？",
+          "sourceUrl": "https://academic.oup.com/policing/article/doi/10.1093/police/paae068/7691023",
+          "readingPurpose": "実装費用と犯罪回避便益の計算方法を確認し、他地域へそのまま移植しない。",
+          "searchKeywords": [
+            "3125.94",
+            "7994",
+            "2.70",
+            "5.39",
+            "cost benefit"
+          ],
+          "studySpecificCaution": "費用便益比は英国の犯罪コスト・試験条件に依存する。日本で同じ比率になるとは言えない。"
+        }
+      ]
+    },
+    "burglary-student-programme": {
+      "sourceId": "BURG-RED-02",
+      "sourceTitle": "Student residential burglary reduction programme – Greater Manchester Police",
+      "sourceType": "警察実務事例＋未検証",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BURG-RED-02-Q01",
+          "displayQuestion": "Manchester Southでは、住宅侵入窃盗が誰・どこに集中していた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme",
+          "readingPurpose": "地域全体の件数から、学生向け共同住宅と特定のLPA・街路へ問題を絞る過程を理解する。",
+          "searchKeywords": [
+            "1125",
+            "474",
+            "43%",
+            "student shared accommodation",
+            "10 streets"
+          ],
+          "studySpecificCaution": "Practice Bankの記述は実務上の問題分析であり、学生であること自体を一般的な原因とみなさない。"
+        },
+        {
+          "questionId": "BURG-RED-02-Q02",
+          "displayQuestion": "街路ごとの防犯チラシは、一般的な注意喚起と何が違った？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme",
+          "readingPurpose": "地域固有の情報を使ってメッセージを自分事化する実装上の工夫を理解する。",
+          "searchKeywords": [
+            "street-specific",
+            "local landmarks",
+            "leaflet",
+            "students"
+          ],
+          "studySpecificCaution": "チラシのメッセージ設計単独の効果は検証されていない。"
+        },
+        {
+          "questionId": "BURG-RED-02-Q03",
+          "displayQuestion": "学生アンバサダーや大学との連携は、どのように防犯情報を届けるために使われた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme",
+          "readingPurpose": "警察からの一方向広報ではなく、学生同士・大学関係者を通じた接触方法を理解する。",
+          "searchKeywords": [
+            "student ambassadors",
+            "peer-to-peer",
+            "Manchester Student Homes",
+            "face to face"
+          ],
+          "studySpecificCaution": "学生同士の伝達が最も有効だったと因果的に断定しない。Practice Bank上の実装上の学びとして読む。"
+        },
+        {
+          "questionId": "BURG-RED-02-Q04",
+          "displayQuestion": "被害発生後の周辺住宅への重点防犯と重点パトロールは、どう組み合わせた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme",
+          "readingPurpose": "被害後の近接リスクに対して、情報提供と警察活動を時間・場所で重点化する方法を理解する。",
+          "searchKeywords": [
+            "cocooning",
+            "targeted patrol",
+            "location time",
+            "crime prevention advice"
+          ],
+          "studySpecificCaution": "個々の対策の独立した効果は評価されていない。"
+        },
+        {
+          "questionId": "BURG-RED-02-Q05",
+          "displayQuestion": "取組後の1,125件から714件への減少は、どこまで介入効果として読める？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/student-residential-burglary-reduction-programme",
+          "readingPurpose": "未検証（Untested）事例の報告値を、因果効果ではなく実施後変化として正しく読む。",
+          "searchKeywords": [
+            "1125",
+            "714",
+            "Untested",
+            "50% district reduction"
+          ],
+          "studySpecificCaution": "比較群・信頼区間・p値を用いた因果評価は示されていないため、『取組で411件減った』とは言わない。"
+        }
+      ]
+    },
+    "burglary-boston-d14": {
+      "sourceId": "BURG-RED-03",
+      "sourceTitle": "Boston Police Department District D-14 Breaking & Entering Solution Plan",
+      "sourceType": "POP／問題解決事例＋前後評価",
+      "primarySourceUrl": "https://popcenter.asu.edu/sites/default/files/library/awards/goldstein/2008/08-03%28F%29.pdf",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "BURG-RED-03-Q01",
+          "displayQuestion": "District D-14は、住宅侵入窃盗をどの程度大きな問題として把握した？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/default/files/library/awards/goldstein/2008/08-03%28F%29.pdf",
+          "readingPurpose": "SARAのScanning段階で、地区の負担を市全体との比較から把握する方法を見る。",
+          "searchKeywords": [
+            "D-14",
+            "20%",
+            "citywide",
+            "2006",
+            "residential breaking entering"
+          ],
+          "studySpecificCaution": "市全体に占める割合は当時のBostonの状況であり、他地域へ一般化しない。"
+        },
+        {
+          "questionId": "BURG-RED-03-Q02",
+          "displayQuestion": "分析では、反復被害・建物・通報処理・建物管理をどう問題要因として整理した？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/default/files/library/awards/goldstein/2008/08-03%28F%29.pdf",
+          "readingPurpose": "犯人だけでなく、場所・建物・警察対応・管理者アクセスまで問題を分解するSARA分析を理解する。",
+          "searchKeywords": [
+            "repeat locations",
+            "building security",
+            "calls for service",
+            "maintenance crews"
+          ],
+          "studySpecificCaution": "報告書で特定された要因を、一般的な住宅侵入窃盗の原因として断定しない。"
+        },
+        {
+          "questionId": "BURG-RED-03-Q03",
+          "displayQuestion": "D-14は、問題分析を受けてどんな3本柱の対策を実施した？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/default/files/library/awards/goldstein/2008/08-03%28F%29.pdf",
+          "readingPurpose": "警察資源、住民防犯教育、ホットスポット重点対策を組み合わせたResponseを理解する。",
+          "searchKeywords": [
+            "three pronged",
+            "BPD resources",
+            "community education",
+            "hotspot"
+          ],
+          "studySpecificCaution": "3本柱の各要素の単独効果は分離されていない。"
+        },
+        {
+          "questionId": "BURG-RED-03-Q04",
+          "displayQuestion": "評価では、地区全体と重点地点の住宅侵入窃盗はどう変化した？",
+          "sourceUrl": "https://popcenter.asu.edu/sites/default/files/library/awards/goldstein/2008/08-03%28F%29.pdf",
+          "readingPurpose": "前後報告を複数の尺度で確認しつつ、RCTではないことを踏まえて読む。",
+          "searchKeywords": [
+            "40% reduction",
+            "7.6%",
+            "75%",
+            "Assessment",
+            "D-14"
+          ],
+          "studySpecificCaution": "40％減や重点地点で最大75％減という値は問題解決事例の前後評価であり、比較試験による純効果ではない。"
+        }
+      ]
+    },
+    "pop-gmp-district-hubs": {
+      "sourceId": "POP-RED-01",
+      "sourceTitle": "Force district hubs for problem solving and prevention – Greater Manchester Police",
+      "sourceType": "組織実装事例＋地域内評価",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "POP-RED-01-Q01",
+          "displayQuestion": "Greater Manchester Policeは、なぜ12地区に問題解決・予防ハブを置いた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention",
+          "readingPurpose": "個別案件のSARAだけでなく、問題解決を組織として継続するための構造改革を理解する。",
+          "searchKeywords": [
+            "12 district hubs",
+            "problem solving prevention",
+            "governance",
+            "coordination"
+          ],
+          "studySpecificCaution": "ハブ設置という組織モデルが、どの警察組織でも同じ形で必要とは限らない。"
+        },
+        {
+          "questionId": "POP-RED-01-Q02",
+          "displayQuestion": "導入前、SARAを使った問題解決記録はどの程度定着していた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention",
+          "readingPurpose": "組織改革前のベースラインを確認し、なぜ実装支援が必要だったかを理解する。",
+          "searchKeywords": [
+            "10%",
+            "1%",
+            "SARA",
+            "open records",
+            "standards"
+          ],
+          "studySpecificCaution": "記録率が低いことを、現場で問題解決が全く行われていなかったことと同一視しない。記録・基準適合の指標として読む。"
+        },
+        {
+          "questionId": "POP-RED-01-Q03",
+          "displayQuestion": "ハブには、どんな役割の職員を集め、何を統合した？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention",
+          "readingPurpose": "分析・許認可・学校連携・行方不明者対策等を地区需要に応じて結び付ける組織実装を理解する。",
+          "searchKeywords": [
+            "problem-solving officers",
+            "licensing",
+            "school engagement",
+            "missing from home",
+            "analysts"
+          ],
+          "studySpecificCaution": "役職名や権限は英国警察制度のもの。日本での実装では機能単位で読み替える。"
+        },
+        {
+          "questionId": "POP-RED-01-Q04",
+          "displayQuestion": "ハブ導入後、行方不明事案やケアホームからの通報にはどんな変化が報告された？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/force-district-hubs-problem-solving-and-prevention",
+          "readingPurpose": "組織実装後に報告された需要変化を、因果効果と区別しながら確認する。",
+          "searchKeywords": [
+            "5854",
+            "19.6%",
+            "missing from home",
+            "care home"
+          ],
+          "studySpecificCaution": "Practice Bankの地域内評価・前後報告であり、ハブだけの純粋な因果効果とは限らない。"
+        }
+      ]
+    },
+    "pop-leicester-mcdonalds": {
+      "sourceId": "POP-RED-02",
+      "sourceTitle": "Problem-solving to prevent night-time economy related serious violence at McDonald’s restaurants",
+      "sourceType": "POP／問題解決事例＋準実験的評価",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+      "supplementalSourceUrls": [
+        "https://library.college.police.uk/docs/BRENNAN-Night-time-economy-2025.pdf"
+      ],
+      "questions": [
+        {
+          "questionId": "POP-RED-02-Q01",
+          "displayQuestion": "広い『夜間の重大暴力』という課題を、どの場所・時間まで絞り込んだ？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+          "readingPurpose": "Scanningで問題を具体化し、介入可能な単位へ落とす過程を理解する。",
+          "searchKeywords": [
+            "two McDonald's",
+            "10pm 7am",
+            "Leicester city centre",
+            "serious violence"
+          ],
+          "studySpecificCaution": "2店舗・時間帯はこの地域の分析結果であり、他地域へ固定的に適用しない。"
+        },
+        {
+          "questionId": "POP-RED-02-Q02",
+          "displayQuestion": "CCTV・犯罪データ・現場観察・関係者の聞き取りから、どんな『介入すべき条件』を見つけた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+          "readingPurpose": "Analysisで暴力を混雑、待ち時間、客の流れ、警備、照明等へ分解した方法を理解する。",
+          "searchKeywords": [
+            "CCTV",
+            "focus group",
+            "patch walk",
+            "crowding",
+            "waiting time",
+            "lighting"
+          ],
+          "studySpecificCaution": "特定要因が暴力の原因と実験的に証明されたわけではない。Response設計に用いた分析知見として読む。"
+        },
+        {
+          "questionId": "POP-RED-02-Q03",
+          "displayQuestion": "店内と店外で、どんな対策を組み合わせた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+          "readingPurpose": "場所管理者・警察・関係機関の役割を含む複合Responseを具体的に理解する。",
+          "searchKeywords": [
+            "security provider",
+            "body worn video",
+            "foot patrol",
+            "Street Pastors",
+            "lighting",
+            "Walk Away"
+          ],
+          "studySpecificCaution": "複合対策のため、個々の要素の単独効果は分離できない。"
+        },
+        {
+          "questionId": "POP-RED-02-Q04",
+          "displayQuestion": "単純な前後比較の50％減と、比較地点を加えた結果はどう違った？",
+          "sourceUrl": "https://library.college.police.uk/docs/BRENNAN-Night-time-economy-2025.pdf",
+          "readingPurpose": "前後比較と比較群を用いた推定を分けて読み、介入地点に特有の変化を理解する。",
+          "searchKeywords": [
+            "57",
+            "50%",
+            "32.5%",
+            "38%",
+            "odds ratio",
+            "comparison"
+          ],
+          "studySpecificCaution": "50％減をそのまま純効果としない。比較地点を考慮した32.5％減やOR分析の38％減との違いを説明する。"
+        },
+        {
+          "questionId": "POP-RED-02-Q05",
+          "displayQuestion": "翌年の結果を見ると、介入効果の『維持』について何が分かる？",
+          "sourceUrl": "https://library.college.police.uk/docs/BRENNAN-Night-time-economy-2025.pdf",
+          "readingPurpose": "初年度の大きな減少後に結果がどう変化したかを確認し、効果を一時点だけで判断しない。",
+          "searchKeywords": [
+            "58 78",
+            "37%",
+            "16%",
+            "follow-up",
+            "not statistically significant"
+          ],
+          "studySpecificCaution": "翌年に件数が増えたことを『失敗』と単純化しない。介入前より低いこと、比較調整後は統計的に明確でないことを両方示す。"
+        },
+        {
+          "questionId": "POP-RED-02-Q06",
+          "displayQuestion": "件数以外に、被害の重さ・転位・実装はどのように確認した？",
+          "sourceUrl": "https://library.college.police.uk/docs/BRENNAN-Night-time-economy-2025.pdf",
+          "readingPurpose": "複数アウトカムとプロセス評価を用いて、なぜ結果が生じたか・周辺へ影響したかまで読む。",
+          "searchKeywords": [
+            "Crime Harm Index",
+            "50m buffer",
+            "displacement",
+            "patch walk",
+            "implementation"
+          ],
+          "studySpecificCaution": "被害の重さ、周辺変化、実装状況は別の指標。すべてを一つの『効果』にまとめない。"
+        }
+      ]
+    },
+    "operation-vulcan": {
+      "sourceId": "POP-RED-03",
+      "sourceTitle": "Operation Vulcan – reducing counterfeit sales and crime harm",
+      "sourceType": "多機関連携POP事例＋地域内評価",
+      "primarySourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+      "supplementalSourceUrls": [],
+      "questions": [
+        {
+          "questionId": "POP-RED-03-Q01",
+          "displayQuestion": "Operation Vulcanは、偽造品販売をどんな複合的な問題として捉えた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+          "readingPurpose": "偽造品だけでなく、組織犯罪・薬物・暴力・搾取・建物・土地利用等を一つの問題構造として分析した視点を理解する。",
+          "searchKeywords": [
+            "counterfeit",
+            "organised crime",
+            "drugs",
+            "violence",
+            "exploitation",
+            "premises"
+          ],
+          "studySpecificCaution": "列挙された問題要素のすべてが相互に因果関係を持つと断定しない。事例の問題プロファイルとして読む。"
+        },
+        {
+          "questionId": "POP-RED-03-Q02",
+          "displayQuestion": "Clear・Hold・Buildでは、それぞれ何を狙っていた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+          "readingPurpose": "短期的な排除だけでなく、再発防止と地域再構築までResponseを時間軸で分ける考え方を理解する。",
+          "searchKeywords": [
+            "Clear Hold Build",
+            "clear",
+            "hold",
+            "build",
+            "premises",
+            "redevelopment"
+          ],
+          "studySpecificCaution": "3段階を固定的な順番として一般化せず、この事例での戦略枠組みとして読む。"
+        },
+        {
+          "questionId": "POP-RED-03-Q03",
+          "displayQuestion": "65の機関は、なぜ情報と権限を持ち寄る必要があった？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+          "readingPurpose": "警察単独では扱えない問題に対し、各機関の情報・法的権限・支援資源を統合する実装論を理解する。",
+          "searchKeywords": [
+            "65 agencies",
+            "information sharing",
+            "Trading Standards",
+            "HMRC",
+            "Fire and Rescue"
+          ],
+          "studySpecificCaution": "英国の機関構成を日本へそのまま移植せず、必要な機能・権限として読み替える。"
+        },
+        {
+          "questionId": "POP-RED-03-Q04",
+          "displayQuestion": "Operation Vulcanの後、犯罪・被害・偽造品販売拠点にはどんな変化が報告された？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+          "readingPurpose": "複数のアウトカムを分けて確認し、単一の犯罪件数だけで評価しない。",
+          "searchKeywords": [
+            "MoRiLE 2842 494",
+            "206 counterfeit premises",
+            "52%",
+            "68%",
+            "48% Crime Harm"
+          ],
+          "studySpecificCaution": "Practice Bankの地域内評価・報告値であり、すべてをOperation Vulcan単独の因果効果と断定しない。"
+        },
+        {
+          "questionId": "POP-RED-03-Q05",
+          "displayQuestion": "薬物所持や商標法違反が大きく増えたのに、なぜ単純な『悪化』とは読まない？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+          "readingPurpose": "重点取締りによって発見・記録される違反が増えることを、住民被害の増加と区別して理解する。",
+          "searchKeywords": [
+            "drug possession 600%",
+            "trademark 800%",
+            "proactive",
+            "detection"
+          ],
+          "studySpecificCaution": "増加を自動的に『望ましい成果』とするのではなく、重点活動による把握増という著者・Practice Bankの説明と、被害アウトカムを分ける。"
+        },
+        {
+          "questionId": "POP-RED-03-Q06",
+          "displayQuestion": "実施過程では、関係機関の活動をどのように測り、改善へつなげた？",
+          "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-vulcan-reducing-counterfeit-sales-and-crime-harm",
+          "readingPurpose": "多機関連携を参加機関数だけで評価せず、各機関の実施内容・測定可能な活動を追う視点を得る。",
+          "searchKeywords": [
+            "partner measures",
+            "learning",
+            "monitoring",
+            "oversight committee",
+            "implementation"
+          ],
+          "studySpecificCaution": "活動量の増加は犯罪減少と同じアウトカムではない。実装評価として分ける。"
+        }
+      ]
+    }
+  }
+}
