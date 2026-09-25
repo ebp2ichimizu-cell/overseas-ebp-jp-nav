@@ -34,7 +34,7 @@ function ensureStyles(){
   if(document.querySelector('link[data-ai-reading-style]')) return;
   const link=document.createElement("link");
   link.rel="stylesheet";
-  link.href="./css/ai-reading.css";
+  link.href="./css/ai-reading.css?v=20260925-2";
   link.dataset.aiReadingStyle="true";
   document.head.appendChild(link);
 }
@@ -150,7 +150,7 @@ export function renderAiReadingBlock(config){
     <details class="ai-reading" data-ai-reading>
       <summary class="ai-reading-summary">
         <span class="ai-reading-summary-copy">
-          <span class="ai-reading-kicker">原著読解補助</span>
+          <span class="ai-reading-kicker">原著読解補助機能を開く</span>
           <span class="ai-reading-title">AIで原著を読み解く</span>
           <span class="ai-reading-summary-description">
             この資料で確認できる重要な論点を選び、原著をAIで読むための質問文を作成できます。
