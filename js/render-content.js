@@ -5,6 +5,15 @@ import {
   activateAiReading
 } from "./ai-reading-helper.js";
 
+function renderTranslationNotice(){
+  return `<aside class="translation-notice" aria-label="日本語解説について">
+    <div class="translation-notice__title">日本語解説について</div>
+    <p>このページの日本語による解説・説明は、原著者・掲載機関による<strong>公式翻訳ではありません。</strong></p>
+    <p>公開されている原文をもとに<strong>AIによる翻訳を活用し、当サイトが整理・再構成した独自解説</strong>です。</p>
+    <p>正確な内容・表現については、必ず原文をご確認ください。</p>
+  </aside>`;
+}
+
 function missing(){
   return `<section class="section"><div class="container"><div class="empty">ページが見つかりません。</div></div></section>`;
 }
@@ -19,6 +28,7 @@ function shell(
   const safe=safeExternalUrl(original || "");
   return `<section class="section"><div class="container">
     ${notice ? `<div class="content-notice">${escapeHtml(notice)}</div>` : ""}
+    ${renderTranslationNotice()}
     <article id="markdownContent" class="commentary-body" data-markdown="${escapeHtml(url || "")}">
       <h1>${escapeHtml(title || "")}</h1>
       <div class="loading">本文を読み込み中...</div>
@@ -46,6 +56,8 @@ function evidenceShell(item){
       <h1>${escapeHtml(item.title_ja || "")}</h1>
       ${item.summary_ja ? `<p class="lead evidence-page-summary">${escapeHtml(item.summary_ja)}</p>` : ""}
     </header>
+
+    ${renderTranslationNotice()}
 
     ${aiHtml || ""}
 
