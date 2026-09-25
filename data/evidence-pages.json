@@ -1,16 +1,89 @@
 [
   {
-    "id": "hotspots-guidance",
-    "source_id": "college-of-policing",
-    "intervention_id": "hot-spots-policing",
-    "problem_id": null,
-    "title_ja": "ホットスポット・ポリシング・ガイダンス",
-    "question_ja": "現場でどう実施するか",
-    "summary_ja": "ホットスポットの設定、活動内容、滞在時間、技術、教育、タスキング、実施追跡、効果検証までを現場運用へ落とすための実装ガイドです。",
-    "commentary_slug": "hotspots-guidance",
-    "original_url": "https://www.college.police.uk/guidance/hot-spots-policing",
-    "translation_id": null
-  },
+  "id": "toolkit-hot-spots",
+  "source_id": "crime-reduction-toolkit",
+  "intervention_id": "hot-spots-policing",
+  "problem_id": null,
+  "title_ja": "ホットスポット・ポリシング・ガイダンス",
+  "question_ja": "現場でどう実施するか",
+  "summary_ja": "ホットスポットの設定、活動内容、滞在時間、技術、教育、タスキング、実施追跡、効果検証までを現場運用へ落とすための実装ガイドです。",
+  "commentary_slug": "toolkit-hot-spots",
+  "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+  "translation_id": null,
+  "aiReading": {
+    "sourceId": "HOT-BLUE-02",
+    "questions": [
+      {
+        "questionId": "HOT-BLUE-02-Q01",
+        "displayQuestion": "ホットスポット・ポリシングは、全体として犯罪をどの程度減らしている？",
+        "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+        "readingPurpose": "ToolkitのEffect評価と、その根拠となるレビューの規模を理解する。",
+        "searchKeywords": [
+          "Effect",
+          "Overall reduction",
+          "65 studies",
+          "78 tests",
+          "standardized effect size"
+        ],
+        "studySpecificCaution": "「Very strong」は効果量の大きさではなく、Effectに関するエビデンスの質を示す。"
+      },
+      {
+        "questionId": "HOT-BLUE-02-Q02",
+        "displayQuestion": "犯罪の種類によって、効果の大きさはどう違った？",
+        "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+        "readingPurpose": "平均効果だけでなく、犯罪類型による差を確認する。",
+        "searchKeywords": [
+          "Moderators",
+          "drug offences",
+          "disorder offences",
+          "property crime",
+          "violent crime"
+        ],
+        "studySpecificCaution": "犯罪類型別の平均差を日本の個別地域へそのまま当てはめない。"
+      },
+      {
+        "questionId": "HOT-BLUE-02-Q03",
+        "displayQuestion": "ホットスポットで問題志向型警察活動を使うと、通常の重点警察活動と何が違った？",
+        "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+        "readingPurpose": "ホットスポットを特定した後の対策内容が結果に関係することを理解する。",
+        "searchKeywords": [
+          "problem-oriented policing",
+          "traditional policing techniques",
+          "diffusion of benefits"
+        ],
+        "studySpecificCaution": "POPは単一の介入ではなく、地域分析に基づく複数の対策を含み得る。"
+      },
+      {
+        "questionId": "HOT-BLUE-02-Q04",
+        "displayQuestion": "現場実装では、どんな問題が介入を崩しやすかった？",
+        "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+        "readingPurpose": "効果研究の実装上の障害を、現場設計のチェック項目へ変換する。",
+        "searchKeywords": [
+          "Implementation",
+          "staffing issues",
+          "resistance from officers",
+          "technology failures",
+          "adherence to target areas",
+          "partner agencies"
+        ],
+        "studySpecificCaution": "ToolkitのImplementationは主に研究内の実装問題をまとめており、標準手順を提示するものではない。"
+      },
+      {
+        "questionId": "HOT-BLUE-02-Q05",
+        "displayQuestion": "費用について、レビューから実際に何が分かっている？",
+        "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/hot-spots-policing",
+        "readingPurpose": "費用情報が非常に限られていることと、唯一の費用便益分析の位置づけを確認する。",
+        "searchKeywords": [
+          "Economic considerations",
+          "one of the 65 evaluations",
+          "PCSOs",
+          "£5.60 to £23"
+        ],
+        "studySpecificCaution": "1研究の費用便益結果をホットスポット・ポリシング一般の費用対効果として扱わない。"
+      }
+    ]
+  }
+},
   {
     "id": "toolkit-hot-spots",
     "source_id": "crime-reduction-toolkit",
