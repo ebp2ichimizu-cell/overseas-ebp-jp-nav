@@ -223,3 +223,51 @@ a{color:inherit}
   color:var(--navy);font-weight:700;text-decoration:none;border-bottom:1px solid transparent
 }
 .secondary-entry a:hover{border-bottom-color:var(--navy)}
+/* --- 日本語解説・AI翻訳利用表示 --- */
+.translation-notice{
+  margin:18px 0 26px;
+  padding:16px 18px;
+  border-left:4px solid var(--navy);
+  border-top:1px solid var(--line);
+  border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  border-radius:8px;
+  background:var(--white);
+  color:var(--ink);
+  font-size:.92rem;
+  line-height:1.75;
+}
+
+.translation-notice__title{
+  margin-bottom:6px;
+  color:var(--navy);
+  font-weight:700;
+  font-size:.95rem;
+}
+
+.translation-notice p{
+  margin:4px 0;
+}
+
+.translation-notice strong{
+  font-weight:700;
+}
+
+.site-translation-policy{
+  max-width:960px;
+  margin:0 auto 18px;
+  padding:0 0 18px;
+  border-bottom:1px solid var(--line);
+  color:var(--muted);
+  text-align:left;
+}
+
+.site-translation-policy h2{
+  margin:0 0 8px;
+  color:var(--ink);
+  font-size:.95rem;
+}
+
+.site-translation-policy p{
+  margin:6px 0;
+}
