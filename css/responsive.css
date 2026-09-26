@@ -1,45 +1,187 @@
 @media (max-width:860px){
-  .source-grid{grid-template-columns:1fr}
-  .steps-grid{grid-template-columns:1fr}
-  .primary-entry-grid{grid-template-columns:1fr}
-  .primary-entry-card{min-height:0}
-  .primary-entry-card p{margin-bottom:42px}
+  .source-grid{
+    grid-template-columns:1fr;
+  }
+
+  .steps-grid{
+    grid-template-columns:1fr;
+  }
+
+  .primary-entry-grid{
+    grid-template-columns:1fr;
+  }
+
+  .primary-entry-card{
+    min-height:0;
+  }
+
+  .primary-entry-card p{
+    margin-bottom:42px;
+  }
 }
 
 @media (max-width:720px){
-  .mode-grid,.card-grid{grid-template-columns:1fr}
-  .header-inner{padding:10px 16px}
-  .brand-main{font-size:.95rem}
-  .fixed-nav a,.fixed-nav button{min-width:0;flex:1}
+  .mode-grid,
+  .card-grid{
+    grid-template-columns:1fr;
+  }
 
+  .header-inner{
+    padding:10px 16px;
+  }
+
+  .brand-main{
+    font-size:.95rem;
+  }
+
+  .fixed-nav a,
+  .fixed-nav button{
+    min-width:0;
+    flex:1;
+  }
+
+  /*
+   * スマホ版トップページ
+   * ロゴ＋EVIDENCE FOR PRACTICE のみ上段2列。
+   * タイトル以降は画面左端から全幅を使用する。
+   */
   .hero-entry .hero-inner{
+    display:grid;
     grid-template-columns:72px minmax(0,1fr);
-    gap:14px;
+    column-gap:14px;
+    row-gap:0;
     padding-top:30px;
     padding-bottom:28px;
   }
+
+  /*
+   * hero-copy の箱による右寄りを解除し、
+   * 中の要素を hero-inner のグリッドへ直接配置する。
+   */
+  .hero-entry .hero-copy{
+    display:contents;
+  }
+
+  /* ロゴ */
   .hero-entry .hero-logo{
+    grid-column:1;
+    grid-row:1;
     width:68px;
     height:68px;
+    margin:0;
+    align-self:center;
   }
+
+  /* EVIDENCE FOR PRACTICE */
+  .hero-entry .eyebrow{
+    grid-column:2;
+    grid-row:1;
+    align-self:center;
+    margin:0;
+  }
+
+  /*
+   * メインタイトル
+   * ロゴ右側の狭い列には置かず、画面左端から全幅を使用。
+   */
+  .hero-entry h1{
+    grid-column:1 / -1;
+    grid-row:2;
+    width:100%;
+    max-width:none;
+    margin:20px 0 16px;
+    font-size:clamp(2rem,8.6vw,2.55rem);
+    line-height:1.28;
+    letter-spacing:-0.025em;
+    text-align:left;
+  }
+
+  /*
+   * 説明文
+   * 画面左端から全幅を使用。
+   * iPhone程度の幅では概ね3行になるよう調整。
+   */
   .hero-entry .lead{
-    margin-bottom:20px;
-    font-size:.95rem;
+    grid-column:1 / -1;
+    grid-row:3;
+    width:100%;
+    max-width:none;
+    margin:10px 0 20px;
+    font-size:clamp(.84rem,3.65vw,.95rem);
+    line-height:1.8;
+    letter-spacing:-0.01em;
+    text-align:left;
   }
-  .entry-prompt{
-    margin-top:22px;
+
+  /*
+   * HTML側で mobile-title-line / mobile-lead-line を使う場合にも対応。
+   * 現状のHTMLのままでもレイアウトは機能する。
+   */
+  .hero-entry .mobile-title-line,
+  .hero-entry .mobile-lead-line{
+    display:block;
+  }
+
+  /*
+   * SEARCH / 何から探しますか？
+   * 文字サイズは維持し、配置だけ左端基準へ。
+   */
+  .hero-entry .entry-prompt{
+    grid-column:1 / -1;
+    grid-row:4;
+    width:100%;
+    margin:22px 0 14px;
     padding-top:18px;
+    text-align:left;
   }
-  .entry-prompt h2{font-size:1.28rem}
+
+  .hero-entry .entry-prompt h2{
+    font-size:1.28rem;
+  }
+
+  /*
+   * 2つの主要検索カードも全幅で配置。
+   */
+  .hero-entry .primary-entry-grid{
+    grid-column:1 / -1;
+    grid-row:5;
+    width:100%;
+    grid-template-columns:1fr;
+  }
+
   .primary-entry-card{
+    width:100%;
     padding:20px 20px 18px;
     border-radius:14px;
   }
-  .primary-entry-card h3{font-size:1.3rem}
-  .primary-entry-top{margin-bottom:18px}
-  .primary-entry-cta{left:20px;bottom:17px}
-  .secondary-entry{text-align:left;margin-top:10px}
 
-  .section{padding-top:24px;padding-bottom:42px}
-  .section-intro h2{font-size:1.45rem}
+  .primary-entry-card h3{
+    font-size:1.3rem;
+  }
+
+  .primary-entry-top{
+    margin-bottom:18px;
+  }
+
+  .primary-entry-cta{
+    left:20px;
+    bottom:17px;
+  }
+
+  /*
+   * 旧「海外の実務ガイド・情報源から探す」欄が
+   * HTMLに残っていても表示しない。
+   */
+  .hero-entry .secondary-entry{
+    display:none;
+  }
+
+  .section{
+    padding-top:24px;
+    padding-bottom:42px;
+  }
+
+  .section-intro h2{
+    font-size:1.45rem;
+  }
 }
