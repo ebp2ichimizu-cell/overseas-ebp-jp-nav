@@ -44,7 +44,7 @@ export function renderResources(data){
         <h2>${escapeHtml(title)}</h2>
         <p class="library-category-lead">${escapeHtml(lead)}</p>
         <div class="library-grid">
-          <a class="library-card" href="https://ichimizu-research-hub.grassy-wasp-8750.chatgpt.site/#/" target="_blank" rel="noopener noreferrer">
+          <a class="library-card" href="https://ebp2ichimizu-cell.github.io/ichimizu-research-hub-github/#/" target="_blank" rel="noopener noreferrer">
             <div class="library-card-source">いちみず会</div>
             <h3>国内警察EBP・犯罪予防研究HUB</h3>
             <p>日本国内の警察・犯罪予防研究、介入、効果検証を確認します。</p>
