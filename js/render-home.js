@@ -51,12 +51,6 @@ export function renderHome(){
             </a>
           </div>
 
-          <div class="secondary-entry">
-            <a href="#/resources">
-              海外の実務ガイド・情報源から探す
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
         </div>
       </div>
     </section>
