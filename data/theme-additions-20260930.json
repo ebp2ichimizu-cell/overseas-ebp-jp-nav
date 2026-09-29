@@ -1,0 +1,1321 @@
+{
+  "problems": [
+    {
+      "id": "remote-fraud-online-scams",
+      "name_ja": "非対面型詐欺（オンライン詐欺・特殊詐欺相当）",
+      "name_en": "Remote fraud / Online scams",
+      "summary_ja": "電話、SMS、メール、SNS、ウェブサイト、オンライン取引などを通じ、直接対面しないまま信用させ、個人情報の提供や送金などへ誘導する詐欺を横断して扱います。海外の一つの公式犯罪分類ではなく、被害過程と介入点を比較するためのサイト上の整理です。",
+      "key_point_ja": "接触 → 信用形成・なりすまし → 判断を急がせる／送金・情報提供へ誘導 → 支払・送金 → 被害 → 再接触・再被害、と過程を分け、本人への注意喚起だけでなく金融・通信・プラットフォーム・警察等の介入点を検討します。",
+      "search_terms": [
+        "非対面型詐欺",
+        "オンライン詐欺",
+        "特殊詐欺",
+        "fraud",
+        "scam",
+        "online scam",
+        "romance fraud",
+        "investment fraud",
+        "impersonation fraud",
+        "APP fraud",
+        "authorised push payment",
+        "電話詐欺",
+        "SMS",
+        "メール詐欺",
+        "SNS型投資詐欺",
+        "SNS型ロマンス詐欺",
+        "送金",
+        "再被害",
+        "repeat fraud",
+        "banking protocol"
+      ],
+      "case_ids": [
+        "romance-fraud-citizen-focused",
+        "operation-wage-fraud",
+        "banking-protocol-fraud"
+      ],
+      "evidence_page_ids": [
+        "remote-fraud-holistic-model",
+        "remote-fraud-vulnerability-review",
+        "remote-fraud-payment-experiment",
+        "remote-fraud-repeat-rct"
+      ],
+      "intervention_ids": []
+    }
+  ],
+  "interventions": [
+    {
+      "id": "cpted-situational-crime-prevention",
+      "name_ja": "CPTED／状況的犯罪予防",
+      "name_en": "Crime Prevention Through Environmental Design / Situational Crime Prevention",
+      "category_ja": "犯罪機会・環境条件に着目した犯罪予防",
+      "summary_ja": "状況的犯罪予防（SCP）を、犯罪機会を生む条件へ介入する広い体系として、CPTEDを環境・空間設計と管理を主要手段とする関連枠組みとして区別して扱います。CPTEDという名称だけで効果を判断せず、どの犯罪機会を、どの環境条件の変更によって変えるのかを具体化します。",
+      "key_point_ja": "問題 → 犯罪機会・環境条件 → 変える条件 → 介入 → 実装 → 中間変化 → 犯罪・被害 → 転位・便益の拡散、の順で読みます。個別介入のエビデンスをCPTED全体へ拡張しません。",
+      "search_terms": [
+        "CPTED",
+        "Crime Prevention Through Environmental Design",
+        "状況的犯罪予防",
+        "situational crime prevention",
+        "SCP",
+        "environmental design",
+        "自然監視",
+        "natural surveillance",
+        "access control",
+        "アクセスコントロール",
+        "territoriality",
+        "領域性",
+        "target hardening",
+        "対象物強化",
+        "street lighting",
+        "街路照明",
+        "alley gating",
+        "Secured by Design",
+        "25 techniques",
+        "犯罪転位",
+        "displacement",
+        "diffusion of benefits"
+      ],
+      "problem_ids": [
+        "residential-burglary"
+      ],
+      "case_ids": [
+        "cpted-gating",
+        "cpted-alley-lighting",
+        "cpted-roadchef"
+      ],
+      "evidence_page_ids": [
+        "cpted-toolkit",
+        "cpted-review-cozens-love",
+        "cpted-residential-meta",
+        "situational-prevention-25-techniques"
+      ]
+    }
+  ],
+  "evidencePages": [
+    {
+      "id": "remote-fraud-holistic-model",
+      "title_ja": "詐欺予防を「注意喚起」だけで考えない",
+      "title_en": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+      "provider_ja": "Button et al. (2024) / International Journal of Law, Crime and Justice",
+      "question_ja": "詐欺は、どの段階・どの主体への対策で防げるのか？",
+      "summary_ja": "詐欺予防を、本人への注意喚起だけでなく、迷惑電話対策、支払管理、データ・技術、第三者介入まで含む複数の介入点として整理します。対策候補の体系整理であり、個々の効果を確立した研究ではありません。",
+      "commentary_slug": "remote-fraud-holistic-model",
+      "original_url": "https://doi.org/10.1016/j.ijlcj.2024.100672",
+      "problem_id": "remote-fraud-online-scams",
+      "source_id": null
+    },
+    {
+      "id": "remote-fraud-vulnerability-review",
+      "title_ja": "誰を「被害に遭いやすい人」と考えるべきか",
+      "title_en": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+      "provider_ja": "Dadà et al. (2025) / Computers in Human Behavior",
+      "question_ja": "年齢だけで、詐欺被害の重点対象を決めてよいのか？",
+      "summary_ja": "成人の詐欺被害に関する32研究を整理したシステマティックレビュー。年齢だけではなく、詐欺類型、個人特性、認知面、社会的状況などを組み合わせて重点対象を考える必要性を示します。",
+      "commentary_slug": "remote-fraud-vulnerability-review",
+      "original_url": "https://doi.org/10.1016/j.chb.2025.108734",
+      "problem_id": "remote-fraud-online-scams",
+      "source_id": null
+    },
+    {
+      "id": "remote-fraud-payment-experiment",
+      "title_ja": "送金直前の画面設計を変える",
+      "title_en": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+      "provider_ja": "Akesson, Gathergood & Quispe-Torreblanca",
+      "question_ja": "警告文を増やすだけでなく、支払操作そのものを変えると何が起きる？",
+      "summary_ja": "英国の約9,000人を対象とした模擬支払環境の行動実験。情報を増やす警告と、取消し・延期など安全な選択を取りやすくする操作設計を比較します。",
+      "commentary_slug": "remote-fraud-payment-experiment",
+      "original_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4532757",
+      "problem_id": "remote-fraud-online-scams",
+      "source_id": null
+    },
+    {
+      "id": "remote-fraud-repeat-rct",
+      "title_ja": "一度被害に遭った人への再被害防止",
+      "title_en": "Calling All Fraud Fighters! Evidence From a Counter-Marketing Campaign to Prevent Repeat Fraud Victimization",
+      "provider_ja": "Langton et al. (2026) / Journal of Consumer Affairs",
+      "question_ja": "被害後の働きかけで、再被害を減らせるのか？",
+      "summary_ja": "既知の郵便詐欺被害者2,253人を対象にしたRCT。再び詐欺に反応しないための働きかけを行い、4か月の再反応を追跡した再被害防止研究です。",
+      "commentary_slug": "remote-fraud-repeat-rct",
+      "original_url": "https://onlinelibrary.wiley.com/doi/10.1111/joca.70059",
+      "problem_id": "remote-fraud-online-scams",
+      "source_id": null
+    },
+    {
+      "id": "cpted-toolkit",
+      "title_ja": "CPTEDという名前だけで「効く」と判断できるか",
+      "title_en": "Crime prevention through environmental design",
+      "provider_ja": "College of Policing / Crime Reduction Toolkit",
+      "question_ja": "CPTEDという名前だけで、対策の効果を判断できるか？",
+      "summary_ja": "College of PolicingのCrime Reduction Toolkitが、主に小売店強盗を対象とした環境設計介入の研究を整理します。CPTED全般の一括評価ではなく、対象犯罪・介入・研究品質を分けて読みます。",
+      "commentary_slug": "cpted-toolkit",
+      "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit/environmental-design",
+      "intervention_id": "cpted-situational-crime-prevention",
+      "source_id": null
+    },
+    {
+      "id": "cpted-review-cozens-love",
+      "title_ja": "CPTEDは何を含む概念で、どこに限界があるか",
+      "title_en": "A Review and Current Status of Crime Prevention through Environmental Design (CPTED)",
+      "provider_ja": "Journal of Planning Literature / SAGE",
+      "question_ja": "CPTEDは何を含み、どこまで実証されているのか？",
+      "summary_ja": "CPTEDの歴史、主要構成要素、第一世代・第二世代への発展、概念上・実証上の限界を整理したレビューです。広く使われていることと、効果が確立していることを分けて確認します。",
+      "commentary_slug": "cpted-review-cozens-love",
+      "original_url": "https://doi.org/10.1177/0885412215595440",
+      "intervention_id": "cpted-situational-crime-prevention",
+      "source_id": null
+    },
+    {
+      "id": "cpted-residential-meta",
+      "title_ja": "住宅地の環境介入をまとめると何が分かるか",
+      "title_en": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+      "provider_ja": "European Journal on Criminal Policy and Research / Springer",
+      "question_ja": "住宅地の環境介入を複数研究でまとめると何が分かるか？",
+      "summary_ja": "住宅地の環境介入31研究を整理し、29研究をメタ分析した2026年のレビュー。財産犯では減少方向の統合結果がある一方、研究間の異質性が非常に大きい点が重要です。",
+      "commentary_slug": "cpted-residential-meta",
+      "original_url": "https://doi.org/10.1007/s10610-026-09659-y",
+      "intervention_id": "cpted-situational-crime-prevention",
+      "source_id": null
+    },
+    {
+      "id": "situational-prevention-25-techniques",
+      "title_ja": "犯罪機会を25の方法に分けて考える",
+      "title_en": "Twenty Five Techniques of Situational Prevention",
+      "provider_ja": "Center for Problem-Oriented Policing",
+      "question_ja": "犯罪機会を、どの条件を変える対策として分解できるか？",
+      "summary_ja": "状況的犯罪予防を、労力を増やす、リスクを高める、利益を減らす、挑発を減らす、言い訳をなくす、の5方向25技法に分ける実務フレームです。個別技法の効果評価資料ではありません。",
+      "commentary_slug": "situational-prevention-25-techniques",
+      "original_url": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/25Techniques/index-2.html",
+      "intervention_id": "cpted-situational-crime-prevention",
+      "source_id": null
+    }
+  ],
+  "cases": [
+    {
+      "id": "romance-fraud-citizen-focused",
+      "title_ja": "ロマンス詐欺の被害ホットスポットを使った標的型予防",
+      "title_en": "Targeting romance fraud using a citizen-focused approach",
+      "provider_ja": "City of London Police / Greater Manchester Police",
+      "question_ja": "全国一律の注意喚起ではなく、被害が集中する場所と層に合わせて情報を届けられるか？",
+      "summary_ja": "ロマンス詐欺被害の地域集中を把握し、重点地域ごとに媒体や場所を変えて防犯メッセージを届けた実践例。地域内評価はありますが、報告された損失減少を介入の因果効果とは扱いません。",
+      "commentary_slug": "romance-fraud-citizen-focused",
+      "original_url": "https://www.college.police.uk/support-forces/practices/targeting-romance-fraud-using-citizen-focused-approach",
+      "problem_ids": [
+        "remote-fraud-online-scams"
+      ],
+      "intervention_ids": [],
+      "source_id": null,
+      "stage_ja": "Evaluated locally"
+    },
+    {
+      "id": "operation-wage-fraud",
+      "title_ja": "Operation Wage―反復被害者の早期把握と地域警察による保護",
+      "title_en": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+      "provider_ja": "Greater Manchester Police",
+      "question_ja": "詐欺を、被害後の届出処理だけでなく、反復被害を止める地域の保護課題として扱えるか？",
+      "summary_ja": "反復被害や脆弱性を分析し、被害把握後の早期働きかけ、個別保護計画、迷惑電話対策、多機関連携を組み合わせる実装モデル。Practice Bank上は未検証です。",
+      "commentary_slug": "operation-wage-fraud",
+      "original_url": "https://www.college.police.uk/support-forces/practices/operation-wage-early-identification-victims-prevent-fraud-and-cyber-enabled-crime",
+      "problem_ids": [
+        "remote-fraud-online-scams"
+      ],
+      "intervention_ids": [],
+      "source_id": null,
+      "stage_ja": "Untested"
+    },
+    {
+      "id": "banking-protocol-fraud",
+      "title_ja": "Banking Protocol―支払・出金直前の銀行と警察の介入",
+      "title_en": "UK Finance Annual Fraud Report 2026 / Banking Protocol",
+      "provider_ja": "UK Finance / National Trading Standards / UK policing",
+      "question_ja": "被害者が送金・出金しようとする最後の段階で、第三者が止められるか？",
+      "summary_ja": "銀行窓口等が詐欺の疑いを把握した段階で警察へ緊急連絡し、支払・出金直前に介入する仕組み。運用実績は報告されていますが、比較群を用いた因果評価ではありません。",
+      "commentary_slug": "banking-protocol-fraud",
+      "original_url": "https://www.ukfinance.org.uk/system/files/2026-06/UK%20Finance%20Fraud%20Report%202026.pdf",
+      "problem_ids": [
+        "remote-fraud-online-scams"
+      ],
+      "intervention_ids": [],
+      "source_id": null,
+      "stage_ja": "運用実績／因果評価は未確認"
+    },
+    {
+      "id": "cpted-gating",
+      "title_ja": "玄関前に人が滞留する環境へゲートを設置する",
+      "title_en": "Enhancing community safety with gating",
+      "provider_ja": "College of Policing Practice Bank / Lancashire Constabulary",
+      "question_ja": "人が滞留しやすい場所の使われ方を変えるため、物理的アクセスをどう変えたか？",
+      "summary_ja": "住宅前で若者が滞留しASBが生じる環境にゲートを設置したPractice Bank事例。場所の使われ方とアクセス条件を具体的に変える例ですが、評価段階は未検証です。",
+      "commentary_slug": "cpted-gating",
+      "original_url": "https://www.college.police.uk/support-forces/practices/enhancing-community-safety-gating",
+      "problem_ids": [],
+      "intervention_ids": [
+        "cpted-situational-crime-prevention"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    },
+    {
+      "id": "cpted-alley-lighting",
+      "title_ja": "照明を増やさず、逆に消灯して滞留を減らす",
+      "title_en": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+      "provider_ja": "College of Policing Practice Bank / Staffordshire Police",
+      "question_ja": "一般論として照明を増やすのではなく、その場所の問題分析から逆に消灯する判断はどう行われたか？",
+      "summary_ja": "夜間の路地での滞留とASBに対し、照明を増やすのではなく消灯する試行を行ったPractice Bank事例。事後変化は報告されていますが、比較群のない未検証事例です。",
+      "commentary_slug": "cpted-alley-lighting",
+      "original_url": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+      "problem_ids": [],
+      "intervention_ids": [
+        "cpted-situational-crime-prevention"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    },
+    {
+      "id": "cpted-roadchef",
+      "title_ja": "高速道路サービスエリアの物理的防犯を複合的に改善する",
+      "title_en": "Roadchef collaboration – security improvements at M1 services",
+      "provider_ja": "College of Policing Practice Bank / Northamptonshire OPFCC",
+      "question_ja": "サービスエリアの犯罪問題に対して、複数の物理的防犯策をどう組み合わせたか？",
+      "summary_ja": "高速道路サービスエリアで、物理的防犯設備や環境改善を複合的に進めたPractice Bank事例。複数対策の実装を確認する教材として扱い、因果効果は断定しません。",
+      "commentary_slug": "cpted-roadchef",
+      "original_url": "https://www.college.police.uk/support-forces/practices/roadchef-collaboration-security-improvements-m1-services",
+      "problem_ids": [],
+      "intervention_ids": [
+        "cpted-situational-crime-prevention"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    }
+  ],
+  "aiReading": {
+    "evidence": {
+      "remote-fraud-holistic-model": {
+        "sourceId": "remote-fraud-holistic-model",
+        "sourceTitle": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+        "questions": [
+          {
+            "questionId": "P33-BLUE-01-Q1",
+            "displayQuestion": "詐欺予防には、注意喚起以外にどんな対策の入口がある？",
+            "sourceTitle": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+            "sourceUrl": "https://doi.org/10.1016/j.ijlcj.2024.100672",
+            "searchKeywords": [
+              "traditional crime prevention",
+              "awareness raising",
+              "third parties",
+              "call blockers",
+              "payment monitoring",
+              "Fig. 1",
+              "Fig. 4"
+            ],
+            "readingPurpose": "詐欺対策を本人への啓発だけでなく、接触経路、支払、サービス提供者等へ広げて理解する。",
+            "studySpecificCaution": "列挙された対策を「効果が実証された対策一覧」と読まない。"
+          },
+          {
+            "questionId": "P33-BLUE-01-Q2",
+            "displayQuestion": "この論文では、なぜ「新しい技術を使えば解決する」とは言っていない？",
+            "sourceTitle": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+            "sourceUrl": "https://doi.org/10.1016/j.ijlcj.2024.100672",
+            "searchKeywords": [
+              "high quality evidence",
+              "4IR",
+              "evaluation",
+              "proven or unproven",
+              "adapt strategies"
+            ],
+            "readingPurpose": "技術の高度さと効果の確かさを区別する。",
+            "studySpecificCaution": "技術革新への期待と、実証済みの効果を混同しない。"
+          },
+          {
+            "questionId": "P33-BLUE-01-Q3",
+            "displayQuestion": "迷惑電話対策や支払管理は、どのような詐欺予防策として整理されている？",
+            "sourceTitle": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+            "sourceUrl": "https://doi.org/10.1016/j.ijlcj.2024.100672",
+            "searchKeywords": [
+              "call blockers",
+              "alerts",
+              "additional checks",
+              "accounts",
+              "payment cards",
+              "monitoring restrictions"
+            ],
+            "readingPurpose": "本人への教育ではなく、接触・取引経路に介入する対策を理解する。",
+            "studySpecificCaution": "具体的製品の有効性を論文全体の整理から推測しない。"
+          },
+          {
+            "questionId": "P33-BLUE-01-Q4",
+            "displayQuestion": "この論文の「全体的な予防モデル」は、誰を対策主体として考えている？",
+            "sourceTitle": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+            "sourceUrl": "https://doi.org/10.1016/j.ijlcj.2024.100672",
+            "searchKeywords": [
+              "holistic prevention model",
+              "individual",
+              "community",
+              "companies",
+              "government",
+              "law enforcement",
+              "Fig. 7"
+            ],
+            "readingPurpose": "個人だけでなく、周囲・企業・公的機関等を含む多層的対策を理解する。",
+            "studySpecificCaution": "図の分類表記は原著に沿って説明し、AIが新しい分類を作らない。"
+          },
+          {
+            "questionId": "P33-BLUE-01-Q5",
+            "displayQuestion": "この論文を読んでも、どの対策が「最も効く」と決められないのはなぜ？",
+            "sourceTitle": "Preventing fraud victimisation against older adults: Towards a holistic model for protection",
+            "sourceUrl": "https://doi.org/10.1016/j.ijlcj.2024.100672",
+            "searchKeywords": [
+              "map",
+              "typology",
+              "evidence",
+              "limited research",
+              "evaluation"
+            ],
+            "readingPurpose": "資料タイプと証拠の限界を理解する。",
+            "studySpecificCaution": "効果研究と対策体系整理を混同しない。"
+          }
+        ]
+      },
+      "remote-fraud-vulnerability-review": {
+        "sourceId": "remote-fraud-vulnerability-review",
+        "sourceTitle": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+        "questions": [
+          {
+            "questionId": "P33-BLUE-02-Q1",
+            "displayQuestion": "年齢だけで「詐欺に遭いやすい人」を決めてよい？",
+            "sourceTitle": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+            "sourceUrl": "https://doi.org/10.1016/j.chb.2025.108734",
+            "searchKeywords": [
+              "age",
+              "fraud type",
+              "all ages",
+              "heterogeneous",
+              "risk profile"
+            ],
+            "readingPurpose": "年齢と詐欺被害の関係が詐欺類型によって異なることを理解する。",
+            "studySpecificCaution": "高齢者を一律に「最も被害に遭いやすい」と扱わない。"
+          },
+          {
+            "questionId": "P33-BLUE-02-Q2",
+            "displayQuestion": "複数の研究で比較的一貫して関連していた要因は何？",
+            "sourceTitle": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+            "sourceUrl": "https://doi.org/10.1016/j.chb.2025.108734",
+            "searchKeywords": [
+              "low conscientiousness",
+              "high impulsivity",
+              "reduced cognitive functioning",
+              "social isolation"
+            ],
+            "readingPurpose": "レビューで繰り返し確認された要因を、固定的な原因とは区別して理解する。",
+            "studySpecificCaution": "「関連要因」を「原因」と読み替えない。"
+          },
+          {
+            "questionId": "P33-BLUE-02-Q3",
+            "displayQuestion": "このレビューは、どのような研究を何本まとめた？",
+            "sourceTitle": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+            "sourceUrl": "https://doi.org/10.1016/j.chb.2025.108734",
+            "searchKeywords": [
+              "32 studies",
+              "2016",
+              "2024",
+              "cross-sectional",
+              "longitudinal",
+              "28",
+              "1,010,748"
+            ],
+            "readingPurpose": "レビューの規模と研究デザインの構成を理解する。",
+            "studySpecificCaution": "研究数の多さをエビデンスの質と同一視しない。"
+          },
+          {
+            "questionId": "P33-BLUE-02-Q4",
+            "displayQuestion": "なぜ、このレビューから一つの「典型的な詐欺被害者像」を作れない？",
+            "sourceTitle": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+            "sourceUrl": "https://doi.org/10.1016/j.chb.2025.108734",
+            "searchKeywords": [
+              "fragmented landscape",
+              "type of scam",
+              "individual characteristics",
+              "contextual conditions"
+            ],
+            "readingPurpose": "詐欺類型・個人・文脈の相互作用を理解する。",
+            "studySpecificCaution": "AIが独自のリスクスコアや人物像を作らない。"
+          },
+          {
+            "questionId": "P33-BLUE-02-Q5",
+            "displayQuestion": "このレビューの結果を、警察の重点対象設定に使うとき何に注意すべき？",
+            "sourceTitle": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
+            "sourceUrl": "https://doi.org/10.1016/j.chb.2025.108734",
+            "searchKeywords": [
+              "cross-sectional",
+              "longitudinal",
+              "standardized methodologies",
+              "limitations"
+            ],
+            "readingPurpose": "横断研究中心の関連を因果と誤読しない。",
+            "studySpecificCaution": "実務への示唆は原著の限界内で述べ、AIが「この属性を重点対象にすべき」と断定しない。"
+          }
+        ]
+      },
+      "remote-fraud-payment-experiment": {
+        "sourceId": "remote-fraud-payment-experiment",
+        "sourceTitle": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+        "questions": [
+          {
+            "questionId": "P33-BLUE-03-Q1",
+            "displayQuestion": "警告文を変える方法と、支払操作そのものを変える方法では何が違った？",
+            "sourceTitle": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+            "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4532757",
+            "searchKeywords": [
+              "informational interventions",
+              "structural interventions",
+              "behavioural warnings",
+              "calls to action",
+              "cancel",
+              "postpone"
+            ],
+            "readingPurpose": "情報的介入と構造的介入の違いを理解する。",
+            "studySpecificCaution": "最新版の要約にない具体的数値を、過去版から混ぜない。"
+          },
+          {
+            "questionId": "P33-BLUE-03-Q2",
+            "displayQuestion": "同じ警告を何度も見ると、効果はどう変わった？",
+            "sourceTitle": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+            "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4532757",
+            "searchKeywords": [
+              "repeated exposure",
+              "warning effects attenuate",
+              "gap widens"
+            ],
+            "readingPurpose": "警告への慣れと反復曝露を理解する。",
+            "studySpecificCaution": "反復回数別の具体的効果値は、本文で確認できる場合だけ示す。"
+          },
+          {
+            "questionId": "P33-BLUE-03-Q3",
+            "displayQuestion": "この研究は「詐欺を見分けた」のか、それとも「何でも慎重になった」のかをどう区別した？",
+            "sourceTitle": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+            "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4532757",
+            "searchKeywords": [
+              "legitimate and fraudulent requests",
+              "identify fraud",
+              "merely make them more cautious"
+            ],
+            "readingPurpose": "正当取引への副作用を含む研究デザインを理解する。",
+            "studySpecificCaution": "詐欺支払が減ることだけを成功とせず、正当支払への影響も見る。"
+          },
+          {
+            "questionId": "P33-BLUE-03-Q4",
+            "displayQuestion": "どのような人・環境で行われた実験？",
+            "sourceTitle": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+            "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4532757",
+            "searchKeywords": [
+              "around 9,000",
+              "UK participants",
+              "high-fidelity simulated payment journeys",
+              "authorised push payment fraud"
+            ],
+            "readingPurpose": "実環境への一般化可能性を判断する。",
+            "studySpecificCaution": "模擬環境を実際の銀行取引と同一視しない。"
+          },
+          {
+            "questionId": "P33-BLUE-03-Q5",
+            "displayQuestion": "取消しや延期を目立たせる設計は、著者らによると何を改善した？",
+            "sourceTitle": "Preventing Payments Fraud in the FinTech Era: New Evidence from a Behavioural Experiment",
+            "sourceUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4532757",
+            "searchKeywords": [
+              "redesigned calls to action",
+              "identify fraud",
+              "warnings",
+              "cautious"
+            ],
+            "readingPurpose": "行動設計の想定作用を理解する。",
+            "studySpecificCaution": "作用機序は著者らの実験結果の解釈として示す。"
+          }
+        ]
+      },
+      "remote-fraud-repeat-rct": {
+        "sourceId": "remote-fraud-repeat-rct",
+        "sourceTitle": "Calling All Fraud Fighters! Evidence From a Counter-Marketing Campaign to Prevent Repeat Fraud Victimization",
+        "questions": [
+          {
+            "questionId": "P33-BLUE-04-Q1",
+            "displayQuestion": "一度郵便詐欺に遭った人への働きかけで、再被害は変わった？",
+            "sourceTitle": "Calling All Fraud Fighters! Evidence From a Counter-Marketing Campaign to Prevent Repeat Fraud Victimization",
+            "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1111/joca.70059",
+            "searchKeywords": [
+              "randomized controlled trial",
+              "N=2253",
+              "five percentage points",
+              "p=0.029",
+              "revictimization"
+            ],
+            "readingPurpose": "再被害防止介入の主要結果を理解する。",
+            "studySpecificCaution": "5パーセントポイントを「5％減」と言い換えない。"
+          },
+          {
+            "questionId": "P33-BLUE-04-Q2",
+            "displayQuestion": "被害者には、どんな目的のメッセージを送った？",
+            "sourceTitle": "Calling All Fraud Fighters! Evidence From a Counter-Marketing Campaign to Prevent Repeat Fraud Victimization",
+            "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1111/joca.70059",
+            "searchKeywords": [
+              "counter-marketing",
+              "tailored",
+              "vulnerabilities",
+              "resist",
+              "report mail fraud"
+            ],
+            "readingPurpose": "単なる一般広報ではなく、既知の被害者向けに設計された介入内容を理解する。",
+            "studySpecificCaution": "全文にない具体的文面をAIに作らせない。"
+          },
+          {
+            "questionId": "P33-BLUE-04-Q3",
+            "displayQuestion": "この研究では「再被害」をどう測った？",
+            "sourceTitle": "Calling All Fraud Fighters! Evidence From a Counter-Marketing Campaign to Prevent Repeat Fraud Victimization",
+            "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1111/joca.70059",
+            "searchKeywords": [
+              "subsequent mail scams",
+              "over 4 months",
+              "observed response"
+            ],
+            "readingPurpose": "アウトカムの具体的定義を理解する。",
+            "studySpecificCaution": "金銭損失そのものと、詐欺郵便への反応を区別する。"
+          },
+          {
+            "questionId": "P33-BLUE-04-Q4",
+            "displayQuestion": "この結果をオンライン詐欺や電話詐欺へそのまま当てはめられないのはなぜ？",
+            "sourceTitle": "Calling All Fraud Fighters! Evidence From a Counter-Marketing Campaign to Prevent Repeat Fraud Victimization",
+            "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1111/joca.70059",
+            "searchKeywords": [
+              "mail fraud",
+              "mailed counter-marketing",
+              "United States Postal Inspection Service"
+            ],
+            "readingPurpose": "研究対象と一般化範囲を理解する。",
+            "studySpecificCaution": "原著が直接比較していないオンライン・電話詐欺の効果を推測しない。"
+          }
+        ]
+      },
+      "cpted-toolkit": {
+        "sourceId": "cpted-toolkit",
+        "sourceTitle": "Crime prevention through environmental design",
+        "questions": [
+          {
+            "questionId": "I03-BLUE-01-Q1",
+            "displayQuestion": "このToolkitが評価している「CPTED」は、具体的にどの犯罪・場所・対策を対象にしている？",
+            "sourceTitle": "Crime prevention through environmental design",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/environmental-design",
+            "searchKeywords": [
+              "retail robbery",
+              "26 studies",
+              "single components",
+              "multiple components",
+              "ordinances"
+            ],
+            "readingPurpose": "CPTED一般の評価と誤解しないため。",
+            "studySpecificCaution": "住宅・街路・公園等のCPTED全般へ一般化しない。"
+          },
+          {
+            "questionId": "I03-BLUE-01-Q2",
+            "displayQuestion": "26研究をまとめたとき、強盗件数はどのように変化した？",
+            "sourceTitle": "Crime prevention through environmental design",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/environmental-design",
+            "searchKeywords": [
+              "average reduction",
+              "30%",
+              "16 studies",
+              "overall effect size",
+              "statistical significance"
+            ],
+            "readingPurpose": "平均30％と統合効果量の違いを理解するため。",
+            "studySpecificCaution": "30％を「CPTEDの平均因果効果」にしない。"
+          },
+          {
+            "questionId": "I03-BLUE-01-Q3",
+            "displayQuestion": "複数要素の対策と単一要素の対策では、結果のばらつきにどんな違いがあった？",
+            "sourceTitle": "Crime prevention through environmental design",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/environmental-design",
+            "searchKeywords": [
+              "multi-component",
+              "30%",
+              "84%",
+              "single-component",
+              "91%",
+              "ordinance",
+              "130%"
+            ],
+            "readingPurpose": "複合介入と単一設備を区別するため。",
+            "studySpecificCaution": "結果範囲の違いだけで介入類型の因果的な優劣を断定しない。"
+          },
+          {
+            "questionId": "I03-BLUE-01-Q4",
+            "displayQuestion": "このエビデンスが「低い」と評価されているのはなぜ？",
+            "sourceTitle": "Crime prevention through environmental design",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/environmental-design",
+            "searchKeywords": [
+              "low quality",
+              "bias",
+              "experimental",
+              "quasi-experimental",
+              "before 2000"
+            ],
+            "readingPurpose": "研究デザイン上の限界を理解するため。",
+            "studySpecificCaution": "研究数だけでエビデンス強度を判断しない。"
+          },
+          {
+            "questionId": "I03-BLUE-01-Q5",
+            "displayQuestion": "対策は、計画どおりどの程度実施されていた？",
+            "sourceTitle": "Crime prevention through environmental design",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/environmental-design",
+            "searchKeywords": [
+              "compliance",
+              "implementation",
+              "less than 30%",
+              "six studies"
+            ],
+            "readingPurpose": "実装忠実度を確認するため。",
+            "studySpecificCaution": "実装不足を効果のばらつきの唯一の原因と断定しない。"
+          }
+        ]
+      },
+      "cpted-review-cozens-love": {
+        "sourceId": "cpted-review-cozens-love",
+        "sourceTitle": "A Review and Current Status of Crime Prevention through Environmental Design (CPTED)",
+        "questions": [
+          {
+            "questionId": "I03-BLUE-02-Q1",
+            "displayQuestion": "CPTEDは、どのような歴史と考え方から現在の形へ発展した？",
+            "sourceTitle": "A Review and Current Status of Crime Prevention through Environmental Design (CPTED)",
+            "sourceUrl": "https://doi.org/10.1177/0885412215595440",
+            "searchKeywords": [
+              "history",
+              "origins",
+              "conceptualisation",
+              "first generation",
+              "second generation"
+            ],
+            "readingPurpose": "CPTEDを固定的な一理論として扱わないため。",
+            "studySpecificCaution": "後世の原則を初期原典へそのまま遡及しない。"
+          },
+          {
+            "questionId": "I03-BLUE-02-Q2",
+            "displayQuestion": "このレビューでは、CPTEDの主要な構成要素をどのように整理している？",
+            "sourceTitle": "A Review and Current Status of Crime Prevention through Environmental Design (CPTED)",
+            "sourceUrl": "https://doi.org/10.1177/0885412215595440",
+            "searchKeywords": [
+              "surveillance",
+              "access control",
+              "territoriality",
+              "target hardening",
+              "maintenance",
+              "activity support"
+            ],
+            "readingPurpose": "自然監視等の概念を具体化するため。",
+            "studySpecificCaution": "原則数・名称は研究者や実務体系によって異なることも確認する。"
+          },
+          {
+            "questionId": "I03-BLUE-02-Q3",
+            "displayQuestion": "CPTEDに対して、どのような批判・限界が指摘されている？",
+            "sourceTitle": "A Review and Current Status of Crime Prevention through Environmental Design (CPTED)",
+            "sourceUrl": "https://doi.org/10.1177/0885412215595440",
+            "searchKeywords": [
+              "criticisms",
+              "evidence",
+              "limitations",
+              "environmental determinism",
+              "social"
+            ],
+            "readingPurpose": "広く利用されていることと、実証の強さを分けるため。",
+            "studySpecificCaution": "批判があることを「CPTEDは無効」と読み替えない。"
+          },
+          {
+            "questionId": "I03-BLUE-02-Q4",
+            "displayQuestion": "第一世代から第二世代へ広がったとき、何が追加された？",
+            "sourceTitle": "A Review and Current Status of Crime Prevention through Environmental Design (CPTED)",
+            "sourceUrl": "https://doi.org/10.1177/0885412215595440",
+            "searchKeywords": [
+              "second generation CPTED",
+              "community",
+              "social cohesion",
+              "participation"
+            ],
+            "readingPurpose": "物理環境だけでなく社会的条件を含む発展を理解するため。",
+            "studySpecificCaution": "第二世代全体の犯罪削減効果が実証済みとしない。"
+          }
+        ]
+      },
+      "cpted-residential-meta": {
+        "sourceId": "cpted-residential-meta",
+        "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+        "questions": [
+          {
+            "questionId": "I03-BLUE-03-Q1",
+            "displayQuestion": "このレビューには、どのような環境介入が何研究含まれた？",
+            "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+            "sourceUrl": "https://doi.org/10.1007/s10610-026-09659-y",
+            "searchKeywords": [
+              "31 studies",
+              "29",
+              "intervention classes",
+              "access control",
+              "target hardening",
+              "street lighting",
+              "demolition"
+            ],
+            "readingPurpose": "「CPTED全体のメタ分析」という誤読を避けるため。",
+            "studySpecificCaution": "分類ごとの研究数が異なることを考慮する。"
+          },
+          {
+            "questionId": "I03-BLUE-03-Q2",
+            "displayQuestion": "財産犯の統合結果はどの程度で、どう解釈すべき？",
+            "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+            "sourceUrl": "https://doi.org/10.1007/s10610-026-09659-y",
+            "searchKeywords": [
+              "RES 1.47",
+              "1.15",
+              "1.89",
+              "32%",
+              "I² 92.7"
+            ],
+            "readingPurpose": "RESと約32％換算を正しく理解するため。",
+            "studySpecificCaution": "約32％を各介入の期待効果にしない。"
+          },
+          {
+            "questionId": "I03-BLUE-03-Q3",
+            "displayQuestion": "暴力犯では、平均効果は統計的に明確だった？",
+            "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+            "sourceUrl": "https://doi.org/10.1007/s10610-026-09659-y",
+            "searchKeywords": [
+              "violent crime",
+              "RES 1.50",
+              "0.96",
+              "2.34",
+              "I² 96.6"
+            ],
+            "readingPurpose": "財産犯と暴力犯を分けるため。",
+            "studySpecificCaution": "点推定が減少方向でも「有意な効果」と書かない。"
+          },
+          {
+            "questionId": "I03-BLUE-03-Q4",
+            "displayQuestion": "研究間のばらつきが非常に大きいことは、著者らはどう解釈している？",
+            "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+            "sourceUrl": "https://doi.org/10.1007/s10610-026-09659-y",
+            "searchKeywords": [
+              "heterogeneity",
+              "contextual variation",
+              "intervention type",
+              "methodological variation"
+            ],
+            "readingPurpose": "異質性を平均効果と一緒に読むため。",
+            "studySpecificCaution": "AI独自の日本向け適用結論を追加しない。"
+          },
+          {
+            "questionId": "I03-BLUE-03-Q5",
+            "displayQuestion": "どの介入群で財産犯の減少方向が比較的一貫していた？",
+            "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+            "sourceUrl": "https://doi.org/10.1007/s10610-026-09659-y",
+            "searchKeywords": [
+              "Intervention Class Variation",
+              "access control",
+              "target hardening",
+              "street lighting"
+            ],
+            "readingPurpose": "CPTED一括ではなく介入分類へ分解するため。",
+            "studySpecificCaution": "研究数の少ない分類で一般化しない。"
+          },
+          {
+            "questionId": "I03-BLUE-03-Q6",
+            "displayQuestion": "このレビュー自身が挙げる方法上の限界は何？",
+            "sourceTitle": "Crime Prevention in Residential Areas: A Systematic Review and Meta-Analysis of Environmental Design Approaches",
+            "sourceUrl": "https://doi.org/10.1007/s10610-026-09659-y",
+            "searchKeywords": [
+              "limitations",
+              "single reviewer",
+              "backward citation",
+              "methodological variation"
+            ],
+            "readingPurpose": "最新メタ分析でも残る不確実性を理解するため。",
+            "studySpecificCaution": "限界を理由に全結果を無価値としない。"
+          }
+        ]
+      },
+      "situational-prevention-25-techniques": {
+        "sourceId": "situational-prevention-25-techniques",
+        "sourceTitle": "Twenty Five Techniques of Situational Prevention",
+        "questions": [
+          {
+            "questionId": "I03-BLUE-04-Q1",
+            "displayQuestion": "25技法は、犯罪機会をどの5方向から変えるよう整理している？",
+            "sourceTitle": "Twenty Five Techniques of Situational Prevention",
+            "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/25Techniques/index-2.html",
+            "searchKeywords": [
+              "Increase the Effort",
+              "Increase the Risks",
+              "Reduce the Rewards",
+              "Reduce Provocations",
+              "Remove Excuses"
+            ],
+            "readingPurpose": "SCPの基本構造を理解するため。",
+            "studySpecificCaution": "5分類を効果の順位と解釈しない。"
+          },
+          {
+            "questionId": "I03-BLUE-04-Q2",
+            "displayQuestion": "CPTEDと特に重なる技法には何がある？",
+            "sourceTitle": "Twenty Five Techniques of Situational Prevention",
+            "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/25Techniques/index-2.html",
+            "searchKeywords": [
+              "Target harden",
+              "Control access",
+              "Assist natural surveillance",
+              "Utilize place managers",
+              "Strengthen formal surveillance"
+            ],
+            "readingPurpose": "環境設計とSCPの関係を理解するため。",
+            "studySpecificCaution": "「CPTEDと重なる」という関係づけはサイト側の整理であり、原資料からは技法の定義・例を確認する。"
+          },
+          {
+            "questionId": "I03-BLUE-04-Q3",
+            "displayQuestion": "状況的犯罪予防には、物理環境以外のどんな対策が含まれる？",
+            "sourceTitle": "Twenty Five Techniques of Situational Prevention",
+            "sourceUrl": "https://popcenter.asu.edu/sites/g/files/litvpz3631/files/25Techniques/index-2.html",
+            "searchKeywords": [
+              "Set rules",
+              "Alert conscience",
+              "Assist compliance",
+              "Control drugs and alcohol",
+              "Reduce frustrations"
+            ],
+            "readingPurpose": "SCPをCPTEDと同一視しないため。",
+            "studySpecificCaution": "個別技法の有効性をこの表だけから判断しない。"
+          }
+        ]
+      }
+    },
+    "cases": {
+      "romance-fraud-citizen-focused": {
+        "sourceId": "romance-fraud-citizen-focused",
+        "sourceTitle": "Targeting romance fraud using a citizen-focused approach",
+        "questions": [
+          {
+            "questionId": "P33-RED-01-Q1",
+            "displayQuestion": "ロマンス詐欺の被害は、どの程度一部の地域へ集中していた？",
+            "sourceTitle": "Targeting romance fraud using a citizen-focused approach",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/targeting-romance-fraud-using-citizen-focused-approach",
+            "searchKeywords": [
+              "50%",
+              "17%",
+              "439",
+              "162",
+              "power few",
+              "chronic hot spots",
+              "one in six"
+            ],
+            "readingPurpose": "詐欺被害にも地理的集中を使った対象設定が可能か理解する。",
+            "studySpecificCaution": "通常の犯行地点ホットスポットと、被害者居住地の集中を混同しない。"
+          },
+          {
+            "questionId": "P33-RED-01-Q2",
+            "displayQuestion": "重点地域を決めた後、なぜ地域ごとに防犯情報の届け方を変えた？",
+            "sourceTitle": "Targeting romance fraud using a citizen-focused approach",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/targeting-romance-fraud-using-citizen-focused-approach",
+            "searchKeywords": [
+              "Acorn",
+              "sociodemographic",
+              "newspapers",
+              "posters",
+              "supermarkets",
+              "tailored"
+            ],
+            "readingPurpose": "地理的重点化とコミュニケーション設計を結び付けて理解する。",
+            "studySpecificCaution": "Acorn分類を日本へ直接移植しない。"
+          },
+          {
+            "questionId": "P33-RED-01-Q3",
+            "displayQuestion": "Greater Manchester Policeの6重点地域では、実施後に何が報告された？",
+            "sourceTitle": "Targeting romance fraud using a citizen-focused approach",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/targeting-romance-fraud-using-citizen-focused-approach",
+            "searchKeywords": [
+              "six hotspots",
+              "89%",
+              "losses",
+              "May June July",
+              "restarting hot spotting"
+            ],
+            "readingPurpose": "地域内評価の結果と因果推定の違いを理解する。",
+            "studySpecificCaution": "89％を一般化可能な因果効果として扱わない。"
+          },
+          {
+            "questionId": "P33-RED-01-Q4",
+            "displayQuestion": "この取組を実施するために、どんなデータと現場条件が必要だった？",
+            "sourceTitle": "Targeting romance fraud using a citizen-focused approach",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/targeting-romance-fraud-using-citizen-focused-approach",
+            "searchKeywords": [
+              "three years",
+              "procurement",
+              "buy-in",
+              "communication",
+              "neighbourhood policing"
+            ],
+            "readingPurpose": "再現に必要な実装条件を理解する。",
+            "studySpecificCaution": "データがあれば自動的に効果が出ると解釈しない。"
+          },
+          {
+            "questionId": "P33-RED-01-Q5",
+            "displayQuestion": "この事例では、なぜ全国一律の注意喚起だけでは届き方が分からないと考えた？",
+            "sourceTitle": "Targeting romance fraud using a citizen-focused approach",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/targeting-romance-fraud-using-citizen-focused-approach",
+            "searchKeywords": [
+              "national social media campaigns",
+              "police website",
+              "exposed",
+              "targeted",
+              "receive and respond"
+            ],
+            "readingPurpose": "「広報した」ことと「対象へ届いた」ことの違いを理解する。",
+            "studySpecificCaution": "一律広報が無効と断定せず、到達の不確実性という問題設定を説明する。"
+          }
+        ]
+      },
+      "operation-wage-fraud": {
+        "sourceId": "operation-wage-fraud",
+        "sourceTitle": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+        "questions": [
+          {
+            "questionId": "P33-RED-02-Q1",
+            "displayQuestion": "Operation Wageは、なぜ「詐欺の総件数」より反復被害へ重点を置いた？",
+            "sourceTitle": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-wage-early-identification-victims-prevent-fraud-and-cyber-enabled-crime",
+            "searchKeywords": [
+              "repeat victimisation",
+              "greatest harm",
+              "vulnerable",
+              "£70 million annually"
+            ],
+            "readingPurpose": "件数と被害の深刻度・反復の違いを理解する。",
+            "studySpecificCaution": "資料の問題分析を説明し、反復被害が常に全地域で最大要因と一般化しない。"
+          },
+          {
+            "questionId": "P33-RED-02-Q2",
+            "displayQuestion": "被害を把握してから24～48時間以内に、何をしようとしている？",
+            "sourceTitle": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-wage-early-identification-victims-prevent-fraud-and-cyber-enabled-crime",
+            "searchKeywords": [
+              "24 to 48 hours",
+              "risk assessments",
+              "safeguarding plans",
+              "ongoing support"
+            ],
+            "readingPurpose": "早期介入の具体的な業務フローを理解する。",
+            "studySpecificCaution": "24～48時間を普遍的な最適値と扱わない。"
+          },
+          {
+            "questionId": "P33-RED-02-Q3",
+            "displayQuestion": "この取組では、注意喚起以外にどんな具体的な再被害防止策を使った？",
+            "sourceTitle": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-wage-early-identification-victims-prevent-fraud-and-cyber-enabled-crime",
+            "searchKeywords": [
+              "call-blocking devices",
+              "doorbell cameras",
+              "home security",
+              "personalised"
+            ],
+            "readingPurpose": "状況的犯罪予防と保護支援の組合せを理解する。",
+            "studySpecificCaution": "Practice Bank上はUntestedであり、個々の対策の効果が証明されたと書かない。"
+          },
+          {
+            "questionId": "P33-RED-02-Q4",
+            "displayQuestion": "どの機関が一緒に被害者支援へ関わった？",
+            "sourceTitle": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-wage-early-identification-victims-prevent-fraud-and-cyber-enabled-crime",
+            "searchKeywords": [
+              "partners",
+              "Action Fraud",
+              "financial institutions",
+              "Trading Standards",
+              "Adult Social Care",
+              "Age UK"
+            ],
+            "readingPurpose": "警察単独ではない実装構造を理解する。",
+            "studySpecificCaution": "日本で同じ組織構成を必要条件としない。"
+          },
+          {
+            "questionId": "P33-RED-02-Q5",
+            "displayQuestion": "実施上の最大の課題として、何が挙げられている？",
+            "sourceTitle": "Operation Wage – early identification of victims to prevent fraud and cyber-enabled crime",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/operation-wage-early-identification-victims-prevent-fraud-and-cyber-enabled-crime",
+            "searchKeywords": [
+              "identifying vulnerable victims",
+              "information sharing",
+              "referral pathways",
+              "coordination"
+            ],
+            "readingPurpose": "早期把握・情報共有のボトルネックを理解する。",
+            "studySpecificCaution": "「効果がなかった理由」ではなく、未検証事例の実装課題として読む。"
+          }
+        ]
+      },
+      "banking-protocol-fraud": {
+        "sourceId": "banking-protocol-fraud",
+        "sourceTitle": "UK Finance Annual Fraud Report 2026 / Banking Protocol",
+        "questions": [
+          {
+            "questionId": "P33-RED-03-Q1",
+            "displayQuestion": "Banking Protocolは、送金・出金の段階で銀行と警察をどうつなぐ仕組み？",
+            "sourceTitle": "UK Finance Annual Fraud Report 2026 / Banking Protocol",
+            "sourceUrl": "https://www.ukfinance.org.uk/system/files/2026-06/UK%20Finance%20Fraud%20Report%202026.pdf",
+            "searchKeywords": [
+              "Banking Protocol",
+              "rapid response",
+              "branch teams",
+              "warning signs",
+              "alert local police"
+            ],
+            "readingPurpose": "支払直前の第三者介入フローを理解する。",
+            "studySpecificCaution": "資料に記載のない詳細な警告基準をAIに補わせない。"
+          },
+          {
+            "questionId": "P33-RED-03-Q2",
+            "displayQuestion": "2025年には、どのような運用実績が報告された？",
+            "sourceTitle": "UK Finance Annual Fraud Report 2026 / Banking Protocol",
+            "sourceUrl": "https://www.ukfinance.org.uk/system/files/2026-06/UK%20Finance%20Fraud%20Report%202026.pdf",
+            "searchKeywords": [
+              "£58.8 million",
+              "12,034",
+              "136 arrests",
+              "Banking Protocol"
+            ],
+            "readingPurpose": "防止額・警察連絡・逮捕を別々の指標として読む。",
+            "studySpecificCaution": "防止額を因果推定された効果額と扱わない。"
+          },
+          {
+            "questionId": "P33-RED-03-Q3",
+            "displayQuestion": "制度開始以降、どの程度の警察連絡・逮捕・被害防止額が報告されている？",
+            "sourceTitle": "UK Finance Annual Fraud Report 2026 / Banking Protocol",
+            "sourceUrl": "https://www.ukfinance.org.uk/system/files/2026-06/UK%20Finance%20Fraud%20Report%202026.pdf",
+            "searchKeywords": [
+              "81,000",
+              "1,662",
+              "£433 million",
+              "since inception"
+            ],
+            "readingPurpose": "制度の運用規模を把握する。",
+            "studySpecificCaution": "累計値を比較群のある効果評価と混同しない。"
+          },
+          {
+            "questionId": "P33-RED-03-Q4",
+            "displayQuestion": "この報告書だけでは、Banking Protocolの「被害削減率」を出せないのはなぜ？",
+            "sourceTitle": "UK Finance Annual Fraud Report 2026 / Banking Protocol",
+            "sourceUrl": "https://www.ukfinance.org.uk/system/files/2026-06/UK%20Finance%20Fraud%20Report%202026.pdf",
+            "searchKeywords": [
+              "achievements",
+              "Banking Protocol",
+              "prevented",
+              "emergency calls",
+              "arrests"
+            ],
+            "readingPurpose": "運用指標と因果効果評価を区別する。",
+            "studySpecificCaution": "AIは外部研究を追加せず、この報告書が提示している情報の範囲だけを答える。"
+          }
+        ]
+      },
+      "cpted-gating": {
+        "sourceId": "cpted-gating",
+        "sourceTitle": "Enhancing community safety with gating",
+        "questions": [
+          {
+            "questionId": "I03-RED-01-Q1",
+            "displayQuestion": "ASBが多い住宅と問題が少ない住宅で、どんな環境差が見つかった？",
+            "sourceTitle": "Enhancing community safety with gating",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/enhancing-community-safety-gating",
+            "searchKeywords": [
+              "doorway",
+              "gate",
+              "young people",
+              "gathering",
+              "ASB"
+            ],
+            "readingPurpose": "場所の具体的な使われ方を確認するため。",
+            "studySpecificCaution": "観察された差を因果要因と断定しない。"
+          },
+          {
+            "questionId": "I03-RED-01-Q2",
+            "displayQuestion": "警察は、住民の問題をどのように把握してから対策を決めた？",
+            "sourceTitle": "Enhancing community safety with gating",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/enhancing-community-safety-gating",
+            "searchKeywords": [
+              "door-to-door",
+              "50 residences",
+              "Calico",
+              "problem solving",
+              "SARA"
+            ],
+            "readingPurpose": "問題分析の過程を理解するため。",
+            "studySpecificCaution": "聞き取りを効果評価と混同しない。"
+          },
+          {
+            "questionId": "I03-RED-01-Q3",
+            "displayQuestion": "ゲートは誰と連携し、どのように実装した？",
+            "sourceTitle": "Enhancing community safety with gating",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/enhancing-community-safety-gating",
+            "searchKeywords": [
+              "Burnley College",
+              "joinery",
+              "students",
+              "£750",
+              "Calico"
+            ],
+            "readingPurpose": "実装主体と資源を理解するため。",
+            "studySpecificCaution": "低コスト性を他地域へそのまま適用しない。"
+          },
+          {
+            "questionId": "I03-RED-01-Q4",
+            "displayQuestion": "予定されている評価では、何を測ることになっている？",
+            "sourceTitle": "Enhancing community safety with gating",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/enhancing-community-safety-gating",
+            "searchKeywords": [
+              "evaluation",
+              "ASB data",
+              "resident surveys",
+              "student surveys"
+            ],
+            "readingPurpose": "実装とアウトカムを分けて把握するため。",
+            "studySpecificCaution": "現時点で評価結果が出たと仮定しない。"
+          }
+        ]
+      },
+      "cpted-alley-lighting": {
+        "sourceId": "cpted-alley-lighting",
+        "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+        "questions": [
+          {
+            "questionId": "I03-RED-02-Q1",
+            "displayQuestion": "なぜ、照明を増やすのではなく消灯する案が選ばれた？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "lighting",
+              "congregating",
+              "alleyway",
+              "site visit",
+              "recommendation"
+            ],
+            "readingPurpose": "一般的な照明対策と場所固有の仮説を分けるため。",
+            "studySpecificCaution": "「暗くすれば犯罪が減る」という一般論にしない。"
+          },
+          {
+            "questionId": "I03-RED-02-Q2",
+            "displayQuestion": "消灯後、どのような変化が報告された？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "no reports",
+              "ASB",
+              "crimes",
+              "victim",
+              "100% reduction"
+            ],
+            "readingPurpose": "報告上の変化と因果効果を区別するため。",
+            "studySpecificCaution": "比較群がないため、消灯の因果効果として書かない。"
+          },
+          {
+            "questionId": "I03-RED-02-Q3",
+            "displayQuestion": "消灯を実施する前に、どのような調整を行った？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "council",
+              "consultation",
+              "six-month trial",
+              "two monthly reviews"
+            ],
+            "readingPurpose": "通常と異なる環境変更の実装過程を理解するため。",
+            "studySpecificCaution": "実装過程として説明し、効果の証明とは分ける。"
+          },
+          {
+            "questionId": "I03-RED-02-Q4",
+            "displayQuestion": "Practice Bankがこの事例を「未検証」としていることは、結果の読み方にどう影響する？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "Stage of practice",
+              "Untested",
+              "Overall impact"
+            ],
+            "readingPurpose": "評価段階と実施後変化を区別するため。",
+            "studySpecificCaution": "未検証を「効果なし」と言い換えない。"
+          }
+        ]
+      },
+      "cpted-roadchef": {
+        "sourceId": "cpted-roadchef",
+        "sourceTitle": "Roadchef collaboration – security improvements at M1 services",
+        "questions": [
+          {
+            "questionId": "I03-RED-03-Q1",
+            "displayQuestion": "どの犯罪問題が、どの場所に集中していた？",
+            "sourceTitle": "Roadchef collaboration – security improvements at M1 services",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/roadchef-collaboration-security-improvements-m1-services",
+            "searchKeywords": [
+              "M1",
+              "HGV",
+              "high-valued goods",
+              "targeted",
+              "police demand"
+            ],
+            "readingPurpose": "場所と対象犯罪を具体化するため。",
+            "studySpecificCaution": "対象場所・犯罪を一般化しない。"
+          },
+          {
+            "questionId": "I03-RED-03-Q2",
+            "displayQuestion": "どのような物理・監視対策を組み合わせた？",
+            "sourceTitle": "Roadchef collaboration – security improvements at M1 services",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/roadchef-collaboration-security-improvements-m1-services",
+            "searchKeywords": [
+              "perimeter",
+              "CCTV",
+              "ANPR",
+              "lighting",
+              "Crimestoppers"
+            ],
+            "readingPurpose": "複合介入の中身を部品ごとに理解するため。",
+            "studySpecificCaution": "各要素の独立効果は示されていない。"
+          },
+          {
+            "questionId": "I03-RED-03-Q3",
+            "displayQuestion": "警察側と民間事業者は、資金と実装をどう分担した？",
+            "sourceTitle": "Roadchef collaboration – security improvements at M1 services",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/roadchef-collaboration-security-improvements-m1-services",
+            "searchKeywords": [
+              "£255,000",
+              "Safer Streets 5",
+              "matched",
+              "Roadchef"
+            ],
+            "readingPurpose": "官民連携の実装条件を確認するため。",
+            "studySpecificCaution": "費用対効果が検証されたとは扱わない。"
+          },
+          {
+            "questionId": "I03-RED-03-Q4",
+            "displayQuestion": "今後の評価では、どのような方法が予定されている？",
+            "sourceTitle": "Roadchef collaboration – security improvements at M1 services",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/roadchef-collaboration-security-improvements-m1-services",
+            "searchKeywords": [
+              "evaluation",
+              "before and after",
+              "vehicle crime"
+            ],
+            "readingPurpose": "現在の報告と今後の効果評価を分けるため。",
+            "studySpecificCaution": "予定された評価を完了済みとしない。"
+          }
+        ]
+      }
+    }
+  },
+  "patches": {
+    "problems": {
+      "residential-burglary": {
+        "append": {
+          "intervention_ids": [
+            "cpted-situational-crime-prevention"
+          ]
+        }
+      }
+    }
+  }
+}
