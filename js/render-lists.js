@@ -97,6 +97,15 @@ function activateSearch(items){
     apply();
     input.focus();
   });
+
+  // EBP実践設計支援など外部ページから #/problems?q=... / #/interventions?q=...
+  // で入った場合、検索欄へ自動投入して初期検索を実行する。
+  const queryString=(location.hash.split("?")[1] || "");
+  const initialQuery=new URLSearchParams(queryString).get("q");
+  if(initialQuery){
+    input.value=initialQuery;
+    apply();
+  }
 }
 
 export function renderProblemList(data){
