@@ -1,0 +1,675 @@
+{
+  "problems": [],
+  "interventions": [
+    {
+      "id": "cctv-video-surveillance",
+      "name_ja": "CCTV",
+      "name_en": "Closed-circuit television / Video surveillance",
+      "category_ja": "映像監視を用いた犯罪予防／警察活動",
+      "summary_ja": "CCTVには、犯罪を抑止する、発生中の異常を見つけて対応を早める、発生後の捜査・証拠収集に使う、安全感へ影響するといった複数の役割があります。多数の評価研究では全体として犯罪を小幅に減らす方向ですが、効果は場所・犯罪類型・運用方法によって異なります。",
+      "key_point_ja": "CCTVを「設置したか」だけで評価せず、対象犯罪・場所 → 監視範囲 → 監視方法 → 異常検知 → 通報・現場対応 → 犯罪・被害／捜査成果／安全感、まで分解して読みます。犯罪予防、捜査・識別、安全感は別のアウトカムとして扱います。",
+      "search_terms": [
+        "CCTV",
+        "closed-circuit television",
+        "video surveillance",
+        "映像監視",
+        "監視カメラ",
+        "防犯カメラ",
+        "active monitoring",
+        "能動的監視",
+        "vehicle crime",
+        "property crime",
+        "car park",
+        "parking",
+        "residential",
+        "crime displacement",
+        "犯罪転位",
+        "fear of crime",
+        "犯罪不安",
+        "safety",
+        "安全感",
+        "camera coverage",
+        "カバー率",
+        "real-time monitoring",
+        "Help Point",
+        "remote camera"
+      ],
+      "problem_ids": [],
+      "case_ids": [
+        "cctv-repeat-remote-camera",
+        "cctv-help-point",
+        "cctv-business-viewing-events"
+      ],
+      "evidence_page_ids": [
+        "cctv-toolkit",
+        "cctv-piza-40-year-meta",
+        "cctv-pop-video-surveillance",
+        "cctv-fear-review"
+      ]
+    }
+  ],
+  "evidencePages": [
+    {
+      "id": "cctv-toolkit",
+      "title_ja": "CCTVは犯罪を減らすのか――EMMIEで読む",
+      "title_en": "Closed-circuit television (CCTV)",
+      "provider_ja": "College of Policing / Crime Reduction Toolkit",
+      "question_ja": "どの犯罪・場所・運用条件でCCTVの効果が確認されている？",
+      "summary_ja": "College of PolicingがシステマティックレビューをEMMIEで整理したページです。全体として犯罪減少が確認され、効果エビデンスはVery strongです。特に車両・財産犯罪、駐車場や住宅地で効果が比較的安定し、監視運用や他対策との組合せが重要とされています。",
+      "commentary_slug": "cctv-toolkit",
+      "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+      "intervention_id": "cctv-video-surveillance",
+      "source_id": null
+    },
+    {
+      "id": "cctv-piza-40-year-meta",
+      "title_ja": "40年間の研究をまとめるとCCTVはどの程度効くか",
+      "title_en": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+      "provider_ja": "Piza et al. (2019) / Criminology & Public Policy",
+      "question_ja": "多数の評価研究を統合すると、平均効果と条件差はどの程度ある？",
+      "summary_ja": "1978～2017年のCCTV評価161件を把握し、80評価が採用基準を満たし、76評価をメタ分析した代表的レビューです。全体では約13％の犯罪減少と関連し、駐車場では約37％、住宅地では約12％の減少方向が報告されています。平均値だけでなく、場所・犯罪類型・監視方法の違いを見ることが重要です。",
+      "commentary_slug": "cctv-piza-40-year-meta",
+      "original_url": "https://doi.org/10.1111/1745-9133.12419",
+      "intervention_id": "cctv-video-surveillance",
+      "source_id": null
+    },
+    {
+      "id": "cctv-pop-video-surveillance",
+      "title_ja": "CCTVを問題解決の「仕組み」として設計する",
+      "title_en": "Video Surveillance of Public Places, 2nd Edition",
+      "provider_ja": "Center for Problem-Oriented Policing, Response Guide No.4",
+      "question_ja": "どこにカメラを置き、どう監視し、どう対応すればよい？",
+      "summary_ja": "公共空間のCCTVを問題志向型警察活動の対策として考える実務ガイドです。公園、中心市街地、駐車場、住宅街、交通結節点などを対象に、CCTVの利点・限界・実装・プライバシー上の論点を整理しています。単独の万能策ではなく、問題分析に基づく対策の一部として扱います。",
+      "commentary_slug": "cctv-pop-video-surveillance",
+      "original_url": "https://popcenter.asu.edu/content/video-surveillance-public-places-2nd-edition",
+      "intervention_id": "cctv-video-surveillance",
+      "source_id": null
+    },
+    {
+      "id": "cctv-fear-review",
+      "title_ja": "CCTVは「安心感」を高めるのか",
+      "title_en": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+      "provider_ja": "Tykesson (2025/2026) / European Journal on Criminal Policy and Research",
+      "question_ja": "CCTVを設置すると、人々の犯罪不安や安全感は変わる？",
+      "summary_ja": "犯罪件数ではなく、犯罪不安・安全感への影響を15研究から整理したレビューです。7研究で不安の低下、6研究で混合・小さい・無変化、2研究で増加が見られ、全体として結論は一貫していません。特に「安全だと感じるか」と「被害を予測するか」など、測定方法によって結果が変わる点が重要です。",
+      "commentary_slug": "cctv-fear-review",
+      "original_url": "https://doi.org/10.1007/s10610-025-09633-0",
+      "intervention_id": "cctv-video-surveillance",
+      "source_id": null
+    }
+  ],
+  "cases": [
+    {
+      "id": "cctv-repeat-remote-camera",
+      "title_ja": "反復被害地点へ一時的な遠隔監視カメラを配置する",
+      "title_en": "Perimeter intrusion detection – remote camera to reduce repeat victimisation",
+      "provider_ja": "Northamptonshire Police, Fire and Crime Commissioner",
+      "question_ja": "反復被害が続く場所へ、監視と即応を短期間集中させられるか？",
+      "summary_ja": "侵入窃盗・窃盗の再被害リスクがある地点へ、360度監視可能な侵入検知カメラを原則30日間貸与。センサー反応を中央監視所で確認し、不審と判断すれば警察管制へ連絡します。未検証事例であり、事後報告を因果効果とは扱いません。",
+      "commentary_slug": "cctv-repeat-remote-camera",
+      "original_url": "https://www.college.police.uk/support-forces/practices/perimeter-intrusion-detection-remote-camera-reduce-repeat-victimisation",
+      "problem_ids": [],
+      "intervention_ids": [
+        "cctv-video-surveillance"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    },
+    {
+      "id": "cctv-help-point",
+      "title_ja": "CCTVと通話を組み合わせた緊急Help Point",
+      "title_en": "Help Point – all-in-one SOS system",
+      "provider_ja": "Northamptonshire Police / Northamptonshire PFCC",
+      "question_ja": "CCTVを、監視だけでなく市民からのSOSと警察対応へ接続できるか？",
+      "summary_ja": "暴力・性犯罪等が問題となる場所にHelp Pointを設置。利用者がボタンを押すと、カメラが作動し、監視所と双方向通話が可能になり、必要に応じて警察が対応します。未検証事例であり、報告された事後変化を因果効果とは扱いません。",
+      "commentary_slug": "cctv-help-point",
+      "original_url": "https://www.college.police.uk/support-forces/practices/help-point-all-one-sos-system",
+      "problem_ids": [],
+      "intervention_ids": [
+        "cctv-video-surveillance"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    },
+    {
+      "id": "cctv-business-viewing-events",
+      "title_ja": "店舗警備員とCCTV映像を共有して容疑者識別を広げる",
+      "title_en": "CCTV business viewing events",
+      "provider_ja": "Metropolitan Police Service",
+      "question_ja": "CCTV映像は、犯罪抑止だけでなく捜査・識別でどう使える？",
+      "summary_ja": "店舗警備員等に統制された形で容疑者画像を提示し、既知人物の識別や新たな捜査端緒を得る取組です。CCTVの犯罪予防効果とは別に、映像共有・識別・捜査への運用を考える事例で、評価段階は未検証です。",
+      "commentary_slug": "cctv-business-viewing-events",
+      "original_url": "https://www.college.police.uk/support-forces/practices/cctv-business-viewing-events",
+      "problem_ids": [],
+      "intervention_ids": [
+        "cctv-video-surveillance"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    }
+  ],
+  "aiReading": {
+    "evidence": {
+      "cctv-toolkit": {
+        "sourceId": "cctv-toolkit",
+        "sourceTitle": "Closed-circuit television (CCTV)",
+        "questions": [
+          {
+            "questionId": "I04-BLUE-01-Q1",
+            "displayQuestion": "CCTVは全体として犯罪をどの程度減らした？",
+            "sourceTitle": "Closed-circuit television (CCTV)",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+            "searchKeywords": [
+              "76 studies",
+              "13%",
+              "statistically significant",
+              "overall reduction"
+            ],
+            "readingPurpose": "原著・公式資料の「Effect – how effective is it?」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "平均13％を個別施策の予測値にしない。"
+          },
+          {
+            "questionId": "I04-BLUE-01-Q2",
+            "displayQuestion": "どの犯罪類型で効果が比較的明確だった？",
+            "sourceTitle": "Closed-circuit television (CCTV)",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+            "searchKeywords": [
+              "drug-related",
+              "vehicle crime",
+              "property crime",
+              "violent crime",
+              "disorder"
+            ],
+            "readingPurpose": "原著・公式資料の「Effect」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "暴力・秩序違反では有意な全体効果なし。"
+          },
+          {
+            "questionId": "I04-BLUE-01-Q3",
+            "displayQuestion": "リアルタイムで映像を監視するかどうかで結果は違った？",
+            "sourceTitle": "Closed-circuit television (CCTV)",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+            "searchKeywords": [
+              "active monitoring",
+              "15%",
+              "without active monitoring"
+            ],
+            "readingPurpose": "原著・公式資料の「Implementation」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「監視すれば必ず15％」と一般化しない。"
+          },
+          {
+            "questionId": "I04-BLUE-01-Q4",
+            "displayQuestion": "CCTVを他の対策と組み合わせた場合、結果はどう違った？",
+            "sourceTitle": "Closed-circuit television (CCTV)",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+            "searchKeywords": [
+              "34%",
+              "multiple complementary interventions",
+              "lighting",
+              "fencing"
+            ],
+            "readingPurpose": "原著・公式資料の「Implementation」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "組合せの各要素の独立効果は分からない。"
+          },
+          {
+            "questionId": "I04-BLUE-01-Q5",
+            "displayQuestion": "犯罪転位について、どの程度の証拠があった？",
+            "sourceTitle": "Closed-circuit television (CCTV)",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+            "searchKeywords": [
+              "displacement",
+              "50 studies",
+              "six"
+            ],
+            "readingPurpose": "原著・公式資料の「Effect」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「転位は起きない」と断定しない。"
+          },
+          {
+            "questionId": "I04-BLUE-01-Q6",
+            "displayQuestion": "CCTVが効くと考えられている作用機序は、実証されたもの？",
+            "sourceTitle": "Closed-circuit television (CCTV)",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/cctv",
+            "searchKeywords": [
+              "mechanism",
+              "risk of getting caught",
+              "security staff",
+              "not empirically tested"
+            ],
+            "readingPurpose": "原著・公式資料の「Mechanism」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "作用機序候補と実証済みメカニズムを区別する。"
+          }
+        ]
+      },
+      "cctv-piza-40-year-meta": {
+        "sourceId": "cctv-piza-40-year-meta",
+        "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+        "questions": [
+          {
+            "questionId": "I04-BLUE-02-Q1",
+            "displayQuestion": "このメタ分析には何件のCCTV評価が入り、どの期間をカバーした？",
+            "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+            "searchKeywords": [
+              "161 evaluations",
+              "80",
+              "76",
+              "1978",
+              "2017"
+            ],
+            "readingPurpose": "原著・公式資料の「Methods / Results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "161すべてがメタ分析対象ではない。"
+          },
+          {
+            "questionId": "I04-BLUE-02-Q2",
+            "displayQuestion": "全体効果のOR=1.141は、著者らによるとどう読む？",
+            "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+            "searchKeywords": [
+              "OR 1.141",
+              "p < 0.001",
+              "approximately 13%"
+            ],
+            "readingPurpose": "原著・公式資料の「Results 4.1 pooled effects」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "オッズ比をそのまま14.1％減と読み替えない。"
+          },
+          {
+            "questionId": "I04-BLUE-02-Q3",
+            "displayQuestion": "駐車場ではどの程度の効果が報告された？",
+            "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+            "searchKeywords": [
+              "car parks",
+              "n=8",
+              "OR 1.588",
+              "p=.027",
+              "37%"
+            ],
+            "readingPurpose": "原著・公式資料の「Results 4.2.1」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "駐車場の結果を繁華街・住宅地へ移さない。"
+          },
+          {
+            "questionId": "I04-BLUE-02-Q4",
+            "displayQuestion": "住宅地ではどのような結果だった？",
+            "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+            "searchKeywords": [
+              "residential",
+              "n=16",
+              "12%"
+            ],
+            "readingPurpose": "原著・公式資料の「Setting analysis」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "住宅地とhousing complexを混同しない。"
+          },
+          {
+            "questionId": "I04-BLUE-02-Q5",
+            "displayQuestion": "著者らは政策上、CCTVをどんな犯罪へ重点化すべきと述べている？",
+            "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+            "searchKeywords": [
+              "vehicle crime",
+              "property crime",
+              "narrowly targeted",
+              "stand-alone"
+            ],
+            "readingPurpose": "原著・公式資料の「Policy implications」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "著者の政策含意として説明する。"
+          },
+          {
+            "questionId": "I04-BLUE-02-Q6",
+            "displayQuestion": "能動的監視と補完対策は、なぜ重要とされた？",
+            "sourceTitle": "CCTV Surveillance for Crime Prevention: A 40-Year Systematic Review with Meta-Analysis",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12419",
+            "searchKeywords": [
+              "active monitoring",
+              "passive systems",
+              "multiple interventions",
+              "stand-alone"
+            ],
+            "readingPurpose": "原著・公式資料の「Research summary / moderator analyses」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "観察されたモデレーター差を厳密な要素別RCTとは扱わない。"
+          }
+        ]
+      },
+      "cctv-pop-video-surveillance": {
+        "sourceId": "cctv-pop-video-surveillance",
+        "sourceTitle": "Video Surveillance of Public Places, 2nd Edition",
+        "questions": [
+          {
+            "questionId": "I04-BLUE-03-Q1",
+            "displayQuestion": "このガイドは、どのような公共空間のCCTVを対象としている？",
+            "sourceTitle": "Video Surveillance of Public Places, 2nd Edition",
+            "sourceUrl": "https://popcenter.asu.edu/content/video-surveillance-public-places-2nd-edition",
+            "searchKeywords": [
+              "public parks",
+              "pedestrianized streets",
+              "parking",
+              "residential",
+              "transport interchanges"
+            ],
+            "readingPurpose": "原著・公式資料の「Introduction」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "ボディカメラ・交通取締りカメラ等は対象外。"
+          },
+          {
+            "questionId": "I04-BLUE-03-Q2",
+            "displayQuestion": "CCTVを犯罪問題への対策として選ぶとき、どんな利点と問題を確認すべき？",
+            "sourceTitle": "Video Surveillance of Public Places, 2nd Edition",
+            "sourceUrl": "https://popcenter.asu.edu/content/video-surveillance-public-places-2nd-edition",
+            "searchKeywords": [
+              "benefits",
+              "problems",
+              "effectiveness",
+              "privacy",
+              "public concerns"
+            ],
+            "readingPurpose": "原著・公式資料の「Introduction / guide sections」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "ガイドの説明範囲を超えて法的助言を作らない。"
+          },
+          {
+            "questionId": "I04-BLUE-03-Q3",
+            "displayQuestion": "このガイドは、なぜCCTVを万能策として扱っていない？",
+            "sourceTitle": "Video Surveillance of Public Places, 2nd Edition",
+            "sourceUrl": "https://popcenter.asu.edu/content/video-surveillance-public-places-2nd-edition",
+            "searchKeywords": [
+              "panacea",
+              "crime and disorder",
+              "strengths",
+              "weaknesses"
+            ],
+            "readingPurpose": "原著・公式資料の「Introduction」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「CCTVは無効」という意味ではない。"
+          },
+          {
+            "questionId": "I04-BLUE-03-Q4",
+            "displayQuestion": "CCTVを問題志向型警察活動で使う場合、導入前に何を具体化する必要がある？",
+            "sourceTitle": "Video Surveillance of Public Places, 2nd Edition",
+            "sourceUrl": "https://popcenter.asu.edu/content/video-surveillance-public-places-2nd-edition",
+            "searchKeywords": [
+              "problem-oriented policing response",
+              "crime problem",
+              "public places"
+            ],
+            "readingPurpose": "原著・公式資料の「Purpose / response framing」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "AIが原資料にない固定チェックリストを追加しない。"
+          }
+        ]
+      },
+      "cctv-fear-review": {
+        "sourceId": "cctv-fear-review",
+        "sourceTitle": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+        "questions": [
+          {
+            "questionId": "I04-BLUE-04-Q1",
+            "displayQuestion": "15研究をまとめると、CCTVと犯罪不安の関係は一貫していた？",
+            "sourceTitle": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+            "sourceUrl": "https://doi.org/10.1007/s10610-025-09633-0",
+            "searchKeywords": [
+              "15 studies",
+              "seven",
+              "six",
+              "two",
+              "inconclusive"
+            ],
+            "readingPurpose": "原著・公式資料の「Results / Discussion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "研究数の多数決だけで効果判定しない。"
+          },
+          {
+            "questionId": "I04-BLUE-04-Q2",
+            "displayQuestion": "「犯罪不安」の測り方によって結果はどう違った？",
+            "sourceTitle": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+            "sourceUrl": "https://doi.org/10.1007/s10610-025-09633-0",
+            "searchKeywords": [
+              "affective",
+              "cognitive",
+              "behavioural",
+              "feelings of safety"
+            ],
+            "readingPurpose": "原著・公式資料の「Results / Discussion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "安全感と被害予測を同一指標にしない。"
+          },
+          {
+            "questionId": "I04-BLUE-04-Q3",
+            "displayQuestion": "採用研究にはどんな方法上の限界があった？",
+            "sourceTitle": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+            "sourceUrl": "https://doi.org/10.1007/s10610-025-09633-0",
+            "searchKeywords": [
+              "small sample sizes",
+              "demographic data",
+              "survey items",
+              "methodological challenges"
+            ],
+            "readingPurpose": "原著・公式資料の「Abstract / Discussion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "限界があることを「効果なし」と読み替えない。"
+          },
+          {
+            "questionId": "I04-BLUE-04-Q4",
+            "displayQuestion": "研究が行われた地域・設定にはどんな偏りがあった？",
+            "sourceTitle": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+            "sourceUrl": "https://doi.org/10.1007/s10610-025-09633-0",
+            "searchKeywords": [
+              "Europe",
+              "North America",
+              "urban",
+              "Britain",
+              "Sweden"
+            ],
+            "readingPurpose": "原著・公式資料の「Results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "日本への一般化可能性を原著以上に断定しない。"
+          },
+          {
+            "questionId": "I04-BLUE-04-Q5",
+            "displayQuestion": "2026年のCorrectionでは何が修正された？",
+            "sourceTitle": "Effects of CCTV on Fear of Crime: a Systematic Literature Review",
+            "sourceUrl": "https://doi.org/10.1007/s10610-025-09633-0",
+            "searchKeywords": [
+              "Correction",
+              "Table 4",
+              "presentation"
+            ],
+            "readingPurpose": "原著・公式資料の「Correction notice」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "結果そのものが撤回・逆転したと誤解しない。"
+          }
+        ]
+      }
+    },
+    "cases": {
+      "cctv-repeat-remote-camera": {
+        "sourceId": "cctv-repeat-remote-camera",
+        "sourceTitle": "Perimeter intrusion detection – remote camera to reduce repeat victimisation",
+        "questions": [
+          {
+            "questionId": "I04-RED-01-Q1",
+            "displayQuestion": "どのような地点を対象にカメラを配置した？",
+            "sourceTitle": "Perimeter intrusion detection – remote camera to reduce repeat victimisation",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/perimeter-intrusion-detection-remote-camera-reduce-repeat-victimisation",
+            "searchKeywords": [
+              "repeat victimisation",
+              "burglary",
+              "theft",
+              "intelligence",
+              "sites"
+            ],
+            "readingPurpose": "原著・公式資料の「Description」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "対象選定基準を普遍的基準にしない。"
+          },
+          {
+            "questionId": "I04-RED-01-Q2",
+            "displayQuestion": "センサー反応から警察対応まで、どのような流れになっている？",
+            "sourceTitle": "Perimeter intrusion detection – remote camera to reduce repeat victimisation",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/perimeter-intrusion-detection-remote-camera-reduce-repeat-victimisation",
+            "searchKeywords": [
+              "sensors",
+              "central monitoring station",
+              "suspicious",
+              "police control room"
+            ],
+            "readingPurpose": "原著・公式資料の「Description」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "反応すべてが警察出動になるとは限らない。"
+          },
+          {
+            "questionId": "I04-RED-01-Q3",
+            "displayQuestion": "なぜ30日間の一時貸与にしている？",
+            "sourceTitle": "Perimeter intrusion detection – remote camera to reduce repeat victimisation",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/perimeter-intrusion-detection-remote-camera-reduce-repeat-victimisation",
+            "searchKeywords": [
+              "30 days",
+              "crime prevention team",
+              "security advice",
+              "extension"
+            ],
+            "readingPurpose": "原著・公式資料の「Description / Learning」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "30日が最適期間と解釈しない。"
+          },
+          {
+            "questionId": "I04-RED-01-Q4",
+            "displayQuestion": "Practice Bankはどんな事後実績を報告している？",
+            "sourceTitle": "Perimeter intrusion detection – remote camera to reduce repeat victimisation",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/perimeter-intrusion-detection-remote-camera-reduce-repeat-victimisation",
+            "searchKeywords": [
+              "no site",
+              "further crime",
+              "eight out of 10",
+              "extension"
+            ],
+            "readingPurpose": "原著・公式資料の「Overall impact」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "Untestedであり因果効果としない。"
+          }
+        ]
+      },
+      "cctv-help-point": {
+        "sourceId": "cctv-help-point",
+        "sourceTitle": "Help Point – all-in-one SOS system",
+        "questions": [
+          {
+            "questionId": "I04-RED-02-Q1",
+            "displayQuestion": "利用者がHelp Pointを押した後、何が起こる？",
+            "sourceTitle": "Help Point – all-in-one SOS system",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/help-point-all-one-sos-system",
+            "searchKeywords": [
+              "button",
+              "camera zooms",
+              "light flashes",
+              "listen and speak",
+              "police deploy"
+            ],
+            "readingPurpose": "原著・公式資料の「How the system works」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "資料にある運用フローだけを説明する。"
+          },
+          {
+            "questionId": "I04-RED-02-Q2",
+            "displayQuestion": "どのような場所へ何台設置された？",
+            "sourceTitle": "Help Point – all-in-one SOS system",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/help-point-all-one-sos-system",
+            "searchKeywords": [
+              "eight Help Points",
+              "racecourse",
+              "town centre",
+              "violence"
+            ],
+            "readingPurpose": "原著・公式資料の「Locations」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "設置場所の犯罪問題を一般化しない。"
+          },
+          {
+            "questionId": "I04-RED-02-Q3",
+            "displayQuestion": "設置後の性犯罪10％減少は、どこまで対策の効果と言える？",
+            "sourceTitle": "Help Point – all-in-one SOS system",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/help-point-all-one-sos-system",
+            "searchKeywords": [
+              "10% drop",
+              "cannot directly be attributed",
+              "series of measures"
+            ],
+            "readingPurpose": "原著・公式資料の「Overall impact」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "直接因果としない。"
+          },
+          {
+            "questionId": "I04-RED-02-Q4",
+            "displayQuestion": "誤作動・不要作動は運用上どの程度問題になった？",
+            "sourceTitle": "Help Point – all-in-one SOS system",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/help-point-all-one-sos-system",
+            "searchKeywords": [
+              "false activations",
+              "less than 1%",
+              "monitoring team"
+            ],
+            "readingPurpose": "原著・公式資料の「Learning」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「99％が誤報」と単純化せず、原文の区分を確認する。"
+          },
+          {
+            "questionId": "I04-RED-02-Q5",
+            "displayQuestion": "8台のHelp Pointにはどの程度の費用が報告されている？",
+            "sourceTitle": "Help Point – all-in-one SOS system",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/help-point-all-one-sos-system",
+            "searchKeywords": [
+              "£22,000",
+              "£25,000",
+              "£30,000",
+              "central monitoring station"
+            ],
+            "readingPurpose": "原著・公式資料の「Cost」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "費用対効果ではなく導入費の報告。"
+          }
+        ]
+      },
+      "cctv-business-viewing-events": {
+        "sourceId": "cctv-business-viewing-events",
+        "sourceTitle": "CCTV business viewing events",
+        "questions": [
+          {
+            "questionId": "I04-RED-03-Q1",
+            "displayQuestion": "この取組はCCTV映像を誰と共有し、何を得ようとした？",
+            "sourceTitle": "CCTV business viewing events",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/cctv-business-viewing-events",
+            "searchKeywords": [
+              "store guards",
+              "security staff",
+              "identify suspects",
+              "new lines of enquiry"
+            ],
+            "readingPurpose": "原著・公式資料の「Aim / Intended outcome」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "一般市民への公開とは異なる。"
+          },
+          {
+            "questionId": "I04-RED-03-Q2",
+            "displayQuestion": "初回の小規模試行ではどんな結果が報告された？",
+            "sourceTitle": "CCTV business viewing events",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/cctv-business-viewing-events",
+            "searchKeywords": [
+              "February 2020",
+              "dozen",
+              "three identifications"
+            ],
+            "readingPurpose": "原著・公式資料の「Description / Overall impact」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "犯罪減少効果ではない。"
+          },
+          {
+            "questionId": "I04-RED-03-Q3",
+            "displayQuestion": "映像共有のためにどんな制度・手続を整えた？",
+            "sourceTitle": "CCTV business viewing events",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/cctv-business-viewing-events",
+            "searchKeywords": [
+              "data sharing agreement",
+              "PACE Code D",
+              "VIIDO",
+              "equality impact"
+            ],
+            "readingPurpose": "原著・公式資料の「Description」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "日本の法制度へそのまま置き換えない。"
+          },
+          {
+            "questionId": "I04-RED-03-Q4",
+            "displayQuestion": "この取組から評価すべきアウトカムは、犯罪件数以外に何が考えられる？",
+            "sourceTitle": "CCTV business viewing events",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/cctv-business-viewing-events",
+            "searchKeywords": [
+              "identifications",
+              "new lines of enquiry",
+              "proactive operations"
+            ],
+            "readingPurpose": "原著・公式資料の「Aim / Intended outcome / Overall impact」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "AIが外部の新しい効果を追加せず、資料の目的・報告結果から整理する。"
+          }
+        ]
+      }
+    }
+  },
+  "patches": {}
+}
