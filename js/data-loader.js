@@ -8,7 +8,8 @@ const FILES={
   resourcePages:"./data/resource-pages.json",
   guides:"./data/guides.json",
   aiReadingConfigs:"./data/ai-reading.json",
-  themeAdditions:"./data/theme-additions-20260930.json"
+  themeAdditions:"./data/theme-additions-20260930.json",
+  themeAdditionsI04:"./data/theme-additions-20261006-i04.json"
 };
 
 function unique(values){
@@ -45,9 +46,7 @@ function applyPatches(items=[],patches={}){
   });
 }
 
-function applyThemeAdditions(data){
-  const extra=data.themeAdditions || {};
-
+function applyOneThemeAddition(data,extra={}){
   data.problems=mergeById(data.problems,extra.problems);
   data.interventions=mergeById(data.interventions,extra.interventions);
   data.cases=mergeById(data.cases,extra.cases);
@@ -58,8 +57,15 @@ function applyThemeAdditions(data){
   data.interventions=applyPatches(data.interventions,extra.patches?.interventions);
   data.cases=applyPatches(data.cases,extra.patches?.cases);
   data.evidencePages=applyPatches(data.evidencePages,extra.patches?.evidencePages);
+  return data;
+}
+
+function applyThemeAdditions(data){
+  applyOneThemeAddition(data,data.themeAdditions || {});
+  applyOneThemeAddition(data,data.themeAdditionsI04 || {});
 
   delete data.themeAdditions;
+  delete data.themeAdditionsI04;
   return data;
 }
 
