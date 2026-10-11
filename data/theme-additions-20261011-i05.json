@@ -1,0 +1,587 @@
+{
+  "problems": [],
+  "interventions": [
+    {
+      "id": "street-lighting",
+      "name_ja": "街路照明",
+      "name_en": "Street lighting",
+      "category_ja": "環境条件に着目した犯罪予防",
+      "summary_ja": "街路照明は、道路・公園・駐車場・住宅地・繁華街などで、照明の明るさ、配置、均一性、点灯時間などを変える介入です。単に「暗い場所を明るくする」対策としてではなく、視認性、場所利用、自然な見守り、管理、他対策との組合せを通じて犯罪機会がどう変わるかを分けて考えます。",
+      "key_point_ja": "対象犯罪・時間帯 → 既存照明条件 → 照明変更 → 視認性・場所利用・管理の変化 → 犯罪・安全感 → 犯罪転位・便益の拡散、の順で読みます。平均効果を個別地点の期待値にせず、財産犯と暴力犯、RCT・準実験・地域内評価・未検証事例を区別します。",
+      "search_terms": [
+        "街路照明",
+        "street lighting",
+        "照明",
+        "lighting",
+        "LED",
+        "照明改善",
+        "道路灯",
+        "公共空間",
+        "自然監視",
+        "natural surveillance",
+        "visibility",
+        "視認性",
+        "夜間犯罪",
+        "nighttime crime",
+        "vehicle crime",
+        "車両犯罪",
+        "property crime",
+        "財産犯",
+        "violent crime",
+        "暴力犯罪",
+        "犯罪転位",
+        "displacement",
+        "便益の拡散",
+        "diffusion of benefits",
+        "減光",
+        "消灯"
+      ],
+      "problem_ids": [],
+      "case_ids": [
+        "street-lighting-leicester-violence",
+        "street-lighting-staffordshire-alley"
+      ],
+      "evidence_page_ids": [
+        "street-lighting-toolkit",
+        "street-lighting-welsh-meta",
+        "street-lighting-nyc-rct",
+        "street-lighting-philadelphia-led"
+      ]
+    }
+  ],
+  "evidencePages": [
+    {
+      "id": "street-lighting-toolkit",
+      "title_ja": "街路照明は犯罪を減らすのか――EMMIEで読む",
+      "title_en": "Street lighting",
+      "provider_ja": "College of Policing / Crime Reduction Toolkit",
+      "question_ja": "街路照明には、どの程度の犯罪減少エビデンスがある？",
+      "summary_ja": "13研究を基礎にしたCollege of PolicingのToolkitです。照明改善地域では比較地域より暴力・財産犯罪が平均21％少ない方向の結果が報告され、効果エビデンスはVery strongです。ただし、夜間犯罪だけを測定した4研究では明確な減少が確認されておらず、作用の仕組みは単純ではありません。",
+      "commentary_slug": "street-lighting-toolkit",
+      "original_url": "https://www.college.police.uk/research/crime-reduction-toolkit/street-lighting",
+      "intervention_id": "street-lighting",
+      "source_id": null
+    },
+    {
+      "id": "street-lighting-welsh-meta",
+      "title_ja": "約50年間の研究を更新すると何が分かるか",
+      "title_en": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+      "provider_ja": "Welsh, Farrington & Douglas (2022) / Criminology & Public Policy",
+      "question_ja": "古い研究だけでなく最近の研究まで含めると、街路照明の平均効果はどう見える？",
+      "summary_ja": "1974～2021年の21研究を整理し、17研究をメタ分析した更新レビューです。総犯罪は比較地域より平均14％少なく、財産犯では明確な減少が確認されました。一方、暴力犯罪では平均効果は明確ではありません。車両犯罪では22％の減少が報告されています。",
+      "commentary_slug": "street-lighting-welsh-meta",
+      "original_url": "https://doi.org/10.1111/1745-9133.12585",
+      "intervention_id": "street-lighting",
+      "source_id": null
+    },
+    {
+      "id": "street-lighting-nyc-rct",
+      "title_ja": "街路照明を無作為化すると犯罪は変わるか",
+      "title_en": "Reducing Crime Through Environmental Design: Evidence from a Randomized Experiment of Street Lighting in New York City",
+      "provider_ja": "Chalfin et al. (2022) / Mitre-Becerril et al. (2022)",
+      "question_ja": "高犯罪公共住宅で照明を無作為に増やした場合、短期・長期で何が起きた？",
+      "summary_ja": "ニューヨーク市の高犯罪公共住宅40地区に仮設照明を無作為配分したRCTです。短期には、周辺への波及を考慮しても夜間屋外の重大犯罪が少なくとも36％減少したと推定されました。同じ介入を3年間追跡した研究でも減少は持続しました。ただし、強い仮設照明を用いた特定環境の結果で、通常の街路灯へそのまま移せません。",
+      "commentary_slug": "street-lighting-nyc-rct",
+      "original_url": "https://doi.org/10.1007/s10940-020-09490-6",
+      "intervention_id": "street-lighting",
+      "source_id": null
+    },
+    {
+      "id": "street-lighting-philadelphia-led",
+      "title_ja": "都市規模でLED化しても効果は確認できるか",
+      "title_en": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+      "provider_ja": "MacDonald et al. (2026) / Criminology & Public Policy",
+      "question_ja": "小規模な照明介入ではなく、都市規模で更新したときも犯罪は変わる？",
+      "summary_ja": "Philadelphiaで34,374灯、13,275街路区間をLED化した最初の10か月を準実験的に評価した研究です。夜間屋外の街頭犯罪は15％、夜間屋外の銃器暴力は21％減少しました。LEDは単純に明るくしただけでなく、より均一な照明と暗所の減少をもたらしていました。",
+      "commentary_slug": "street-lighting-philadelphia-led",
+      "original_url": "https://doi.org/10.1111/1745-9133.70006",
+      "intervention_id": "street-lighting",
+      "source_id": null
+    }
+  ],
+  "cases": [
+    {
+      "id": "street-lighting-leicester-violence",
+      "title_ja": "繁華街の深夜照明を50％から100％へ戻す",
+      "title_en": "Problem-solving to prevent night-time economy related serious violence at McDonalds restaurants",
+      "provider_ja": "Leicestershire Police / Leicester city centre",
+      "question_ja": "深夜の暴力ホットスポットで、照明を他の対策と組み合わせるとどう設計できる？",
+      "summary_ja": "週末深夜に50％へ落としていた街路照明を重点地点で100％へ引き上げ、店舗警備、徒歩パトロール、Street Pastors、セーフスペース、店舗運用改善等も同時に実施した事例です。地域内評価では重大暴力の減少が報告されていますが、複合介入のため照明単独の効果とは扱いません。",
+      "commentary_slug": "street-lighting-leicester-violence",
+      "original_url": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+      "problem_ids": [],
+      "intervention_ids": [
+        "street-lighting"
+      ],
+      "source_id": null,
+      "stage_ja": "Evaluated locally"
+    },
+    {
+      "id": "street-lighting-staffordshire-alley",
+      "title_ja": "見通しのない路地では、照明を一つ消す",
+      "title_en": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+      "provider_ja": "Staffordshire Police",
+      "question_ja": "照明が、逆に夜間の滞留を支えている場所ではどう考える？",
+      "summary_ja": "夜間に薬物使用・騒音等が繰り返されていた路地を現地確認し、自然監視が働かない死角にある照明柱1本を6か月の試行として消灯した事例です。消灯後に通報がなくなったと報告されていますが、比較群のない未検証事例であり、因果効果とは扱いません。",
+      "commentary_slug": "street-lighting-staffordshire-alley",
+      "original_url": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+      "problem_ids": [],
+      "intervention_ids": [
+        "street-lighting"
+      ],
+      "source_id": null,
+      "stage_ja": "Untested"
+    }
+  ],
+  "aiReading": {
+    "evidence": {
+      "street-lighting-toolkit": {
+        "sourceId": "street-lighting-toolkit",
+        "sourceTitle": "Street lighting",
+        "questions": [
+          {
+            "questionId": "I05-BLUE-01-Q1",
+            "displayQuestion": "13研究全体では、街路照明を改善した地域の犯罪はどう変化した？",
+            "sourceTitle": "Street lighting",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/street-lighting",
+            "searchKeywords": [
+              "13 studies",
+              "21%",
+              "violent and property crime"
+            ],
+            "readingPurpose": "原著・公式資料の「Effect – how effective is it?」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "21％を現在のすべての街路照明施策の期待値にしない。"
+          },
+          {
+            "questionId": "I05-BLUE-01-Q2",
+            "displayQuestion": "夜間犯罪だけを測った研究では、どのような結果だった？",
+            "sourceTitle": "Street lighting",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/street-lighting",
+            "searchKeywords": [
+              "four studies",
+              "night",
+              "no evidence of an impact"
+            ],
+            "readingPurpose": "原著・公式資料の「Mechanism」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「夜に効かない」と一般化せず、レビュー内4研究の結果として説明する。"
+          },
+          {
+            "questionId": "I05-BLUE-01-Q3",
+            "displayQuestion": "昼夜を合わせて測った研究と夜間だけの研究で、結果はどう違った？",
+            "sourceTitle": "Street lighting",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/street-lighting",
+            "searchKeywords": [
+              "nine studies",
+              "day and night",
+              "30 fewer",
+              "four studies"
+            ],
+            "readingPurpose": "原著・公式資料の「Mechanism / Moderators」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "作用機序を自動的に地域愛着と確定しない。"
+          },
+          {
+            "questionId": "I05-BLUE-01-Q4",
+            "displayQuestion": "英国と米国で、結果にどの程度違いがあった？",
+            "sourceTitle": "Street lighting",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/street-lighting",
+            "searchKeywords": [
+              "UK",
+              "38 fewer",
+              "USA",
+              "seven fewer"
+            ],
+            "readingPurpose": "原著・公式資料の「Moderators」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "国差の理由を原資料以上に推測しない。"
+          },
+          {
+            "questionId": "I05-BLUE-01-Q5",
+            "displayQuestion": "Collegeは街路照明が効く仕組みとして何を挙げ、何が未確定だとしている？",
+            "sourceTitle": "Street lighting",
+            "sourceUrl": "https://www.college.police.uk/research/crime-reduction-toolkit/street-lighting",
+            "searchKeywords": [
+              "visibility",
+              "natural surveillance",
+              "investment in the neighbourhood",
+              "unknown"
+            ],
+            "readingPurpose": "原著・公式資料の「Mechanism / Summary」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "仮説と実証済みメカニズムを区別する。"
+          }
+        ]
+      },
+      "street-lighting-welsh-meta": {
+        "sourceId": "street-lighting-welsh-meta",
+        "sourceTitle": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+        "questions": [
+          {
+            "questionId": "I05-BLUE-02-Q1",
+            "displayQuestion": "更新レビューは何研究を含み、そのうち何研究をメタ分析した？",
+            "sourceTitle": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12585",
+            "searchKeywords": [
+              "21 studies",
+              "17 studies",
+              "1974",
+              "2021",
+              "four countries"
+            ],
+            "readingPurpose": "原著・公式資料の「Methods / Results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "21研究すべてが統合効果量に入っていると書かない。"
+          },
+          {
+            "questionId": "I05-BLUE-02-Q2",
+            "displayQuestion": "総犯罪の14％減少は、どの効果量からどのように解釈された？",
+            "sourceTitle": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12585",
+            "searchKeywords": [
+              "RES 1.16",
+              "CI 1.06-1.27",
+              "p=.003",
+              "14%"
+            ],
+            "readingPurpose": "原著・公式資料の「Results / Discussion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "RESを単純なパーセントと混同しない。"
+          },
+          {
+            "questionId": "I05-BLUE-02-Q3",
+            "displayQuestion": "財産犯と暴力犯では結果がどう違った？",
+            "sourceTitle": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12585",
+            "searchKeywords": [
+              "property crimes",
+              "RES 1.14",
+              "violent crimes",
+              "RES 0.99"
+            ],
+            "readingPurpose": "原著・公式資料の「Results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "暴力犯で「増加」と解釈しない。明確な効果なし。"
+          },
+          {
+            "questionId": "I05-BLUE-02-Q4",
+            "displayQuestion": "車両犯罪と侵入窃盗では結果がどう違った？",
+            "sourceTitle": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12585",
+            "searchKeywords": [
+              "vehicle crime",
+              "22%",
+              "burglary",
+              "seven studies"
+            ],
+            "readingPurpose": "原著・公式資料の「Table 3 / Results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "財産犯全体の結果を侵入窃盗へそのまま適用しない。"
+          },
+          {
+            "questionId": "I05-BLUE-02-Q5",
+            "displayQuestion": "このレビューが挙げる主要な限界は何？",
+            "sourceTitle": "The Impact and Policy Relevance of Street Lighting for Crime Prevention: A Systematic Review Based on a Half-Century of Evaluation Research",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12585",
+            "searchKeywords": [
+              "limitations",
+              "data",
+              "old studies",
+              "reporting"
+            ],
+            "readingPurpose": "原著・公式資料の「Limitations」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "限界を「街路照明は無効」と読み替えない。"
+          }
+        ]
+      },
+      "street-lighting-nyc-rct": {
+        "sourceId": "street-lighting-nyc-rct",
+        "sourceTitle": "Reducing Crime Through Environmental Design: Evidence from a Randomized Experiment of Street Lighting in New York City",
+        "questions": [
+          {
+            "questionId": "I05-BLUE-03A-Q1",
+            "displayQuestion": "照明はどのように無作為化され、どんな場所を対象にした？",
+            "sourceTitle": "Reducing Crime Through Environmental Design: Evidence from a Randomized Experiment of Street Lighting in New York City",
+            "sourceUrl": "https://doi.org/10.1007/s10940-020-09490-6",
+            "searchKeywords": [
+              "randomly allocated",
+              "40",
+              "public housing developments",
+              "temporary light towers"
+            ],
+            "readingPurpose": "原著・公式資料の「Methods」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "通常の道路灯のRCTと表現しない。"
+          },
+          {
+            "questionId": "I05-BLUE-03A-Q2",
+            "displayQuestion": "空間的な波及を考慮したとき、夜間屋外の重大犯罪はどの程度変化した？",
+            "sourceTitle": "Reducing Crime Through Environmental Design: Evidence from a Randomized Experiment of Street Lighting in New York City",
+            "sourceUrl": "https://doi.org/10.1007/s10940-020-09490-6",
+            "searchKeywords": [
+              "spatial spillovers",
+              "at a minimum",
+              "36 percent",
+              "nighttime outdoor index crimes"
+            ],
+            "readingPurpose": "原著・公式資料の「Results / Abstract」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "36％を一般の街路照明効果へ外挿しない。"
+          },
+          {
+            "questionId": "I05-BLUE-03A-Q3",
+            "displayQuestion": "逮捕件数の変化から、著者らは作用機序をどう解釈した？",
+            "sourceTitle": "Reducing Crime Through Environmental Design: Evidence from a Randomized Experiment of Street Lighting in New York City",
+            "sourceUrl": "https://doi.org/10.1007/s10940-020-09490-6",
+            "searchKeywords": [
+              "arrests",
+              "decline",
+              "deterrence"
+            ],
+            "readingPurpose": "原著・公式資料の「Results / Conclusion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "抑止を直接測定したわけではない点を残す。"
+          },
+          {
+            "questionId": "I05-BLUE-03B-Q1",
+            "displayQuestion": "同じ照明介入を3年間追跡すると、犯罪減少は持続した？",
+            "sourceTitle": "Can Deterrence Persist? Long-Term Evidence from a Randomized Experiment in Street Lighting",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12599",
+            "searchKeywords": [
+              "three years",
+              "nighttime",
+              "45%",
+              "daytime",
+              "39%"
+            ],
+            "readingPurpose": "原著・公式資料の「Research summary / Discussion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "短期RCTとは同じ介入系列。独立した再現研究ではない。"
+          },
+          {
+            "questionId": "I05-BLUE-03B-Q2",
+            "displayQuestion": "長期追跡では逮捕や犯罪転位について何が分かった？",
+            "sourceTitle": "Can Deterrence Persist? Long-Term Evidence from a Randomized Experiment in Street Lighting",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12599",
+            "searchKeywords": [
+              "arrests",
+              "spatial displacement",
+              "nearby areas"
+            ],
+            "readingPurpose": "原著・公式資料の「Research summary / Discussion」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「転位は絶対にない」と一般化しない。"
+          },
+          {
+            "questionId": "I05-BLUE-03B-Q3",
+            "displayQuestion": "著者らが長期追跡を政策上重要とする理由は何？",
+            "sourceTitle": "Can Deterrence Persist? Long-Term Evidence from a Randomized Experiment in Street Lighting",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.12599",
+            "searchKeywords": [
+              "long-lasting",
+              "capital investment",
+              "policy makers",
+              "persist"
+            ],
+            "readingPurpose": "原著・公式資料の「Policy implications」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "研究対象外の費用対効果を推測しない。"
+          }
+        ]
+      },
+      "street-lighting-philadelphia-led": {
+        "sourceId": "street-lighting-philadelphia-led",
+        "sourceTitle": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+        "questions": [
+          {
+            "questionId": "I05-BLUE-04-Q1",
+            "displayQuestion": "Philadelphiaでは何灯・何街路区間をどの期間に更新した？",
+            "sourceTitle": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.70006",
+            "searchKeywords": [
+              "34,374",
+              "13,275",
+              "August 2023",
+              "May 2024",
+              "one third"
+            ],
+            "readingPurpose": "原著・公式資料の「Abstract / Study data and methods」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "全市の全街路灯が研究期間中に更新されたと書かない。"
+          },
+          {
+            "questionId": "I05-BLUE-04-Q2",
+            "displayQuestion": "夜間屋外の街頭犯罪と銃器暴力はどの程度変化した？",
+            "sourceTitle": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.70006",
+            "searchKeywords": [
+              "15%",
+              "21%",
+              "outdoor nighttime"
+            ],
+            "readingPurpose": "原著・公式資料の「Abstract」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "市全体の犯罪減少率と混同しない。"
+          },
+          {
+            "questionId": "I05-BLUE-04-Q3",
+            "displayQuestion": "屋外と屋内では結果がどう違った？",
+            "sourceTitle": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.70006",
+            "searchKeywords": [
+              "outdoor",
+              "indoor",
+              "15%",
+              "19%",
+              "11%",
+              "16%"
+            ],
+            "readingPurpose": "原著・公式資料の「Results Table 2」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "原著が統計的に明確としている結果だけを区別する。"
+          },
+          {
+            "questionId": "I05-BLUE-04-Q4",
+            "displayQuestion": "LED化は「明るくする」以外に照明環境をどう変えた？",
+            "sourceTitle": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.70006",
+            "searchKeywords": [
+              "clearer",
+              "more even",
+              "dark spots",
+              "color temperature",
+              "3000K"
+            ],
+            "readingPurpose": "原著・公式資料の「Study context」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "犯罪効果が各技術要素のどれによるかは分離できない。"
+          },
+          {
+            "questionId": "I05-BLUE-04-Q5",
+            "displayQuestion": "この研究はRCTではないが、どの方法で介入効果を推定した？",
+            "sourceTitle": "Can Enhanced Street Lighting Improve Public Safety at Scale?",
+            "sourceUrl": "https://doi.org/10.1111/1745-9133.70006",
+            "searchKeywords": [
+              "difference-in-differences",
+              "event study",
+              "rollout",
+              "higher crime blocks"
+            ],
+            "readingPurpose": "原著・公式資料の「Methods」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "準実験とRCTを混同しない。"
+          }
+        ]
+      }
+    },
+    "cases": {
+      "street-lighting-leicester-violence": {
+        "sourceId": "street-lighting-leicester-violence",
+        "sourceTitle": "Problem-solving to prevent night-time economy related serious violence at McDonalds restaurants",
+        "questions": [
+          {
+            "questionId": "I05-RED-01-Q1",
+            "displayQuestion": "なぜ深夜の街路照明を50％から100％へ変更した？",
+            "sourceTitle": "Problem-solving to prevent night-time economy related serious violence at McDonalds restaurants",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+            "searchKeywords": [
+              "50% intensity",
+              "after 10pm",
+              "100%",
+              "weekend nights",
+              "Crime Reduction Toolkit"
+            ],
+            "readingPurpose": "原著・公式資料の「Responses outside the restaurants」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "照明単独の介入ではない。"
+          },
+          {
+            "questionId": "I05-RED-01-Q2",
+            "displayQuestion": "照明以外にどの対策を同時に実施した？",
+            "sourceTitle": "Problem-solving to prevent night-time economy related serious violence at McDonalds restaurants",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+            "searchKeywords": [
+              "security",
+              "foot patrols",
+              "Street Pastors",
+              "safe space",
+              "Walk Away"
+            ],
+            "readingPurpose": "原著・公式資料の「Responses」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "複合介入であることを必ず残す。"
+          },
+          {
+            "questionId": "I05-RED-01-Q3",
+            "displayQuestion": "地域内評価では介入地点の重大暴力はどう変化した？",
+            "sourceTitle": "Problem-solving to prevent night-time economy related serious violence at McDonalds restaurants",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+            "searchKeywords": [
+              "57 offences",
+              "50%",
+              "32.5%",
+              "control areas"
+            ],
+            "readingPurpose": "原著・公式資料の「Evaluation results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "32.5％を照明単独の効果としない。"
+          },
+          {
+            "questionId": "I05-RED-01-Q4",
+            "displayQuestion": "犯罪転位・便益の拡散はどう評価された？",
+            "sourceTitle": "Problem-solving to prevent night-time economy related serious violence at McDonalds restaurants",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/problem-solving-prevent-night-time-economy-related-serious-violence-mcdonalds-restaurants",
+            "searchKeywords": [
+              "50-metre buffer",
+              "displacement",
+              "diffusion",
+              "30.6%",
+              "20.2%"
+            ],
+            "readingPurpose": "原著・公式資料の「Evaluation results」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "周辺分析の結果として説明する。"
+          }
+        ]
+      },
+      "street-lighting-staffordshire-alley": {
+        "sourceId": "street-lighting-staffordshire-alley",
+        "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+        "questions": [
+          {
+            "questionId": "I05-RED-02-Q1",
+            "displayQuestion": "なぜ照明を増やすのではなく、一つ消す案が選ばれた？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "blind spot",
+              "no natural surveillance",
+              "enclosed",
+              "high fencing",
+              "column"
+            ],
+            "readingPurpose": "原著・公式資料の「Recommendations / article explanation」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「消灯が一般に有効」としない。"
+          },
+          {
+            "questionId": "I05-RED-02-Q2",
+            "displayQuestion": "消灯前にはどの程度のASB・重大事件が報告されていた？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "twelve reports",
+              "serious assault",
+              "2020",
+              "2022"
+            ],
+            "readingPurpose": "原著・公式資料の「Description」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "警察通報と実際の全発生を同一視しない。"
+          },
+          {
+            "questionId": "I05-RED-02-Q3",
+            "displayQuestion": "消灯後にはどのような変化が報告された？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "no reports",
+              "January 2023",
+              "victim confirmed"
+            ],
+            "readingPurpose": "原著・公式資料の「Overall impact」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "Untestedなので因果効果としない。"
+          },
+          {
+            "questionId": "I05-RED-02-Q4",
+            "displayQuestion": "この事例の評価段階は何で、結果をどう読むべき？",
+            "sourceTitle": "Altering lighting in an alleyway to reduce anti-social behaviour (ASB)",
+            "sourceUrl": "https://www.college.police.uk/support-forces/practices/altering-lighting-alleyway-reduce-anti-social-behaviour-asb",
+            "searchKeywords": [
+              "Stage of practice",
+              "Untested"
+            ],
+            "readingPurpose": "原著・公式資料の「Key details」に当たる箇所を確認し、この問いに関係する内容を理解する。",
+            "studySpecificCaution": "「未検証」と「効果なし」を区別する。"
+          }
+        ]
+      }
+    }
+  },
+  "patches": {}
+}
