@@ -9,7 +9,8 @@ const FILES={
   guides:"./data/guides.json",
   aiReadingConfigs:"./data/ai-reading.json",
   themeAdditions:"./data/theme-additions-20260930.json",
-  themeAdditionsI04:"./data/theme-additions-20261006-i04.json"
+  themeAdditionsI04:"./data/theme-additions-20261006-i04.json",
+  themeAdditionsI05:"./data/theme-additions-20261011-i05.json"
 };
 
 function unique(values){
@@ -63,9 +64,11 @@ function applyOneThemeAddition(data,extra={}){
 function applyThemeAdditions(data){
   applyOneThemeAddition(data,data.themeAdditions || {});
   applyOneThemeAddition(data,data.themeAdditionsI04 || {});
+  applyOneThemeAddition(data,data.themeAdditionsI05 || {});
 
   delete data.themeAdditions;
   delete data.themeAdditionsI04;
+  delete data.themeAdditionsI05;
   return data;
 }
 
