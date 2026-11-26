@@ -15,7 +15,7 @@ function normalize(value){return String(value??'').normalize('NFKC').toLocaleLow
 const searchIndex=new Map([...data.interventions,...data.guides].map(r=>[r.id,normalize([r.title_ja,r.title_original,r.source,r.author,r.year,r.bibliography,r.summary,r.doi,r.display?.title_ja,r.display?.title_original,r.display?.author,r.display?.year,r.display?.summary,r.display?.theme,...[...r.formal_I,...r.formal_P].flatMap(id=>[names[id],...(data.theme_search_aliases[id]||[])])].filter(Boolean).join(' '))]));
 function filtered(mode){const records=mode==='case'?data.interventions:data.guides;const i=$('i-'+mode).value,p=$('p-'+mode).value;
  const terms=normalize($('q-'+mode).value).split(' ').filter(Boolean);
- return records.filter(x=>terms.every(t=>searchIndex.get(x.id).includes(t))&&(!i||x.formal_I.includes(i))&&(!p||x.formal_P.includes(p))&&(mode!=='case'||$('state-case').value==='all'||($('state-case').value==='approved')===(x.review_state==='掲載確定（概要）')));}
+ return records.filter(x=>terms.every(t=>searchIndex.get(x.id).includes(t))&&(!i||x.formal_I.includes(i))&&(!p||x.formal_P.includes(p)));}
 function render(mode){const found=filtered(mode),out=$('list-'+mode);out.replaceChildren();$('count-'+mode).textContent=found.length+'件／'+(mode==='case'?'520件':'51件');$('empty-'+mode).classList.toggle('hidden',found.length!==0);
  $('more-'+mode).classList.toggle('hidden',found.length<=shown[mode]);
  for(const r of found.slice(0,shown[mode])){
@@ -33,7 +33,6 @@ function render(mode){const found=filtered(mode),out=$('list-'+mode);out.replace
   else card.appendChild(el('p','not-summary','簡易説明未確認。原典・掲載先をご確認ください。'));
   const source=el('p','source',r.source+(d.year?'':' ／ 発表年未確認'));
   card.appendChild(source);
-  if(mode==='case')card.appendChild(el('span','status',r.review_state==='掲載確定（概要）'?'概要掲載審査済み':d.summary?'簡易説明あり（掲載未審査）':'簡易説明未確認（掲載未審査）'));
   if(d.bibliographic_status?.includes('原題未照合'))card.appendChild(el('p','bibliographic-note','正式原題未照合（公式掲載名に基づく表示）'));
   const details=el('details','verification');details.appendChild(el('summary','','書誌・簡易説明の確認情報'));
   if(d.bibliographic_status)details.appendChild(el('p','','書誌：'+d.bibliographic_status));
@@ -85,7 +84,6 @@ function toolkitAuditPrompt(r){
 function reset(mode){shown[mode]=30;render(mode)}
 for(const mode of ['case','guide']){for(const k of ['p','i'])$(k+'-'+mode).addEventListener('change',()=>reset(mode));$('clear-'+mode).addEventListener('click',()=>{$('p-'+mode).value='';$('i-'+mode).value='';$('q-'+mode).value='';reset(mode);});$('more-'+mode).addEventListener('click',()=>{shown[mode]+=30;render(mode);});}
 for(const mode of ['case','guide'])for(const evt of ['input','search'])$('q-'+mode).addEventListener(evt,()=>reset(mode));
-$('state-case').addEventListener('change',()=>reset('case'));
 function activate(mode){const next=mode==='case'?'case':'guide';for(const k of ['case','guide']){$('panel-'+(k==='case'?'interventions':'guides')).classList.toggle('hidden',k!==next);$('tab-'+(k==='case'?'interventions':'guides')).setAttribute('aria-selected',String(k===next));} }
 $('tab-interventions').addEventListener('click',()=>activate('case'));$('tab-guides').addEventListener('click',()=>activate('guide'));
 let toasting;
@@ -108,7 +106,7 @@ function applyRoute(){
  if(route==='problems'||route==='interventions'||route==='guides'||route===''){
   $('search-entry').textContent=route==='problems'?'課題からの検索':route==='interventions'?'対策からの検索':route==='guides'?'実務ガイドの検索':'';
   for(const mode of ['case','guide']){$('p-'+mode).value='';$('i-'+mode).value='';$('q-'+mode).value=q;}
-  $('state-case').value='all';activate(route==='guides'?'guide':'case');reset('case');reset('guide');
+  activate(route==='guides'?'guide':'case');reset('case');reset('guide');
  }
 }
 window.addEventListener('hashchange',applyRoute);applyRoute();
